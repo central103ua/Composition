@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<django-objects version="1.0">
+  <object model="mis.carowner" pk="1">
+    <field name="carowner_name" type="CharField">Власний</field>
+  </object>
+  <object model="mis.carowner" pk="2">
+    <field name="carowner_name" type="CharField">Орендований</field>
+  </object>
+</django-objects>

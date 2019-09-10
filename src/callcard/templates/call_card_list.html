@@ -1,0 +1,30 @@
+  <tr>
+    <th>#</th>
+    <th style="width:145px">CallCard #</th> 
+    <th style="width:150px">MIS CallCard</th>
+    <th style="width:300px">Скарга</th>
+    <th style="width:90px">Пріорітет</th>
+    <th style="width:130px">Результат</th>
+    <th>Тривалість</th>
+    <th style="width:100px">Station</th>
+    <th style="width:150px">Бригада</th>
+    <th style="width:130px">Час звернення</th>    
+  </tr>
+{% for call in day_calls %}
+  <tr bgcolor="{% cycle '#D0D0DF' '#F0F0FF' %}">
+    <td>{{ forloop.counter }}</td>
+    <td><a href="/sys/callcard/{{ call.call_card_id }}/">{{ call.call_card_id }}</a></td>
+    <td>{{ call.mis_call_card_id }}</td>
+    <td>{{ call.complain }}</td>    
+    <td>{{ call.call_priority }}</td>
+    <td>{{ call.call_result }}</td>
+    <td>{{ call.duration }}</td>
+    <td>{{ call.call_station }}</td>
+    {% if call.crew_id %}
+    <td><a href="/sys/crew/{{ call.crew_id }}">{{ call.crew_id }}</a></td>
+    {% else %}
+    <td></td>
+    {% endif %}
+    <td>{{ call.start_datetime }}</td>    
+  </tr>
+ {% endfor %}

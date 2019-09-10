@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<django-objects version="1.0">
+  <object model="mis.cartype" pk="1">
+    <field name="cartype_name" type="CharField">C</field>
+  </object>
+  <object model="mis.cartype" pk="2">
+    <field name="cartype_name" type="CharField">B</field>
+  </object>
+  <object model="mis.cartype" pk="3">
+    <field name="cartype_name" type="CharField">A1</field>
+  </object>
+  <object model="mis.cartype" pk="4">
+    <field name="cartype_name" type="CharField">A2</field>
+  </object>
+  <object model="mis.cartype" pk="5">
+    <field name="cartype_name" type="CharField">нестандарт</field>
+  </object>
+</django-objects>

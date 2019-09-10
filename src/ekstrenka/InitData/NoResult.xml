@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<django-objects version="1.0">
+  <object model="medrecord.noresult" pk="1">
+    <field name="name" type="CharField">результативний</field>
+  </object>
+  <object model="medrecord.noresult" pk="2">
+    <field name="name" type="CharField">не застали</field>
+  </object>
+  <object model="medrecord.noresult" pk="3">
+    <field name="name" type="CharField">адреса не знайдена</field>
+  </object>
+  <object model="medrecord.noresult" pk="4">
+    <field name="name" type="CharField">фальсифікація причини</field>
+  </object>
+  <object model="medrecord.noresult" pk="5">
+    <field name="name" type="CharField">виконаний іншою бригадою</field>
+  </object>
+  <object model="medrecord.noresult" pk="6">
+    <field name="name" type="CharField">відмова від допомоги</field>
+  </object>
+</django-objects>

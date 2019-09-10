@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<django-objects version="1.0">
+  <object model="crew.crewstatus" pk="1">
+    <field name="crewstatus_name" type="CharField">Вільна</field>
+  </object>
+  <object model="crew.crewstatus" pk="2">
+    <field name="crewstatus_name" type="CharField">На виїзді</field>
+  </object>
+  <object model="crew.crewstatus" pk="3">
+    <field name="crewstatus_name" type="CharField">На чергуванні</field>
+  </object>
+  <object model="crew.crewstatus" pk="4">
+    <field name="crewstatus_name" type="CharField">Повертається</field>
+  </object>
+  <object model="crew.crewstatus" pk="5">
+    <field name="crewstatus_name" type="CharField">Технічна перерва</field>
+  </object>
+  <object model="crew.crewstatus" pk="6">
+    <field name="crewstatus_name" type="CharField">Поломка</field>
+  </object>
+  <object model="crew.crewstatus" pk="7">
+    <field name="crewstatus_name" type="CharField">Не виїзна</field>
+  </object>
+</django-objects>

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<django-objects version="1.0">
+  <object model="heartbeat.intercallsatus" pk="1">
+    <field name="name" type="CharField">New</field>
+  </object>
+  <object model="heartbeat.intercallsatus" pk="2">
+    <field name="name" type="CharField">Ready</field>
+  </object>
+  <object model="heartbeat.intercallsatus" pk="3">
+    <field name="name" type="CharField">Sent</field>
+  </object>
+  <object model="heartbeat.intercallsatus" pk="4">
+    <field name="name" type="CharField">Failed</field>
+  </object>
+  <object model="heartbeat.intercallsatus" pk="5">
+    <field name="name" type="CharField">Archive</field>
+  </object>
+</django-objects>

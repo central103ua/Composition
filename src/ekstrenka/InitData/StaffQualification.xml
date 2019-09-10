@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<django-objects version="1.0">
+  <object model="mis.staffqualification" pk="1">
+    <field name="qualification_name" type="CharField">Без категорії</field>
+  </object>
+  <object model="mis.staffqualification" pk="2">
+    <field name="qualification_name" type="CharField">Друга категорія</field>
+  </object>
+  <object model="mis.staffqualification" pk="3">
+    <field name="qualification_name" type="CharField">Перша категорія</field>
+  </object>
+  <object model="mis.staffqualification" pk="4">
+    <field name="qualification_name" type="CharField">Вища категорія</field>
+  </object>
+</django-objects>

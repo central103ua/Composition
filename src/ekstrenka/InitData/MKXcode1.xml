@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="utf-8"?>
+<django-objects version="1.0">
+  <object model="medrecord.mkxcode1" pk="1">
+    <field name="code" type="CharField">A00-B99</field>
+    <field name="code_start" type="CharField">A00</field>
+    <field name="code_end" type="CharField">B99</field>
+    <field name="code_name" type="CharField">ДЕЯКІ ІНФЕКЦІЙНІ ТА ПАРАЗИТАРНІ ХВОРОБИ</field>
+  </object>
+  <object model="medrecord.mkxcode1" pk="2">
+    <field name="code" type="CharField">C00-D48</field>
+    <field name="code_start" type="CharField">C00</field>
+    <field name="code_end" type="CharField">D48</field>
+    <field name="code_name" type="CharField">НОВОУТВОРЕННЯ</field>
+  </object>
+  <object model="medrecord.mkxcode1" pk="3">
+    <field name="code" type="CharField">D50-D89</field>
+    <field name="code_start" type="CharField">D50</field>
+    <field name="code_end" type="CharField">D89</field>
+    <field name="code_name" type="CharField">ХВОРОБИ КРОВІ І КРОВОТВОРНИХ ОРГАНІВ</field>
+  </object>
+  <object model="medrecord.mkxcode1" pk="4">
+    <field name="code" type="CharField">E00-E99</field>
+    <field name="code_start" type="CharField">E00</field>
+    <field name="code_end" type="CharField">E99</field>
+    <field name="code_name" type="CharField">ХВОРОБИ ЕНДОКРИННОЇ СИСТЕМИ</field>
+  </object>
+  <object model="medrecord.mkxcode1" pk="5">
+    <field name="code" type="CharField">F00-F99</field>
+    <field name="code_start" type="CharField">F00</field>
+    <field name="code_end" type="CharField">F99</field>
+    <field name="code_name" type="CharField">РОЗЛАДИ ПСИХІКИ ТА ПОВЕДІНКИ</field>
+  </object>
+  <object model="medrecord.mkxcode1" pk="6">
+    <field name="code" type="CharField">G00-G99</field>
+    <field name="code_start" type="CharField">G00</field>
+    <field name="code_end" type="CharField">G99</field>
+    <field name="code_name" type="CharField">ХВОРОБИ НЕРВОВОЇ СИСТЕМИ</field>
+  </object>
+  <object model="medrecord.mkxcode1" pk="7">
+    <field name="code" type="CharField">H00-H59</field>
+    <field name="code_start" type="CharField">H00</field>
+    <field name="code_end" type="CharField">H59</field>
+    <field name="code_name" type="CharField">ХВОРОБИ ОКА ТА ПРИДАТКОВОГО АПАРАТУ</field>
+  </object>
+  <object model="medrecord.mkxcode1" pk="8">
+    <field name="code" type="CharField">H60-H99</field>
+    <field name="code_start" type="CharField">H60</field>
+    <field name="code_end" type="CharField">H99</field>
+    <field name="code_name" type="CharField">ХВОРОБИ ВУХА ТА СОСКОПОДІБНОГО АПАРАТУ</field>
+  </object>
+  <object model="medrecord.mkxcode1" pk="9">
+    <field name="code" type="CharField">I00-I99</field>
+    <field name="code_start" type="CharField">I00</field>
+    <field name="code_end" type="CharField">I99</field>
+    <field name="code_name" type="CharField">ХВОРОБИ СИСТЕМИ КРОВООБІГУ</field>
+  </object>
+  <object model="medrecord.mkxcode1" pk="10">
+    <field name="code" type="CharField">J00-J99</field>
+    <field name="code_start" type="CharField">J00</field>
+    <field name="code_end" type="CharField">J99</field>
+    <field name="code_name" type="CharField">ХВОРОБИ ДИХАЛЬНОЇ СИСТЕМИ</field>
+  </object>
+  <object model="medrecord.mkxcode1" pk="11">
+    <field name="code" type="CharField">K00-K99</field>
+    <field name="code_start" type="CharField">K00</field>
+    <field name="code_end" type="CharField">K99</field>
+    <field name="code_name" type="CharField">ХВОРОБИ ОРГАНІВ ТРАВЛЕННЯ</field>
+  </object>
+  <object model="medrecord.mkxcode1" pk="12">
+    <field name="code" type="CharField">L00-L99</field>
+    <field name="code_start" type="CharField">L00</field>
+    <field name="code_end" type="CharField">L99</field>
+    <field name="code_name" type="CharField">ХВОРОБИ ШКІРИ ТА ПІДКІРНОЇ КЛІТКОВИНИ</field>
+  </object>
+  <object model="medrecord.mkxcode1" pk="13">
+    <field name="code" type="CharField">M00-M99</field>
+    <field name="code_start" type="CharField">M00</field>
+    <field name="code_end" type="CharField">M99</field>
+    <field name="code_name" type="CharField">ХВОРОБИ КІСТКОВО-М`ЯЗОВОЇ С-МИ І СПОЛУЧНИХ ТКАНИН</field>
+  </object>
+  <object model="medrecord.mkxcode1" pk="14">
+    <field name="code" type="CharField">N00-N99</field>
+    <field name="code_start" type="CharField">N00</field>
+    <field name="code_end" type="CharField">N99</field>
+    <field name="code_name" type="CharField">ХВОРОБИ СЕЧОСТАТЕВОЇ СИСТЕМИ</field>
+  </object>
+  <object model="medrecord.mkxcode1" pk="15">
+    <field name="code" type="CharField">O00-O99</field>
+    <field name="code_start" type="CharField">O00</field>
+    <field name="code_end" type="CharField">O99</field>
+    <field name="code_name" type="CharField">УСКЛАДНЕННЯ ВАГІТНОСТІ, ПОЛОГІВ</field>
+  </object>
+  <object model="medrecord.mkxcode1" pk="16">
+    <field name="code" type="CharField">P00-P99</field>
+    <field name="code_start" type="CharField">P00</field>
+    <field name="code_end" type="CharField">P99</field>
+    <field name="code_name" type="CharField">ОКРЕМІ СТАНИ, ЩО ВИНИКАЮТЬ В ПЕРИНАТ.ПЕРІОДІ</field>
+  </object>
+  <object model="medrecord.mkxcode1" pk="17">
+    <field name="code" type="CharField">Q00-Q99</field>
+    <field name="code_start" type="CharField">Q00</field>
+    <field name="code_end" type="CharField">Q99</field>
+    <field name="code_name" type="CharField">ПРИРОДНІ ВАДИ РОЗВИТКУ</field>
+  </object>
+  <object model="medrecord.mkxcode1" pk="18">
+    <field name="code" type="CharField">R00-R99</field>
+    <field name="code_start" type="CharField">R00</field>
+    <field name="code_end" type="CharField">R99</field>
+    <field name="code_name" type="CharField">СИМПТОМИ, ОЗНАКИ ТА ВІДХИЛЕННЯ ВІД НОРМИ, ЩО ВИЯВЛЕНІ ПРИ ЛАБОРАТОРНИХ ТА КЛІНІЧНИХ ДОСЛІДЖЕННЯХ, НЕ КЛАСИФІКОВАНІ В ІНШИХ РУБРИКАХ</field>
+  </object>
+  <object model="medrecord.mkxcode1" pk="19">
+    <field name="code" type="CharField">S00-T99</field>
+    <field name="code_start" type="CharField">S00</field>
+    <field name="code_end" type="CharField">T99</field>
+    <field name="code_name" type="CharField">ТРАВМИ ТА ОТРУЄННЯ</field>
+  </object>
+  <object model="medrecord.mkxcode1" pk="20">
+    <field name="code" type="CharField">V00-Z99</field>
+    <field name="code_start" type="CharField">V00</field>
+    <field name="code_end" type="CharField">Z99</field>
+    <field name="code_name" type="CharField">ЗОВНІШНІ ПРИЧИНИ ЗАХВОРЮВАНОСТІ ТА СМЕРТНОСТІ</field>
+  </object>
+  <object model="medrecord.mkxcode1" pk="21">
+    <field name="code" type="CharField">Z00-Z99</field>
+    <field name="code_start" type="CharField">Z00</field>
+    <field name="code_end" type="CharField">Z99</field>
+    <field name="code_name" type="CharField">ЗАГАЛЬНИЙ ОГЛЯД ТА ОБСТЕЖЕННЯ ОСІБ</field>
+  </object>
+</django-objects>

@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="utf-8"?>
+<django-objects version="1.0">
+  <object model="accounts.permission" pk="1">
+    <field name="name" type="CharField">AEM Admin</field>
+    <field name="codename" type="CharField">aem_admin</field>
+  </object>
+  <object model="accounts.permission" pk="2">
+    <field name="name" type="CharField">SYS</field>
+    <field name="codename" type="CharField">sys</field>
+  </object>
+  <object model="accounts.permission" pk="3">
+    <field name="name" type="CharField">MIS01</field>
+    <field name="codename" type="CharField">mis01</field>
+  </object>
+  <object model="accounts.permission" pk="4">
+    <field name="name" type="CharField">MIS02</field>
+    <field name="codename" type="CharField">mis02</field>
+  </object>
+  <object model="accounts.permission" pk="5">
+    <field name="name" type="CharField">MIS03</field>
+    <field name="codename" type="CharField">mis03</field>
+  </object>
+  <object model="accounts.permission" pk="6">
+    <field name="name" type="CharField">MIS04</field>
+    <field name="codename" type="CharField">mis04</field>
+  </object>
+  <object model="accounts.permission" pk="7">
+    <field name="name" type="CharField">MIS05</field>
+    <field name="codename" type="CharField">mis05</field>
+  </object>
+  <object model="accounts.permission" pk="8">
+    <field name="name" type="CharField">MIS06</field>
+    <field name="codename" type="CharField">mis06</field>
+  </object>
+  <object model="accounts.permission" pk="9">
+    <field name="name" type="CharField">MIS07</field>
+    <field name="codename" type="CharField">mis07</field>
+  </object>
+  <object model="accounts.permission" pk="10">
+    <field name="name" type="CharField">MIS08</field>
+    <field name="codename" type="CharField">mis08</field>
+  </object>
+  <object model="accounts.permission" pk="11">
+    <field name="name" type="CharField">MIS09</field>
+    <field name="codename" type="CharField">mis09</field>
+  </object>
+  <object model="accounts.permission" pk="12">
+    <field name="name" type="CharField">MIS10</field>
+    <field name="codename" type="CharField">mis10</field>
+  </object>
+  <object model="accounts.permission" pk="13">
+    <field name="name" type="CharField">MIS11</field>
+    <field name="codename" type="CharField">mis11</field>
+  </object>
+  <object model="accounts.permission" pk="14">
+    <field name="name" type="CharField">MIS12</field>
+    <field name="codename" type="CharField">mis12</field>
+  </object>
+  <object model="accounts.permission" pk="15">
+    <field name="name" type="CharField">MIS13</field>
+    <field name="codename" type="CharField">mis13</field>
+  </object>
+  <object model="accounts.permission" pk="16">
+    <field name="name" type="CharField">MIS14</field>
+    <field name="codename" type="CharField">mis14</field>
+  </object>
+  <object model="accounts.permission" pk="17">
+    <field name="name" type="CharField">MIS15</field>
+    <field name="codename" type="CharField">mis15</field>
+  </object>
+  <object model="accounts.permission" pk="18">
+    <field name="name" type="CharField">MIS16</field>
+    <field name="codename" type="CharField">mis16</field>
+  </object>
+  <object model="accounts.permission" pk="19">
+    <field name="name" type="CharField">MIS17</field>
+    <field name="codename" type="CharField">mis17</field>
+  </object>
+  <object model="accounts.permission" pk="20">
+    <field name="name" type="CharField">MIS18</field>
+    <field name="codename" type="CharField">mis18</field>
+  </object>
+  <object model="accounts.permission" pk="21">
+    <field name="name" type="CharField">MIS19</field>
+    <field name="codename" type="CharField">mis19</field>
+  </object>
+  <object model="accounts.permission" pk="22">
+    <field name="name" type="CharField">MIS20</field>
+    <field name="codename" type="CharField">mis20</field>
+  </object>
+  <object model="accounts.permission" pk="23">
+    <field name="name" type="CharField">MIS21</field>
+    <field name="codename" type="CharField">mis21</field>
+  </object>
+  <object model="accounts.permission" pk="24">
+    <field name="name" type="CharField">MIS22</field>
+    <field name="codename" type="CharField">mis22</field>
+  </object>
+  <object model="accounts.permission" pk="25">
+    <field name="name" type="CharField">MIS23</field>
+    <field name="codename" type="CharField">mis23</field>
+  </object>
+  <object model="accounts.permission" pk="26">
+    <field name="name" type="CharField">MIS24</field>
+    <field name="codename" type="CharField">mis24</field>
+  </object>
+  <object model="accounts.permission" pk="27">
+    <field name="name" type="CharField">MIS25</field>
+    <field name="codename" type="CharField">mis25</field>
+  </object>
+  <object model="accounts.permission" pk="28">
+    <field name="name" type="CharField">MIS26</field>
+    <field name="codename" type="CharField">mis26</field>
+  </object>
+  <object model="accounts.permission" pk="29">
+    <field name="name" type="CharField">MIS27</field>
+    <field name="codename" type="CharField">mis27</field>
+  </object>
+  <object model="accounts.permission" pk="30">
+    <field name="name" type="CharField">MIS28</field>
+    <field name="codename" type="CharField">mis28</field>
+  </object>
+  <object model="accounts.permission" pk="31">
+    <field name="name" type="CharField">MIS29</field>
+    <field name="codename" type="CharField">mis29</field>
+  </object>
+  <object model="accounts.permission" pk="32">
+    <field name="name" type="CharField">MIS30</field>
+    <field name="codename" type="CharField">mis30</field>
+  </object>
+  <object model="accounts.permission" pk="33">
+    <field name="name" type="CharField">MIS31</field>
+    <field name="codename" type="CharField">mis31</field>
+  </object>
+</django-objects>

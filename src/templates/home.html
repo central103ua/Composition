@@ -1,0 +1,50 @@
+{% extends "base.html" %}
+{% load humanize %}
+{% load mis_extras %}
+{% block content %}
+
+<div class='container'>
+</br>
+<h2>ОДС, що під'єднані до <i><u>"Централь103"</u></i></h1>
+<table style="width:1000px" border="1px solid black">
+  <tr>
+    <th rowspan="2">#</th>
+    <th rowspan="2">ОДС</th> 
+    <th rowspan="2">Останні дані</th>
+    <th style="width:100px;text-align: center;" rowspan="2">Звернень сьогодні</th>
+    <th style="text-align: center;" colspan="3">В середньому за добу</th>
+    <th rowspan="2">Локації</th>
+    <th rowspan="2">Персонал</th>
+    <th rowspan="2">Авто</th>
+  </tr>
+  <tr align="center">
+    <th>Звернень</th>
+    <th>виїздів</th>
+    <th>госпіталізацій</th>
+  </tr>
+  <tr>
+{% for mis_item in mis_list %}
+    <td>{{ mis_item.id }}</td>
+    <td><a href="/sys/mis/{{ mis_item.id }}/">{{ mis_item.mis_name }}</a></td> 
+    <td bgcolor="{{ mis_item.status }}">
+    {% if mis_item.mis_heartbeat %}
+      {{ mis_item.mis_heartbeat|timesince }} ago
+    {% else %}
+      Не отримувалось
+    {% endif %}
+    </td>
+    <td align="right">{{ mis_item.today|intspace }}</td>
+    <td align="right">{{ mis_item.call_av|intspace }}</td>
+    <td align="right">{{ mis_item.er_av|intspace }}{% if mis_item.er_av %} [{{ mis_item.er_avp }}]{% endif %}</td>
+    <td align="right">{{ mis_item.ed_av|intspace }}{% if mis_item.ed_av %} [{{ mis_item.ed_avp }}]{% endif %}</td>
+    <td align="right">{{ mis_item.facility|intspace }}</td>
+    <td align="right">{{ mis_item.staff|intspace }}</td>
+    <td align="right">{{ mis_item.car|intspace }}</td>
+  </tr>  
+ {% endfor %}
+</table>
+</div>
+</br>
+{% include 'big_footer.html' %}
+
+{% endblock content %}

@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<django-objects version="1.0">
+  <object model="patients.chiefcomplain" pk="1">
+    <field name="name" type="CharField">Серце</field>
+  </object>
+  <object model="patients.chiefcomplain" pk="2">
+    <field name="name" type="CharField">Ураження електричним струмом/блискавкою</field>
+  </object>
+  <object model="patients.chiefcomplain" pk="3">
+    <field name="name" type="CharField">Проблеми з диханням</field>
+  </object>
+  <object model="patients.chiefcomplain" pk="4">
+    <field name="name" type="CharField">Утоплення</field>
+  </object>
+  <object model="patients.chiefcomplain" pk="5">
+    <field name="name" type="CharField">Травматичні ушкодження</field>
+  </object>
+  <object model="patients.chiefcomplain" pk="6">
+    <field name="name" type="CharField">Травма очей</field>
+  </object>
+  <object model="patients.chiefcomplain" pk="7">
+    <field name="name" type="CharField">Рани</field>
+  </object>
+  <object model="patients.chiefcomplain" pk="8">
+    <field name="name" type="CharField">Укуси тварин</field>
+  </object>
+  <object model="patients.chiefcomplain" pk="9">
+    <field name="name" type="CharField">Кровотеча</field>
+  </object>
+  <object model="patients.chiefcomplain" pk="10">
+    <field name="name" type="CharField">Опіки/Вибух</field>
+  </object>
+  <object model="patients.chiefcomplain" pk="11">
+    <field name="name" type="CharField">Переохолодження/перегрів</field>
+  </object>
+  <object model="patients.chiefcomplain" pk="12">
+    <field name="name" type="CharField">Гостре отруєння</field>
+  </object>
+  <object model="patients.chiefcomplain" pk="13">
+    <field name="name" type="CharField">Напад/сексуальне насильство</field>
+  </object>
+  <object model="patients.chiefcomplain" pk="14">
+    <field name="name" type="CharField">Падіння з висоти</field>
+  </object>
+  <object model="patients.chiefcomplain" pk="15">
+    <field name="name" type="CharField">Травма на виробництві</field>
+  </object>
+  <object model="patients.chiefcomplain" pk="16">
+    <field name="name" type="CharField">Дорожньо-транспортні пригоди</field>
+  </object>
+  <object model="patients.chiefcomplain" pk="17">
+    <field name="name" type="CharField">Порушення вагітності/пологи/викидень (аборт)</field>
+  </object>
+  <object model="patients.chiefcomplain" pk="18">
+    <field name="name" type="CharField">Алергічна реакція</field>
+  </object>
+  <object model="patients.chiefcomplain" pk="19">
+    <field name="name" type="CharField">Головний біль</field>
+  </object>
+  <object model="patients.chiefcomplain" pk="20">
+    <field name="name" type="CharField">Біль в грудях</field>
+  </object>
+  <object model="patients.chiefcomplain" pk="21">
+    <field name="name" type="CharField">Біль у животі</field>
+  </object>
+  <object model="patients.chiefcomplain" pk="22">
+    <field name="name" type="CharField">Біль у спині (нетравматичний)</field>
+  </object>
+  <object model="patients.chiefcomplain" pk="23">
+    <field name="name" type="CharField">Інфекційні захворювання (епідемії, пандемії, спалахи)</field>
+  </object>
+  <object model="patients.chiefcomplain" pk="24">
+    <field name="name" type="CharField">Порушення мозкового кровообігу – інсульт</field>
+  </object>
+  <object model="patients.chiefcomplain" pk="25">
+    <field name="name" type="CharField">Непритомність/порушення свідомості</field>
+  </object>
+  <object model="patients.chiefcomplain" pk="26">
+    <field name="name" type="CharField">Судоми</field>
+  </object>
+  <object model="patients.chiefcomplain" pk="27">
+    <field name="name" type="CharField">Психічні розлади/аномальна поведінка</field>
+  </object>
+  <object model="patients.chiefcomplain" pk="28">
+    <field name="name" type="CharField">Діабетичні проблеми</field>
+  </object>
+  <object model="patients.chiefcomplain" pk="29">
+    <field name="name" type="CharField">Транспортування пацієнтів (в ЗОЗ/між ЗОЗ)</field>
+  </object>
+  <object model="patients.chiefcomplain" pk="30">
+    <field name="name" type="CharField">Хворий</field>
+  </object>
+  <object model="patients.chiefcomplain" pk="31">
+    <field name="name" type="CharField">Отруєння хімічними речовинами через дихання/радіація</field>
+  </object>
+  <object model="patients.chiefcomplain" pk="32">
+    <field name="name" type="CharField">Обструкція дихальних шляхів</field>
+  </object>
+  <object model="patients.chiefcomplain" pk="33">
+    <field name="name" type="CharField">Невизначена проблема</field>
+  </object>
+</django-objects>

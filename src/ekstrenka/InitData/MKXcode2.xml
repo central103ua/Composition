@@ -1,0 +1,1227 @@
+<?xml version="1.0" encoding="utf-8"?>
+<django-objects version="1.0">
+  <object model="medrecord.mkxcode2" pk="1">
+    <field name="code" type="CharField">A00</field>
+    <field name="code_start" type="CharField">A09</field>
+    <field name="code_end" type="CharField">A00-A09</field>
+    <field name="code_name" type="CharField">Кишкові інфекційні хвороби</field>
+  </object>
+  <object model="medrecord.mkxcode2" pk="2">
+    <field name="code" type="CharField">A15</field>
+    <field name="code_start" type="CharField">A19</field>
+    <field name="code_end" type="CharField">A15-A19</field>
+    <field name="code_name" type="CharField">Туберкульоз</field>
+  </object>
+  <object model="medrecord.mkxcode2" pk="3">
+    <field name="code" type="CharField">A20</field>
+    <field name="code_start" type="CharField">A28</field>
+    <field name="code_end" type="CharField">A20-A28</field>
+    <field name="code_name" type="CharField">Деякі зоонозні бактеріальні хвороби</field>
+  </object>
+  <object model="medrecord.mkxcode2" pk="4">
+    <field name="code" type="CharField">A30</field>
+    <field name="code_start" type="CharField">A49</field>
+    <field name="code_end" type="CharField">A30-A49</field>
+    <field name="code_name" type="CharField">Інші бактеріальні хвороби</field>
+  </object>
+  <object model="medrecord.mkxcode2" pk="5">
+    <field name="code" type="CharField">A50</field>
+    <field name="code_start" type="CharField">A64</field>
+    <field name="code_end" type="CharField">A50-A64</field>
+    <field name="code_name" type="CharField">Інфекційні хвороби, що передаються переважно статевим шляхом</field>
+  </object>
+  <object model="medrecord.mkxcode2" pk="6">
+    <field name="code" type="CharField">A65</field>
+    <field name="code_start" type="CharField">A69</field>
+    <field name="code_end" type="CharField">A65-A69</field>
+    <field name="code_name" type="CharField">Інші хвороби, спричинені спірохетами</field>
+  </object>
+  <object model="medrecord.mkxcode2" pk="7">
+    <field name="code" type="CharField">A70</field>
+    <field name="code_start" type="CharField">A74</field>
+    <field name="code_end" type="CharField">A70-A74</field>
+    <field name="code_name" type="CharField">Інші хвороби, спричинені хламідіями</field>
+  </object>
+  <object model="medrecord.mkxcode2" pk="8">
+    <field name="code" type="CharField">A75</field>
+    <field name="code_start" type="CharField">A79</field>
+    <field name="code_end" type="CharField">A75-A79</field>
+    <field name="code_name" type="CharField">Рикетсіози</field>
+  </object>
+  <object model="medrecord.mkxcode2" pk="9">
+    <field name="code" type="CharField">A80</field>
+    <field name="code_start" type="CharField">A89</field>
+    <field name="code_end" type="CharField">A80-A89</field>
+    <field name="code_name" type="CharField">Вірусні інфекційні хвороби центральної нервової системи</field>
+  </object>
+  <object model="medrecord.mkxcode2" pk="10">
+    <field name="code" type="CharField">A90</field>
+    <field name="code_start" type="CharField">A99</field>
+    <field name="code_end" type="CharField">A90-A99</field>
+    <field name="code_name" type="CharField">Вірусні горячки та вірусні геморагічні горячки, що переносяться членистоногими</field>
+  </object>
+  <object model="medrecord.mkxcode2" pk="11">
+    <field name="code" type="CharField">B00</field>
+    <field name="code_start" type="CharField">B09</field>
+    <field name="code_end" type="CharField">B00-B09</field>
+    <field name="code_name" type="CharField">Вірусні інфекційні хвороби, які характеризуються ушкодженням шкіри та слизових оболонок</field>
+  </object>
+  <object model="medrecord.mkxcode2" pk="12">
+    <field name="code" type="CharField">B15</field>
+    <field name="code_start" type="CharField">B19</field>
+    <field name="code_end" type="CharField">B15-B19</field>
+    <field name="code_name" type="CharField">Вірусний гепатит</field>
+  </object>
+  <object model="medrecord.mkxcode2" pk="13">
+    <field name="code" type="CharField">B20</field>
+    <field name="code_start" type="CharField">B24</field>
+    <field name="code_end" type="CharField">B20-B24</field>
+    <field name="code_name" type="CharField">Хвороба, зумовлена вірусом імунодефіциту людини (ВІЛ)</field>
+  </object>
+  <object model="medrecord.mkxcode2" pk="14">
+    <field name="code" type="CharField">B25</field>
+    <field name="code_start" type="CharField">B34</field>
+    <field name="code_end" type="CharField">B25-B34</field>
+    <field name="code_name" type="CharField">Інші вірусні хвороби</field>
+  </object>
+  <object model="medrecord.mkxcode2" pk="15">
+    <field name="code" type="CharField">B35</field>
+    <field name="code_start" type="CharField">B49</field>
+    <field name="code_end" type="CharField">B35-B49</field>
+    <field name="code_name" type="CharField">Мікози</field>
+  </object>
+  <object model="medrecord.mkxcode2" pk="16">
+    <field name="code" type="CharField">B50</field>
+    <field name="code_start" type="CharField">B64</field>
+    <field name="code_end" type="CharField">B50-B64</field>
+    <field name="code_name" type="CharField">Протозойні хвороби</field>
+  </object>
+  <object model="medrecord.mkxcode2" pk="17">
+    <field name="code" type="CharField">B65</field>
+    <field name="code_start" type="CharField">B83</field>
+    <field name="code_end" type="CharField">B65-B83</field>
+    <field name="code_name" type="CharField">Гельмінтози</field>
+  </object>
+  <object model="medrecord.mkxcode2" pk="18">
+    <field name="code" type="CharField">B85</field>
+    <field name="code_start" type="CharField">B89</field>
+    <field name="code_end" type="CharField">B85-B89</field>
+    <field name="code_name" type="CharField">Педикульоз, акаріаз та інші інфестації</field>
+  </object>
+  <object model="medrecord.mkxcode2" pk="19">
+    <field name="code" type="CharField">B90</field>
+    <field name="code_start" type="CharField">B94</field>
+    <field name="code_end" type="CharField">B90-B94</field>
+    <field name="code_name" type="CharField">Наслідки інфекційних і паразитарних хвороб</field>
+  </object>
+  <object model="medrecord.mkxcode2" pk="20">
+    <field name="code" type="CharField">B95</field>
+    <field name="code_start" type="CharField">B97</field>
+    <field name="code_end" type="CharField">B95-B97</field>
+    <field name="code_name" type="CharField">Бактеріальні, вірусні та інші інфекційні агенти</field>
+  </object>
+  <object model="medrecord.mkxcode2" pk="21">
+    <field name="code" type="CharField">B99</field>
+    <field name="code_start" type="CharField">B99</field>
+    <field name="code_end" type="CharField">B99-B99</field>
+    <field name="code_name" type="CharField">Інші інфекційні хвороби</field>
+  </object>
+  <object model="medrecord.mkxcode2" pk="22">
+    <field name="code" type="CharField">C00</field>
+    <field name="code_start" type="CharField">C75</field>
+    <field name="code_end" type="CharField">C00-C75</field>
+    <field name="code_name" type="CharField">Злоякісні новоутворення уточненої локалізації, котрі визначені як первинні або припустимо первинні</field>
+  </object>
+  <object model="medrecord.mkxcode2" pk="23">
+    <field name="code" type="CharField">C76</field>
+    <field name="code_start" type="CharField">C80</field>
+    <field name="code_end" type="CharField">C76-C80</field>
+    <field name="code_name" type="CharField">Злоякісні новоутворення неточно визначені, вторинні та неуточненої локалізації</field>
+  </object>
+  <object model="medrecord.mkxcode2" pk="24">
+    <field name="code" type="CharField">C81</field>
+    <field name="code_start" type="CharField">C96</field>
+    <field name="code_end" type="CharField">C81-C96</field>
+    <field name="code_name" type="CharField">Злоякісні новоутворення лимфоїдної, кроветворної та споріднених їм тканин</field>
+  </object>
+  <object model="medrecord.mkxcode2" pk="25">
+    <field name="code" type="CharField">C97</field>
+    <field name="code_start" type="CharField">C97</field>
+    <field name="code_end" type="CharField">C97-C97</field>
+    <field name="code_name" type="CharField">Злоякісні новоутворення самостійних (первинних) множинних локалізацій</field>
+  </object>
+  <object model="medrecord.mkxcode2" pk="26">
+    <field name="code" type="CharField">D00</field>
+    <field name="code_start" type="CharField">D09</field>
+    <field name="code_end" type="CharField">D00-D09</field>
+    <field name="code_name" type="CharField">Новоутворення in situ</field>
+  </object>
+  <object model="medrecord.mkxcode2" pk="27">
+    <field name="code" type="CharField">D10</field>
+    <field name="code_start" type="CharField">D36</field>
+    <field name="code_end" type="CharField">D10-D36</field>
+    <field name="code_name" type="CharField">Доброякісні новоутворення</field>
+  </object>
+  <object model="medrecord.mkxcode2" pk="28">
+    <field name="code" type="CharField">D37</field>
+    <field name="code_start" type="CharField">D48</field>
+    <field name="code_end" type="CharField">D37-D48</field>
+    <field name="code_name" type="CharField">Новоутворення невизначеного або невідомого характера</field>
+  </object>
+  <object model="medrecord.mkxcode2" pk="29">
+    <field name="code" type="CharField">D50</field>
+    <field name="code_start" type="CharField">D53</field>
+    <field name="code_end" type="CharField">D50-D53</field>
+    <field name="code_name" type="CharField">Аліментарні анемії</field>
+  </object>
+  <object model="medrecord.mkxcode2" pk="30">
+    <field name="code" type="CharField">D55</field>
+    <field name="code_start" type="CharField">D59</field>
+    <field name="code_end" type="CharField">D55-D59</field>
+    <field name="code_name" type="CharField">Гемолітичні анемії</field>
+  </object>
+  <object model="medrecord.mkxcode2" pk="31">
+    <field name="code" type="CharField">D60</field>
+    <field name="code_start" type="CharField">D64</field>
+    <field name="code_end" type="CharField">D60-D64</field>
+    <field name="code_name" type="CharField">Апластичні та інші анемії</field>
+  </object>
+  <object model="medrecord.mkxcode2" pk="32">
+    <field name="code" type="CharField">D65</field>
+    <field name="code_start" type="CharField">D69</field>
+    <field name="code_end" type="CharField">D65-D69</field>
+    <field name="code_name" type="CharField">Порушення згортання крові, пурпура та інші геморагічні стани</field>
+  </object>
+  <object model="medrecord.mkxcode2" pk="33">
+    <field name="code" type="CharField">D70</field>
+    <field name="code_start" type="CharField">D77</field>
+    <field name="code_end" type="CharField">D70-D77</field>
+    <field name="code_name" type="CharField">Інші хвороби крові та кровотворних органів</field>
+  </object>
+  <object model="medrecord.mkxcode2" pk="34">
+    <field name="code" type="CharField">D80</field>
+    <field name="code_start" type="CharField">D89</field>
+    <field name="code_end" type="CharField">D80-D89</field>
+    <field name="code_name" type="CharField">Деякі порушення з залученням імунного механізму</field>
+  </object>
+  <object model="medrecord.mkxcode2" pk="35">
+    <field name="code" type="CharField">E00</field>
+    <field name="code_start" type="CharField">E07</field>
+    <field name="code_end" type="CharField">E00-E07</field>
+    <field name="code_name" type="CharField">Хвороби щитоподібної залози</field>
+  </object>
+  <object model="medrecord.mkxcode2" pk="36">
+    <field name="code" type="CharField">E10</field>
+    <field name="code_start" type="CharField">E14</field>
+    <field name="code_end" type="CharField">E10-E14</field>
+    <field name="code_name" type="CharField">Цукровий діабет</field>
+  </object>
+  <object model="medrecord.mkxcode2" pk="37">
+    <field name="code" type="CharField">E16</field>
+    <field name="code_start" type="CharField">E16</field>
+    <field name="code_end" type="CharField">E16-E16</field>
+    <field name="code_name" type="CharField">Інші порушення обміну глюкози та внутрішньої секреції підшлункової залози</field>
+  </object>
+  <object model="medrecord.mkxcode2" pk="38">
+    <field name="code" type="CharField">E20</field>
+    <field name="code_start" type="CharField">E35</field>
+    <field name="code_end" type="CharField">E20-E35</field>
+    <field name="code_name" type="CharField">Розлади інших ендокринних залоз</field>
+  </object>
+  <object model="medrecord.mkxcode2" pk="39">
+    <field name="code" type="CharField">E40</field>
+    <field name="code_start" type="CharField">E46</field>
+    <field name="code_end" type="CharField">E40-E46</field>
+    <field name="code_name" type="CharField">Загальна недостатність харчування</field>
+  </object>
+  <object model="medrecord.mkxcode2" pk="40">
+    <field name="code" type="CharField">E50</field>
+    <field name="code_start" type="CharField">E64</field>
+    <field name="code_end" type="CharField">E50-E64</field>
+    <field name="code_name" type="CharField">Інші недостатності харчування</field>
+  </object>
+  <object model="medrecord.mkxcode2" pk="41">
+    <field name="code" type="CharField">E65</field>
+    <field name="code_start" type="CharField">E68</field>
+    <field name="code_end" type="CharField">E65-E68</field>
+    <field name="code_name" type="CharField">Ожиріння та інші наслідки надлишкового харчування</field>
+  </object>
+  <object model="medrecord.mkxcode2" pk="42">
+    <field name="code" type="CharField">E70</field>
+    <field name="code_start" type="CharField">E90</field>
+    <field name="code_end" type="CharField">E70-E90</field>
+    <field name="code_name" type="CharField">Розлади обміну речовин</field>
+  </object>
+  <object model="medrecord.mkxcode2" pk="43">
+    <field name="code" type="CharField">F00</field>
+    <field name="code_start" type="CharField">F09</field>
+    <field name="code_end" type="CharField">F00-F09</field>
+    <field name="code_name" type="CharField">Органічні, включаючи симптоматичні, психічні розлади</field>
+  </object>
+  <object model="medrecord.mkxcode2" pk="44">
+    <field name="code" type="CharField">F10</field>
+    <field name="code_start" type="CharField">F19</field>
+    <field name="code_end" type="CharField">F10-F19</field>
+    <field name="code_name" type="CharField">Розлади психіки та поведінки внаслідок вживання психоактивних речовин</field>
+  </object>
+  <object model="medrecord.mkxcode2" pk="45">
+    <field name="code" type="CharField">F20</field>
+    <field name="code_start" type="CharField">F29</field>
+    <field name="code_end" type="CharField">F20-F29</field>
+    <field name="code_name" type="CharField">Шизофренія, шизотипові стани та маячні розлади</field>
+  </object>
+  <object model="medrecord.mkxcode2" pk="46">
+    <field name="code" type="CharField">F30</field>
+    <field name="code_start" type="CharField">F39</field>
+    <field name="code_end" type="CharField">F30-F39</field>
+    <field name="code_name" type="CharField">Розлади настрою (афективні розлади)</field>
+  </object>
+  <object model="medrecord.mkxcode2" pk="47">
+    <field name="code" type="CharField">F40</field>
+    <field name="code_start" type="CharField">F48</field>
+    <field name="code_end" type="CharField">F40-F48</field>
+    <field name="code_name" type="CharField">Невротичні, пов'язані зі стресом та соматоформні розлади</field>
+  </object>
+  <object model="medrecord.mkxcode2" pk="48">
+    <field name="code" type="CharField">F50</field>
+    <field name="code_start" type="CharField">F59</field>
+    <field name="code_end" type="CharField">F50-F59</field>
+    <field name="code_name" type="CharField">Поведінкові синдроми, пов'язані з фізіологічними розладами та фізичними факторами</field>
+  </object>
+  <object model="medrecord.mkxcode2" pk="49">
+    <field name="code" type="CharField">F60</field>
+    <field name="code_start" type="CharField">F69</field>
+    <field name="code_end" type="CharField">F60-F69</field>
+    <field name="code_name" type="CharField">Розлади зрілої особистості та поведінкові розлади</field>
+  </object>
+  <object model="medrecord.mkxcode2" pk="50">
+    <field name="code" type="CharField">F70</field>
+    <field name="code_start" type="CharField">F79</field>
+    <field name="code_end" type="CharField">F70-F79</field>
+    <field name="code_name" type="CharField">Розумова відсталість</field>
+  </object>
+  <object model="medrecord.mkxcode2" pk="51">
+    <field name="code" type="CharField">F80</field>
+    <field name="code_start" type="CharField">F89</field>
+    <field name="code_end" type="CharField">F80-F89</field>
+    <field name="code_name" type="CharField">Розлади, пов'язані з психологічним розвитком</field>
+  </object>
+  <object model="medrecord.mkxcode2" pk="52">
+    <field name="code" type="CharField">F90</field>
+    <field name="code_start" type="CharField">F98</field>
+    <field name="code_end" type="CharField">F90-F98</field>
+    <field name="code_name" type="CharField">Розлади поведінки та емоцій, які починаються здебільшого в дитячому та підлітковому віці</field>
+  </object>
+  <object model="medrecord.mkxcode2" pk="53">
+    <field name="code" type="CharField">F99</field>
+    <field name="code_start" type="CharField">F99</field>
+    <field name="code_end" type="CharField">F99-F99</field>
+    <field name="code_name" type="CharField">Неуточнений психічний розлад</field>
+  </object>
+  <object model="medrecord.mkxcode2" pk="54">
+    <field name="code" type="CharField">G00</field>
+    <field name="code_start" type="CharField">G09</field>
+    <field name="code_end" type="CharField">G00-G09</field>
+    <field name="code_name" type="CharField">Запальні хвороби центральної нервової системи</field>
+  </object>
+  <object model="medrecord.mkxcode2" pk="55">
+    <field name="code" type="CharField">G10</field>
+    <field name="code_start" type="CharField">G13</field>
+    <field name="code_end" type="CharField">G10-G13</field>
+    <field name="code_name" type="CharField">Системні атрофії, що первинно уражають центральну нервову систему</field>
+  </object>
+  <object model="medrecord.mkxcode2" pk="56">
+    <field name="code" type="CharField">G20</field>
+    <field name="code_start" type="CharField">G26</field>
+    <field name="code_end" type="CharField">G20-G26</field>
+    <field name="code_name" type="CharField">Екстрапірамідальні хвороби та порушення функцій руху</field>
+  </object>
+  <object model="medrecord.mkxcode2" pk="57">
+    <field name="code" type="CharField">G30</field>
+    <field name="code_start" type="CharField">G32</field>
+    <field name="code_end" type="CharField">G30-G32</field>
+    <field name="code_name" type="CharField">Інші дегенеративні хворорби нервової системи</field>
+  </object>
+  <object model="medrecord.mkxcode2" pk="58">
+    <field name="code" type="CharField">G35</field>
+    <field name="code_start" type="CharField">G37</field>
+    <field name="code_end" type="CharField">G35-G37</field>
+    <field name="code_name" type="CharField">Деміслінізаційні хвороби центральної нервової системи</field>
+  </object>
+  <object model="medrecord.mkxcode2" pk="59">
+    <field name="code" type="CharField">G40</field>
+    <field name="code_start" type="CharField">G47</field>
+    <field name="code_end" type="CharField">G40-G47</field>
+    <field name="code_name" type="CharField">Епізодичні та параксизмальні порушення</field>
+  </object>
+  <object model="medrecord.mkxcode2" pk="60">
+    <field name="code" type="CharField">G50</field>
+    <field name="code_start" type="CharField">G59</field>
+    <field name="code_end" type="CharField">G50-G59</field>
+    <field name="code_name" type="CharField">Розлади нервів, нервових корінців та сплетінь</field>
+  </object>
+  <object model="medrecord.mkxcode2" pk="61">
+    <field name="code" type="CharField">G60</field>
+    <field name="code_start" type="CharField">G65</field>
+    <field name="code_end" type="CharField">G60-G65</field>
+    <field name="code_name" type="CharField">Поліневрити та інші хвороби періферійної нервової системи</field>
+  </object>
+  <object model="medrecord.mkxcode2" pk="62">
+    <field name="code" type="CharField">G70</field>
+    <field name="code_start" type="CharField">G73</field>
+    <field name="code_end" type="CharField">G70-G73</field>
+    <field name="code_name" type="CharField">Хвороби нервово-м'язових з'єднань</field>
+  </object>
+  <object model="medrecord.mkxcode2" pk="63">
+    <field name="code" type="CharField">G80</field>
+    <field name="code_start" type="CharField">G83</field>
+    <field name="code_end" type="CharField">G80-G83</field>
+    <field name="code_name" type="CharField">Церебральні паралічі та інші паралітичні синдроми</field>
+  </object>
+  <object model="medrecord.mkxcode2" pk="64">
+    <field name="code" type="CharField">G90</field>
+    <field name="code_start" type="CharField">G99</field>
+    <field name="code_end" type="CharField">G90-G99</field>
+    <field name="code_name" type="CharField">Інші хвороби нервової системи</field>
+  </object>
+  <object model="medrecord.mkxcode2" pk="65">
+    <field name="code" type="CharField">H00</field>
+    <field name="code_start" type="CharField">H06</field>
+    <field name="code_end" type="CharField">H00-H06</field>
+    <field name="code_name" type="CharField">Хвороби повіки, сльозного шляху та орбіти</field>
+  </object>
+  <object model="medrecord.mkxcode2" pk="66">
+    <field name="code" type="CharField">H10</field>
+    <field name="code_start" type="CharField">H13</field>
+    <field name="code_end" type="CharField">H10-H13</field>
+    <field name="code_name" type="CharField">Хвороби кон'юнктиви</field>
+  </object>
+  <object model="medrecord.mkxcode2" pk="67">
+    <field name="code" type="CharField">H15</field>
+    <field name="code_start" type="CharField">H22</field>
+    <field name="code_end" type="CharField">H15-H22</field>
+    <field name="code_name" type="CharField">Хвороби склери, рогівки, райдужної оболонки і ціліарного тіла</field>
+  </object>
+  <object model="medrecord.mkxcode2" pk="68">
+    <field name="code" type="CharField">H25</field>
+    <field name="code_start" type="CharField">H28</field>
+    <field name="code_end" type="CharField">H25-H28</field>
+    <field name="code_name" type="CharField">Хвороби кришталика</field>
+  </object>
+  <object model="medrecord.mkxcode2" pk="69">
+    <field name="code" type="CharField">H30</field>
+    <field name="code_start" type="CharField">H36</field>
+    <field name="code_end" type="CharField">H30-H36</field>
+    <field name="code_name" type="CharField">Ураження судинної оболонки ока і сітківки</field>
+  </object>
+  <object model="medrecord.mkxcode2" pk="70">
+    <field name="code" type="CharField">H40</field>
+    <field name="code_start" type="CharField">H42</field>
+    <field name="code_end" type="CharField">H40-H42</field>
+    <field name="code_name" type="CharField">Глаукома</field>
+  </object>
+  <object model="medrecord.mkxcode2" pk="71">
+    <field name="code" type="CharField">H43</field>
+    <field name="code_start" type="CharField">H45</field>
+    <field name="code_end" type="CharField">H43-H45</field>
+    <field name="code_name" type="CharField">Хвороби склоподібного тіла та очного яблука</field>
+  </object>
+  <object model="medrecord.mkxcode2" pk="72">
+    <field name="code" type="CharField">H46</field>
+    <field name="code_start" type="CharField">H48</field>
+    <field name="code_end" type="CharField">H46-H48</field>
+    <field name="code_name" type="CharField">Хвороби зорового нерва та зорових шляхів</field>
+  </object>
+  <object model="medrecord.mkxcode2" pk="73">
+    <field name="code" type="CharField">H49</field>
+    <field name="code_start" type="CharField">H52</field>
+    <field name="code_end" type="CharField">H49-H52</field>
+    <field name="code_name" type="CharField">Хвороби м'язів ока, порушення співдружності руху, акомодації і рефракції</field>
+  </object>
+  <object model="medrecord.mkxcode2" pk="74">
+    <field name="code" type="CharField">H53</field>
+    <field name="code_start" type="CharField">H54</field>
+    <field name="code_end" type="CharField">H53-H54</field>
+    <field name="code_name" type="CharField">Розлади зору і сліпота</field>
+  </object>
+  <object model="medrecord.mkxcode2" pk="75">
+    <field name="code" type="CharField">H55</field>
+    <field name="code_start" type="CharField">H59</field>
+    <field name="code_end" type="CharField">H55-H59</field>
+    <field name="code_name" type="CharField">Інші хвороби ока і придаткового апарату</field>
+  </object>
+  <object model="medrecord.mkxcode2" pk="76">
+    <field name="code" type="CharField">H60</field>
+    <field name="code_start" type="CharField">H62</field>
+    <field name="code_end" type="CharField">H60-H62</field>
+    <field name="code_name" type="CharField">Хвороби зовнішнього вуха</field>
+  </object>
+  <object model="medrecord.mkxcode2" pk="77">
+    <field name="code" type="CharField">H65</field>
+    <field name="code_start" type="CharField">H75</field>
+    <field name="code_end" type="CharField">H65-H75</field>
+    <field name="code_name" type="CharField">Хвороби середнього вуха і соскоподібного відростка</field>
+  </object>
+  <object model="medrecord.mkxcode2" pk="78">
+    <field name="code" type="CharField">H80</field>
+    <field name="code_start" type="CharField">H83</field>
+    <field name="code_end" type="CharField">H80-H83</field>
+    <field name="code_name" type="CharField">Хвороби внутрішнього вуха</field>
+  </object>
+  <object model="medrecord.mkxcode2" pk="79">
+    <field name="code" type="CharField">H90</field>
+    <field name="code_start" type="CharField">H95</field>
+    <field name="code_end" type="CharField">H90-H95</field>
+    <field name="code_name" type="CharField">Інші хвороби вуха</field>
+  </object>
+  <object model="medrecord.mkxcode2" pk="80">
+    <field name="code" type="CharField">I00</field>
+    <field name="code_start" type="CharField">I04</field>
+    <field name="code_end" type="CharField">I00-I04</field>
+    <field name="code_name" type="CharField">Гострий ревматизм</field>
+  </object>
+  <object model="medrecord.mkxcode2" pk="81">
+    <field name="code" type="CharField">I05</field>
+    <field name="code_start" type="CharField">I09</field>
+    <field name="code_end" type="CharField">I05-I09</field>
+    <field name="code_name" type="CharField">Хронічні ревматичні хвороби серця</field>
+  </object>
+  <object model="medrecord.mkxcode2" pk="82">
+    <field name="code" type="CharField">I10</field>
+    <field name="code_start" type="CharField">I19</field>
+    <field name="code_end" type="CharField">I10-I19</field>
+    <field name="code_name" type="CharField">Гіпертонічна хвороба</field>
+  </object>
+  <object model="medrecord.mkxcode2" pk="83">
+    <field name="code" type="CharField">I20</field>
+    <field name="code_start" type="CharField">I25</field>
+    <field name="code_end" type="CharField">I20-I25</field>
+    <field name="code_name" type="CharField">Ішемічна хвороба серця</field>
+  </object>
+  <object model="medrecord.mkxcode2" pk="84">
+    <field name="code" type="CharField">I26</field>
+    <field name="code_start" type="CharField">I28</field>
+    <field name="code_end" type="CharField">I26-I28</field>
+    <field name="code_name" type="CharField">Легенево-серцева недостатність та хвороби малого кола кровообігу</field>
+  </object>
+  <object model="medrecord.mkxcode2" pk="85">
+    <field name="code" type="CharField">I30</field>
+    <field name="code_start" type="CharField">I52</field>
+    <field name="code_end" type="CharField">I30-I52</field>
+    <field name="code_name" type="CharField">Інші хвороби серця</field>
+  </object>
+  <object model="medrecord.mkxcode2" pk="86">
+    <field name="code" type="CharField">I60</field>
+    <field name="code_start" type="CharField">I69</field>
+    <field name="code_end" type="CharField">I60-I69</field>
+    <field name="code_name" type="CharField">Ураження судин головного мозку</field>
+  </object>
+  <object model="medrecord.mkxcode2" pk="87">
+    <field name="code" type="CharField">I70</field>
+    <field name="code_start" type="CharField">I79</field>
+    <field name="code_end" type="CharField">I70-I79</field>
+    <field name="code_name" type="CharField">Хвороби артерій, артеріол та капілярів</field>
+  </object>
+  <object model="medrecord.mkxcode2" pk="88">
+    <field name="code" type="CharField">I80</field>
+    <field name="code_start" type="CharField">I89</field>
+    <field name="code_end" type="CharField">I80-I89</field>
+    <field name="code_name" type="CharField">Хвороби вен, лімфатичних судин та лімфовузлів, не класифіковані в інших рубриках</field>
+  </object>
+  <object model="medrecord.mkxcode2" pk="89">
+    <field name="code" type="CharField">I95</field>
+    <field name="code_start" type="CharField">I99</field>
+    <field name="code_end" type="CharField">I95-I99</field>
+    <field name="code_name" type="CharField">Інші та неуточнені порушення системи кровообігу</field>
+  </object>
+  <object model="medrecord.mkxcode2" pk="90">
+    <field name="code" type="CharField">J00</field>
+    <field name="code_start" type="CharField">J06</field>
+    <field name="code_end" type="CharField">J00-J06</field>
+    <field name="code_name" type="CharField">Гострі респіраторні захворювання верхніх дихальних шляхів</field>
+  </object>
+  <object model="medrecord.mkxcode2" pk="91">
+    <field name="code" type="CharField">J10</field>
+    <field name="code_start" type="CharField">J18</field>
+    <field name="code_end" type="CharField">J10-J18</field>
+    <field name="code_name" type="CharField">Грип та пневмонія</field>
+  </object>
+  <object model="medrecord.mkxcode2" pk="92">
+    <field name="code" type="CharField">J20</field>
+    <field name="code_start" type="CharField">J22</field>
+    <field name="code_end" type="CharField">J20-J22</field>
+    <field name="code_name" type="CharField">Інші гострі респіраторні інфекції нижніх дихальних шляхів</field>
+  </object>
+  <object model="medrecord.mkxcode2" pk="93">
+    <field name="code" type="CharField">J30</field>
+    <field name="code_start" type="CharField">J39</field>
+    <field name="code_end" type="CharField">J30-J39</field>
+    <field name="code_name" type="CharField">Інші хвороби верхніх дихальних шляхів</field>
+  </object>
+  <object model="medrecord.mkxcode2" pk="94">
+    <field name="code" type="CharField">J40</field>
+    <field name="code_start" type="CharField">J47</field>
+    <field name="code_end" type="CharField">J40-J47</field>
+    <field name="code_name" type="CharField">Хронічні хвороби нижніх дихальних шляхів</field>
+  </object>
+  <object model="medrecord.mkxcode2" pk="95">
+    <field name="code" type="CharField">J60</field>
+    <field name="code_start" type="CharField">J70</field>
+    <field name="code_end" type="CharField">J60-J70</field>
+    <field name="code_name" type="CharField">Хвороби легень, внаслідок зовнішніх факторів</field>
+  </object>
+  <object model="medrecord.mkxcode2" pk="96">
+    <field name="code" type="CharField">J80</field>
+    <field name="code_start" type="CharField">J84</field>
+    <field name="code_end" type="CharField">J80-J84</field>
+    <field name="code_name" type="CharField">Інші респіраторні хвороби, які травмують інтерстиціальну тканину</field>
+  </object>
+  <object model="medrecord.mkxcode2" pk="97">
+    <field name="code" type="CharField">J85</field>
+    <field name="code_start" type="CharField">J86</field>
+    <field name="code_end" type="CharField">J85-J86</field>
+    <field name="code_name" type="CharField">Гнійні захворювання нижніх дихальних шляхів</field>
+  </object>
+  <object model="medrecord.mkxcode2" pk="98">
+    <field name="code" type="CharField">J90</field>
+    <field name="code_start" type="CharField">J94</field>
+    <field name="code_end" type="CharField">J90-J94</field>
+    <field name="code_name" type="CharField">Інші хвороби плеври</field>
+  </object>
+  <object model="medrecord.mkxcode2" pk="99">
+    <field name="code" type="CharField">J95</field>
+    <field name="code_start" type="CharField">J99</field>
+    <field name="code_end" type="CharField">J95-J99</field>
+    <field name="code_name" type="CharField">Інші хвороби органів дихання</field>
+  </object>
+  <object model="medrecord.mkxcode2" pk="100">
+    <field name="code" type="CharField">K00</field>
+    <field name="code_start" type="CharField">K14</field>
+    <field name="code_end" type="CharField">K00-K14</field>
+    <field name="code_name" type="CharField">Хвороби порожнини рота, слинних залоз та щелеп</field>
+  </object>
+  <object model="medrecord.mkxcode2" pk="101">
+    <field name="code" type="CharField">K20</field>
+    <field name="code_start" type="CharField">K31</field>
+    <field name="code_end" type="CharField">K20-K31</field>
+    <field name="code_name" type="CharField">Хвороби стравоходу, шлунку та дванадцятипалої кишки</field>
+  </object>
+  <object model="medrecord.mkxcode2" pk="102">
+    <field name="code" type="CharField">K35</field>
+    <field name="code_start" type="CharField">K38</field>
+    <field name="code_end" type="CharField">K35-K38</field>
+    <field name="code_name" type="CharField">Хвороби апендікса</field>
+  </object>
+  <object model="medrecord.mkxcode2" pk="103">
+    <field name="code" type="CharField">K40</field>
+    <field name="code_start" type="CharField">K46</field>
+    <field name="code_end" type="CharField">K40-K46</field>
+    <field name="code_name" type="CharField">Грижі</field>
+  </object>
+  <object model="medrecord.mkxcode2" pk="104">
+    <field name="code" type="CharField">K50</field>
+    <field name="code_start" type="CharField">K46</field>
+    <field name="code_end" type="CharField">K50-K46</field>
+    <field name="code_name" type="CharField">Неінфекційний ентерит та коліт</field>
+  </object>
+  <object model="medrecord.mkxcode2" pk="105">
+    <field name="code" type="CharField">K55</field>
+    <field name="code_start" type="CharField">K63</field>
+    <field name="code_end" type="CharField">K55-K63</field>
+    <field name="code_name" type="CharField">Інші хвороби кишок</field>
+  </object>
+  <object model="medrecord.mkxcode2" pk="106">
+    <field name="code" type="CharField">K65</field>
+    <field name="code_start" type="CharField">K67</field>
+    <field name="code_end" type="CharField">K65-K67</field>
+    <field name="code_name" type="CharField">Хвороби черевної порожини</field>
+  </object>
+  <object model="medrecord.mkxcode2" pk="107">
+    <field name="code" type="CharField">K70</field>
+    <field name="code_start" type="CharField">K77</field>
+    <field name="code_end" type="CharField">K70-K77</field>
+    <field name="code_name" type="CharField">Хвороби печінки</field>
+  </object>
+  <object model="medrecord.mkxcode2" pk="108">
+    <field name="code" type="CharField">K80</field>
+    <field name="code_start" type="CharField">K87</field>
+    <field name="code_end" type="CharField">K80-K87</field>
+    <field name="code_name" type="CharField">Хвороби жовчного міхура, жовчовивідних шляхів та підшлункової залози</field>
+  </object>
+  <object model="medrecord.mkxcode2" pk="109">
+    <field name="code" type="CharField">K90</field>
+    <field name="code_start" type="CharField">K93</field>
+    <field name="code_end" type="CharField">K90-K93</field>
+    <field name="code_name" type="CharField">Інші хвороби органів травлення</field>
+  </object>
+  <object model="medrecord.mkxcode2" pk="110">
+    <field name="code" type="CharField">L00</field>
+    <field name="code_start" type="CharField">L08</field>
+    <field name="code_end" type="CharField">L00-L08</field>
+    <field name="code_name" type="CharField">Інфекційні хвороби шкіри та підшкірної клітковини</field>
+  </object>
+  <object model="medrecord.mkxcode2" pk="111">
+    <field name="code" type="CharField">L10</field>
+    <field name="code_start" type="CharField">L14</field>
+    <field name="code_end" type="CharField">L10-L14</field>
+    <field name="code_name" type="CharField">Бульозні порушення</field>
+  </object>
+  <object model="medrecord.mkxcode2" pk="112">
+    <field name="code" type="CharField">L20</field>
+    <field name="code_start" type="CharField">L30</field>
+    <field name="code_end" type="CharField">L20-L30</field>
+    <field name="code_name" type="CharField">Дерматит та екзема</field>
+  </object>
+  <object model="medrecord.mkxcode2" pk="113">
+    <field name="code" type="CharField">L40</field>
+    <field name="code_start" type="CharField">L45</field>
+    <field name="code_end" type="CharField">L40-L45</field>
+    <field name="code_name" type="CharField">Папулосквамозні порушення</field>
+  </object>
+  <object model="medrecord.mkxcode2" pk="114">
+    <field name="code" type="CharField">L50</field>
+    <field name="code_start" type="CharField">L54</field>
+    <field name="code_end" type="CharField">L50-L54</field>
+    <field name="code_name" type="CharField">Кропивниця та еритема</field>
+  </object>
+  <object model="medrecord.mkxcode2" pk="115">
+    <field name="code" type="CharField">L55</field>
+    <field name="code_start" type="CharField">L59</field>
+    <field name="code_end" type="CharField">L55-L59</field>
+    <field name="code_name" type="CharField">Ураження шкіри та підшкірної клітковини, пов'язані з опромінюванням</field>
+  </object>
+  <object model="medrecord.mkxcode2" pk="116">
+    <field name="code" type="CharField">L60</field>
+    <field name="code_start" type="CharField">L79</field>
+    <field name="code_end" type="CharField">L60-L79</field>
+    <field name="code_name" type="CharField">Ураження придатків шкіри</field>
+  </object>
+  <object model="medrecord.mkxcode2" pk="117">
+    <field name="code" type="CharField">L80</field>
+    <field name="code_start" type="CharField">L99</field>
+    <field name="code_end" type="CharField">L80-L99</field>
+    <field name="code_name" type="CharField">Інші хвороби шкіри та підшкірної клітковини</field>
+  </object>
+  <object model="medrecord.mkxcode2" pk="118">
+    <field name="code" type="CharField">M00</field>
+    <field name="code_start" type="CharField">M25</field>
+    <field name="code_end" type="CharField">M00-M25</field>
+    <field name="code_name" type="CharField">Артропатії</field>
+  </object>
+  <object model="medrecord.mkxcode2" pk="119">
+    <field name="code" type="CharField">M30</field>
+    <field name="code_start" type="CharField">M36</field>
+    <field name="code_end" type="CharField">M30-M36</field>
+    <field name="code_name" type="CharField">Системні хвороби сполученої тканини</field>
+  </object>
+  <object model="medrecord.mkxcode2" pk="120">
+    <field name="code" type="CharField">M40</field>
+    <field name="code_start" type="CharField">M54</field>
+    <field name="code_end" type="CharField">M40-M54</field>
+    <field name="code_name" type="CharField">Дорсопатії</field>
+  </object>
+  <object model="medrecord.mkxcode2" pk="121">
+    <field name="code" type="CharField">M60</field>
+    <field name="code_start" type="CharField">M79</field>
+    <field name="code_end" type="CharField">M60-M79</field>
+    <field name="code_name" type="CharField">Хвороби м'яких тканин</field>
+  </object>
+  <object model="medrecord.mkxcode2" pk="122">
+    <field name="code" type="CharField">M80</field>
+    <field name="code_start" type="CharField">M94</field>
+    <field name="code_end" type="CharField">M80-M94</field>
+    <field name="code_name" type="CharField">Остеопатії та хондропатії</field>
+  </object>
+  <object model="medrecord.mkxcode2" pk="123">
+    <field name="code" type="CharField">M95</field>
+    <field name="code_start" type="CharField">M99</field>
+    <field name="code_end" type="CharField">M95-M99</field>
+    <field name="code_name" type="CharField">Інші порушення кістково-м'язової системи та сполученої тканини</field>
+  </object>
+  <object model="medrecord.mkxcode2" pk="124">
+    <field name="code" type="CharField">N00</field>
+    <field name="code_start" type="CharField">M08</field>
+    <field name="code_end" type="CharField">N00-M08</field>
+    <field name="code_name" type="CharField">Гломерулярні хвороби</field>
+  </object>
+  <object model="medrecord.mkxcode2" pk="125">
+    <field name="code" type="CharField">N10</field>
+    <field name="code_start" type="CharField">N16</field>
+    <field name="code_end" type="CharField">N10-N16</field>
+    <field name="code_name" type="CharField">Ниркові тубулоінтерстиціальні хвороби</field>
+  </object>
+  <object model="medrecord.mkxcode2" pk="126">
+    <field name="code" type="CharField">N17</field>
+    <field name="code_start" type="CharField">N19</field>
+    <field name="code_end" type="CharField">N17-N19</field>
+    <field name="code_name" type="CharField">Ниркова недостатність</field>
+  </object>
+  <object model="medrecord.mkxcode2" pk="127">
+    <field name="code" type="CharField">N20</field>
+    <field name="code_start" type="CharField">N23</field>
+    <field name="code_end" type="CharField">N20-N23</field>
+    <field name="code_name" type="CharField">Сечокам'яна хвороба</field>
+  </object>
+  <object model="medrecord.mkxcode2" pk="128">
+    <field name="code" type="CharField">N25</field>
+    <field name="code_start" type="CharField">N29</field>
+    <field name="code_end" type="CharField">N25-N29</field>
+    <field name="code_name" type="CharField">Інші ураження нирки та сечоводів</field>
+  </object>
+  <object model="medrecord.mkxcode2" pk="129">
+    <field name="code" type="CharField">N30</field>
+    <field name="code_start" type="CharField">N39</field>
+    <field name="code_end" type="CharField">N30-N39</field>
+    <field name="code_name" type="CharField">Інші хвороби сечовивідної системи</field>
+  </object>
+  <object model="medrecord.mkxcode2" pk="130">
+    <field name="code" type="CharField">N40</field>
+    <field name="code_start" type="CharField">N54</field>
+    <field name="code_end" type="CharField">N40-N54</field>
+    <field name="code_name" type="CharField">Хвороби чоловічих статевих органів</field>
+  </object>
+  <object model="medrecord.mkxcode2" pk="131">
+    <field name="code" type="CharField">N60</field>
+    <field name="code_start" type="CharField">N64</field>
+    <field name="code_end" type="CharField">N60-N64</field>
+    <field name="code_name" type="CharField">Хвороби молочної залози</field>
+  </object>
+  <object model="medrecord.mkxcode2" pk="132">
+    <field name="code" type="CharField">N70</field>
+    <field name="code_start" type="CharField">N77</field>
+    <field name="code_end" type="CharField">N70-N77</field>
+    <field name="code_name" type="CharField">Запальні хвороби органів малого тазу у жінок</field>
+  </object>
+  <object model="medrecord.mkxcode2" pk="133">
+    <field name="code" type="CharField">N80</field>
+    <field name="code_start" type="CharField">N98</field>
+    <field name="code_end" type="CharField">N80-N98</field>
+    <field name="code_name" type="CharField">Незапальні хвороби жіночих статевих органів</field>
+  </object>
+  <object model="medrecord.mkxcode2" pk="134">
+    <field name="code" type="CharField">N99</field>
+    <field name="code_start" type="CharField">N99</field>
+    <field name="code_end" type="CharField">N99-N99</field>
+    <field name="code_name" type="CharField">Інші порушення сечостатевої системи</field>
+  </object>
+  <object model="medrecord.mkxcode2" pk="135">
+    <field name="code" type="CharField">O00</field>
+    <field name="code_start" type="CharField">O08</field>
+    <field name="code_end" type="CharField">O00-O08</field>
+    <field name="code_name" type="CharField">Вагітність з абортивним наслідком</field>
+  </object>
+  <object model="medrecord.mkxcode2" pk="136">
+    <field name="code" type="CharField">O10</field>
+    <field name="code_start" type="CharField">O16</field>
+    <field name="code_end" type="CharField">O10-O16</field>
+    <field name="code_name" type="CharField">Набряк, протеїнурія та гіпертензія при вагітності, пологах та в післяпологовому періоді</field>
+  </object>
+  <object model="medrecord.mkxcode2" pk="137">
+    <field name="code" type="CharField">O20</field>
+    <field name="code_start" type="CharField">O29</field>
+    <field name="code_end" type="CharField">O20-O29</field>
+    <field name="code_name" type="CharField">Iнші материнські розлади, переважно пов'язані з вагітністю</field>
+  </object>
+  <object model="medrecord.mkxcode2" pk="138">
+    <field name="code" type="CharField">O30</field>
+    <field name="code_start" type="CharField">O48</field>
+    <field name="code_end" type="CharField">O30-O48</field>
+    <field name="code_name" type="CharField">Стан плоду, амніостичної порожнини і можливі ускладнення пологів, що потребують допомоги матері</field>
+  </object>
+  <object model="medrecord.mkxcode2" pk="139">
+    <field name="code" type="CharField">O60</field>
+    <field name="code_start" type="CharField">O75</field>
+    <field name="code_end" type="CharField">O60-O75</field>
+    <field name="code_name" type="CharField">Ускладнення пологової діяльності та пологів</field>
+  </object>
+  <object model="medrecord.mkxcode2" pk="140">
+    <field name="code" type="CharField">O80</field>
+    <field name="code_start" type="CharField">O84</field>
+    <field name="code_end" type="CharField">O80-O84</field>
+    <field name="code_name" type="CharField">Характер розродження</field>
+  </object>
+  <object model="medrecord.mkxcode2" pk="141">
+    <field name="code" type="CharField">O85</field>
+    <field name="code_start" type="CharField">O92</field>
+    <field name="code_end" type="CharField">O85-O92</field>
+    <field name="code_name" type="CharField">Ускладнення, переважно пов'язані з післяпологовим періодом</field>
+  </object>
+  <object model="medrecord.mkxcode2" pk="142">
+    <field name="code" type="CharField">O95</field>
+    <field name="code_start" type="CharField">O99</field>
+    <field name="code_end" type="CharField">O95-O99</field>
+    <field name="code_name" type="CharField">Інші акушерські стани, не класифіковані в інших рубриках</field>
+  </object>
+  <object model="medrecord.mkxcode2" pk="143">
+    <field name="code" type="CharField">P00</field>
+    <field name="code_start" type="CharField">P04</field>
+    <field name="code_end" type="CharField">P00-P04</field>
+    <field name="code_name" type="CharField">Ураження плоду та новонародженого, обумовлені станом матері та ускладненнями вагітності, пологової діяльності та факторами розродження</field>
+  </object>
+  <object model="medrecord.mkxcode2" pk="144">
+    <field name="code" type="CharField">P05</field>
+    <field name="code_start" type="CharField">P08</field>
+    <field name="code_end" type="CharField">P05-P08</field>
+    <field name="code_name" type="CharField">Розлади, пов'язані з тривалістю вагітності та розміром плода</field>
+  </object>
+  <object model="medrecord.mkxcode2" pk="145">
+    <field name="code" type="CharField">P10</field>
+    <field name="code_start" type="CharField">P15</field>
+    <field name="code_end" type="CharField">P10-P15</field>
+    <field name="code_name" type="CharField">Пологова травма</field>
+  </object>
+  <object model="medrecord.mkxcode2" pk="146">
+    <field name="code" type="CharField">P20</field>
+    <field name="code_start" type="CharField">P29</field>
+    <field name="code_end" type="CharField">P20-P29</field>
+    <field name="code_name" type="CharField">Розлади дихальної та серцево-судинної системи, що виникають у перинатальному періоді</field>
+  </object>
+  <object model="medrecord.mkxcode2" pk="147">
+    <field name="code" type="CharField">P35</field>
+    <field name="code_start" type="CharField">P39</field>
+    <field name="code_end" type="CharField">P35-P39</field>
+    <field name="code_name" type="CharField">Інфекції, характерні для перинатального періоду</field>
+  </object>
+  <object model="medrecord.mkxcode2" pk="148">
+    <field name="code" type="CharField">P50</field>
+    <field name="code_start" type="CharField">P61</field>
+    <field name="code_end" type="CharField">P50-P61</field>
+    <field name="code_name" type="CharField">Геморагічні та гематологічні порушення у плода та новонародженого</field>
+  </object>
+  <object model="medrecord.mkxcode2" pk="149">
+    <field name="code" type="CharField">P70</field>
+    <field name="code_start" type="CharField">P74</field>
+    <field name="code_end" type="CharField">P70-P74</field>
+    <field name="code_name" type="CharField">Транзиторні ендокринні розлади та порушення обміну речовин, характерні для плода чи новонародженого</field>
+  </object>
+  <object model="medrecord.mkxcode2" pk="150">
+    <field name="code" type="CharField">P75</field>
+    <field name="code_start" type="CharField">P78</field>
+    <field name="code_end" type="CharField">P75-P78</field>
+    <field name="code_name" type="CharField">Розлади системи травлення у плода та новонародженого</field>
+  </object>
+  <object model="medrecord.mkxcode2" pk="151">
+    <field name="code" type="CharField">P80</field>
+    <field name="code_start" type="CharField">P83</field>
+    <field name="code_end" type="CharField">P80-P83</field>
+    <field name="code_name" type="CharField">Стани, що торкаються шкірного покриву та терморегуляції у плода та новонародженого</field>
+  </object>
+  <object model="medrecord.mkxcode2" pk="152">
+    <field name="code" type="CharField">P90</field>
+    <field name="code_start" type="CharField">P96</field>
+    <field name="code_end" type="CharField">P90-P96</field>
+    <field name="code_name" type="CharField">Інші розлади, що виникають у перинатальному періоді</field>
+  </object>
+  <object model="medrecord.mkxcode2" pk="153">
+    <field name="code" type="CharField">Q00</field>
+    <field name="code_start" type="CharField">Q07</field>
+    <field name="code_end" type="CharField">Q00-Q07</field>
+    <field name="code_name" type="CharField">Вроджені вади розвитку нервової системи</field>
+  </object>
+  <object model="medrecord.mkxcode2" pk="154">
+    <field name="code" type="CharField">Q10</field>
+    <field name="code_start" type="CharField">Q18</field>
+    <field name="code_end" type="CharField">Q10-Q18</field>
+    <field name="code_name" type="CharField">Вроджені вади розвитку ока, вуха, обличчя та шиї</field>
+  </object>
+  <object model="medrecord.mkxcode2" pk="155">
+    <field name="code" type="CharField">Q20</field>
+    <field name="code_start" type="CharField">Q28</field>
+    <field name="code_end" type="CharField">Q20-Q28</field>
+    <field name="code_name" type="CharField">Вроджені вади розвитку системи кровообігу</field>
+  </object>
+  <object model="medrecord.mkxcode2" pk="156">
+    <field name="code" type="CharField">Q30</field>
+    <field name="code_start" type="CharField">Q34</field>
+    <field name="code_end" type="CharField">Q30-Q34</field>
+    <field name="code_name" type="CharField">Вроджені вади розвитку дихальної системи</field>
+  </object>
+  <object model="medrecord.mkxcode2" pk="157">
+    <field name="code" type="CharField">Q35</field>
+    <field name="code_start" type="CharField">Q37</field>
+    <field name="code_end" type="CharField">Q35-Q37</field>
+    <field name="code_name" type="CharField">Заяча губа та розщілина піднебіння</field>
+  </object>
+  <object model="medrecord.mkxcode2" pk="158">
+    <field name="code" type="CharField">Q38</field>
+    <field name="code_start" type="CharField">Q45</field>
+    <field name="code_end" type="CharField">Q38-Q45</field>
+    <field name="code_name" type="CharField">Iнші природжені вади розвитку органів травлення</field>
+  </object>
+  <object model="medrecord.mkxcode2" pk="159">
+    <field name="code" type="CharField">Q50</field>
+    <field name="code_start" type="CharField">Q56</field>
+    <field name="code_end" type="CharField">Q50-Q56</field>
+    <field name="code_name" type="CharField">Вроджені вади розвитку статевих органів</field>
+  </object>
+  <object model="medrecord.mkxcode2" pk="160">
+    <field name="code" type="CharField">Q60</field>
+    <field name="code_start" type="CharField">Q64</field>
+    <field name="code_end" type="CharField">Q60-Q64</field>
+    <field name="code_name" type="CharField">Вроджені вади розвитку сечовивідної системи</field>
+  </object>
+  <object model="medrecord.mkxcode2" pk="161">
+    <field name="code" type="CharField">Q65</field>
+    <field name="code_start" type="CharField">Q79</field>
+    <field name="code_end" type="CharField">Q65-Q79</field>
+    <field name="code_name" type="CharField">Вроджені вади розвитку та деформації кістково-м'язової системи</field>
+  </object>
+  <object model="medrecord.mkxcode2" pk="162">
+    <field name="code" type="CharField">Q80</field>
+    <field name="code_start" type="CharField">Q89</field>
+    <field name="code_end" type="CharField">Q80-Q89</field>
+    <field name="code_name" type="CharField">Інші природжені вади розвитку</field>
+  </object>
+  <object model="medrecord.mkxcode2" pk="163">
+    <field name="code" type="CharField">Q90</field>
+    <field name="code_start" type="CharField">Q99</field>
+    <field name="code_end" type="CharField">Q90-Q99</field>
+    <field name="code_name" type="CharField">Хромосомні аномалії, не класифіковані в інших рубриках</field>
+  </object>
+  <object model="medrecord.mkxcode2" pk="164">
+    <field name="code" type="CharField">R00</field>
+    <field name="code_start" type="CharField">R09</field>
+    <field name="code_end" type="CharField">R00-R09</field>
+    <field name="code_name" type="CharField">Симптоми та ознаки, що відносяться до серцево судинної системи та системи органів дихання</field>
+  </object>
+  <object model="medrecord.mkxcode2" pk="165">
+    <field name="code" type="CharField">R10</field>
+    <field name="code_start" type="CharField">R19</field>
+    <field name="code_end" type="CharField">R10-R19</field>
+    <field name="code_name" type="CharField">Симптоми та ознаки, що відносяться до органів травлення та ділянки живота</field>
+  </object>
+  <object model="medrecord.mkxcode2" pk="166">
+    <field name="code" type="CharField">R20</field>
+    <field name="code_start" type="CharField">R23</field>
+    <field name="code_end" type="CharField">R20-R23</field>
+    <field name="code_name" type="CharField">Симптоми та ознаки, що відносяться до шкіри та підшкірної тканини</field>
+  </object>
+  <object model="medrecord.mkxcode2" pk="167">
+    <field name="code" type="CharField">R25</field>
+    <field name="code_start" type="CharField">R29</field>
+    <field name="code_end" type="CharField">R25-R29</field>
+    <field name="code_name" type="CharField">Симптоми та ознаки, що відносяться до нервової та кістково-м'язової систем</field>
+  </object>
+  <object model="medrecord.mkxcode2" pk="168">
+    <field name="code" type="CharField">R30</field>
+    <field name="code_start" type="CharField">R39</field>
+    <field name="code_end" type="CharField">R30-R39</field>
+    <field name="code_name" type="CharField">Симптоми та ознаки, що відносяться до системи сечовиділення</field>
+  </object>
+  <object model="medrecord.mkxcode2" pk="169">
+    <field name="code" type="CharField">R40</field>
+    <field name="code_start" type="CharField">R46</field>
+    <field name="code_end" type="CharField">R40-R46</field>
+    <field name="code_name" type="CharField">Симптоми та ознаки, що відносяться до пізнавальних здібностей, відчуття емоційного стану та поведінки</field>
+  </object>
+  <object model="medrecord.mkxcode2" pk="170">
+    <field name="code" type="CharField">R47</field>
+    <field name="code_start" type="CharField">R49</field>
+    <field name="code_end" type="CharField">R47-R49</field>
+    <field name="code_name" type="CharField">Симптоми та ознаки, що відносяться до мови та голосу</field>
+  </object>
+  <object model="medrecord.mkxcode2" pk="171">
+    <field name="code" type="CharField">R50</field>
+    <field name="code_start" type="CharField">R69</field>
+    <field name="code_end" type="CharField">R50-R69</field>
+    <field name="code_name" type="CharField">Загальні симптоми та ознаки</field>
+  </object>
+  <object model="medrecord.mkxcode2" pk="172">
+    <field name="code" type="CharField">R70</field>
+    <field name="code_start" type="CharField">R79</field>
+    <field name="code_end" type="CharField">R70-R79</field>
+    <field name="code_name" type="CharField">Відхилення від норми, виявлені при дослідженні крові, якщо діагноз хвороби не встановлено</field>
+  </object>
+  <object model="medrecord.mkxcode2" pk="173">
+    <field name="code" type="CharField">R80</field>
+    <field name="code_start" type="CharField">R82</field>
+    <field name="code_end" type="CharField">R80-R82</field>
+    <field name="code_name" type="CharField">Відхилення від норми, виявлені при дослідженні сечі, якщо діагноз хвороби не встановлено</field>
+  </object>
+  <object model="medrecord.mkxcode2" pk="174">
+    <field name="code" type="CharField">R83</field>
+    <field name="code_start" type="CharField">R89</field>
+    <field name="code_end" type="CharField">R83-R89</field>
+    <field name="code_name" type="CharField">Відхилення від норми, виявлені при дослідженні інших рідин, субстанцій та тканин організму, якщо діагноз хвороби не встановлено</field>
+  </object>
+  <object model="medrecord.mkxcode2" pk="175">
+    <field name="code" type="CharField">R90</field>
+    <field name="code_start" type="CharField">R94</field>
+    <field name="code_end" type="CharField">R90-R94</field>
+    <field name="code_name" type="CharField">Відхилення від норми, виявлені при діагностичній інтероскопії та функціональних дослідженнях, якщо діагноз хвороби не встановлено</field>
+  </object>
+  <object model="medrecord.mkxcode2" pk="176">
+    <field name="code" type="CharField">R95</field>
+    <field name="code_start" type="CharField">R99</field>
+    <field name="code_end" type="CharField">R95-R99</field>
+    <field name="code_name" type="CharField">Неуточнені та невідомі причини смерті</field>
+  </object>
+  <object model="medrecord.mkxcode2" pk="177">
+    <field name="code" type="CharField">S00</field>
+    <field name="code_start" type="CharField">S09</field>
+    <field name="code_end" type="CharField">S00-S09</field>
+    <field name="code_name" type="CharField">Травми голови</field>
+  </object>
+  <object model="medrecord.mkxcode2" pk="178">
+    <field name="code" type="CharField">S10</field>
+    <field name="code_start" type="CharField">S19</field>
+    <field name="code_end" type="CharField">S10-S19</field>
+    <field name="code_name" type="CharField">Травми шиї</field>
+  </object>
+  <object model="medrecord.mkxcode2" pk="179">
+    <field name="code" type="CharField">S20</field>
+    <field name="code_start" type="CharField">S29</field>
+    <field name="code_end" type="CharField">S20-S29</field>
+    <field name="code_name" type="CharField">Травми грудної клітки</field>
+  </object>
+  <object model="medrecord.mkxcode2" pk="180">
+    <field name="code" type="CharField">S30</field>
+    <field name="code_start" type="CharField">S39</field>
+    <field name="code_end" type="CharField">S30-S39</field>
+    <field name="code_name" type="CharField">Травми живота, нижньої частини спини, поперекового відділу хребта та тазу</field>
+  </object>
+  <object model="medrecord.mkxcode2" pk="181">
+    <field name="code" type="CharField">S40</field>
+    <field name="code_start" type="CharField">S49</field>
+    <field name="code_end" type="CharField">S40-S49</field>
+    <field name="code_name" type="CharField">Травми плеча та плечового поясу</field>
+  </object>
+  <object model="medrecord.mkxcode2" pk="182">
+    <field name="code" type="CharField">S50</field>
+    <field name="code_start" type="CharField">S59</field>
+    <field name="code_end" type="CharField">S50-S59</field>
+    <field name="code_name" type="CharField">Травми ліктя та передпліччя</field>
+  </object>
+  <object model="medrecord.mkxcode2" pk="183">
+    <field name="code" type="CharField">S60</field>
+    <field name="code_start" type="CharField">S69</field>
+    <field name="code_end" type="CharField">S60-S69</field>
+    <field name="code_name" type="CharField">Травми зап'ястя та кисті</field>
+  </object>
+  <object model="medrecord.mkxcode2" pk="184">
+    <field name="code" type="CharField">S70</field>
+    <field name="code_start" type="CharField">S79</field>
+    <field name="code_end" type="CharField">S70-S79</field>
+    <field name="code_name" type="CharField">Травми ділянки тазостегнового суглоба та стегна</field>
+  </object>
+  <object model="medrecord.mkxcode2" pk="185">
+    <field name="code" type="CharField">S80</field>
+    <field name="code_start" type="CharField">S89</field>
+    <field name="code_end" type="CharField">S80-S89</field>
+    <field name="code_name" type="CharField">Травми коліна та гомілки</field>
+  </object>
+  <object model="medrecord.mkxcode2" pk="186">
+    <field name="code" type="CharField">S90</field>
+    <field name="code_start" type="CharField">S99</field>
+    <field name="code_end" type="CharField">S90-S99</field>
+    <field name="code_name" type="CharField">Травми гомілковостопного суглоба та стопи</field>
+  </object>
+  <object model="medrecord.mkxcode2" pk="187">
+    <field name="code" type="CharField">T00</field>
+    <field name="code_start" type="CharField">T07</field>
+    <field name="code_end" type="CharField">T00-T07</field>
+    <field name="code_name" type="CharField">Травми, що уражають декілька ділянок тіла</field>
+  </object>
+  <object model="medrecord.mkxcode2" pk="188">
+    <field name="code" type="CharField">T08</field>
+    <field name="code_start" type="CharField">T14</field>
+    <field name="code_end" type="CharField">T08-T14</field>
+    <field name="code_name" type="CharField">Травми неуточнених частин тулуба, кінцівки або іншої ділянки тіла</field>
+  </object>
+  <object model="medrecord.mkxcode2" pk="189">
+    <field name="code" type="CharField">T15</field>
+    <field name="code_start" type="CharField">T19</field>
+    <field name="code_end" type="CharField">T15-T19</field>
+    <field name="code_name" type="CharField">Наслідки попадання стороннього тіла через природній отвір</field>
+  </object>
+  <object model="medrecord.mkxcode2" pk="190">
+    <field name="code" type="CharField">T20</field>
+    <field name="code_start" type="CharField">T32</field>
+    <field name="code_end" type="CharField">T20-T32</field>
+    <field name="code_name" type="CharField">Термічні та хімічні опіки</field>
+  </object>
+  <object model="medrecord.mkxcode2" pk="191">
+    <field name="code" type="CharField">T33</field>
+    <field name="code_start" type="CharField">T35</field>
+    <field name="code_end" type="CharField">T33-T35</field>
+    <field name="code_name" type="CharField">Відмороження</field>
+  </object>
+  <object model="medrecord.mkxcode2" pk="192">
+    <field name="code" type="CharField">T36</field>
+    <field name="code_start" type="CharField">T50</field>
+    <field name="code_end" type="CharField">T36-T50</field>
+    <field name="code_name" type="CharField">Отруєння лікувальними засобами, медикаментами та біологічними субстанціями</field>
+  </object>
+  <object model="medrecord.mkxcode2" pk="193">
+    <field name="code" type="CharField">T51</field>
+    <field name="code_start" type="CharField">T65</field>
+    <field name="code_end" type="CharField">T51-T65</field>
+    <field name="code_name" type="CharField">Токсична дія речовин, переважно немедичного призначення</field>
+  </object>
+  <object model="medrecord.mkxcode2" pk="194">
+    <field name="code" type="CharField">T66</field>
+    <field name="code_start" type="CharField">T78</field>
+    <field name="code_end" type="CharField">T66-T78</field>
+    <field name="code_name" type="CharField">Інші та неуточнені наслідки дії зовнішніх причин</field>
+  </object>
+  <object model="medrecord.mkxcode2" pk="195">
+    <field name="code" type="CharField">T79</field>
+    <field name="code_start" type="CharField">T79</field>
+    <field name="code_end" type="CharField">T79-T79</field>
+    <field name="code_name" type="CharField">Деякі ранні ускладнення травми</field>
+  </object>
+  <object model="medrecord.mkxcode2" pk="196">
+    <field name="code" type="CharField">T80</field>
+    <field name="code_start" type="CharField">T88</field>
+    <field name="code_end" type="CharField">T80-T88</field>
+    <field name="code_name" type="CharField">Ускладнення хірургічного втручання та медичної допомоги, не класифіковані в інших рубриках</field>
+  </object>
+  <object model="medrecord.mkxcode2" pk="197">
+    <field name="code" type="CharField">T90</field>
+    <field name="code_start" type="CharField">T98</field>
+    <field name="code_end" type="CharField">T90-T98</field>
+    <field name="code_name" type="CharField">Віддалені наслідки травм, отруєння та дій інших зовнішніх причин</field>
+  </object>
+  <object model="medrecord.mkxcode2" pk="198">
+    <field name="code" type="CharField">Z00</field>
+    <field name="code_start" type="CharField">Z19</field>
+    <field name="code_end" type="CharField">Z00-Z19</field>
+    <field name="code_name" type="CharField">Звертання до закладів охорони здоров'я для огляду та обстеження</field>
+  </object>
+  <object model="medrecord.mkxcode2" pk="199">
+    <field name="code" type="CharField">Z20</field>
+    <field name="code_start" type="CharField">Z29</field>
+    <field name="code_end" type="CharField">Z20-Z29</field>
+    <field name="code_name" type="CharField">Звертання до закладів охорони здоров'я при потенційній небезпеці для здоров'я, пов'язаній з інфекційними хворобами</field>
+  </object>
+  <object model="medrecord.mkxcode2" pk="200">
+    <field name="code" type="CharField">Z30</field>
+    <field name="code_start" type="CharField">Z39</field>
+    <field name="code_end" type="CharField">Z30-Z39</field>
+    <field name="code_name" type="CharField">Звертання до закладів охорони здоров'я у зв'язку з народженням дитини</field>
+  </object>
+  <object model="medrecord.mkxcode2" pk="201">
+    <field name="code" type="CharField">Z40</field>
+    <field name="code_start" type="CharField">Z54</field>
+    <field name="code_end" type="CharField">Z40-Z54</field>
+    <field name="code_name" type="CharField">Звертання до закладів охорони здоров'я за наданням специфічних процедур та доглядом за станом здоров'я</field>
+  </object>
+  <object model="medrecord.mkxcode2" pk="202">
+    <field name="code" type="CharField">Z55</field>
+    <field name="code_start" type="CharField">Z65</field>
+    <field name="code_end" type="CharField">Z55-Z65</field>
+    <field name="code_name" type="CharField">Звертання до закладів охорони здоров'я при потенційній небезпеці для здоров'я, пов'язанїй з соціально-економічними та психосоціальними обставинами</field>
+  </object>
+  <object model="medrecord.mkxcode2" pk="203">
+    <field name="code" type="CharField">Z70</field>
+    <field name="code_start" type="CharField">Z76</field>
+    <field name="code_end" type="CharField">Z70-Z76</field>
+    <field name="code_name" type="CharField">Звертання до закладів охорони здоров'я при інших обставинах</field>
+  </object>
+  <object model="medrecord.mkxcode2" pk="204">
+    <field name="code" type="CharField">Z80</field>
+    <field name="code_start" type="CharField">Z99</field>
+    <field name="code_end" type="CharField">Z80-Z99</field>
+    <field name="code_name" type="CharField">Звертання до закладів охорони здоров'я при потенційній небезпеці для здоров'я, пов'язанїй з родинним чи особистим анамнезом або певними умовами, що впливають на стан здоров'я</field>
+  </object>
+</django-objects>

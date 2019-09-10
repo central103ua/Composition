@@ -1,0 +1,54 @@
+{% extends "base.html" %}
+{% load humanize %}
+{% load mis_extras %}
+{% block breadcrumbs %}
+  <div class="container-fluid" style="background-color: #e3f2fd;">
+    <div class="container">
+      <ul class="breadcrumb103">
+        <li><a href="/sys/">Home-></a></li>
+        <li><a href="/sys/mis/{{ mis.id }}/">Mis#{{ mis.id }}-></a></li>
+        <li class="active">Локації</li>
+      </ul> 
+    </div>
+  </div>
+{% endblock breadcrumbs %}
+{% block content %}
+<div class="container-fluid">
+<div class="container">
+<h3>MIS #{{ mis.id }}: [{{ mis.mis_name }}]: <i><u>Локації</u></i> [{{ facility_num }}]</h3>
+</div>
+<table style="width:1300px;font-size:12px" border="1px solid black" border-spacing="5px">
+  <tr>
+    <th>#</th>
+    <th>id</th>
+    <th>Fs ID</th> 
+    <th>Name</th>
+    <th>Коротко</th>
+    <th>Адреса</th>
+    <th>Місто</th>
+    <th>Вулиця</th>
+    <th>Boss</th>
+    <th>Тип</th>
+    <th>Активна</th>
+    <th style="width:130px;">Modified</th>
+  </tr>
+{% for facility in facility_list %}  
+  <tr bgcolor="{% cycle '#D0D0DF' '#F0F0FF' %}">
+    <td>{{ forloop.counter }}</td>
+    <td>{{ facility.id }}</td>
+    <td><a href="/sys/facility/{{ facility.id }}">{{ facility.mis_facility_id }}</a></td>
+    <td>{{ facility.name }}</td>
+    <td>{{ facility.short_name }}</td>
+    <td><i>{{ facility.addr_location }}</i></td>
+    <td>{{ facility.addr_city }}</td>
+    <td>{{ facility.addr_street }}</td>
+    <td>{{ facility.facility_contact }}</td>
+    <td>{{ facility.facility_type }}</td>
+    <td>{{ facility.is_active }}</td>
+    <td>{{ facility.date_modified }}</td>
+  </tr>
+ {% endfor %}
+</table>
+({{ hostname }})
+</div>
+{% endblock content %}

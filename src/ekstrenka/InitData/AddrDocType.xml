@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<django-objects version="1.0">
+  <object model="medrecord.addrdoctype" pk="1">
+    <field name="name" type="CharField">невідомо</field>
+    <field name="comment" type="CharField">невідомо</field>
+  </object>  
+  <object model="medrecord.addrdoctype" pk="2">
+    <field name="name" type="CharField">зі слів</field>
+    <field name="comment" type="CharField">зі слів</field>
+  </object>
+  <object model="medrecord.addrdoctype" pk="3">
+    <field name="name" type="CharField">з документа</field>
+    <field name="comment" type="CharField">з документа</field>
+  </object>
+</django-objects>

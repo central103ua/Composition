@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<django-objects version="1.0">
+  <object model="callcard.callstations" pk="1">
+    <field name="station_name" type="CharField">PBX</field>
+    <field name="station_comment" type="CharField">PBX</field>
+  </object>
+  <object model="callcard.callstations" pk="2">
+    <field name="station_name" type="CharField">Оператор103</field>
+    <field name="station_comment" type="CharField">Перша лінія</field>
+  </object>
+  <object model="callcard.callstations" pk="3">
+    <field name="station_name" type="CharField">Медичний консультант</field>
+    <field name="station_comment" type="CharField">Лікар консультант</field>
+  </object>
+  <object model="callcard.callstations" pk="4">
+    <field name="station_name" type="CharField">Диспетчер напрямку</field>
+    <field name="station_comment" type="CharField">Евакуатор</field>
+  </object>
+  <object model="callcard.callstations" pk="5">
+    <field name="station_name" type="CharField">Старший диспетчер</field>
+    <field name="station_comment" type="CharField">Пильнує щоб усе було добре</field>
+  </object>
+  <object model="callcard.callstations" pk="6">
+    <field name="station_name" type="CharField">Старший лікар зміни</field>
+    <field name="station_comment" type="CharField">Цар и бог</field>
+  </object>
+  <object model="callcard.callstations" pk="7">
+    <field name="station_name" type="CharField">Бригада</field>
+    <field name="station_comment" type="CharField">Поїхали!!!</field>
+  </object>
+  <object model="callcard.callstations" pk="8">
+    <field name="station_name" type="CharField">На виїзді</field>
+    <field name="station_comment" type="CharField">Поїхали!!!</field>
+  </object>
+  <object model="callcard.callstations" pk="9">
+    <field name="station_name" type="CharField">У пацієнта</field>
+    <field name="station_comment" type="CharField">Доїхали</field>
+  </object>
+  <object model="callcard.callstations" pk="10">
+    <field name="station_name" type="CharField">На чергуванні</field>
+    <field name="station_comment" type="CharField">Стоим курим</field>
+  </object>
+  <object model="callcard.callstations" pk="11">
+    <field name="station_name" type="CharField">У лікарні</field>
+    <field name="station_comment" type="CharField">Може тут приймуть</field>
+  </object>
+  <object model="callcard.callstations" pk="12">
+    <field name="station_name" type="CharField">Діагноз</field>
+    <field name="station_comment" type="CharField">Діагноз</field>
+  </object>
+  <object model="callcard.callstations" pk="13">
+    <field name="station_name" type="CharField">Транспортування</field>
+    <field name="station_comment" type="CharField">И снова в путь</field>
+  </object>
+  <object model="callcard.callstations" pk="14">
+    <field name="station_name" type="CharField">Повертаються</field>
+    <field name="station_comment" type="CharField">Все зробили</field>
+  </object>
+  <object model="callcard.callstations" pk="15">
+    <field name="station_name" type="CharField">Архів</field>
+    <field name="station_comment" type="CharField">Архів</field>
+  </object>
+  <object model="callcard.callstations" pk="16">
+    <field name="station_name" type="CharField">Відміна</field>
+    <field name="station_comment" type="CharField">Відміна виклику</field>
+  </object>
+  <object model="callcard.callstations" pk="17">
+    <field name="station_name" type="CharField">Помилковий статус</field>
+    <field name="station_comment" type="CharField">Что-то пошло не так</field>
+  </object>
+</django-objects>

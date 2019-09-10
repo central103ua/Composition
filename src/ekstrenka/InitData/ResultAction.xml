@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<django-objects version="1.0">
+  <object model="medrecord.resultaction" pk="1">
+    <field name="name" type="CharField">Залишений на місці</field>
+  </object>
+  <object model="medrecord.resultaction" pk="2">
+    <field name="name" type="CharField">Доставлений самостійно</field>
+  </object>
+  <object model="medrecord.resultaction" pk="3">
+    <field name="name" type="CharField">Доставлений на руках</field>
+  </object>
+  <object model="medrecord.resultaction" pk="4">
+    <field name="name" type="CharField">Доставлений на ношах</field>
+  </object>
+  <object model="medrecord.resultaction" pk="5">
+    <field name="name" type="CharField">Доставлений на щиті</field>
+  </object>
+</django-objects>

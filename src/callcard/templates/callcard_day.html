@@ -1,0 +1,80 @@
+{% extends "base.html" %}
+{% load humanize %}
+{% load mis_extras %}
+{% block breadcrumbs %}
+  <div class="container-fluid" style="background-color: #e3f2fd;">
+    <div class="container">
+      <ul class="breadcrumb103">
+        <li><a href="/sys/">Home-></a></li>
+        <li><a href="/sys/mis/{{ mis.id }}/">Mis#{{ mis.id }}-></a></li>
+        <li><a href="/sys/mis/{{ mis.id }}/{{ mdate }}">{{ date_s }}-></a></li>
+        <li class="active">CallCard</li>
+      </ul> 
+    </div>
+  </div>
+{% endblock breadcrumbs %}
+{% block content %}
+<div class="container-fluid">
+    <div class="container">
+<h3>MIS #{{ mis.id }}: [{{ mis.mis_name }}]: Звернення за добу <i><u>{{ date_s }}: </u></i>[{{ count }}]</h3>
+</div>
+<div style="font-size:12px">
+ <table>
+  <tr>
+    <td style="width:600px; text-align: right;"><b>Фільтри:</b></td>
+    <td style="width:90px">
+  <select id="priority" name="priority" onchange="PriorityFilter()">
+    <option value="11">Пріорітет</option>
+    <option value="11">--------</option>
+    <option value="1">Екстрений</option>
+    <option value="2">Неекстрений</option>
+    <option value="3">Перевезення</option>
+    <option value="0">Не визначено</option>
+  </select>
+  </td>
+  <td style="width:130px">
+  <select id="result" name="result" onchange="PriorityFilter()">
+    <option value="11">Результат</option>
+    <option value="11">--------</option>
+    <option value="1">Помилковий виклик</option>
+    <option value="2">Консультація</option>
+    <option value="3">Виклик бригади</option>
+    <option value="5">Уточнення</option>
+    <option value="6">Відмова у виклику</option>
+    <option value="7">Переадресація</option>
+    <option value="8">Без відповіді</option>
+  </select>
+</td>
+  </tr>
+  </table>
+</div>
+<table id="call_card_list" style="width:1300px;font-size:12px" border="1px solid black" border-spacing="5px">
+{% include 'call_card_list.html' %}
+</table> 
+({{ hostname }})
+</div>
+<script type="text/javascript" charset="utf-8"> 
+    function PriorityFilter() {
+      var prioritylist = document.getElementById('priority');
+      var resultlist = document.getElementById('result');
+      var priority_id = prioritylist.options[prioritylist.selectedIndex].value;
+      var result_id = resultlist.options[resultlist.selectedIndex].value;
+      $("#call_card_list").html('<tr><td style="font-size:12px;">Очикую дані... </td></tr>')
+      $.ajax({
+        url: '/ajax/api/callcardlist/',
+        data: {
+          'priority': priority_id,
+          'result': result_id,
+          'date': {{ mdate }},
+          'mid': {{ mis.id }}
+        },
+        success: function(data) {
+          $("#call_card_list").html(data)
+        },
+        error: function(errorData) {
+          console.log("Error Ajax call")
+        }
+      })
+    }
+</script>
+{% endblock content %}

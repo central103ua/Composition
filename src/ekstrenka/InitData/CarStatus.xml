@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<django-objects version="1.0">
+  <object model="mis.carstatus" pk="1">
+    <field name="carstatus_name" type="CharField">Робочий</field>
+  </object>
+  <object model="mis.carstatus" pk="2">
+    <field name="carstatus_name" type="CharField">Не робочий</field>
+  </object>
+</django-objects>

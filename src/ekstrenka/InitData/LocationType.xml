@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<django-objects version="1.0">
+  <object model="mis.locationtype" pk="1">
+    <field name="locationtype_name" type="CharField">місто</field>
+    <field name="locationtype_short" type="CharField">м.</field>
+  </object>
+  <object model="mis.locationtype" pk="2">
+    <field name="locationtype_name" type="CharField">село</field>
+    <field name="locationtype_short" type="CharField">с.</field>
+  </object>
+  <object model="mis.locationtype" pk="3">
+    <field name="locationtype_name" type="CharField">дорога</field>
+    <field name="locationtype_short" type="CharField">дорога</field>
+  </object>
+</django-objects>

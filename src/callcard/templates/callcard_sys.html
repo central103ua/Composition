@@ -1,0 +1,287 @@
+{% extends "base.html" %}
+{% load humanize %}
+{% load mis_extras %}
+{% block breadcrumbs %}
+  <div class="container-fluid" style="background-color: #e3f2fd;">
+    <div class="container">
+      <ul class="breadcrumb103">
+        <li><a href="/sys/">Home-></a></li>
+        <li><a href="/sys/mis/{{ mis.id }}/">Mis#{{ mis.id }}-></a></li>
+        <li><a href="/sys/mis/{{ mis.id }}/{{ ref_date }}">{{ date_s }}-></a></li>
+        <li><a href="/sys/mis/{{ mis.id }}/{{ ref_date }}/{{ ref_hour }}/">{{ mtime|date:'H' }}:00-></a></li>
+        <li class="active">{{ callcard.call_card_id }}</li>
+      </ul> 
+    </div>
+  </div>
+{% endblock breadcrumbs %}
+{% block content %}
+<div class="container-fluid">
+  <div class="container">
+    <h3>MIS #{{ mis.id }}: [{{ mis.mis_name }}]; Виклик: {{ callcard.call_card_id }}</h3>
+  </div>
+<u>Інформація про виклик:</u>
+<table style="width:700px;font-size:12px" border="1px solid black" border-spacing="5px">
+  <tr>
+    <th>id</th>
+    <th>ID: Централь103</th>
+    <th>ID: MIS</th>
+    <th style="width:120px">Приоритет</th>
+    <th>CallStation</th>
+    <th>call_result</th>    
+  </tr>
+  <tr>
+    <td>{{ callcard.id }}</td>
+    <td>{{ callcard_s.call_card_id.value }}</td>
+    <td>{{ callcard_s.mis_call_card_id.value }}</td>
+    <td>{{ callcard_s.call_priority.value }}</td>
+    <td>{{ callcard_s.call_station.value }}</td>
+    <td>{{ callcard_s.call_result.value }}</td>    
+  </tr>
+</table>
+<table style="width:700px;font-size:12px" border="1px solid black">
+  <tr>
+    <td>
+<table style="width:400px;font-size:12px">
+  <tr>
+    <td style="width:50px">Оператор:</td>
+    <td style="width:150px"><a href="/sys/staff/{{ callcard.operator_id.id }}/">{{ callcard_s.operator_id.value }}</a></td>
+  </tr>
+  <tr>
+    <td style="width:50px">Телефон виклику:</td>
+    <td style="width:150px ">{{ callcard_s.caller_number.value }}</td>
+  </tr>
+  <tr>
+    <td style="width:50px">Бригада:</td>
+    {% if callcard_s.crew_id.value %}
+    <td style="width:150px"><a href="/sys/crew/{{ callcard_s.crew_id.value }}">{{ callcard_s.crew_id.value }}</a></td>
+    {% else %}
+    <td></td>
+    {% endif %}
+  </tr>
+  <tr>
+    <td style="width:50px">Коментар:</td>
+    <td style="width:150px">{{ callcard_s.call_comment.value }}</td>
+  </tr>
+  {% for record in med_record %}
+  <tr>
+    <td style="width:100px">Форма 110:</td>
+    {% if record.med_record_id %}
+    <td><a href="/sys/medrecord/{{ record.med_record_id }}">{{ record.med_record_id }}</a></td>
+    {% else %}
+    <td><b><u>Відсутня</u></b></td>
+    {% endif %}
+  </tr>
+  {% endfor %}    
+</table>
+    </td>
+    <td style="width:10px"></td>
+    <td>
+<table style="width:290px;font-size:12px">
+  <tr>
+    <td style="width:100px">Початок:</td>
+    <td>{{ callcard.start_datetime|date:'Y-m-d H:i:s.u' }}</td>
+  </tr>
+  <tr>
+    <td style="width:100px">Кінець:</td>
+    <td>{{ callcard.end_datetime|date:'Y-m-d H:i:s.u' }}</td>
+  </tr>
+  <tr>
+    <td style="width:100px">Тривалість:</td>
+    <td>{{ call_stat.call_duration }}</td>
+  </tr>
+  <tr>
+    <td style="width:100px">Час до пацієнта:</td>
+    <td>{{ call_stat.ttp }}</td>
+  </tr>
+  <tr>
+    <td style="width:100px">Час до лікарні:</td>
+    <td>{{ call_stat.tth }}</td>
+  </tr>
+</table>
+  </td>
+{% if callcard.intercall %}
+    <td style="width:10px"></td>
+    <td>
+<table style="width:290px;font-size:12px">
+  <tr>
+    <td style="width:100px"><b>Intercall:</b></td>
+  </tr>
+  <tr>
+    <td style="width:100px">mis_to:</td>
+    <td>{{ callcard.intercall.mis_to }}</td>
+  </tr>
+  <tr>
+    <td style="width:100px">mis_from:</td>
+    <td>{{ callcard.intercall.mis_from }}</td>
+  </tr>
+  <tr>
+    <td style="width:100px">related_cc:</td>
+    <td>{{ callcard.intercall.related_cc }}</td>
+  </tr>
+</table>
+  </td>
+{% endif %}
+  </tr>
+</table>
+<u>Етапи виклику:</u>
+<table style="width:1200px;font-size:12px" border="1px solid black" border-spacing="5px">
+  <tr>
+    <th style="width:20px">#</th>
+    <th style="width:150px">Station</th> 
+    <th style="width:80px">Operator</th>
+    <th style="width:150px">Crew</th>
+    <th style="width:80px">Від початку</th>
+    <th style="width:80px">Тривалість</th>
+    <th>Коментар</th>    
+    <th style="width:110px">Time Start</th>
+    <th style="width:110px">Time End</th>
+  </tr>
+{% for record in call_record %}
+  <tr>
+    <td>{{ record.call_record_seq }}</td>
+    <td>{{ record.call_station }}</td>
+    <td><a href="/sys/staff/{{ record.sys_operator_id }}/">{{ record.operator_id }}</a></td>
+    {% if record.crew_id %}
+    <td><a href="/sys/crew/{{ record.crew_id }}">{{ record.crew_id }}</a></td>
+    {% else %}
+    <td></td>
+    {% endif %}
+    <td>{{ record.duration_start }}</td>
+    <td>{{ record.duration }}</td>
+    <td>{{ record.call_record_comment }}</td>          
+    <td>{{ record.start_datetime|date:'d/m H:i:s' }}</td>
+    <td>{{ record.end_datetime|date:'d/m H:i:s' }}</td>
+  </tr>
+ {% endfor %}
+</table>
+<p></p>
+<table>
+  <tr>
+    <td>
+      <u>Скарга:</u>   <i>
+{% if callcard.complain.code_complain %}
+Код:{{ callcard.complain.code_complain }}
+{% else %}
+Код відсутній
+{% endif %}
+</i>
+<table style="width:600px;font-size:12px" border="1px" border-spacing="5px">
+  <tr>
+    <td>Головна скарга</td>
+    <td>{{ callcard.complain.complain1 }}</td>
+  </tr>
+  <tr>
+    <td>Життеві показники</td>
+    <td>{{ callcard.complain.complain2 }}</td>
+  </tr>  
+  <tr>
+    <td>Стан пацієнта</td>
+    <td>{{ callcard.complain.complain3 }}</td>
+  </tr>
+  <tr>
+    <td>Обставини події</td>
+    <td>{{ callcard.complain.complain4 }}</td>
+  </tr>
+  <tr>
+    <td>Код обставин події</td>
+    <td>{{ callcard.complain.code_sit.id }}</td>
+  </tr>
+</table>
+    </td>
+    <td style="width:10px"></td>
+    <td style="vertical-align:top"rowspan="2">
+<u>Адреса виклику:</u>
+<table style="width:400px;font-size:12px" border="1px" border-spacing="5px">
+  <tr>
+    <td style="width:120px">index</td>
+    <td>{{ callcard_s.call_address.index.value }}</td>
+  </tr>
+  <tr>
+    <td style="width:120px">Район (district)</td>
+    <td>{{ callcard_s.call_address.district.value }}</td>
+  </tr>
+  <tr>
+    <td style="width:120px">Місто (city)</td>
+    <td>{{ callcard_s.call_address.city.value }}</td>
+  </tr>
+{% if is_kszi == "True" %}
+  <tr>
+    <td style="width:120px">Вулиця</td>
+    <td>{{ callcard_s.call_address.street.value }}</td>
+  </tr>
+  <tr>
+    <td style="width:120px">Будівля</td>
+    <td>{{ callcard_s.call_address.building.value }}</td>
+  </tr>
+  <tr>
+    <td style="width:120px">Квартира</td>
+    <td>{{ callcard_s.call_address.apartment.value }}</td>
+  </tr>
+{% endif %}
+  <tr>
+    <td style="width:120px">location_type</td>
+    <td>{{ callcard_s.call_address.location_type.value }}</td>
+  </tr>
+  <tr>
+    <td style="width:120px">address_type</td>
+    <td>{{ callcard_s.call_address.address_type.value }}</td>
+  </tr>
+{% if is_kszi == "True" %}
+  <tr>
+    <td style="width:120px">Довгота</td>
+    <td>{{ callcard_s.call_address.longitude.value }}</td>
+  </tr>
+  <tr>
+    <td style="width:120px">Широта</td>
+    <td>{{ callcard_s.call_address.latitude.value }}</td>
+  </tr>
+{% endif %}
+</table>
+    </td>
+  </tr>
+  <tr>
+    <td>
+<u>Пацієнт:</u>
+<table style="width:600px;font-size:12px" border="1px" border-spacing="5px">
+{% if is_kszi == "True" %}
+  <tr>
+    <td style="width:120px">Ім'я</td>
+    <td>{{ callcard_s.patient.name.value }}</td>
+  </tr>
+  <tr>
+    <td style="width:120px">Ім'я</td>
+    <td>{{ callcard_s.patient.first_name.value }}</td>
+  </tr>
+  <tr>
+    <td style="width:120px">Прізвище</td>
+    <td>{{ callcard_s.patient.family_name.value }}</td>
+  </tr>
+  <tr>
+    <td style="width:120px">По батькові</td>
+    <td>{{ callcard_s.patient.middle_name.value }}</td>
+  </tr>
+{% endif %}
+  <tr>
+    <td style="width:120px">Вік</td>
+    <td>{{ callcard_s.patient.age.value }}</td>
+  </tr>
+  <tr>
+    <td style="width:120px">Стать</td>
+    <td>{{ callcard_s.patient.sex.value }}</td>
+  </tr>
+{% if is_kszi == "True" %}
+  <tr>
+    <td style="width:120px">Телефон</td>
+    <td>{{ callcard_s.patient.phone.value }}</td>
+  </tr>
+{% endif %}
+</table>
+</td>
+  </tr>
+</table>
+</td>
+</tr>
+</table>
+({{ hostname }})
+</div>
+{% endblock content %}

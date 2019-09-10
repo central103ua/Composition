@@ -1,0 +1,272 @@
+{% extends "base.html" %}
+{% load humanize %}
+{% load mis_extras %}
+{% block breadcrumbs %}
+  <div class="container-fluid" style="background-color: #e3f2fd;">
+    <div class="container">
+      <ul class="breadcrumb103">
+        <li><a href="/sys/">Home-></a></li>
+        <li><a href="/sys/mis/{{ mis.id }}/">Mis#{{ mis.id }}-></a></li>
+        <li><a href="/sys/mis/{{ mis.id }}/{{ ref_date }}">{{ date_s }}-></a></li>
+        <li><a href="/sys/mis/{{ mis.id }}/{{ ref_date }}/{{ ref_hour }}/">{{ mtime|date:'H' }}:00-></a></li>
+        <li class="active">{{ medrecord.med_record_id }}</li>
+      </ul> 
+    </div>
+  </div>
+{% endblock breadcrumbs %}
+{% block content %}
+<div class="container-fluid">
+  <div class="container">
+    <h3>MIS #{{ mis.id }}: [{{ mis.mis_name }}]; Виїзд: {{ medrecord.med_record_id }}</h3>
+  </div>
+<u>Інформація про виїзд бригади:</u> {{ noresult_msg }}
+<table style="width:800px;font-size:12px" border="1px solid black" border-spacing="5px">
+  <tr>
+    <th>id</th>
+    <th>ID: Централь103</th>
+    <th>ID: MIS</th>
+    <th>Виклик#</th>
+    <th>Оператор</th>
+    <th>Бригада</th>
+  </tr>
+  <tr>
+    <td>{{ medrecord.id }}</td>
+    <td>{{ medrecord.med_record_id }}</td>
+    <td>{{ medrecord.mis_medrecord_id }}</td>
+    <td><a href="/sys/callcard/{{ medrecord.callcard.call_card_id }}/">{{ medrecord.callcard.call_card_id }}</td>
+    <td><a href="/sys/staff/{{ medrecord.operator_id.id }}/">{{ medrecord.operator_id }}</td>
+    <td><a href="/sys/crew/{{ medrecord.crew.crew_id }}">{{ medrecord.crew.crew_id }}</td>
+  </tr>
+</table>
+<table style="width:800px;font-size:12px" border="1px solid black">
+  <tr>
+    <th>Подія</th>
+    <td>Прийом</td>
+    <td>Виїзд</td>
+    <td>Прибуття</td>
+    <td>Госпіталізація</td>
+    <td>Закінчення виклику</td>
+  </tr>
+  <tr>
+    <th>Дата:</th>
+    <td>{{ medrecord.time_crew|date:'d/m/Y' }}</td>
+    <td>{{ medrecord.time_depart|date:'d/m/Y' }}</td>
+    <td>{{ medrecord.time_patient|date:'d/m/Y' }}</td>
+    <td>{{ medrecord.time_hospital|date:'d/m/Y' }}</td>
+    <td>{{ medrecord.end_datetime|date:'d/m/Y' }}</td>    
+  </tr>
+  <tr>
+    <th>Час:</th>
+    <td>{{ medrecord.time_crew|date:'H:i:s' }}</td>
+    <td>{{ medrecord.time_depart|date:'H:i:s' }}</td>
+    <td>{{ medrecord.time_patient|date:'H:i:s' }}</td>
+    <td>{{ medrecord.time_hospital|date:'H:i:s' }}</td>
+    <td>{{ medrecord.end_datetime|date:'H:i:s' }}</td>
+  </tr>
+</table>
+<table style="width:800px;font-size:12px" border="1px solid black">
+  <tr><td style="font-size:14px">{{ noresult_msg }}</td></tr>
+  {% if medrecord.mr_comment %}
+  <tr><td><u>Коментар:</u> {{ medrecord.mr_comment }}</td></tr>
+  {% endif %}
+</table>
+{% if is_result %}
+<u>Результати виїзду:</u>
+<table style="width:800px;font-size:12px" border="1px solid black">
+  <tr>
+    <td>{{ medrecord.mr_result.the_result }}</td>
+    {% if medrecord.mr_result.is_hospital %}<td>Госпіталізований</td>{% endif %}
+    <td>{{ medrecord.mr_result.result_action }}</td>
+    {% if medrecord.mr_result.death_datetime %}Час смерті: {{ medrecord.mr_result.death_datetime }}{% endif %}
+  </tr>
+</table>
+{% if medrecord.is_hospital_record %}
+<u>Госпіталізація:</u>
+<table style="width:800px;font-size:12px" border="1px solid black" border-spacing="5px">
+  <tr>
+    <th>#</th>
+    <th>Госпіталізували у</th>
+    <th>Час</th>
+    <th>Черговий лікар</th>
+    <th>Супр.лист №</th>
+  </tr>  
+{% for hospital in hospital_list %}
+  <tr>
+    <td>{{ hospital.hospital_seq }}</td>
+    <td>{{ hospital.the_place }}</td>
+    <td>{{ hospital.event_datetime|date:'H:i:s' }}</td>
+    <td>{{ hospital.the_doctor }}</td>
+    <td>{{ hospital.document }}</td>
+  </tr>
+{% endfor %}  
+</table> 
+{% endif %}
+{% if medrecord.is_diagnosis_record %}
+<u>Діагнози:</u>
+<table style="width:800px;font-size:12px" border="1px solid black" border-spacing="5px">
+  <tr>
+    <th>#</th>
+    <th>МКХ-10</th>
+    <th>Діагноз</th>
+    <th>Поставив діагноз</th>
+  </tr>  
+{% for diagnosis in diagnosis_list %}
+  <tr>
+    <td>{{ diagnosis.diagnosis_seq }}</td>
+    <td>{{ diagnosis.mkx.code_full }}: {{ diagnosis.mkx.name }}</td>
+    <td>{{ diagnosis.d_text }}</td>
+    <td>
+    {% if diagnosis.is_crew %}Бригада
+    {% else %}
+    {{ diagnosis.doctor_name }}
+    {% endif %}
+    </td>
+  </tr>
+{% endfor %}  
+</table> 
+{% endif %}
+{% endif %}
+
+<p></p>
+<table>
+  <tr>
+    <td style="vertical-align:top">
+<u>Пацієнт:</u>
+<table style="width:400px;font-size:12px;vertical-align:top;" border="1px" border-spacing="5px">
+{% if is_kszi == "True" %}
+  <tr>
+    <td style="width:120px">Ім'я</td>
+    <td>{{ medrecord_s.patient.name.value }}</td>
+  </tr>
+  <tr>
+    <td style="width:120px">Ім'я</td>
+    <td>{{ medrecord_s.patient.first_name.value }}</td>
+  </tr>
+  <tr>
+    <td style="width:120px">Призвище</td>
+    <td>{{ medrecord_s.patient.family_name.value }}</td>
+  </tr>
+  <tr>
+    <td style="width:120px">По батькові</td>
+    <td>{{ medrecord_s.patient.middle_name.value }}</td>
+  </tr>
+{% endif %}
+  <tr>
+    <td style="width:120px">Вік</td>
+    <td>{{ medrecord_s.patient.age.value }}</td>
+  </tr>
+  <tr>
+    <td style="width:120px">Стать</td>
+    <td>{{ medrecord_s.patient.sex.value }}</td>
+  </tr>
+{% if is_kszi == "True" %}
+  <tr>
+    <td style="width:120px">Телефон</td>
+    <td>{{ medrecord_s.patient.phone.value }}</td>
+  </tr>
+{% endif %}
+</table>
+</td>
+    <td style="vertical-align:top" rowspan="2">
+<u>Адреса виклику:</u>
+<table style="width:400px;font-size:12px" border="1px" border-spacing="5px">
+  <tr>
+    <td style="width:120px">index</td>
+    <td>{{ medrecord_s.call_address.index.value }}</td>
+  </tr>
+  <tr>
+    <td style="width:120px">Район (district)</td>
+    <td>{{ medrecord_s.call_address.district.value }}</td>
+  </tr>
+  <tr>
+    <td style="width:120px">Місто (city)</td>
+    <td>{{ medrecord_s.call_address.city.value }}</td>
+  </tr>
+{% if is_kszi == "True" %}
+  <tr>
+    <td style="width:120px">Вулиця</td>
+    <td>{{ medrecord_s.call_address.street.value }}</td>
+  </tr>
+  <tr>
+    <td style="width:120px">Будівля</td>
+    <td>{{ medrecord_s.call_address.building.value }}</td>
+  </tr>
+  <tr>
+    <td style="width:120px">Квартира</td>
+    <td>{{ medrecord_s.call_address.apartment.value }}</td>
+  </tr>
+{% endif %}
+  <tr>
+    <td style="width:120px">location_type</td>
+    <td>{{ medrecord_s.call_address.location_type.value }}</td>
+  </tr>
+  <tr>
+    <td style="width:120px">address_type</td>
+    <td>{{ medrecord_s.call_address.address_type.value }}</td>
+  </tr>
+{% if is_kszi == "True" %}
+  <tr>
+    <td style="width:120px">Довгота</td>
+    <td>{{ medrecord_s.call_address.longitude.value }}</td>
+  </tr>
+  <tr>
+    <td style="width:120px">Широта</td>
+    <td>{{ medrecord_s.call_address.latitude.value }}</td>
+  </tr>
+{% endif %}
+</table>
+    </td>
+    <td>
+<u>Адреса Пацієнта:</u> ({{ medrecord.patient_address_src }}) {{  medrecord.patient_document }}
+<table style="width:400px;font-size:12px" border="1px" border-spacing="5px">
+  <tr>
+    <td style="width:120px">index</td>
+    <td>{{ medrecord_s.patient_address.index.value }}</td>
+  </tr>
+  <tr>
+    <td style="width:120px">Район (district)</td>
+    <td>{{ medrecord_s.patient_address.district.value }}</td>
+  </tr>
+  <tr>
+    <td style="width:120px">Місто (city)</td>
+    <td>{{ medrecord_s.patient_address.city.value }}</td>
+  </tr>
+{% if is_kszi == "True" %}
+  <tr>
+    <td style="width:120px">Вулиця</td>
+    <td>{{ medrecord_s.patient_address.street.value }}</td>
+  </tr>
+  <tr>
+    <td style="width:120px">Будівля</td>
+    <td>{{ medrecord_s.patient_address.building.value }}</td>
+  </tr>
+  <tr>
+    <td style="width:120px">Квартира</td>
+    <td>{{ medrecord_s.patient_address.apartment.value }}</td>
+  </tr>
+{% endif %}
+  <tr>
+    <td style="width:120px">location_type</td>
+    <td>{{ medrecord_s.patient_address.location_type.value }}</td>
+  </tr>
+  <tr>
+    <td style="width:120px">address_type</td>
+    <td>{{ medrecord_s.patient_address.address_type.value }}</td>
+  </tr>
+{% if is_kszi == "True" %}
+  <tr>
+    <td style="width:120px">Довгота</td>
+    <td>{{ medrecord_s.patient_address.longitude.value }}</td>
+  </tr>
+  <tr>
+    <td style="width:120px">Широта</td>
+    <td>{{ medrecord_s.patient_address.latitude.value }}</td>
+  </tr>
+{% endif %}
+</table>
+    </td>
+  </tr>
+</table>
+({{ hostname }})
+</div>
+{% endblock content %}

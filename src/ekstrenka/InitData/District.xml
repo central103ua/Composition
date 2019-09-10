@@ -1,0 +1,3531 @@
+<?xml version="1.0" encoding="utf-8"?>
+<django-objects version="1.0">
+  <object model="patients.district" pk="1">
+    <field name="state" rel="ManyToOneRel" to="patients.state">1</field>
+    <field name="level1" type="CharField">0100000000</field>
+    <field name="level2" type="CharField">0120400000</field>
+    <field name="name" type="CharField">БАХЧИСАРАЙСЬКИЙ</field>
+    <field name="capital" type="CharField">М.БАХЧИСАРАЙ</field>
+  </object>
+  <object model="patients.district" pk="2">
+    <field name="state" rel="ManyToOneRel" to="patients.state">1</field>
+    <field name="level1" type="CharField">0100000000</field>
+    <field name="level2" type="CharField">0120700000</field>
+    <field name="name" type="CharField">БІЛОГІРСЬКИЙ</field>
+    <field name="capital" type="CharField">М.БІЛОГІРСЬК</field>
+  </object>
+  <object model="patients.district" pk="3">
+    <field name="state" rel="ManyToOneRel" to="patients.state">1</field>
+    <field name="level1" type="CharField">0100000000</field>
+    <field name="level2" type="CharField">0121100000</field>
+    <field name="name" type="CharField">ДЖАНКОЙСЬКИЙ</field>
+    <field name="capital" type="CharField">М.ДЖАНКОЙ</field>
+  </object>
+  <object model="patients.district" pk="4">
+    <field name="state" rel="ManyToOneRel" to="patients.state">1</field>
+    <field name="level1" type="CharField">0100000000</field>
+    <field name="level2" type="CharField">0121600000</field>
+    <field name="name" type="CharField">КІРОВСЬКИЙ</field>
+    <field name="capital" type="CharField">СМТ КІРОВСЬКЕ</field>
+  </object>
+  <object model="patients.district" pk="5">
+    <field name="state" rel="ManyToOneRel" to="patients.state">1</field>
+    <field name="level1" type="CharField">0100000000</field>
+    <field name="level2" type="CharField">0122000000</field>
+    <field name="name" type="CharField">КРАСНОГВАРДІЙСЬКИЙ</field>
+    <field name="capital" type="CharField">СМТ КРАСНОГВАРДІЙСЬКЕ</field>
+  </object>
+  <object model="patients.district" pk="6">
+    <field name="state" rel="ManyToOneRel" to="patients.state">1</field>
+    <field name="level1" type="CharField">0100000000</field>
+    <field name="level2" type="CharField">0122300000</field>
+    <field name="name" type="CharField">КРАСНОПЕРЕКОПСЬКИЙ</field>
+    <field name="capital" type="CharField">М.КРАСНОПЕРЕКОПСЬК</field>
+  </object>
+  <object model="patients.district" pk="7">
+    <field name="state" rel="ManyToOneRel" to="patients.state">1</field>
+    <field name="level1" type="CharField">0100000000</field>
+    <field name="level2" type="CharField">0122700000</field>
+    <field name="name" type="CharField">ЛЕНІНСЬКИЙ</field>
+    <field name="capital" type="CharField">СМТ ЛЕНІНЕ</field>
+  </object>
+  <object model="patients.district" pk="8">
+    <field name="state" rel="ManyToOneRel" to="patients.state">1</field>
+    <field name="level1" type="CharField">0100000000</field>
+    <field name="level2" type="CharField">0123100000</field>
+    <field name="name" type="CharField">НИЖНЬОГІРСЬКИЙ</field>
+    <field name="capital" type="CharField">СМТ НИЖНЬОГІРСЬКИЙ</field>
+  </object>
+  <object model="patients.district" pk="9">
+    <field name="state" rel="ManyToOneRel" to="patients.state">1</field>
+    <field name="level1" type="CharField">0100000000</field>
+    <field name="level2" type="CharField">0123500000</field>
+    <field name="name" type="CharField">ПЕРВОМАЙСЬКИЙ</field>
+    <field name="capital" type="CharField">СМТ ПЕРВОМАЙСЬКЕ</field>
+  </object>
+  <object model="patients.district" pk="10">
+    <field name="state" rel="ManyToOneRel" to="patients.state">1</field>
+    <field name="level1" type="CharField">0100000000</field>
+    <field name="level2" type="CharField">0123900000</field>
+    <field name="name" type="CharField">РОЗДОЛЬНЕНСЬКИЙ</field>
+    <field name="capital" type="CharField">СМТ РОЗДОЛЬНЕ</field>
+  </object>
+  <object model="patients.district" pk="11">
+    <field name="state" rel="ManyToOneRel" to="patients.state">1</field>
+    <field name="level1" type="CharField">0100000000</field>
+    <field name="level2" type="CharField">0124300000</field>
+    <field name="name" type="CharField">САКСЬКИЙ</field>
+    <field name="capital" type="CharField">М.САКИ</field>
+  </object>
+  <object model="patients.district" pk="12">
+    <field name="state" rel="ManyToOneRel" to="patients.state">1</field>
+    <field name="level1" type="CharField">0100000000</field>
+    <field name="level2" type="CharField">0124700000</field>
+    <field name="name" type="CharField">СІМФЕРОПОЛЬСЬКИЙ</field>
+    <field name="capital" type="CharField">М.СІМФЕРОПОЛЬ</field>
+  </object>
+  <object model="patients.district" pk="13">
+    <field name="state" rel="ManyToOneRel" to="patients.state">1</field>
+    <field name="level1" type="CharField">0100000000</field>
+    <field name="level2" type="CharField">0125200000</field>
+    <field name="name" type="CharField">СОВЄТСЬКИЙ</field>
+    <field name="capital" type="CharField">СМТ СОВЄТСЬКИЙ</field>
+  </object>
+  <object model="patients.district" pk="14">
+    <field name="state" rel="ManyToOneRel" to="patients.state">2</field>
+    <field name="level1" type="CharField">0100000000</field>
+    <field name="level2" type="CharField">0125600000</field>
+    <field name="name" type="CharField">ЧОРНОМОРСЬКИЙ</field>
+    <field name="capital" type="CharField">СМТ ЧОРНОМОРСЬКЕ</field>
+  </object>
+  <object model="patients.district" pk="15">
+    <field name="state" rel="ManyToOneRel" to="patients.state">2</field>
+    <field name="level1" type="CharField">0500000000</field>
+    <field name="level2" type="CharField">0520200000</field>
+    <field name="name" type="CharField">БАРСЬКИЙ</field>
+    <field name="capital" type="CharField">М.БАР</field>
+  </object>
+  <object model="patients.district" pk="16">
+    <field name="state" rel="ManyToOneRel" to="patients.state">2</field>
+    <field name="level1" type="CharField">0500000000</field>
+    <field name="level2" type="CharField">0520400000</field>
+    <field name="name" type="CharField">БЕРШАДСЬКИЙ</field>
+    <field name="capital" type="CharField">М.БЕРШАДЬ</field>
+  </object>
+  <object model="patients.district" pk="17">
+    <field name="state" rel="ManyToOneRel" to="patients.state">2</field>
+    <field name="level1" type="CharField">0500000000</field>
+    <field name="level2" type="CharField">0520600000</field>
+    <field name="name" type="CharField">ВІННИЦЬКИЙ</field>
+    <field name="capital" type="CharField">М.ВІННИЦЯ</field>
+  </object>
+  <object model="patients.district" pk="18">
+    <field name="state" rel="ManyToOneRel" to="patients.state">2</field>
+    <field name="level1" type="CharField">0500000000</field>
+    <field name="level2" type="CharField">0520800000</field>
+    <field name="name" type="CharField">ГАЙСИНСЬКИЙ</field>
+    <field name="capital" type="CharField">М.ГАЙСИН</field>
+  </object>
+  <object model="patients.district" pk="19">
+    <field name="state" rel="ManyToOneRel" to="patients.state">2</field>
+    <field name="level1" type="CharField">0500000000</field>
+    <field name="level2" type="CharField">0521000000</field>
+    <field name="name" type="CharField">ЖМЕРИНСЬКИЙ</field>
+    <field name="capital" type="CharField">М.ЖМЕРИНКА</field>
+  </object>
+  <object model="patients.district" pk="20">
+    <field name="state" rel="ManyToOneRel" to="patients.state">2</field>
+    <field name="level1" type="CharField">0500000000</field>
+    <field name="level2" type="CharField">0521200000</field>
+    <field name="name" type="CharField">ІЛЛІНЕЦЬКИЙ</field>
+    <field name="capital" type="CharField">М.ІЛЛІНЦІ</field>
+  </object>
+  <object model="patients.district" pk="21">
+    <field name="state" rel="ManyToOneRel" to="patients.state">2</field>
+    <field name="level1" type="CharField">0500000000</field>
+    <field name="level2" type="CharField">0521400000</field>
+    <field name="name" type="CharField">КОЗЯТИНСЬКИЙ</field>
+    <field name="capital" type="CharField">М.КОЗЯТИН</field>
+  </object>
+  <object model="patients.district" pk="22">
+    <field name="state" rel="ManyToOneRel" to="patients.state">2</field>
+    <field name="level1" type="CharField">0500000000</field>
+    <field name="level2" type="CharField">0521600000</field>
+    <field name="name" type="CharField">КАЛИНІВСЬКИЙ</field>
+    <field name="capital" type="CharField">М.КАЛИНІВКА</field>
+  </object>
+  <object model="patients.district" pk="23">
+    <field name="state" rel="ManyToOneRel" to="patients.state">2</field>
+    <field name="level1" type="CharField">0500000000</field>
+    <field name="level2" type="CharField">0521900000</field>
+    <field name="name" type="CharField">КРИЖОПІЛЬСЬКИЙ</field>
+    <field name="capital" type="CharField">СМТ КРИЖОПІЛЬ</field>
+  </object>
+  <object model="patients.district" pk="24">
+    <field name="state" rel="ManyToOneRel" to="patients.state">2</field>
+    <field name="level1" type="CharField">0500000000</field>
+    <field name="level2" type="CharField">0522200000</field>
+    <field name="name" type="CharField">ЛИПОВЕЦЬКИЙ</field>
+    <field name="capital" type="CharField">М.ЛИПОВЕЦЬ</field>
+  </object>
+  <object model="patients.district" pk="25">
+    <field name="state" rel="ManyToOneRel" to="patients.state">2</field>
+    <field name="level1" type="CharField">0500000000</field>
+    <field name="level2" type="CharField">0522400000</field>
+    <field name="name" type="CharField">ЛІТИНСЬКИЙ</field>
+    <field name="capital" type="CharField">СМТ ЛІТИН</field>
+  </object>
+  <object model="patients.district" pk="26">
+    <field name="state" rel="ManyToOneRel" to="patients.state">2</field>
+    <field name="level1" type="CharField">0500000000</field>
+    <field name="level2" type="CharField">0522600000</field>
+    <field name="name" type="CharField">МОГИЛІВ-ПОДІЛЬСЬКИЙ</field>
+    <field name="capital" type="CharField">М.МОГИЛІВ-ПОДІЛЬСЬКИЙ</field>
+  </object>
+  <object model="patients.district" pk="27">
+    <field name="state" rel="ManyToOneRel" to="patients.state">2</field>
+    <field name="level1" type="CharField">0500000000</field>
+    <field name="level2" type="CharField">0522800000</field>
+    <field name="name" type="CharField">МУРОВАНОКУРИЛОВЕЦЬКИЙ</field>
+    <field name="capital" type="CharField">СМТ МУРОВАНІ КУРИЛІВЦІ</field>
+  </object>
+  <object model="patients.district" pk="28">
+    <field name="state" rel="ManyToOneRel" to="patients.state">2</field>
+    <field name="level1" type="CharField">0500000000</field>
+    <field name="level2" type="CharField">0523000000</field>
+    <field name="name" type="CharField">НЕМИРІВСЬКИЙ</field>
+    <field name="capital" type="CharField">М.НЕМИРІВ</field>
+  </object>
+  <object model="patients.district" pk="29">
+    <field name="state" rel="ManyToOneRel" to="patients.state">2</field>
+    <field name="level1" type="CharField">0500000000</field>
+    <field name="level2" type="CharField">0523100000</field>
+    <field name="name" type="CharField">ОРАТІВСЬКИЙ</field>
+    <field name="capital" type="CharField">СМТ ОРАТІВ</field>
+  </object>
+  <object model="patients.district" pk="30">
+    <field name="state" rel="ManyToOneRel" to="patients.state">2</field>
+    <field name="level1" type="CharField">0500000000</field>
+    <field name="level2" type="CharField">0523200000</field>
+    <field name="name" type="CharField">ПІЩАНСЬКИЙ</field>
+    <field name="capital" type="CharField">СМТ ПІЩАНКА</field>
+  </object>
+  <object model="patients.district" pk="31">
+    <field name="state" rel="ManyToOneRel" to="patients.state">2</field>
+    <field name="level1" type="CharField">0500000000</field>
+    <field name="level2" type="CharField">0523400000</field>
+    <field name="name" type="CharField">ПОГРЕБИЩЕНСЬКИЙ</field>
+    <field name="capital" type="CharField">М.ПОГРЕБИЩЕ</field>
+  </object>
+  <object model="patients.district" pk="32">
+    <field name="state" rel="ManyToOneRel" to="patients.state">2</field>
+    <field name="level1" type="CharField">0500000000</field>
+    <field name="level2" type="CharField">0523700000</field>
+    <field name="name" type="CharField">ТЕПЛИЦЬКИЙ</field>
+    <field name="capital" type="CharField">СМТ ТЕПЛИК</field>
+  </object>
+  <object model="patients.district" pk="33">
+    <field name="state" rel="ManyToOneRel" to="patients.state">2</field>
+    <field name="level1" type="CharField">0500000000</field>
+    <field name="level2" type="CharField">0523900000</field>
+    <field name="name" type="CharField">ТОМАШПІЛЬСЬКИЙ</field>
+    <field name="capital" type="CharField">СМТ ТОМАШПІЛЬ</field>
+  </object>
+  <object model="patients.district" pk="34">
+    <field name="state" rel="ManyToOneRel" to="patients.state">2</field>
+    <field name="level1" type="CharField">0500000000</field>
+    <field name="level2" type="CharField">0524100000</field>
+    <field name="name" type="CharField">ТРОСТЯНЕЦЬКИЙ</field>
+    <field name="capital" type="CharField">СМТ ТРОСТЯНЕЦЬ</field>
+  </object>
+  <object model="patients.district" pk="35">
+    <field name="state" rel="ManyToOneRel" to="patients.state">2</field>
+    <field name="level1" type="CharField">0500000000</field>
+    <field name="level2" type="CharField">0524300000</field>
+    <field name="name" type="CharField">ТУЛЬЧИНСЬКИЙ</field>
+    <field name="capital" type="CharField">М.ТУЛЬЧИН</field>
+  </object>
+  <object model="patients.district" pk="36">
+    <field name="state" rel="ManyToOneRel" to="patients.state">2</field>
+    <field name="level1" type="CharField">0500000000</field>
+    <field name="level2" type="CharField">0524500000</field>
+    <field name="name" type="CharField">ТИВРІВСЬКИЙ</field>
+    <field name="capital" type="CharField">СМТ ТИВРІВ</field>
+  </object>
+  <object model="patients.district" pk="37">
+    <field name="state" rel="ManyToOneRel" to="patients.state">2</field>
+    <field name="level1" type="CharField">0500000000</field>
+    <field name="level2" type="CharField">0524800000</field>
+    <field name="name" type="CharField">ХМІЛЬНИЦЬКИЙ</field>
+    <field name="capital" type="CharField">М.ХМІЛЬНИК</field>
+  </object>
+  <object model="patients.district" pk="38">
+    <field name="state" rel="ManyToOneRel" to="patients.state">2</field>
+    <field name="level1" type="CharField">0500000000</field>
+    <field name="level2" type="CharField">0524900000</field>
+    <field name="name" type="CharField">ЧЕРНІВЕЦЬКИЙ</field>
+    <field name="capital" type="CharField">СМТ ЧЕРНІВЦІ</field>
+  </object>
+  <object model="patients.district" pk="39">
+    <field name="state" rel="ManyToOneRel" to="patients.state">2</field>
+    <field name="level1" type="CharField">0500000000</field>
+    <field name="level2" type="CharField">0525000000</field>
+    <field name="name" type="CharField">ЧЕЧЕЛЬНИЦЬКИЙ</field>
+    <field name="capital" type="CharField">СМТ ЧЕЧЕЛЬНИК</field>
+  </object>
+  <object model="patients.district" pk="40">
+    <field name="state" rel="ManyToOneRel" to="patients.state">2</field>
+    <field name="level1" type="CharField">0500000000</field>
+    <field name="level2" type="CharField">0525300000</field>
+    <field name="name" type="CharField">ШАРГОРОДСЬКИЙ</field>
+    <field name="capital" type="CharField">М.ШАРГОРОД</field>
+  </object>
+  <object model="patients.district" pk="41">
+    <field name="state" rel="ManyToOneRel" to="patients.state">2</field>
+    <field name="level1" type="CharField">0500000000</field>
+    <field name="level2" type="CharField">0525600000</field>
+    <field name="name" type="CharField">ЯМПІЛЬСЬКИЙ</field>
+    <field name="capital" type="CharField">М.ЯМПІЛЬ</field>
+  </object>
+  <object model="patients.district" pk="42">
+    <field name="state" rel="ManyToOneRel" to="patients.state">3</field>
+    <field name="level1" type="CharField">0700000000</field>
+    <field name="level2" type="CharField">0720500000</field>
+    <field name="name" type="CharField">ВОЛОДИМИР-ВОЛИНСЬКИЙ</field>
+    <field name="capital" type="CharField">М.ВОЛОДИМИР-ВОЛИНСЬКИЙ</field>
+  </object>
+  <object model="patients.district" pk="43">
+    <field name="state" rel="ManyToOneRel" to="patients.state">3</field>
+    <field name="level1" type="CharField">0700000000</field>
+    <field name="level2" type="CharField">0720800000</field>
+    <field name="name" type="CharField">ГОРОХІВСЬКИЙ</field>
+    <field name="capital" type="CharField">М.ГОРОХІВ</field>
+  </object>
+  <object model="patients.district" pk="44">
+    <field name="state" rel="ManyToOneRel" to="patients.state">3</field>
+    <field name="level1" type="CharField">0700000000</field>
+    <field name="level2" type="CharField">0721100000</field>
+    <field name="name" type="CharField">ІВАНИЧІВСЬКИЙ</field>
+    <field name="capital" type="CharField">СМТ ІВАНИЧІ</field>
+  </object>
+  <object model="patients.district" pk="45">
+    <field name="state" rel="ManyToOneRel" to="patients.state">3</field>
+    <field name="level1" type="CharField">0700000000</field>
+    <field name="level2" type="CharField">0721400000</field>
+    <field name="name" type="CharField">КАМІНЬ-КАШИРСЬКИЙ</field>
+    <field name="capital" type="CharField">М.КАМІНЬ-КАШИРСЬКИЙ</field>
+  </object>
+  <object model="patients.district" pk="46">
+    <field name="state" rel="ManyToOneRel" to="patients.state">3</field>
+    <field name="level1" type="CharField">0700000000</field>
+    <field name="level2" type="CharField">0721800000</field>
+    <field name="name" type="CharField">КІВЕРЦІВСЬКИЙ</field>
+    <field name="capital" type="CharField">М.КІВЕРЦІ</field>
+  </object>
+  <object model="patients.district" pk="47">
+    <field name="state" rel="ManyToOneRel" to="patients.state">3</field>
+    <field name="level1" type="CharField">0700000000</field>
+    <field name="level2" type="CharField">0722100000</field>
+    <field name="name" type="CharField">КОВЕЛЬСЬКИЙ</field>
+    <field name="capital" type="CharField">М.КОВЕЛЬ</field>
+  </object>
+  <object model="patients.district" pk="48">
+    <field name="state" rel="ManyToOneRel" to="patients.state">3</field>
+    <field name="level1" type="CharField">0700000000</field>
+    <field name="level2" type="CharField">0722400000</field>
+    <field name="name" type="CharField">ЛОКАЧИНСЬКИЙ</field>
+    <field name="capital" type="CharField">СМТ ЛОКАЧІ</field>
+  </object>
+  <object model="patients.district" pk="49">
+    <field name="state" rel="ManyToOneRel" to="patients.state">3</field>
+    <field name="level1" type="CharField">0700000000</field>
+    <field name="level2" type="CharField">0722800000</field>
+    <field name="name" type="CharField">ЛУЦЬКИЙ</field>
+    <field name="capital" type="CharField">М.ЛУЦЬК</field>
+  </object>
+  <object model="patients.district" pk="50">
+    <field name="state" rel="ManyToOneRel" to="patients.state">3</field>
+    <field name="level1" type="CharField">0700000000</field>
+    <field name="level2" type="CharField">0723100000</field>
+    <field name="name" type="CharField">ЛЮБЕШІВСЬКИЙ</field>
+    <field name="capital" type="CharField">СМТ ЛЮБЕШІВ</field>
+  </object>
+  <object model="patients.district" pk="51">
+    <field name="state" rel="ManyToOneRel" to="patients.state">3</field>
+    <field name="level1" type="CharField">0700000000</field>
+    <field name="level2" type="CharField">0723300000</field>
+    <field name="name" type="CharField">ЛЮБОМЛЬСЬКИЙ</field>
+    <field name="capital" type="CharField">М.ЛЮБОМЛЬ</field>
+  </object>
+  <object model="patients.district" pk="52">
+    <field name="state" rel="ManyToOneRel" to="patients.state">3</field>
+    <field name="level1" type="CharField">0700000000</field>
+    <field name="level2" type="CharField">0723600000</field>
+    <field name="name" type="CharField">МАНЕВИЦЬКИЙ</field>
+    <field name="capital" type="CharField">СМТ МАНЕВИЧІ</field>
+  </object>
+  <object model="patients.district" pk="53">
+    <field name="state" rel="ManyToOneRel" to="patients.state">3</field>
+    <field name="level1" type="CharField">0700000000</field>
+    <field name="level2" type="CharField">0724200000</field>
+    <field name="name" type="CharField">РАТНІВСЬКИЙ</field>
+    <field name="capital" type="CharField">СМТ РАТНЕ</field>
+  </object>
+  <object model="patients.district" pk="54">
+    <field name="state" rel="ManyToOneRel" to="patients.state">3</field>
+    <field name="level1" type="CharField">0700000000</field>
+    <field name="level2" type="CharField">0724500000</field>
+    <field name="name" type="CharField">РОЖИЩЕНСЬКИЙ</field>
+    <field name="capital" type="CharField">М.РОЖИЩЕ</field>
+  </object>
+  <object model="patients.district" pk="55">
+    <field name="state" rel="ManyToOneRel" to="patients.state">3</field>
+    <field name="level1" type="CharField">0700000000</field>
+    <field name="level2" type="CharField">0725000000</field>
+    <field name="name" type="CharField">СТАРОВИЖІВСЬКИЙ</field>
+    <field name="capital" type="CharField">СМТ СТАРА ВИЖІВКА</field>
+  </object>
+  <object model="patients.district" pk="56">
+    <field name="state" rel="ManyToOneRel" to="patients.state">3</field>
+    <field name="level1" type="CharField">0700000000</field>
+    <field name="level2" type="CharField">0725500000</field>
+    <field name="name" type="CharField">ТУРІЙСЬКИЙ</field>
+    <field name="capital" type="CharField">СМТ ТУРІЙСЬК</field>
+  </object>
+  <object model="patients.district" pk="57">
+    <field name="state" rel="ManyToOneRel" to="patients.state">3</field>
+    <field name="level1" type="CharField">0700000000</field>
+    <field name="level2" type="CharField">0725700000</field>
+    <field name="name" type="CharField">ШАЦЬКИЙ</field>
+    <field name="capital" type="CharField">СМТ ШАЦЬК</field>
+  </object>
+  <object model="patients.district" pk="58">
+    <field name="state" rel="ManyToOneRel" to="patients.state">4</field>
+    <field name="level1" type="CharField">1200000000</field>
+    <field name="level2" type="CharField">1220300000</field>
+    <field name="name" type="CharField">АПОСТОЛІВСЬКИЙ</field>
+    <field name="capital" type="CharField">М.АПОСТОЛОВЕ</field>
+  </object>
+  <object model="patients.district" pk="59">
+    <field name="state" rel="ManyToOneRel" to="patients.state">4</field>
+    <field name="level1" type="CharField">1200000000</field>
+    <field name="level2" type="CharField">1220700000</field>
+    <field name="name" type="CharField">ВАСИЛЬКІВСЬКИЙ</field>
+    <field name="capital" type="CharField">СМТ ВАСИЛЬКІВКА</field>
+  </object>
+  <object model="patients.district" pk="60">
+    <field name="state" rel="ManyToOneRel" to="patients.state">4</field>
+    <field name="level1" type="CharField">1200000000</field>
+    <field name="level2" type="CharField">1221000000</field>
+    <field name="name" type="CharField">ВЕРХНЬОДНІПРОВСЬКИЙ</field>
+    <field name="capital" type="CharField">М.ВЕРХНЬОДНІПРОВСЬК</field>
+  </object>
+  <object model="patients.district" pk="61">
+    <field name="state" rel="ManyToOneRel" to="patients.state">4</field>
+    <field name="level1" type="CharField">1200000000</field>
+    <field name="level2" type="CharField">1221400000</field>
+    <field name="name" type="CharField">ДНІПРОВСЬКИЙ</field>
+    <field name="capital" type="CharField">М.ДНІПРО</field>
+  </object>
+  <object model="patients.district" pk="62">
+    <field name="state" rel="ManyToOneRel" to="patients.state">4</field>
+    <field name="level1" type="CharField">1200000000</field>
+    <field name="level2" type="CharField">1221800000</field>
+    <field name="name" type="CharField">КРИВОРІЗЬКИЙ</field>
+    <field name="capital" type="CharField">М.КРИВИЙ РІГ</field>
+  </object>
+  <object model="patients.district" pk="63">
+    <field name="state" rel="ManyToOneRel" to="patients.state">4</field>
+    <field name="level1" type="CharField">1200000000</field>
+    <field name="level2" type="CharField">1222000000</field>
+    <field name="name" type="CharField">КРИНИЧАНСЬКИЙ</field>
+    <field name="capital" type="CharField">СМТ КРИНИЧКИ</field>
+  </object>
+  <object model="patients.district" pk="64">
+    <field name="state" rel="ManyToOneRel" to="patients.state">4</field>
+    <field name="level1" type="CharField">1200000000</field>
+    <field name="level2" type="CharField">1222300000</field>
+    <field name="name" type="CharField">МАГДАЛИНІВСЬКИЙ</field>
+    <field name="capital" type="CharField">СМТ МАГДАЛИНІВКА</field>
+  </object>
+  <object model="patients.district" pk="65">
+    <field name="state" rel="ManyToOneRel" to="patients.state">4</field>
+    <field name="level1" type="CharField">1200000000</field>
+    <field name="level2" type="CharField">1222600000</field>
+    <field name="name" type="CharField">МЕЖІВСЬКИЙ</field>
+    <field name="capital" type="CharField">СМТ МЕЖОВА</field>
+  </object>
+  <object model="patients.district" pk="66">
+    <field name="state" rel="ManyToOneRel" to="patients.state">4</field>
+    <field name="level1" type="CharField">1200000000</field>
+    <field name="level2" type="CharField">1222900000</field>
+    <field name="name" type="CharField">НІКОПОЛЬСЬКИЙ</field>
+    <field name="capital" type="CharField">М.НІКОПОЛЬ</field>
+  </object>
+  <object model="patients.district" pk="67">
+    <field name="state" rel="ManyToOneRel" to="patients.state">4</field>
+    <field name="level1" type="CharField">1200000000</field>
+    <field name="level2" type="CharField">1223200000</field>
+    <field name="name" type="CharField">НОВОМОСКОВСЬКИЙ</field>
+    <field name="capital" type="CharField">М.НОВОМОСКОВСЬК</field>
+  </object>
+  <object model="patients.district" pk="68">
+    <field name="state" rel="ManyToOneRel" to="patients.state">4</field>
+    <field name="level1" type="CharField">1200000000</field>
+    <field name="level2" type="CharField">1223500000</field>
+    <field name="name" type="CharField">ПАВЛОГРАДСЬКИЙ</field>
+    <field name="capital" type="CharField">М.ПАВЛОГРАД</field>
+  </object>
+  <object model="patients.district" pk="69">
+    <field name="state" rel="ManyToOneRel" to="patients.state">4</field>
+    <field name="level1" type="CharField">1200000000</field>
+    <field name="level2" type="CharField">1223700000</field>
+    <field name="name" type="CharField">ПЕТРИКІВСЬКИЙ</field>
+    <field name="capital" type="CharField">СМТ ПЕТРИКІВКА</field>
+  </object>
+  <object model="patients.district" pk="70">
+    <field name="state" rel="ManyToOneRel" to="patients.state">4</field>
+    <field name="level1" type="CharField">1200000000</field>
+    <field name="level2" type="CharField">1223800000</field>
+    <field name="name" type="CharField">ПЕТРОПАВЛІВСЬКИЙ</field>
+    <field name="capital" type="CharField">СМТ ПЕТРОПАВЛІВКА</field>
+  </object>
+  <object model="patients.district" pk="71">
+    <field name="state" rel="ManyToOneRel" to="patients.state">4</field>
+    <field name="level1" type="CharField">1200000000</field>
+    <field name="level2" type="CharField">1224200000</field>
+    <field name="name" type="CharField">ПОКРОВСЬКИЙ</field>
+    <field name="capital" type="CharField">СМТ ПОКРОВСЬКЕ</field>
+  </object>
+  <object model="patients.district" pk="72">
+    <field name="state" rel="ManyToOneRel" to="patients.state">4</field>
+    <field name="level1" type="CharField">1200000000</field>
+    <field name="level2" type="CharField">1224500000</field>
+    <field name="name" type="CharField">П'ЯТИХАТСЬКИЙ</field>
+    <field name="capital" type="CharField">М.П'ЯТИХАТКИ</field>
+  </object>
+  <object model="patients.district" pk="73">
+    <field name="state" rel="ManyToOneRel" to="patients.state">4</field>
+    <field name="level1" type="CharField">1200000000</field>
+    <field name="level2" type="CharField">1224800000</field>
+    <field name="name" type="CharField">СИНЕЛЬНИКІВСЬКИЙ</field>
+    <field name="capital" type="CharField">М.СИНЕЛЬНИКОВЕ</field>
+  </object>
+  <object model="patients.district" pk="74">
+    <field name="state" rel="ManyToOneRel" to="patients.state">4</field>
+    <field name="level1" type="CharField">1200000000</field>
+    <field name="level2" type="CharField">1225000000</field>
+    <field name="name" type="CharField">СОЛОНЯНСЬКИЙ</field>
+    <field name="capital" type="CharField">СМТ СОЛОНЕ</field>
+  </object>
+  <object model="patients.district" pk="75">
+    <field name="state" rel="ManyToOneRel" to="patients.state">4</field>
+    <field name="level1" type="CharField">1200000000</field>
+    <field name="level2" type="CharField">1225200000</field>
+    <field name="name" type="CharField">СОФІЇВСЬКИЙ</field>
+    <field name="capital" type="CharField">СМТ СОФІЇВКА</field>
+  </object>
+  <object model="patients.district" pk="76">
+    <field name="state" rel="ManyToOneRel" to="patients.state">4</field>
+    <field name="level1" type="CharField">1200000000</field>
+    <field name="level2" type="CharField">1225400000</field>
+    <field name="name" type="CharField">ТОМАКІВСЬКИЙ</field>
+    <field name="capital" type="CharField">СМТ ТОМАКІВКА</field>
+  </object>
+  <object model="patients.district" pk="77">
+    <field name="state" rel="ManyToOneRel" to="patients.state">4</field>
+    <field name="level1" type="CharField">1200000000</field>
+    <field name="level2" type="CharField">1225600000</field>
+    <field name="name" type="CharField">ЦАРИЧАНСЬКИЙ</field>
+    <field name="capital" type="CharField">СМТ ЦАРИЧАНКА</field>
+  </object>
+  <object model="patients.district" pk="78">
+    <field name="state" rel="ManyToOneRel" to="patients.state">4</field>
+    <field name="level1" type="CharField">1200000000</field>
+    <field name="level2" type="CharField">1225800000</field>
+    <field name="name" type="CharField">ШИРОКІВСЬКИЙ</field>
+    <field name="capital" type="CharField">СМТ ШИРОКЕ</field>
+  </object>
+  <object model="patients.district" pk="79">
+    <field name="state" rel="ManyToOneRel" to="patients.state">4</field>
+    <field name="level1" type="CharField">1200000000</field>
+    <field name="level2" type="CharField">1225900000</field>
+    <field name="name" type="CharField">ЮР'ЇВСЬКИЙ</field>
+    <field name="capital" type="CharField">СМТ ЮР'ЇВКА</field>
+  </object>
+  <object model="patients.district" pk="80">
+    <field name="state" rel="ManyToOneRel" to="patients.state">5</field>
+    <field name="level1" type="CharField">1400000000</field>
+    <field name="level2" type="CharField">1420300000</field>
+    <field name="name" type="CharField">ОЛЕКСАНДРІВСЬКИЙ</field>
+    <field name="capital" type="CharField">СМТ ОЛЕКСАНДРІВКА</field>
+  </object>
+  <object model="patients.district" pk="81">
+    <field name="state" rel="ManyToOneRel" to="patients.state">5</field>
+    <field name="level1" type="CharField">1400000000</field>
+    <field name="level2" type="CharField">1420600000</field>
+    <field name="name" type="CharField">АМВРОСІЇВСЬКИЙ</field>
+    <field name="capital" type="CharField">М.АМВРОСІЇВКА</field>
+  </object>
+  <object model="patients.district" pk="82">
+    <field name="state" rel="ManyToOneRel" to="patients.state">5</field>
+    <field name="level1" type="CharField">1400000000</field>
+    <field name="level2" type="CharField">1420900000</field>
+    <field name="name" type="CharField">БАХМУТСЬКИЙ</field>
+    <field name="capital" type="CharField">М.БАХМУТ</field>
+  </object>
+  <object model="patients.district" pk="83">
+    <field name="state" rel="ManyToOneRel" to="patients.state">5</field>
+    <field name="level1" type="CharField">1400000000</field>
+    <field name="level2" type="CharField">1421200000</field>
+    <field name="name" type="CharField">ВЕЛИКОНОВОСІЛКІВСЬКИЙ</field>
+    <field name="capital" type="CharField">СМТ ВЕЛИКА НОВОСІЛКА</field>
+  </object>
+  <object model="patients.district" pk="84">
+    <field name="state" rel="ManyToOneRel" to="patients.state">5</field>
+    <field name="level1" type="CharField">1400000000</field>
+    <field name="level2" type="CharField">1421500000</field>
+    <field name="name" type="CharField">ВОЛНОВАСЬКИЙ</field>
+    <field name="capital" type="CharField">М.ВОЛНОВАХА</field>
+  </object>
+  <object model="patients.district" pk="85">
+    <field name="state" rel="ManyToOneRel" to="patients.state">5</field>
+    <field name="level1" type="CharField">1400000000</field>
+    <field name="level2" type="CharField">1421700000</field>
+    <field name="name" type="CharField">НІКОЛЬСЬКИЙ</field>
+    <field name="capital" type="CharField">СМТ НІКОЛЬСЬКЕ</field>
+  </object>
+  <object model="patients.district" pk="86">
+    <field name="state" rel="ManyToOneRel" to="patients.state">5</field>
+    <field name="level1" type="CharField">1400000000</field>
+    <field name="level2" type="CharField">1422000000</field>
+    <field name="name" type="CharField">ДОБРОПІЛЬСЬКИЙ</field>
+    <field name="capital" type="CharField">М.ДОБРОПІЛЛЯ</field>
+  </object>
+  <object model="patients.district" pk="87">
+    <field name="state" rel="ManyToOneRel" to="patients.state">5</field>
+    <field name="level1" type="CharField">1400000000</field>
+    <field name="level2" type="CharField">1422400000</field>
+    <field name="name" type="CharField">КОСТЯНТИНІВСЬКИЙ</field>
+    <field name="capital" type="CharField">М.КОСТЯНТИНІВКА</field>
+  </object>
+  <object model="patients.district" pk="88">
+    <field name="state" rel="ManyToOneRel" to="patients.state">5</field>
+    <field name="level1" type="CharField">1400000000</field>
+    <field name="level2" type="CharField">1422700000</field>
+    <field name="name" type="CharField">ПОКРОВСЬКИЙ</field>
+    <field name="capital" type="CharField">М.ПОКРОВСЬК</field>
+  </object>
+  <object model="patients.district" pk="89">
+    <field name="state" rel="ManyToOneRel" to="patients.state">5</field>
+    <field name="level1" type="CharField">1400000000</field>
+    <field name="level2" type="CharField">1423000000</field>
+    <field name="name" type="CharField">ЛИМАНСЬКИЙ</field>
+    <field name="capital" type="CharField">М.ЛИМАН</field>
+  </object>
+  <object model="patients.district" pk="90">
+    <field name="state" rel="ManyToOneRel" to="patients.state">5</field>
+    <field name="level1" type="CharField">1400000000</field>
+    <field name="level2" type="CharField">1423300000</field>
+    <field name="name" type="CharField">МАР'ЇНСЬКИЙ</field>
+    <field name="capital" type="CharField">М.МАР'ЇНКА</field>
+  </object>
+  <object model="patients.district" pk="91">
+    <field name="state" rel="ManyToOneRel" to="patients.state">5</field>
+    <field name="level1" type="CharField">1400000000</field>
+    <field name="level2" type="CharField">1423600000</field>
+    <field name="name" type="CharField">НОВОАЗОВСЬКИЙ</field>
+    <field name="capital" type="CharField">М.НОВОАЗОВСЬК</field>
+  </object>
+  <object model="patients.district" pk="92">
+    <field name="state" rel="ManyToOneRel" to="patients.state">5</field>
+    <field name="level1" type="CharField">1400000000</field>
+    <field name="level2" type="CharField">1423900000</field>
+    <field name="name" type="CharField">МАНГУШСЬКИЙ</field>
+    <field name="capital" type="CharField">СМТ МАНГУШ</field>
+  </object>
+  <object model="patients.district" pk="93">
+    <field name="state" rel="ManyToOneRel" to="patients.state">5</field>
+    <field name="level1" type="CharField">1400000000</field>
+    <field name="level2" type="CharField">1424200000</field>
+    <field name="name" type="CharField">СЛОВ'ЯНСЬКИЙ</field>
+    <field name="capital" type="CharField">М.СЛОВ'ЯНСЬК</field>
+  </object>
+  <object model="patients.district" pk="94">
+    <field name="state" rel="ManyToOneRel" to="patients.state">5</field>
+    <field name="level1" type="CharField">1400000000</field>
+    <field name="level2" type="CharField">1424500000</field>
+    <field name="name" type="CharField">СТАРОБЕШІВСЬКИЙ</field>
+    <field name="capital" type="CharField">СМТ СТАРОБЕШЕВЕ</field>
+  </object>
+  <object model="patients.district" pk="95">
+    <field name="state" rel="ManyToOneRel" to="patients.state">5</field>
+    <field name="level1" type="CharField">1400000000</field>
+    <field name="level2" type="CharField">1424800000</field>
+    <field name="name" type="CharField">БОЙКІВСЬКИЙ</field>
+    <field name="capital" type="CharField">СМТ БОЙКІВСЬКЕ</field>
+  </object>
+  <object model="patients.district" pk="96">
+    <field name="state" rel="ManyToOneRel" to="patients.state">5</field>
+    <field name="level1" type="CharField">1400000000</field>
+    <field name="level2" type="CharField">1425200000</field>
+    <field name="name" type="CharField">ШАХТАРСЬКИЙ</field>
+    <field name="capital" type="CharField">М.ШАХТАРСЬК</field>
+  </object>
+  <object model="patients.district" pk="97">
+    <field name="state" rel="ManyToOneRel" to="patients.state">5</field>
+    <field name="level1" type="CharField">1400000000</field>
+    <field name="level2" type="CharField">1425500000</field>
+    <field name="name" type="CharField">ЯСИНУВАТСЬКИЙ</field>
+    <field name="capital" type="CharField">М.ЯСИНУВАТА</field>
+  </object>
+  <object model="patients.district" pk="98">
+    <field name="state" rel="ManyToOneRel" to="patients.state">6</field>
+    <field name="level1" type="CharField">1800000000</field>
+    <field name="level2" type="CharField">1820300000</field>
+    <field name="name" type="CharField">АНДРУШІВСЬКИЙ</field>
+    <field name="capital" type="CharField">М.АНДРУШІВКА</field>
+  </object>
+  <object model="patients.district" pk="99">
+    <field name="state" rel="ManyToOneRel" to="patients.state">6</field>
+    <field name="level1" type="CharField">1800000000</field>
+    <field name="level2" type="CharField">1820600000</field>
+    <field name="name" type="CharField">БАРАНІВСЬКИЙ</field>
+    <field name="capital" type="CharField">М.БАРАНІВКА</field>
+  </object>
+  <object model="patients.district" pk="100">
+    <field name="state" rel="ManyToOneRel" to="patients.state">6</field>
+    <field name="level1" type="CharField">1800000000</field>
+    <field name="level2" type="CharField">1820800000</field>
+    <field name="name" type="CharField">БЕРДИЧІВСЬКИЙ</field>
+    <field name="capital" type="CharField">М.БЕРДИЧІВ</field>
+  </object>
+  <object model="patients.district" pk="101">
+    <field name="state" rel="ManyToOneRel" to="patients.state">6</field>
+    <field name="level1" type="CharField">1800000000</field>
+    <field name="level2" type="CharField">1820900000</field>
+    <field name="name" type="CharField">БРУСИЛІВСЬКИЙ</field>
+    <field name="capital" type="CharField">СМТ БРУСИЛІВ</field>
+  </object>
+  <object model="patients.district" pk="102">
+    <field name="state" rel="ManyToOneRel" to="patients.state">6</field>
+    <field name="level1" type="CharField">1800000000</field>
+    <field name="level2" type="CharField">1821100000</field>
+    <field name="name" type="CharField">ХОРОШІВСЬКИЙ</field>
+    <field name="capital" type="CharField">СМТ ХОРОШІВ</field>
+  </object>
+  <object model="patients.district" pk="103">
+    <field name="state" rel="ManyToOneRel" to="patients.state">6</field>
+    <field name="level1" type="CharField">1800000000</field>
+    <field name="level2" type="CharField">1821400000</field>
+    <field name="name" type="CharField">РОМАНІВСЬКИЙ</field>
+    <field name="capital" type="CharField">СМТ РОМАНІВ</field>
+  </object>
+  <object model="patients.district" pk="104">
+    <field name="state" rel="ManyToOneRel" to="patients.state">6</field>
+    <field name="level1" type="CharField">1800000000</field>
+    <field name="level2" type="CharField">1821700000</field>
+    <field name="name" type="CharField">ЄМІЛЬЧИНСЬКИЙ</field>
+    <field name="capital" type="CharField">СМТ ЄМІЛЬЧИНЕ</field>
+  </object>
+  <object model="patients.district" pk="105">
+    <field name="state" rel="ManyToOneRel" to="patients.state">6</field>
+    <field name="level1" type="CharField">1800000000</field>
+    <field name="level2" type="CharField">1822000000</field>
+    <field name="name" type="CharField">ЖИТОМИРСЬКИЙ</field>
+    <field name="capital" type="CharField">М.ЖИТОМИР</field>
+  </object>
+  <object model="patients.district" pk="106">
+    <field name="state" rel="ManyToOneRel" to="patients.state">6</field>
+    <field name="level1" type="CharField">1800000000</field>
+    <field name="level2" type="CharField">1822300000</field>
+    <field name="name" type="CharField">КОРОСТЕНСЬКИЙ</field>
+    <field name="capital" type="CharField">М.КОРОСТЕНЬ</field>
+  </object>
+  <object model="patients.district" pk="107">
+    <field name="state" rel="ManyToOneRel" to="patients.state">6</field>
+    <field name="level1" type="CharField">1800000000</field>
+    <field name="level2" type="CharField">1822500000</field>
+    <field name="name" type="CharField">КОРОСТИШІВСЬКИЙ</field>
+    <field name="capital" type="CharField">М.КОРОСТИШІВ</field>
+  </object>
+  <object model="patients.district" pk="108">
+    <field name="state" rel="ManyToOneRel" to="patients.state">6</field>
+    <field name="level1" type="CharField">1800000000</field>
+    <field name="level2" type="CharField">1822800000</field>
+    <field name="name" type="CharField">ЛУГИНСЬКИЙ</field>
+    <field name="capital" type="CharField">СМТ ЛУГИНИ</field>
+  </object>
+  <object model="patients.district" pk="109">
+    <field name="state" rel="ManyToOneRel" to="patients.state">6</field>
+    <field name="level1" type="CharField">1800000000</field>
+    <field name="level2" type="CharField">1823100000</field>
+    <field name="name" type="CharField">ЛЮБАРСЬКИЙ</field>
+    <field name="capital" type="CharField">СМТ ЛЮБАР</field>
+  </object>
+  <object model="patients.district" pk="110">
+    <field name="state" rel="ManyToOneRel" to="patients.state">6</field>
+    <field name="level1" type="CharField">1800000000</field>
+    <field name="level2" type="CharField">1823400000</field>
+    <field name="name" type="CharField">МАЛИНСЬКИЙ</field>
+    <field name="capital" type="CharField">М.МАЛИН</field>
+  </object>
+  <object model="patients.district" pk="111">
+    <field name="state" rel="ManyToOneRel" to="patients.state">6</field>
+    <field name="level1" type="CharField">1800000000</field>
+    <field name="level2" type="CharField">1823700000</field>
+    <field name="name" type="CharField">НАРОДИЦЬКИЙ</field>
+    <field name="capital" type="CharField">СМТ НАРОДИЧІ</field>
+  </object>
+  <object model="patients.district" pk="112">
+    <field name="state" rel="ManyToOneRel" to="patients.state">6</field>
+    <field name="level1" type="CharField">1800000000</field>
+    <field name="level2" type="CharField">1824000000</field>
+    <field name="name" type="CharField">НОВОГРАД-ВОЛИНСЬКИЙ</field>
+    <field name="capital" type="CharField">М.НОВОГРАД-ВОЛИНСЬКИЙ</field>
+  </object>
+  <object model="patients.district" pk="113">
+    <field name="state" rel="ManyToOneRel" to="patients.state">6</field>
+    <field name="level1" type="CharField">1800000000</field>
+    <field name="level2" type="CharField">1824200000</field>
+    <field name="name" type="CharField">ОВРУЦЬКИЙ</field>
+    <field name="capital" type="CharField">М.ОВРУЧ</field>
+  </object>
+  <object model="patients.district" pk="114">
+    <field name="state" rel="ManyToOneRel" to="patients.state">6</field>
+    <field name="level1" type="CharField">1800000000</field>
+    <field name="level2" type="CharField">1824400000</field>
+    <field name="name" type="CharField">ОЛЕВСЬКИЙ</field>
+    <field name="capital" type="CharField">М.ОЛЕВСЬК</field>
+  </object>
+  <object model="patients.district" pk="115">
+    <field name="state" rel="ManyToOneRel" to="patients.state">6</field>
+    <field name="level1" type="CharField">1800000000</field>
+    <field name="level2" type="CharField">1824700000</field>
+    <field name="name" type="CharField">ПОПІЛЬНЯНСЬКИЙ</field>
+    <field name="capital" type="CharField">СМТ ПОПІЛЬНЯ</field>
+  </object>
+  <object model="patients.district" pk="116">
+    <field name="state" rel="ManyToOneRel" to="patients.state">6</field>
+    <field name="level1" type="CharField">1800000000</field>
+    <field name="level2" type="CharField">1825000000</field>
+    <field name="name" type="CharField">РАДОМИШЛЬСЬКИЙ</field>
+    <field name="capital" type="CharField">М.РАДОМИШЛЬ</field>
+  </object>
+  <object model="patients.district" pk="117">
+    <field name="state" rel="ManyToOneRel" to="patients.state">6</field>
+    <field name="level1" type="CharField">1800000000</field>
+    <field name="level2" type="CharField">1825200000</field>
+    <field name="name" type="CharField">РУЖИНСЬКИЙ</field>
+    <field name="capital" type="CharField">СМТ РУЖИН</field>
+  </object>
+  <object model="patients.district" pk="118">
+    <field name="state" rel="ManyToOneRel" to="patients.state">6</field>
+    <field name="level1" type="CharField">1800000000</field>
+    <field name="level2" type="CharField">1825400000</field>
+    <field name="name" type="CharField">ПУЛИНСЬКИЙ</field>
+    <field name="capital" type="CharField">СМТ ПУЛИНИ</field>
+  </object>
+  <object model="patients.district" pk="119">
+    <field name="state" rel="ManyToOneRel" to="patients.state">6</field>
+    <field name="level1" type="CharField">1800000000</field>
+    <field name="level2" type="CharField">1825600000</field>
+    <field name="name" type="CharField">ЧЕРНЯХІВСЬКИЙ</field>
+    <field name="capital" type="CharField">СМТ ЧЕРНЯХІВ</field>
+  </object>
+  <object model="patients.district" pk="120">
+    <field name="state" rel="ManyToOneRel" to="patients.state">6</field>
+    <field name="level1" type="CharField">1800000000</field>
+    <field name="level2" type="CharField">1825800000</field>
+    <field name="name" type="CharField">ЧУДНІВСЬКИЙ</field>
+    <field name="capital" type="CharField">М ЧУДНІВ</field>
+  </object>
+  <object model="patients.district" pk="121">
+    <field name="state" rel="ManyToOneRel" to="patients.state">7</field>
+    <field name="level1" type="CharField">2100000000</field>
+    <field name="level2" type="CharField">2120400000</field>
+    <field name="name" type="CharField">БЕРЕГІВСЬКИЙ</field>
+    <field name="capital" type="CharField">М.БЕРЕГОВЕ</field>
+  </object>
+  <object model="patients.district" pk="122">
+    <field name="state" rel="ManyToOneRel" to="patients.state">7</field>
+    <field name="level1" type="CharField">2100000000</field>
+    <field name="level2" type="CharField">2120800000</field>
+    <field name="name" type="CharField">ВЕЛИКОБЕРЕЗНЯНСЬКИЙ</field>
+    <field name="capital" type="CharField">СМТ ВЕЛИКИЙ БЕРЕЗНИЙ</field>
+  </object>
+  <object model="patients.district" pk="123">
+    <field name="state" rel="ManyToOneRel" to="patients.state">7</field>
+    <field name="level1" type="CharField">2100000000</field>
+    <field name="level2" type="CharField">2121200000</field>
+    <field name="name" type="CharField">ВИНОГРАДІВСЬКИЙ</field>
+    <field name="capital" type="CharField">М.ВИНОГРАДІВ</field>
+  </object>
+  <object model="patients.district" pk="124">
+    <field name="state" rel="ManyToOneRel" to="patients.state">7</field>
+    <field name="level1" type="CharField">2100000000</field>
+    <field name="level2" type="CharField">2121500000</field>
+    <field name="name" type="CharField">ВОЛОВЕЦЬКИЙ</field>
+    <field name="capital" type="CharField">СМТ ВОЛОВЕЦЬ</field>
+  </object>
+  <object model="patients.district" pk="125">
+    <field name="state" rel="ManyToOneRel" to="patients.state">7</field>
+    <field name="level1" type="CharField">2100000000</field>
+    <field name="level2" type="CharField">2121900000</field>
+    <field name="name" type="CharField">ІРШАВСЬКИЙ</field>
+    <field name="capital" type="CharField">М.ІРШАВА</field>
+  </object>
+  <object model="patients.district" pk="126">
+    <field name="state" rel="ManyToOneRel" to="patients.state">7</field>
+    <field name="level1" type="CharField">2100000000</field>
+    <field name="level2" type="CharField">2122400000</field>
+    <field name="name" type="CharField">МІЖГІРСЬКИЙ</field>
+    <field name="capital" type="CharField">СМТ МІЖГІР'Я</field>
+  </object>
+  <object model="patients.district" pk="127">
+    <field name="state" rel="ManyToOneRel" to="patients.state">7</field>
+    <field name="level1" type="CharField">2100000000</field>
+    <field name="level2" type="CharField">2122700000</field>
+    <field name="name" type="CharField">МУКАЧІВСЬКИЙ</field>
+    <field name="capital" type="CharField">М.МУКАЧЕВО</field>
+  </object>
+  <object model="patients.district" pk="128">
+    <field name="state" rel="ManyToOneRel" to="patients.state">7</field>
+    <field name="level1" type="CharField">2100000000</field>
+    <field name="level2" type="CharField">2123200000</field>
+    <field name="name" type="CharField">ПЕРЕЧИНСЬКИЙ</field>
+    <field name="capital" type="CharField">М.ПЕРЕЧИН</field>
+  </object>
+  <object model="patients.district" pk="129">
+    <field name="state" rel="ManyToOneRel" to="patients.state">7</field>
+    <field name="level1" type="CharField">2100000000</field>
+    <field name="level2" type="CharField">2123600000</field>
+    <field name="name" type="CharField">РАХІВСЬКИЙ</field>
+    <field name="capital" type="CharField">М.РАХІВ</field>
+  </object>
+  <object model="patients.district" pk="130">
+    <field name="state" rel="ManyToOneRel" to="patients.state">7</field>
+    <field name="level1" type="CharField">2100000000</field>
+    <field name="level2" type="CharField">2124000000</field>
+    <field name="name" type="CharField">СВАЛЯВСЬКИЙ</field>
+    <field name="capital" type="CharField">М.СВАЛЯВА</field>
+  </object>
+  <object model="patients.district" pk="131">
+    <field name="state" rel="ManyToOneRel" to="patients.state">7</field>
+    <field name="level1" type="CharField">2100000000</field>
+    <field name="level2" type="CharField">2124400000</field>
+    <field name="name" type="CharField">ТЯЧІВСЬКИЙ</field>
+    <field name="capital" type="CharField">М.ТЯЧІВ</field>
+  </object>
+  <object model="patients.district" pk="132">
+    <field name="state" rel="ManyToOneRel" to="patients.state">7</field>
+    <field name="level1" type="CharField">2100000000</field>
+    <field name="level2" type="CharField">2124800000</field>
+    <field name="name" type="CharField">УЖГОРОДСЬКИЙ</field>
+    <field name="capital" type="CharField">М.УЖГОРОД</field>
+  </object>
+  <object model="patients.district" pk="133">
+    <field name="state" rel="ManyToOneRel" to="patients.state">7</field>
+    <field name="level1" type="CharField">2100000000</field>
+    <field name="level2" type="CharField">2125300000</field>
+    <field name="name" type="CharField">ХУСТСЬКИЙ</field>
+    <field name="capital" type="CharField">М.ХУСТ</field>
+  </object>
+  <object model="patients.district" pk="134">
+    <field name="state" rel="ManyToOneRel" to="patients.state">8</field>
+    <field name="level1" type="CharField">2300000000</field>
+    <field name="level2" type="CharField">2320300000</field>
+    <field name="name" type="CharField">ЯКИМІВСЬКИЙ</field>
+    <field name="capital" type="CharField">СМТ ЯКИМІВКА</field>
+  </object>
+  <object model="patients.district" pk="135">
+    <field name="state" rel="ManyToOneRel" to="patients.state">8</field>
+    <field name="level1" type="CharField">2300000000</field>
+    <field name="level2" type="CharField">2320600000</field>
+    <field name="name" type="CharField">БЕРДЯНСЬКИЙ</field>
+    <field name="capital" type="CharField">М.БЕРДЯНСЬК</field>
+  </object>
+  <object model="patients.district" pk="136">
+    <field name="state" rel="ManyToOneRel" to="patients.state">8</field>
+    <field name="level1" type="CharField">2300000000</field>
+    <field name="level2" type="CharField">2320900000</field>
+    <field name="name" type="CharField">ВАСИЛІВСЬКИЙ</field>
+    <field name="capital" type="CharField">М.ВАСИЛІВКА</field>
+  </object>
+  <object model="patients.district" pk="137">
+    <field name="state" rel="ManyToOneRel" to="patients.state">8</field>
+    <field name="level1" type="CharField">2300000000</field>
+    <field name="level2" type="CharField">2321100000</field>
+    <field name="name" type="CharField">ВЕЛИКОБІЛОЗЕРСЬКИЙ</field>
+    <field name="capital" type="CharField">С.ВЕЛИКА БІЛОЗЕРКА</field>
+  </object>
+  <object model="patients.district" pk="138">
+    <field name="state" rel="ManyToOneRel" to="patients.state">8</field>
+    <field name="level1" type="CharField">2300000000</field>
+    <field name="level2" type="CharField">2321200000</field>
+    <field name="name" type="CharField">ВЕСЕЛІВСЬКИЙ</field>
+    <field name="capital" type="CharField">СМТ ВЕСЕЛЕ</field>
+  </object>
+  <object model="patients.district" pk="139">
+    <field name="state" rel="ManyToOneRel" to="patients.state">8</field>
+    <field name="level1" type="CharField">2300000000</field>
+    <field name="level2" type="CharField">2321500000</field>
+    <field name="name" type="CharField">ВІЛЬНЯНСЬКИЙ</field>
+    <field name="capital" type="CharField">М.ВІЛЬНЯНСЬК</field>
+  </object>
+  <object model="patients.district" pk="140">
+    <field name="state" rel="ManyToOneRel" to="patients.state">8</field>
+    <field name="level1" type="CharField">2300000000</field>
+    <field name="level2" type="CharField">2321800000</field>
+    <field name="name" type="CharField">ГУЛЯЙПІЛЬСЬКИЙ</field>
+    <field name="capital" type="CharField">М.ГУЛЯЙПОЛЕ</field>
+  </object>
+  <object model="patients.district" pk="141">
+    <field name="state" rel="ManyToOneRel" to="patients.state">8</field>
+    <field name="level1" type="CharField">2300000000</field>
+    <field name="level2" type="CharField">2322100000</field>
+    <field name="name" type="CharField">ЗАПОРІЗЬКИЙ</field>
+    <field name="capital" type="CharField">М.ЗАПОРІЖЖЯ</field>
+  </object>
+  <object model="patients.district" pk="142">
+    <field name="state" rel="ManyToOneRel" to="patients.state">8</field>
+    <field name="level1" type="CharField">2300000000</field>
+    <field name="level2" type="CharField">2322400000</field>
+    <field name="name" type="CharField">КАМ'ЯНСЬКО-ДНІПРОВСЬКИЙ</field>
+    <field name="capital" type="CharField">М.КАМ'ЯНКА-ДНІПРОВСЬКА</field>
+  </object>
+  <object model="patients.district" pk="143">
+    <field name="state" rel="ManyToOneRel" to="patients.state">8</field>
+    <field name="level1" type="CharField">2300000000</field>
+    <field name="level2" type="CharField">2322700000</field>
+    <field name="name" type="CharField">БІЛЬМАЦЬКИЙ</field>
+    <field name="capital" type="CharField">СМТ БІЛЬМАК</field>
+  </object>
+  <object model="patients.district" pk="144">
+    <field name="state" rel="ManyToOneRel" to="patients.state">8</field>
+    <field name="level1" type="CharField">2300000000</field>
+    <field name="level2" type="CharField">2323000000</field>
+    <field name="name" type="CharField">МЕЛІТОПОЛЬСЬКИЙ</field>
+    <field name="capital" type="CharField">М.МЕЛІТОПОЛЬ</field>
+  </object>
+  <object model="patients.district" pk="145">
+    <field name="state" rel="ManyToOneRel" to="patients.state">8</field>
+    <field name="level1" type="CharField">2300000000</field>
+    <field name="level2" type="CharField">2323300000</field>
+    <field name="name" type="CharField">МИХАЙЛІВСЬКИЙ</field>
+    <field name="capital" type="CharField">СМТ МИХАЙЛІВКА</field>
+  </object>
+  <object model="patients.district" pk="146">
+    <field name="state" rel="ManyToOneRel" to="patients.state">8</field>
+    <field name="level1" type="CharField">2300000000</field>
+    <field name="level2" type="CharField">2323600000</field>
+    <field name="name" type="CharField">НОВОМИКОЛАЇВСЬКИЙ</field>
+    <field name="capital" type="CharField">СМТ НОВОМИКОЛАЇВКА</field>
+  </object>
+  <object model="patients.district" pk="147">
+    <field name="state" rel="ManyToOneRel" to="patients.state">8</field>
+    <field name="level1" type="CharField">2300000000</field>
+    <field name="level2" type="CharField">2323900000</field>
+    <field name="name" type="CharField">ОРІХІВСЬКИЙ</field>
+    <field name="capital" type="CharField">М.ОРІХІВ</field>
+  </object>
+  <object model="patients.district" pk="148">
+    <field name="state" rel="ManyToOneRel" to="patients.state">8</field>
+    <field name="level1" type="CharField">2300000000</field>
+    <field name="level2" type="CharField">2324200000</field>
+    <field name="name" type="CharField">ПОЛОГІВСЬКИЙ</field>
+    <field name="capital" type="CharField">М.ПОЛОГИ</field>
+  </object>
+  <object model="patients.district" pk="149">
+    <field name="state" rel="ManyToOneRel" to="patients.state">8</field>
+    <field name="level1" type="CharField">2300000000</field>
+    <field name="level2" type="CharField">2324500000</field>
+    <field name="name" type="CharField">ПРИАЗОВСЬКИЙ</field>
+    <field name="capital" type="CharField">СМТ ПРИАЗОВСЬКЕ</field>
+  </object>
+  <object model="patients.district" pk="150">
+    <field name="state" rel="ManyToOneRel" to="patients.state">8</field>
+    <field name="level1" type="CharField">2300000000</field>
+    <field name="level2" type="CharField">2324800000</field>
+    <field name="name" type="CharField">ПРИМОРСЬКИЙ</field>
+    <field name="capital" type="CharField">М.ПРИМОРСЬК</field>
+  </object>
+  <object model="patients.district" pk="151">
+    <field name="state" rel="ManyToOneRel" to="patients.state">8</field>
+    <field name="level1" type="CharField">2300000000</field>
+    <field name="level2" type="CharField">2324900000</field>
+    <field name="name" type="CharField">РОЗІВСЬКИЙ</field>
+    <field name="capital" type="CharField">СМТ РОЗІВКА</field>
+  </object>
+  <object model="patients.district" pk="152">
+    <field name="state" rel="ManyToOneRel" to="patients.state">8</field>
+    <field name="level1" type="CharField">2300000000</field>
+    <field name="level2" type="CharField">2325200000</field>
+    <field name="name" type="CharField">ТОКМАЦЬКИЙ</field>
+    <field name="capital" type="CharField">М.ТОКМАК</field>
+  </object>
+  <object model="patients.district" pk="153">
+    <field name="state" rel="ManyToOneRel" to="patients.state">8</field>
+    <field name="level1" type="CharField">2300000000</field>
+    <field name="level2" type="CharField">2325500000</field>
+    <field name="name" type="CharField">ЧЕРНІГІВСЬКИЙ</field>
+    <field name="capital" type="CharField">СМТ ЧЕРНІГІВКА</field>
+  </object>
+  <object model="patients.district" pk="154">
+    <field name="state" rel="ManyToOneRel" to="patients.state">9</field>
+    <field name="level1" type="CharField">2600000000</field>
+    <field name="level2" type="CharField">2620400000</field>
+    <field name="name" type="CharField">БОГОРОДЧАНСЬКИЙ</field>
+    <field name="capital" type="CharField">СМТ БОГОРОДЧАНИ</field>
+  </object>
+  <object model="patients.district" pk="155">
+    <field name="state" rel="ManyToOneRel" to="patients.state">9</field>
+    <field name="level1" type="CharField">2600000000</field>
+    <field name="level2" type="CharField">2620800000</field>
+    <field name="name" type="CharField">ВЕРХОВИНСЬКИЙ</field>
+    <field name="capital" type="CharField">СМТ ВЕРХОВИНА</field>
+  </object>
+  <object model="patients.district" pk="156">
+    <field name="state" rel="ManyToOneRel" to="patients.state">9</field>
+    <field name="level1" type="CharField">2600000000</field>
+    <field name="level2" type="CharField">2621200000</field>
+    <field name="name" type="CharField">ГАЛИЦЬКИЙ</field>
+    <field name="capital" type="CharField">М.ГАЛИЧ</field>
+  </object>
+  <object model="patients.district" pk="157">
+    <field name="state" rel="ManyToOneRel" to="patients.state">9</field>
+    <field name="level1" type="CharField">2600000000</field>
+    <field name="level2" type="CharField">2621600000</field>
+    <field name="name" type="CharField">ГОРОДЕНКІВСЬКИЙ</field>
+    <field name="capital" type="CharField">М.ГОРОДЕНКА</field>
+  </object>
+  <object model="patients.district" pk="158">
+    <field name="state" rel="ManyToOneRel" to="patients.state">9</field>
+    <field name="level1" type="CharField">2600000000</field>
+    <field name="level2" type="CharField">2622000000</field>
+    <field name="name" type="CharField">ДОЛИНСЬКИЙ</field>
+    <field name="capital" type="CharField">М.ДОЛИНА</field>
+  </object>
+  <object model="patients.district" pk="159">
+    <field name="state" rel="ManyToOneRel" to="patients.state">9</field>
+    <field name="level1" type="CharField">2600000000</field>
+    <field name="level2" type="CharField">2622800000</field>
+    <field name="name" type="CharField">КАЛУСЬКИЙ</field>
+    <field name="capital" type="CharField">М.КАЛУШ</field>
+  </object>
+  <object model="patients.district" pk="160">
+    <field name="state" rel="ManyToOneRel" to="patients.state">9</field>
+    <field name="level1" type="CharField">2600000000</field>
+    <field name="level2" type="CharField">2623200000</field>
+    <field name="name" type="CharField">КОЛОМИЙСЬКИЙ</field>
+    <field name="capital" type="CharField">М.КОЛОМИЯ</field>
+  </object>
+  <object model="patients.district" pk="161">
+    <field name="state" rel="ManyToOneRel" to="patients.state">9</field>
+    <field name="level1" type="CharField">2600000000</field>
+    <field name="level2" type="CharField">2623600000</field>
+    <field name="name" type="CharField">КОСІВСЬКИЙ</field>
+    <field name="capital" type="CharField">М.КОСІВ</field>
+  </object>
+  <object model="patients.district" pk="162">
+    <field name="state" rel="ManyToOneRel" to="patients.state">9</field>
+    <field name="level1" type="CharField">2600000000</field>
+    <field name="level2" type="CharField">2624000000</field>
+    <field name="name" type="CharField">НАДВІРНЯНСЬКИЙ</field>
+    <field name="capital" type="CharField">М.НАДВІРНА</field>
+  </object>
+  <object model="patients.district" pk="163">
+    <field name="state" rel="ManyToOneRel" to="patients.state">9</field>
+    <field name="level1" type="CharField">2600000000</field>
+    <field name="level2" type="CharField">2624400000</field>
+    <field name="name" type="CharField">РОГАТИНСЬКИЙ</field>
+    <field name="capital" type="CharField">М.РОГАТИН</field>
+  </object>
+  <object model="patients.district" pk="164">
+    <field name="state" rel="ManyToOneRel" to="patients.state">9</field>
+    <field name="level1" type="CharField">2600000000</field>
+    <field name="level2" type="CharField">2624800000</field>
+    <field name="name" type="CharField">РОЖНЯТІВСЬКИЙ</field>
+    <field name="capital" type="CharField">СМТ РОЖНЯТІВ</field>
+  </object>
+  <object model="patients.district" pk="165">
+    <field name="state" rel="ManyToOneRel" to="patients.state">9</field>
+    <field name="level1" type="CharField">2600000000</field>
+    <field name="level2" type="CharField">2625200000</field>
+    <field name="name" type="CharField">СНЯТИНСЬКИЙ</field>
+    <field name="capital" type="CharField">М.СНЯТИН</field>
+  </object>
+  <object model="patients.district" pk="166">
+    <field name="state" rel="ManyToOneRel" to="patients.state">9</field>
+    <field name="level1" type="CharField">2600000000</field>
+    <field name="level2" type="CharField">2625600000</field>
+    <field name="name" type="CharField">ТЛУМАЦЬКИЙ</field>
+    <field name="capital" type="CharField">М.ТЛУМАЧ</field>
+  </object>
+  <object model="patients.district" pk="167">
+    <field name="state" rel="ManyToOneRel" to="patients.state">9</field>
+    <field name="level1" type="CharField">2600000000</field>
+    <field name="level2" type="CharField">2625800000</field>
+    <field name="name" type="CharField">ТИСМЕНИЦЬКИЙ</field>
+    <field name="capital" type="CharField">М.ТИСМЕНИЦЯ</field>
+  </object>
+  <object model="patients.district" pk="168">
+    <field name="state" rel="ManyToOneRel" to="patients.state">10</field>
+    <field name="level1" type="CharField">3200000000</field>
+    <field name="level2" type="CharField">3220200000</field>
+    <field name="name" type="CharField">БАРИШІВСЬКИЙ</field>
+    <field name="capital" type="CharField">СМТ БАРИШІВКА</field>
+  </object>
+  <object model="patients.district" pk="169">
+    <field name="state" rel="ManyToOneRel" to="patients.state">10</field>
+    <field name="level1" type="CharField">3200000000</field>
+    <field name="level2" type="CharField">3220400000</field>
+    <field name="name" type="CharField">БІЛОЦЕРКІВСЬКИЙ</field>
+    <field name="capital" type="CharField">М.БІЛА ЦЕРКВА</field>
+  </object>
+  <object model="patients.district" pk="170">
+    <field name="state" rel="ManyToOneRel" to="patients.state">10</field>
+    <field name="level1" type="CharField">3200000000</field>
+    <field name="level2" type="CharField">3220600000</field>
+    <field name="name" type="CharField">БОГУСЛАВСЬКИЙ</field>
+    <field name="capital" type="CharField">М.БОГУСЛАВ</field>
+  </object>
+  <object model="patients.district" pk="171">
+    <field name="state" rel="ManyToOneRel" to="patients.state">10</field>
+    <field name="level1" type="CharField">3200000000</field>
+    <field name="level2" type="CharField">3220800000</field>
+    <field name="name" type="CharField">БОРИСПІЛЬСЬКИЙ</field>
+    <field name="capital" type="CharField">М.БОРИСПІЛЬ</field>
+  </object>
+  <object model="patients.district" pk="172">
+    <field name="state" rel="ManyToOneRel" to="patients.state">10</field>
+    <field name="level1" type="CharField">3200000000</field>
+    <field name="level2" type="CharField">3221000000</field>
+    <field name="name" type="CharField">БОРОДЯНСЬКИЙ</field>
+    <field name="capital" type="CharField">СМТ БОРОДЯНКА</field>
+  </object>
+  <object model="patients.district" pk="173">
+    <field name="state" rel="ManyToOneRel" to="patients.state">10</field>
+    <field name="level1" type="CharField">3200000000</field>
+    <field name="level2" type="CharField">3221200000</field>
+    <field name="name" type="CharField">БРОВАРСЬКИЙ</field>
+    <field name="capital" type="CharField">М.БРОВАРИ</field>
+  </object>
+  <object model="patients.district" pk="174">
+    <field name="state" rel="ManyToOneRel" to="patients.state">10</field>
+    <field name="level1" type="CharField">3200000000</field>
+    <field name="level2" type="CharField">3221400000</field>
+    <field name="name" type="CharField">ВАСИЛЬКІВСЬКИЙ</field>
+    <field name="capital" type="CharField">М.ВАСИЛЬКІВ</field>
+  </object>
+  <object model="patients.district" pk="175">
+    <field name="state" rel="ManyToOneRel" to="patients.state">10</field>
+    <field name="level1" type="CharField">3200000000</field>
+    <field name="level2" type="CharField">3221600000</field>
+    <field name="name" type="CharField">ВОЛОДАРСЬКИЙ</field>
+    <field name="capital" type="CharField">СМТ ВОЛОДАРКА</field>
+  </object>
+  <object model="patients.district" pk="176">
+    <field name="state" rel="ManyToOneRel" to="patients.state">10</field>
+    <field name="level1" type="CharField">3200000000</field>
+    <field name="level2" type="CharField">3221800000</field>
+    <field name="name" type="CharField">ВИШГОРОДСЬКИЙ</field>
+    <field name="capital" type="CharField">М.ВИШГОРОД</field>
+  </object>
+  <object model="patients.district" pk="177">
+    <field name="state" rel="ManyToOneRel" to="patients.state">10</field>
+    <field name="level1" type="CharField">3200000000</field>
+    <field name="level2" type="CharField">3221900000</field>
+    <field name="name" type="CharField">ЗГУРІВСЬКИЙ</field>
+    <field name="capital" type="CharField">СМТ ЗГУРІВКА</field>
+  </object>
+  <object model="patients.district" pk="178">
+    <field name="state" rel="ManyToOneRel" to="patients.state">10</field>
+    <field name="level1" type="CharField">3200000000</field>
+    <field name="level2" type="CharField">3222000000</field>
+    <field name="name" type="CharField">ІВАНКІВСЬКИЙ</field>
+    <field name="capital" type="CharField">СМТ ІВАНКІВ</field>
+  </object>
+  <object model="patients.district" pk="179">
+    <field name="state" rel="ManyToOneRel" to="patients.state">10</field>
+    <field name="level1" type="CharField">3200000000</field>
+    <field name="level2" type="CharField">3222200000</field>
+    <field name="name" type="CharField">КАГАРЛИЦЬКИЙ</field>
+    <field name="capital" type="CharField">М.КАГАРЛИК</field>
+  </object>
+  <object model="patients.district" pk="180">
+    <field name="state" rel="ManyToOneRel" to="patients.state">10</field>
+    <field name="level1" type="CharField">3200000000</field>
+    <field name="level2" type="CharField">3222400000</field>
+    <field name="name" type="CharField">КИЄВО-СВЯТОШИНСЬКИЙ</field>
+    <field name="capital" type="CharField">М.КИЇВ</field>
+  </object>
+  <object model="patients.district" pk="181">
+    <field name="state" rel="ManyToOneRel" to="patients.state">10</field>
+    <field name="level1" type="CharField">3200000000</field>
+    <field name="level2" type="CharField">3222700000</field>
+    <field name="name" type="CharField">МАКАРІВСЬКИЙ</field>
+    <field name="capital" type="CharField">СМТ МАКАРІВ</field>
+  </object>
+  <object model="patients.district" pk="182">
+    <field name="state" rel="ManyToOneRel" to="patients.state">10</field>
+    <field name="level1" type="CharField">3200000000</field>
+    <field name="level2" type="CharField">3222900000</field>
+    <field name="name" type="CharField">МИРОНІВСЬКИЙ</field>
+    <field name="capital" type="CharField">М.МИРОНІВКА</field>
+  </object>
+  <object model="patients.district" pk="183">
+    <field name="state" rel="ManyToOneRel" to="patients.state">10</field>
+    <field name="level1" type="CharField">3200000000</field>
+    <field name="level2" type="CharField">3223100000</field>
+    <field name="name" type="CharField">ОБУХІВСЬКИЙ</field>
+    <field name="capital" type="CharField">М.ОБУХІВ</field>
+  </object>
+  <object model="patients.district" pk="184">
+    <field name="state" rel="ManyToOneRel" to="patients.state">10</field>
+    <field name="level1" type="CharField">3200000000</field>
+    <field name="level2" type="CharField">3223300000</field>
+    <field name="name" type="CharField">ПЕРЕЯСЛАВ-ХМЕЛЬНИЦЬКИЙ</field>
+    <field name="capital" type="CharField">М.ПЕРЕЯСЛАВ-ХМЕЛЬНИЦЬКИЙ</field>
+  </object>
+  <object model="patients.district" pk="185">
+    <field name="state" rel="ManyToOneRel" to="patients.state">10</field>
+    <field name="level1" type="CharField">3200000000</field>
+    <field name="level2" type="CharField">3223500000</field>
+    <field name="name" type="CharField">ПОЛІСЬКИЙ</field>
+    <field name="capital" type="CharField">СМТ.КРАСЯТИЧІ</field>
+  </object>
+  <object model="patients.district" pk="186">
+    <field name="state" rel="ManyToOneRel" to="patients.state">10</field>
+    <field name="level1" type="CharField">3200000000</field>
+    <field name="level2" type="CharField">3223700000</field>
+    <field name="name" type="CharField">РОКИТНЯНСЬКИЙ</field>
+    <field name="capital" type="CharField">СМТ РОКИТНЕ</field>
+  </object>
+  <object model="patients.district" pk="187">
+    <field name="state" rel="ManyToOneRel" to="patients.state">10</field>
+    <field name="level1" type="CharField">3200000000</field>
+    <field name="level2" type="CharField">3224000000</field>
+    <field name="name" type="CharField">СКВИРСЬКИЙ</field>
+    <field name="capital" type="CharField">М.СКВИРА</field>
+  </object>
+  <object model="patients.district" pk="188">
+    <field name="state" rel="ManyToOneRel" to="patients.state">10</field>
+    <field name="level1" type="CharField">3200000000</field>
+    <field name="level2" type="CharField">3224200000</field>
+    <field name="name" type="CharField">СТАВИЩЕНСЬКИЙ</field>
+    <field name="capital" type="CharField">СМТ СТАВИЩЕ</field>
+  </object>
+  <object model="patients.district" pk="189">
+    <field name="state" rel="ManyToOneRel" to="patients.state">10</field>
+    <field name="level1" type="CharField">3200000000</field>
+    <field name="level2" type="CharField">3224400000</field>
+    <field name="name" type="CharField">ТАРАЩАНСЬКИЙ</field>
+    <field name="capital" type="CharField">М.ТАРАЩА</field>
+  </object>
+  <object model="patients.district" pk="190">
+    <field name="state" rel="ManyToOneRel" to="patients.state">10</field>
+    <field name="level1" type="CharField">3200000000</field>
+    <field name="level2" type="CharField">3224600000</field>
+    <field name="name" type="CharField">ТЕТІЇВСЬКИЙ</field>
+    <field name="capital" type="CharField">М.ТЕТІЇВ</field>
+  </object>
+  <object model="patients.district" pk="191">
+    <field name="state" rel="ManyToOneRel" to="patients.state">10</field>
+    <field name="level1" type="CharField">3200000000</field>
+    <field name="level2" type="CharField">3224900000</field>
+    <field name="name" type="CharField">ФАСТІВСЬКИЙ</field>
+    <field name="capital" type="CharField">М.ФАСТІВ</field>
+  </object>
+  <object model="patients.district" pk="192">
+    <field name="state" rel="ManyToOneRel" to="patients.state">10</field>
+    <field name="level1" type="CharField">3200000000</field>
+    <field name="level2" type="CharField">3225500000</field>
+    <field name="name" type="CharField">ЯГОТИНСЬКИЙ</field>
+    <field name="capital" type="CharField">М.ЯГОТИН</field>
+  </object>
+  <object model="patients.district" pk="193">
+    <field name="state" rel="ManyToOneRel" to="patients.state">11</field>
+    <field name="level1" type="CharField">3500000000</field>
+    <field name="level2" type="CharField">3520300000</field>
+    <field name="name" type="CharField">ОЛЕКСАНДРІЙСЬКИЙ</field>
+    <field name="capital" type="CharField">М.ОЛЕКСАНДРІЯ</field>
+  </object>
+  <object model="patients.district" pk="194">
+    <field name="state" rel="ManyToOneRel" to="patients.state">11</field>
+    <field name="level1" type="CharField">3500000000</field>
+    <field name="level2" type="CharField">3520500000</field>
+    <field name="name" type="CharField">ОЛЕКСАНДРІВСЬКИЙ</field>
+    <field name="capital" type="CharField">СМТ ОЛЕКСАНДРІВКА</field>
+  </object>
+  <object model="patients.district" pk="195">
+    <field name="state" rel="ManyToOneRel" to="patients.state">11</field>
+    <field name="level1" type="CharField">3500000000</field>
+    <field name="level2" type="CharField">3520800000</field>
+    <field name="name" type="CharField">БОБРИНЕЦЬКИЙ</field>
+    <field name="capital" type="CharField">М.БОБРИНЕЦЬ</field>
+  </object>
+  <object model="patients.district" pk="196">
+    <field name="state" rel="ManyToOneRel" to="patients.state">11</field>
+    <field name="level1" type="CharField">3500000000</field>
+    <field name="level2" type="CharField">3521100000</field>
+    <field name="name" type="CharField">ГАЙВОРОНСЬКИЙ</field>
+    <field name="capital" type="CharField">М.ГАЙВОРОН</field>
+  </object>
+  <object model="patients.district" pk="197">
+    <field name="state" rel="ManyToOneRel" to="patients.state">11</field>
+    <field name="level1" type="CharField">3500000000</field>
+    <field name="level2" type="CharField">3521400000</field>
+    <field name="name" type="CharField">ГОЛОВАНІВСЬКИЙ</field>
+    <field name="capital" type="CharField">СМТ ГОЛОВАНІВСЬК</field>
+  </object>
+  <object model="patients.district" pk="198">
+    <field name="state" rel="ManyToOneRel" to="patients.state">11</field>
+    <field name="level1" type="CharField">3500000000</field>
+    <field name="level2" type="CharField">3521700000</field>
+    <field name="name" type="CharField">ДОБРОВЕЛИЧКІВСЬКИЙ</field>
+    <field name="capital" type="CharField">СМТ ДОБРОВЕЛИЧКІВКА</field>
+  </object>
+  <object model="patients.district" pk="199">
+    <field name="state" rel="ManyToOneRel" to="patients.state">11</field>
+    <field name="level1" type="CharField">3500000000</field>
+    <field name="level2" type="CharField">3521900000</field>
+    <field name="name" type="CharField">ДОЛИНСЬКИЙ</field>
+    <field name="capital" type="CharField">М.ДОЛИНСЬКА</field>
+  </object>
+  <object model="patients.district" pk="200">
+    <field name="state" rel="ManyToOneRel" to="patients.state">11</field>
+    <field name="level1" type="CharField">3500000000</field>
+    <field name="level2" type="CharField">3522200000</field>
+    <field name="name" type="CharField">ЗНАМ'ЯНСЬКИЙ</field>
+    <field name="capital" type="CharField">М.ЗНАМ'ЯНКА</field>
+  </object>
+  <object model="patients.district" pk="201">
+    <field name="state" rel="ManyToOneRel" to="patients.state">11</field>
+    <field name="level1" type="CharField">3500000000</field>
+    <field name="level2" type="CharField">3522500000</field>
+    <field name="name" type="CharField">КРОПИВНИЦЬКИЙ</field>
+    <field name="capital" type="CharField">М.КРОПИВНИЦЬКИЙ</field>
+  </object>
+  <object model="patients.district" pk="202">
+    <field name="state" rel="ManyToOneRel" to="patients.state">11</field>
+    <field name="level1" type="CharField">3500000000</field>
+    <field name="level2" type="CharField">3522800000</field>
+    <field name="name" type="CharField">КОМПАНІЇВСЬКИЙ</field>
+    <field name="capital" type="CharField">СМТ КОМПАНІЇВКА</field>
+  </object>
+  <object model="patients.district" pk="203">
+    <field name="state" rel="ManyToOneRel" to="patients.state">11</field>
+    <field name="level1" type="CharField">3500000000</field>
+    <field name="level2" type="CharField">3523100000</field>
+    <field name="name" type="CharField">МАЛОВИСКІВСЬКИЙ</field>
+    <field name="capital" type="CharField">М.МАЛА ВИСКА</field>
+  </object>
+  <object model="patients.district" pk="204">
+    <field name="state" rel="ManyToOneRel" to="patients.state">11</field>
+    <field name="level1" type="CharField">3500000000</field>
+    <field name="level2" type="CharField">3523400000</field>
+    <field name="name" type="CharField">НОВГОРОДКІВСЬКИЙ</field>
+    <field name="capital" type="CharField">СМТ НОВГОРОДКА</field>
+  </object>
+  <object model="patients.district" pk="205">
+    <field name="state" rel="ManyToOneRel" to="patients.state">11</field>
+    <field name="level1" type="CharField">3500000000</field>
+    <field name="level2" type="CharField">3523600000</field>
+    <field name="name" type="CharField">НОВОАРХАНГЕЛЬСЬКИЙ</field>
+    <field name="capital" type="CharField">СМТ НОВОАРХАНГЕЛЬСЬК</field>
+  </object>
+  <object model="patients.district" pk="206">
+    <field name="state" rel="ManyToOneRel" to="patients.state">11</field>
+    <field name="level1" type="CharField">3500000000</field>
+    <field name="level2" type="CharField">3523800000</field>
+    <field name="name" type="CharField">НОВОМИРГОРОДСЬКИЙ</field>
+    <field name="capital" type="CharField">М.НОВОМИРГОРОД</field>
+  </object>
+  <object model="patients.district" pk="207">
+    <field name="state" rel="ManyToOneRel" to="patients.state">11</field>
+    <field name="level1" type="CharField">3500000000</field>
+    <field name="level2" type="CharField">3524000000</field>
+    <field name="name" type="CharField">НОВОУКРАЇНСЬКИЙ</field>
+    <field name="capital" type="CharField">М.НОВОУКРАЇНКА</field>
+  </object>
+  <object model="patients.district" pk="208">
+    <field name="state" rel="ManyToOneRel" to="patients.state">11</field>
+    <field name="level1" type="CharField">3500000000</field>
+    <field name="level2" type="CharField">3524300000</field>
+    <field name="name" type="CharField">ВІЛЬШАНСЬКИЙ</field>
+    <field name="capital" type="CharField">СМТ ВІЛЬШАНКА</field>
+  </object>
+  <object model="patients.district" pk="209">
+    <field name="state" rel="ManyToOneRel" to="patients.state">11</field>
+    <field name="level1" type="CharField">3500000000</field>
+    <field name="level2" type="CharField">3524600000</field>
+    <field name="name" type="CharField">ОНУФРІЇВСЬКИЙ</field>
+    <field name="capital" type="CharField">СМТ ОНУФРІЇВКА</field>
+  </object>
+  <object model="patients.district" pk="210">
+    <field name="state" rel="ManyToOneRel" to="patients.state">11</field>
+    <field name="level1" type="CharField">3500000000</field>
+    <field name="level2" type="CharField">3524900000</field>
+    <field name="name" type="CharField">ПЕТРІВСЬКИЙ</field>
+    <field name="capital" type="CharField">СМТ ПЕТРОВЕ</field>
+  </object>
+  <object model="patients.district" pk="211">
+    <field name="state" rel="ManyToOneRel" to="patients.state">11</field>
+    <field name="level1" type="CharField">3500000000</field>
+    <field name="level2" type="CharField">3525200000</field>
+    <field name="name" type="CharField">СВІТЛОВОДСЬКИЙ</field>
+    <field name="capital" type="CharField">М.СВІТЛОВОДСЬК</field>
+  </object>
+  <object model="patients.district" pk="212">
+    <field name="state" rel="ManyToOneRel" to="patients.state">11</field>
+    <field name="level1" type="CharField">3500000000</field>
+    <field name="level2" type="CharField">3525500000</field>
+    <field name="name" type="CharField">БЛАГОВІЩЕНСЬКИЙ</field>
+    <field name="capital" type="CharField">М.БЛАГОВІЩЕНСЬКЕ</field>
+  </object>
+  <object model="patients.district" pk="213">
+    <field name="state" rel="ManyToOneRel" to="patients.state">11</field>
+    <field name="level1" type="CharField">3500000000</field>
+    <field name="level2" type="CharField">3525800000</field>
+    <field name="name" type="CharField">УСТИНІВСЬКИЙ</field>
+    <field name="capital" type="CharField">СМТ УСТИНІВКА</field>
+  </object>
+  <object model="patients.district" pk="214">
+    <field name="state" rel="ManyToOneRel" to="patients.state">12</field>
+    <field name="level1" type="CharField">4400000000</field>
+    <field name="level2" type="CharField">4420300000</field>
+    <field name="name" type="CharField">АНТРАЦИТІВСЬКИЙ</field>
+    <field name="capital" type="CharField">М.АНТРАЦИТ</field>
+  </object>
+  <object model="patients.district" pk="215">
+    <field name="state" rel="ManyToOneRel" to="patients.state">12</field>
+    <field name="level1" type="CharField">4400000000</field>
+    <field name="level2" type="CharField">4420600000</field>
+    <field name="name" type="CharField">БІЛОВОДСЬКИЙ</field>
+    <field name="capital" type="CharField">СМТ БІЛОВОДСЬК</field>
+  </object>
+  <object model="patients.district" pk="216">
+    <field name="state" rel="ManyToOneRel" to="patients.state">12</field>
+    <field name="level1" type="CharField">4400000000</field>
+    <field name="level2" type="CharField">4420900000</field>
+    <field name="name" type="CharField">БІЛОКУРАКИНСЬКИЙ</field>
+    <field name="capital" type="CharField">СМТ БІЛОКУРАКИНЕ</field>
+  </object>
+  <object model="patients.district" pk="217">
+    <field name="state" rel="ManyToOneRel" to="patients.state">12</field>
+    <field name="level1" type="CharField">4400000000</field>
+    <field name="level2" type="CharField">4421400000</field>
+    <field name="name" type="CharField">СОРОКИНСЬКИЙ</field>
+    <field name="capital" type="CharField">М.СОРОКИНЕ</field>
+  </object>
+  <object model="patients.district" pk="218">
+    <field name="state" rel="ManyToOneRel" to="patients.state">12</field>
+    <field name="level1" type="CharField">4400000000</field>
+    <field name="level2" type="CharField">4421600000</field>
+    <field name="name" type="CharField">КРЕМІНСЬКИЙ</field>
+    <field name="capital" type="CharField">М.КРЕМІННА</field>
+  </object>
+  <object model="patients.district" pk="219">
+    <field name="state" rel="ManyToOneRel" to="patients.state">12</field>
+    <field name="level1" type="CharField">4400000000</field>
+    <field name="level2" type="CharField">4422200000</field>
+    <field name="name" type="CharField">ЛУТУГИНСЬКИЙ</field>
+    <field name="capital" type="CharField">М.ЛУТУГИНЕ</field>
+  </object>
+  <object model="patients.district" pk="220">
+    <field name="state" rel="ManyToOneRel" to="patients.state">12</field>
+    <field name="level1" type="CharField">4400000000</field>
+    <field name="level2" type="CharField">4422500000</field>
+    <field name="name" type="CharField">МАРКІВСЬКИЙ</field>
+    <field name="capital" type="CharField">СМТ МАРКІВКА</field>
+  </object>
+  <object model="patients.district" pk="221">
+    <field name="state" rel="ManyToOneRel" to="patients.state">12</field>
+    <field name="level1" type="CharField">4400000000</field>
+    <field name="level2" type="CharField">4422800000</field>
+    <field name="name" type="CharField">МІЛОВСЬКИЙ</field>
+    <field name="capital" type="CharField">СМТ МІЛОВЕ</field>
+  </object>
+  <object model="patients.district" pk="222">
+    <field name="state" rel="ManyToOneRel" to="patients.state">12</field>
+    <field name="level1" type="CharField">4400000000</field>
+    <field name="level2" type="CharField">4423100000</field>
+    <field name="name" type="CharField">НОВОАЙДАРСЬКИЙ</field>
+    <field name="capital" type="CharField">СМТ НОВОАЙДАР</field>
+  </object>
+  <object model="patients.district" pk="223">
+    <field name="state" rel="ManyToOneRel" to="patients.state">12</field>
+    <field name="level1" type="CharField">4400000000</field>
+    <field name="level2" type="CharField">4423300000</field>
+    <field name="name" type="CharField">НОВОПСКОВСЬКИЙ</field>
+    <field name="capital" type="CharField">СМТ НОВОПСКОВ</field>
+  </object>
+  <object model="patients.district" pk="224">
+    <field name="state" rel="ManyToOneRel" to="patients.state">12</field>
+    <field name="level1" type="CharField">4400000000</field>
+    <field name="level2" type="CharField">4423600000</field>
+    <field name="name" type="CharField">ПЕРЕВАЛЬСЬКИЙ</field>
+    <field name="capital" type="CharField">М.ПЕРЕВАЛЬСЬК</field>
+  </object>
+  <object model="patients.district" pk="225">
+    <field name="state" rel="ManyToOneRel" to="patients.state">12</field>
+    <field name="level1" type="CharField">4400000000</field>
+    <field name="level2" type="CharField">4423800000</field>
+    <field name="name" type="CharField">ПОПАСНЯНСЬКИЙ</field>
+    <field name="capital" type="CharField">М.ПОПАСНА</field>
+  </object>
+  <object model="patients.district" pk="226">
+    <field name="state" rel="ManyToOneRel" to="patients.state">12</field>
+    <field name="level1" type="CharField">4400000000</field>
+    <field name="level2" type="CharField">4424000000</field>
+    <field name="name" type="CharField">СВАТІВСЬКИЙ</field>
+    <field name="capital" type="CharField">М.СВАТОВЕ</field>
+  </object>
+  <object model="patients.district" pk="227">
+    <field name="state" rel="ManyToOneRel" to="patients.state">12</field>
+    <field name="level1" type="CharField">4400000000</field>
+    <field name="level2" type="CharField">4424200000</field>
+    <field name="name" type="CharField">ДОВЖАНСЬКИЙ</field>
+    <field name="capital" type="CharField">М.ДОВЖАНСЬК</field>
+  </object>
+  <object model="patients.district" pk="228">
+    <field name="state" rel="ManyToOneRel" to="patients.state">12</field>
+    <field name="level1" type="CharField">4400000000</field>
+    <field name="level2" type="CharField">4424500000</field>
+    <field name="name" type="CharField">СЛОВ'ЯНОСЕРБСЬКИЙ</field>
+    <field name="capital" type="CharField">СМТ СЛОВ'ЯНОСЕРБСЬК</field>
+  </object>
+  <object model="patients.district" pk="229">
+    <field name="state" rel="ManyToOneRel" to="patients.state">12</field>
+    <field name="level1" type="CharField">4400000000</field>
+    <field name="level2" type="CharField">4424800000</field>
+    <field name="name" type="CharField">СТАНИЧНО-ЛУГАНСЬКИЙ</field>
+    <field name="capital" type="CharField">СМТ СТАНИЦЯ ЛУГАНСЬКА</field>
+  </object>
+  <object model="patients.district" pk="230">
+    <field name="state" rel="ManyToOneRel" to="patients.state">12</field>
+    <field name="level1" type="CharField">4400000000</field>
+    <field name="level2" type="CharField">4425100000</field>
+    <field name="name" type="CharField">СТАРОБІЛЬСЬКИЙ</field>
+    <field name="capital" type="CharField">М.СТАРОБІЛЬСЬК</field>
+  </object>
+  <object model="patients.district" pk="231">
+    <field name="state" rel="ManyToOneRel" to="patients.state">12</field>
+    <field name="level1" type="CharField">4400000000</field>
+    <field name="level2" type="CharField">4425400000</field>
+    <field name="name" type="CharField">ТРОЇЦЬКИЙ</field>
+    <field name="capital" type="CharField">СМТ ТРОЇЦЬКЕ</field>
+  </object>
+  <object model="patients.district" pk="232">
+    <field name="state" rel="ManyToOneRel" to="patients.state">13</field>
+    <field name="level1" type="CharField">4600000000</field>
+    <field name="level2" type="CharField">4620300000</field>
+    <field name="name" type="CharField">БРОДІВСЬКИЙ</field>
+    <field name="capital" type="CharField">М.БРОДИ</field>
+  </object>
+  <object model="patients.district" pk="233">
+    <field name="state" rel="ManyToOneRel" to="patients.state">13</field>
+    <field name="level1" type="CharField">4600000000</field>
+    <field name="level2" type="CharField">4620600000</field>
+    <field name="name" type="CharField">БУСЬКИЙ</field>
+    <field name="capital" type="CharField">М.БУСЬК</field>
+  </object>
+  <object model="patients.district" pk="234">
+    <field name="state" rel="ManyToOneRel" to="patients.state">13</field>
+    <field name="level1" type="CharField">4600000000</field>
+    <field name="level2" type="CharField">4620900000</field>
+    <field name="name" type="CharField">ГОРОДОЦЬКИЙ</field>
+    <field name="capital" type="CharField">М.ГОРОДОК</field>
+  </object>
+  <object model="patients.district" pk="235">
+    <field name="state" rel="ManyToOneRel" to="patients.state">13</field>
+    <field name="level1" type="CharField">4600000000</field>
+    <field name="level2" type="CharField">4621200000</field>
+    <field name="name" type="CharField">ДРОГОБИЦЬКИЙ</field>
+    <field name="capital" type="CharField">М.ДРОГОБИЧ</field>
+  </object>
+  <object model="patients.district" pk="236">
+    <field name="state" rel="ManyToOneRel" to="patients.state">13</field>
+    <field name="level1" type="CharField">4600000000</field>
+    <field name="level2" type="CharField">4621500000</field>
+    <field name="name" type="CharField">ЖИДАЧІВСЬКИЙ</field>
+    <field name="capital" type="CharField">М.ЖИДАЧІВ</field>
+  </object>
+  <object model="patients.district" pk="237">
+    <field name="state" rel="ManyToOneRel" to="patients.state">13</field>
+    <field name="level1" type="CharField">4600000000</field>
+    <field name="level2" type="CharField">4621800000</field>
+    <field name="name" type="CharField">ЗОЛОЧІВСЬКИЙ</field>
+    <field name="capital" type="CharField">М.ЗОЛОЧІВ</field>
+  </object>
+  <object model="patients.district" pk="238">
+    <field name="state" rel="ManyToOneRel" to="patients.state">13</field>
+    <field name="level1" type="CharField">4600000000</field>
+    <field name="level2" type="CharField">4622100000</field>
+    <field name="name" type="CharField">КАМ'ЯНКА-БУЗЬКИЙ</field>
+    <field name="capital" type="CharField">М.КАМ'ЯНКА-БУЗЬКА</field>
+  </object>
+  <object model="patients.district" pk="239">
+    <field name="state" rel="ManyToOneRel" to="patients.state">13</field>
+    <field name="level1" type="CharField">4600000000</field>
+    <field name="level2" type="CharField">4622400000</field>
+    <field name="name" type="CharField">МОСТИСЬКИЙ</field>
+    <field name="capital" type="CharField">М.МОСТИСЬКА</field>
+  </object>
+  <object model="patients.district" pk="240">
+    <field name="state" rel="ManyToOneRel" to="patients.state">13</field>
+    <field name="level1" type="CharField">4600000000</field>
+    <field name="level2" type="CharField">4622700000</field>
+    <field name="name" type="CharField">ЖОВКІВСЬКИЙ</field>
+    <field name="capital" type="CharField">М.ЖОВКВА</field>
+  </object>
+  <object model="patients.district" pk="241">
+    <field name="state" rel="ManyToOneRel" to="patients.state">13</field>
+    <field name="level1" type="CharField">4600000000</field>
+    <field name="level2" type="CharField">4623000000</field>
+    <field name="name" type="CharField">МИКОЛАЇВСЬКИЙ</field>
+    <field name="capital" type="CharField">М.МИКОЛАЇВ</field>
+  </object>
+  <object model="patients.district" pk="242">
+    <field name="state" rel="ManyToOneRel" to="patients.state">13</field>
+    <field name="level1" type="CharField">4600000000</field>
+    <field name="level2" type="CharField">4623300000</field>
+    <field name="name" type="CharField">ПЕРЕМИШЛЯНСЬКИЙ</field>
+    <field name="capital" type="CharField">М.ПЕРЕМИШЛЯНИ</field>
+  </object>
+  <object model="patients.district" pk="243">
+    <field name="state" rel="ManyToOneRel" to="patients.state">13</field>
+    <field name="level1" type="CharField">4600000000</field>
+    <field name="level2" type="CharField">4623600000</field>
+    <field name="name" type="CharField">ПУСТОМИТІВСЬКИЙ</field>
+    <field name="capital" type="CharField">М.ПУСТОМИТИ</field>
+  </object>
+  <object model="patients.district" pk="244">
+    <field name="state" rel="ManyToOneRel" to="patients.state">13</field>
+    <field name="level1" type="CharField">4600000000</field>
+    <field name="level2" type="CharField">4623900000</field>
+    <field name="name" type="CharField">РАДЕХІВСЬКИЙ</field>
+    <field name="capital" type="CharField">М.РАДЕХІВ</field>
+  </object>
+  <object model="patients.district" pk="245">
+    <field name="state" rel="ManyToOneRel" to="patients.state">13</field>
+    <field name="level1" type="CharField">4600000000</field>
+    <field name="level2" type="CharField">4624200000</field>
+    <field name="name" type="CharField">САМБІРСЬКИЙ</field>
+    <field name="capital" type="CharField">М.САМБІР</field>
+  </object>
+  <object model="patients.district" pk="246">
+    <field name="state" rel="ManyToOneRel" to="patients.state">13</field>
+    <field name="level1" type="CharField">4600000000</field>
+    <field name="level2" type="CharField">4624500000</field>
+    <field name="name" type="CharField">СКОЛІВСЬКИЙ</field>
+    <field name="capital" type="CharField">М.СКОЛЕ</field>
+  </object>
+  <object model="patients.district" pk="247">
+    <field name="state" rel="ManyToOneRel" to="patients.state">13</field>
+    <field name="level1" type="CharField">4600000000</field>
+    <field name="level2" type="CharField">4624800000</field>
+    <field name="name" type="CharField">СОКАЛЬСЬКИЙ</field>
+    <field name="capital" type="CharField">М.СОКАЛЬ</field>
+  </object>
+  <object model="patients.district" pk="248">
+    <field name="state" rel="ManyToOneRel" to="patients.state">13</field>
+    <field name="level1" type="CharField">4600000000</field>
+    <field name="level2" type="CharField">4625100000</field>
+    <field name="name" type="CharField">СТАРОСАМБІРСЬКИЙ</field>
+    <field name="capital" type="CharField">М.СТАРИЙ САМБІР</field>
+  </object>
+  <object model="patients.district" pk="249">
+    <field name="state" rel="ManyToOneRel" to="patients.state">13</field>
+    <field name="level1" type="CharField">4600000000</field>
+    <field name="level2" type="CharField">4625300000</field>
+    <field name="name" type="CharField">СТРИЙСЬКИЙ</field>
+    <field name="capital" type="CharField">М.СТРИЙ</field>
+  </object>
+  <object model="patients.district" pk="250">
+    <field name="state" rel="ManyToOneRel" to="patients.state">13</field>
+    <field name="level1" type="CharField">4600000000</field>
+    <field name="level2" type="CharField">4625500000</field>
+    <field name="name" type="CharField">ТУРКІВСЬКИЙ</field>
+    <field name="capital" type="CharField">М.ТУРКА</field>
+  </object>
+  <object model="patients.district" pk="251">
+    <field name="state" rel="ManyToOneRel" to="patients.state">13</field>
+    <field name="level1" type="CharField">4600000000</field>
+    <field name="level2" type="CharField">4625800000</field>
+    <field name="name" type="CharField">ЯВОРІВСЬКИЙ</field>
+    <field name="capital" type="CharField">М.ЯВОРІВ</field>
+  </object>
+  <object model="patients.district" pk="252">
+    <field name="state" rel="ManyToOneRel" to="patients.state">14</field>
+    <field name="level1" type="CharField">4800000000</field>
+    <field name="level2" type="CharField">4820300000</field>
+    <field name="name" type="CharField">АРБУЗИНСЬКИЙ</field>
+    <field name="capital" type="CharField">СМТ АРБУЗИНКА</field>
+  </object>
+  <object model="patients.district" pk="253">
+    <field name="state" rel="ManyToOneRel" to="patients.state">14</field>
+    <field name="level1" type="CharField">4800000000</field>
+    <field name="level2" type="CharField">4820600000</field>
+    <field name="name" type="CharField">БАШТАНСЬКИЙ</field>
+    <field name="capital" type="CharField">М.БАШТАНКА</field>
+  </object>
+  <object model="patients.district" pk="254">
+    <field name="state" rel="ManyToOneRel" to="patients.state">14</field>
+    <field name="level1" type="CharField">4800000000</field>
+    <field name="level2" type="CharField">4820900000</field>
+    <field name="name" type="CharField">БЕРЕЗАНСЬКИЙ</field>
+    <field name="capital" type="CharField">СМТ БЕРЕЗАНКА</field>
+  </object>
+  <object model="patients.district" pk="255">
+    <field name="state" rel="ManyToOneRel" to="patients.state">14</field>
+    <field name="level1" type="CharField">4800000000</field>
+    <field name="level2" type="CharField">4821100000</field>
+    <field name="name" type="CharField">БЕРЕЗНЕГУВАТСЬКИЙ</field>
+    <field name="capital" type="CharField">СМТ БЕРЕЗНЕГУВАТЕ</field>
+  </object>
+  <object model="patients.district" pk="256">
+    <field name="state" rel="ManyToOneRel" to="patients.state">14</field>
+    <field name="level1" type="CharField">4800000000</field>
+    <field name="level2" type="CharField">4821400000</field>
+    <field name="name" type="CharField">БРАТСЬКИЙ</field>
+    <field name="capital" type="CharField">СМТ БРАТСЬКЕ</field>
+  </object>
+  <object model="patients.district" pk="257">
+    <field name="state" rel="ManyToOneRel" to="patients.state">14</field>
+    <field name="level1" type="CharField">4800000000</field>
+    <field name="level2" type="CharField">4821700000</field>
+    <field name="name" type="CharField">ВЕСЕЛИНІВСЬКИЙ</field>
+    <field name="capital" type="CharField">СМТ ВЕСЕЛИНОВЕ</field>
+  </object>
+  <object model="patients.district" pk="258">
+    <field name="state" rel="ManyToOneRel" to="patients.state">14</field>
+    <field name="level1" type="CharField">4800000000</field>
+    <field name="level2" type="CharField">4822000000</field>
+    <field name="name" type="CharField">ВОЗНЕСЕНСЬКИЙ</field>
+    <field name="capital" type="CharField">М.ВОЗНЕСЕНСЬК</field>
+  </object>
+  <object model="patients.district" pk="259">
+    <field name="state" rel="ManyToOneRel" to="patients.state">14</field>
+    <field name="level1" type="CharField">4800000000</field>
+    <field name="level2" type="CharField">4822300000</field>
+    <field name="name" type="CharField">ВРАДІЇВСЬКИЙ</field>
+    <field name="capital" type="CharField">СМТ ВРАДІЇВКА</field>
+  </object>
+  <object model="patients.district" pk="260">
+    <field name="state" rel="ManyToOneRel" to="patients.state">14</field>
+    <field name="level1" type="CharField">4800000000</field>
+    <field name="level2" type="CharField">4822700000</field>
+    <field name="name" type="CharField">ДОМАНІВСЬКИЙ</field>
+    <field name="capital" type="CharField">СМТ ДОМАНІВКА</field>
+  </object>
+  <object model="patients.district" pk="261">
+    <field name="state" rel="ManyToOneRel" to="patients.state">14</field>
+    <field name="level1" type="CharField">4800000000</field>
+    <field name="level2" type="CharField">4823000000</field>
+    <field name="name" type="CharField">ЄЛАНЕЦЬКИЙ</field>
+    <field name="capital" type="CharField">СМТ ЄЛАНЕЦЬ</field>
+  </object>
+  <object model="patients.district" pk="262">
+    <field name="state" rel="ManyToOneRel" to="patients.state">14</field>
+    <field name="level1" type="CharField">4800000000</field>
+    <field name="level2" type="CharField">4823300000</field>
+    <field name="name" type="CharField">ВІТОВСЬКИЙ</field>
+    <field name="capital" type="CharField">М.МИКОЛАЇВ</field>
+  </object>
+  <object model="patients.district" pk="263">
+    <field name="state" rel="ManyToOneRel" to="patients.state">14</field>
+    <field name="level1" type="CharField">4800000000</field>
+    <field name="level2" type="CharField">4823600000</field>
+    <field name="name" type="CharField">КАЗАНКІВСЬКИЙ</field>
+    <field name="capital" type="CharField">СМТ КАЗАНКА</field>
+  </object>
+  <object model="patients.district" pk="264">
+    <field name="state" rel="ManyToOneRel" to="patients.state">14</field>
+    <field name="level1" type="CharField">4800000000</field>
+    <field name="level2" type="CharField">4823900000</field>
+    <field name="name" type="CharField">КРИВООЗЕРСЬКИЙ</field>
+    <field name="capital" type="CharField">СМТ КРИВЕ ОЗЕРО</field>
+  </object>
+  <object model="patients.district" pk="265">
+    <field name="state" rel="ManyToOneRel" to="patients.state">14</field>
+    <field name="level1" type="CharField">4800000000</field>
+    <field name="level2" type="CharField">4824200000</field>
+    <field name="name" type="CharField">МИКОЛАЇВСЬКИЙ</field>
+    <field name="capital" type="CharField">М.МИКОЛАЇВ</field>
+  </object>
+  <object model="patients.district" pk="266">
+    <field name="state" rel="ManyToOneRel" to="patients.state">14</field>
+    <field name="level1" type="CharField">4800000000</field>
+    <field name="level2" type="CharField">4824500000</field>
+    <field name="name" type="CharField">НОВОБУЗЬКИЙ</field>
+    <field name="capital" type="CharField">М.НОВИЙ БУГ</field>
+  </object>
+  <object model="patients.district" pk="267">
+    <field name="state" rel="ManyToOneRel" to="patients.state">14</field>
+    <field name="level1" type="CharField">4800000000</field>
+    <field name="level2" type="CharField">4824800000</field>
+    <field name="name" type="CharField">НОВООДЕСЬКИЙ</field>
+    <field name="capital" type="CharField">М.НОВА ОДЕСА</field>
+  </object>
+  <object model="patients.district" pk="268">
+    <field name="state" rel="ManyToOneRel" to="patients.state">14</field>
+    <field name="level1" type="CharField">4800000000</field>
+    <field name="level2" type="CharField">4825100000</field>
+    <field name="name" type="CharField">ОЧАКІВСЬКИЙ</field>
+    <field name="capital" type="CharField">М.ОЧАКІВ</field>
+  </object>
+  <object model="patients.district" pk="269">
+    <field name="state" rel="ManyToOneRel" to="patients.state">14</field>
+    <field name="level1" type="CharField">4800000000</field>
+    <field name="level2" type="CharField">4825400000</field>
+    <field name="name" type="CharField">ПЕРВОМАЙСЬКИЙ</field>
+    <field name="capital" type="CharField">М.ПЕРВОМАЙСЬК</field>
+  </object>
+  <object model="patients.district" pk="270">
+    <field name="state" rel="ManyToOneRel" to="patients.state">14</field>
+    <field name="level1" type="CharField">4800000000</field>
+    <field name="level2" type="CharField">4825700000</field>
+    <field name="name" type="CharField">СНІГУРІВСЬКИЙ</field>
+    <field name="capital" type="CharField">М.СНІГУРІВКА</field>
+  </object>
+  <object model="patients.district" pk="271">
+    <field name="state" rel="ManyToOneRel" to="patients.state">15</field>
+    <field name="level1" type="CharField">5100000000</field>
+    <field name="level2" type="CharField">5120200000</field>
+    <field name="name" type="CharField">АНАНЬЇВСЬКИЙ</field>
+    <field name="capital" type="CharField">М.АНАНЬЇВ</field>
+  </object>
+  <object model="patients.district" pk="272">
+    <field name="state" rel="ManyToOneRel" to="patients.state">15</field>
+    <field name="level1" type="CharField">5100000000</field>
+    <field name="level2" type="CharField">5120400000</field>
+    <field name="name" type="CharField">АРЦИЗЬКИЙ</field>
+    <field name="capital" type="CharField">М.АРЦИЗ</field>
+  </object>
+  <object model="patients.district" pk="273">
+    <field name="state" rel="ManyToOneRel" to="patients.state">15</field>
+    <field name="level1" type="CharField">5100000000</field>
+    <field name="level2" type="CharField">5120600000</field>
+    <field name="name" type="CharField">БАЛТСЬКИЙ</field>
+    <field name="capital" type="CharField">М.БАЛТА</field>
+  </object>
+  <object model="patients.district" pk="274">
+    <field name="state" rel="ManyToOneRel" to="patients.state">15</field>
+    <field name="level1" type="CharField">5100000000</field>
+    <field name="level2" type="CharField">5120800000</field>
+    <field name="name" type="CharField">БІЛГОРОД-ДНІСТРОВСЬКИЙ</field>
+    <field name="capital" type="CharField">М.БІЛГОРОД-ДНІСТРОВСЬКИЙ</field>
+  </object>
+  <object model="patients.district" pk="275">
+    <field name="state" rel="ManyToOneRel" to="patients.state">15</field>
+    <field name="level1" type="CharField">5100000000</field>
+    <field name="level2" type="CharField">5121000000</field>
+    <field name="name" type="CharField">БІЛЯЇВСЬКИЙ</field>
+    <field name="capital" type="CharField">М.БІЛЯЇВКА</field>
+  </object>
+  <object model="patients.district" pk="276">
+    <field name="state" rel="ManyToOneRel" to="patients.state">15</field>
+    <field name="level1" type="CharField">5100000000</field>
+    <field name="level2" type="CharField">5121200000</field>
+    <field name="name" type="CharField">БЕРЕЗІВСЬКИЙ</field>
+    <field name="capital" type="CharField">М.БЕРЕЗІВКА</field>
+  </object>
+  <object model="patients.district" pk="277">
+    <field name="state" rel="ManyToOneRel" to="patients.state">15</field>
+    <field name="level1" type="CharField">5100000000</field>
+    <field name="level2" type="CharField">5121400000</field>
+    <field name="name" type="CharField">БОЛГРАДСЬКИЙ</field>
+    <field name="capital" type="CharField">М.БОЛГРАД</field>
+  </object>
+  <object model="patients.district" pk="278">
+    <field name="state" rel="ManyToOneRel" to="patients.state">15</field>
+    <field name="level1" type="CharField">5100000000</field>
+    <field name="level2" type="CharField">5121600000</field>
+    <field name="name" type="CharField">ВЕЛИКОМИХАЙЛІВСЬКИЙ</field>
+    <field name="capital" type="CharField">СМТ ВЕЛИКА МИХАЙЛІВКА</field>
+  </object>
+  <object model="patients.district" pk="279">
+    <field name="state" rel="ManyToOneRel" to="patients.state">15</field>
+    <field name="level1" type="CharField">5100000000</field>
+    <field name="level2" type="CharField">5121800000</field>
+    <field name="name" type="CharField">ІВАНІВСЬКИЙ</field>
+    <field name="capital" type="CharField">СМТ ІВАНІВКА</field>
+  </object>
+  <object model="patients.district" pk="280">
+    <field name="state" rel="ManyToOneRel" to="patients.state">15</field>
+    <field name="level1" type="CharField">5100000000</field>
+    <field name="level2" type="CharField">5122000000</field>
+    <field name="name" type="CharField">ІЗМАЇЛЬСЬКИЙ</field>
+    <field name="capital" type="CharField">М.ІЗМАЇЛ</field>
+  </object>
+  <object model="patients.district" pk="281">
+    <field name="state" rel="ManyToOneRel" to="patients.state">15</field>
+    <field name="level1" type="CharField">5100000000</field>
+    <field name="level2" type="CharField">5122300000</field>
+    <field name="name" type="CharField">КІЛІЙСЬКИЙ</field>
+    <field name="capital" type="CharField">М.КІЛІЯ</field>
+  </object>
+  <object model="patients.district" pk="282">
+    <field name="state" rel="ManyToOneRel" to="patients.state">15</field>
+    <field name="level1" type="CharField">5100000000</field>
+    <field name="level2" type="CharField">5122500000</field>
+    <field name="name" type="CharField">КОДИМСЬКИЙ</field>
+    <field name="capital" type="CharField">М.КОДИМА</field>
+  </object>
+  <object model="patients.district" pk="283">
+    <field name="state" rel="ManyToOneRel" to="patients.state">15</field>
+    <field name="level1" type="CharField">5100000000</field>
+    <field name="level2" type="CharField">5122700000</field>
+    <field name="name" type="CharField">ЛИМАНСЬКИЙ</field>
+    <field name="capital" type="CharField">СМТ ДОБРОСЛАВ</field>
+  </object>
+  <object model="patients.district" pk="284">
+    <field name="state" rel="ManyToOneRel" to="patients.state">15</field>
+    <field name="level1" type="CharField">5100000000</field>
+    <field name="level2" type="CharField">5122900000</field>
+    <field name="name" type="CharField">ПОДІЛЬСЬКИЙ</field>
+    <field name="capital" type="CharField">М.ПОДІЛЬСЬК</field>
+  </object>
+  <object model="patients.district" pk="285">
+    <field name="state" rel="ManyToOneRel" to="patients.state">15</field>
+    <field name="level1" type="CharField">5100000000</field>
+    <field name="level2" type="CharField">5123100000</field>
+    <field name="name" type="CharField">ОКНЯНСЬКИЙ</field>
+    <field name="capital" type="CharField">СМТ ОКНИ</field>
+  </object>
+  <object model="patients.district" pk="286">
+    <field name="state" rel="ManyToOneRel" to="patients.state">15</field>
+    <field name="level1" type="CharField">5100000000</field>
+    <field name="level2" type="CharField">5123300000</field>
+    <field name="name" type="CharField">ЛЮБАШІВСЬКИЙ</field>
+    <field name="capital" type="CharField">СМТ ЛЮБАШІВКА</field>
+  </object>
+  <object model="patients.district" pk="287">
+    <field name="state" rel="ManyToOneRel" to="patients.state">15</field>
+    <field name="level1" type="CharField">5100000000</field>
+    <field name="level2" type="CharField">5123500000</field>
+    <field name="name" type="CharField">МИКОЛАЇВСЬКИЙ</field>
+    <field name="capital" type="CharField">СМТ МИКОЛАЇВКА</field>
+  </object>
+  <object model="patients.district" pk="288">
+    <field name="state" rel="ManyToOneRel" to="patients.state">15</field>
+    <field name="level1" type="CharField">5100000000</field>
+    <field name="level2" type="CharField">5123700000</field>
+    <field name="name" type="CharField">ОВІДІОПОЛЬСЬКИЙ</field>
+    <field name="capital" type="CharField">СМТ ОВІДІОПОЛЬ</field>
+  </object>
+  <object model="patients.district" pk="289">
+    <field name="state" rel="ManyToOneRel" to="patients.state">15</field>
+    <field name="level1" type="CharField">5100000000</field>
+    <field name="level2" type="CharField">5123900000</field>
+    <field name="name" type="CharField">РОЗДІЛЬНЯНСЬКИЙ</field>
+    <field name="capital" type="CharField">М.РОЗДІЛЬНА</field>
+  </object>
+  <object model="patients.district" pk="290">
+    <field name="state" rel="ManyToOneRel" to="patients.state">15</field>
+    <field name="level1" type="CharField">5100000000</field>
+    <field name="level2" type="CharField">5124100000</field>
+    <field name="name" type="CharField">РЕНІЙСЬКИЙ</field>
+    <field name="capital" type="CharField">М.РЕНІ</field>
+  </object>
+  <object model="patients.district" pk="291">
+    <field name="state" rel="ManyToOneRel" to="patients.state">15</field>
+    <field name="level1" type="CharField">5100000000</field>
+    <field name="level2" type="CharField">5124300000</field>
+    <field name="name" type="CharField">САВРАНСЬКИЙ</field>
+    <field name="capital" type="CharField">СМТ САВРАНЬ</field>
+  </object>
+  <object model="patients.district" pk="292">
+    <field name="state" rel="ManyToOneRel" to="patients.state">15</field>
+    <field name="level1" type="CharField">5100000000</field>
+    <field name="level2" type="CharField">5124500000</field>
+    <field name="name" type="CharField">САРАТСЬКИЙ</field>
+    <field name="capital" type="CharField">СМТ САРАТА</field>
+  </object>
+  <object model="patients.district" pk="293">
+    <field name="state" rel="ManyToOneRel" to="patients.state">15</field>
+    <field name="level1" type="CharField">5100000000</field>
+    <field name="level2" type="CharField">5124700000</field>
+    <field name="name" type="CharField">ТАРУТИНСЬКИЙ</field>
+    <field name="capital" type="CharField">СМТ ТАРУТИНЕ</field>
+  </object>
+  <object model="patients.district" pk="294">
+    <field name="state" rel="ManyToOneRel" to="patients.state">15</field>
+    <field name="level1" type="CharField">5100000000</field>
+    <field name="level2" type="CharField">5125000000</field>
+    <field name="name" type="CharField">ТАТАРБУНАРСЬКИЙ</field>
+    <field name="capital" type="CharField">М.ТАТАРБУНАРИ</field>
+  </object>
+  <object model="patients.district" pk="295">
+    <field name="state" rel="ManyToOneRel" to="patients.state">15</field>
+    <field name="level1" type="CharField">5100000000</field>
+    <field name="level2" type="CharField">5125200000</field>
+    <field name="name" type="CharField">ЗАХАРІВСЬКИЙ</field>
+    <field name="capital" type="CharField">СМТ ЗАХАРІВКА</field>
+  </object>
+  <object model="patients.district" pk="296">
+    <field name="state" rel="ManyToOneRel" to="patients.state">15</field>
+    <field name="level1" type="CharField">5100000000</field>
+    <field name="level2" type="CharField">5125400000</field>
+    <field name="name" type="CharField">ШИРЯЇВСЬКИЙ</field>
+    <field name="capital" type="CharField">СМТ ШИРЯЄВЕ</field>
+  </object>
+  <object model="patients.district" pk="297">
+    <field name="state" rel="ManyToOneRel" to="patients.state">16</field>
+    <field name="level1" type="CharField">5300000000</field>
+    <field name="level2" type="CharField">5320200000</field>
+    <field name="name" type="CharField">ВЕЛИКОБАГАЧАНСЬКИЙ</field>
+    <field name="capital" type="CharField">СМТ ВЕЛИКА БАГАЧКА</field>
+  </object>
+  <object model="patients.district" pk="298">
+    <field name="state" rel="ManyToOneRel" to="patients.state">16</field>
+    <field name="level1" type="CharField">5300000000</field>
+    <field name="level2" type="CharField">5320400000</field>
+    <field name="name" type="CharField">ГАДЯЦЬКИЙ</field>
+    <field name="capital" type="CharField">М.ГАДЯЧ</field>
+  </object>
+  <object model="patients.district" pk="299">
+    <field name="state" rel="ManyToOneRel" to="patients.state">16</field>
+    <field name="level1" type="CharField">5300000000</field>
+    <field name="level2" type="CharField">5320600000</field>
+    <field name="name" type="CharField">ГЛОБИНСЬКИЙ</field>
+    <field name="capital" type="CharField">М.ГЛОБИНЕ</field>
+  </object>
+  <object model="patients.district" pk="300">
+    <field name="state" rel="ManyToOneRel" to="patients.state">16</field>
+    <field name="level1" type="CharField">5300000000</field>
+    <field name="level2" type="CharField">5320800000</field>
+    <field name="name" type="CharField">ГРЕБІНКІВСЬКИЙ</field>
+    <field name="capital" type="CharField">М.ГРЕБІНКА</field>
+  </object>
+  <object model="patients.district" pk="301">
+    <field name="state" rel="ManyToOneRel" to="patients.state">16</field>
+    <field name="level1" type="CharField">5300000000</field>
+    <field name="level2" type="CharField">5321000000</field>
+    <field name="name" type="CharField">ДИКАНСЬКИЙ</field>
+    <field name="capital" type="CharField">СМТ ДИКАНЬКА</field>
+  </object>
+  <object model="patients.district" pk="302">
+    <field name="state" rel="ManyToOneRel" to="patients.state">16</field>
+    <field name="level1" type="CharField">5300000000</field>
+    <field name="level2" type="CharField">5321300000</field>
+    <field name="name" type="CharField">ЗІНЬКІВСЬКИЙ</field>
+    <field name="capital" type="CharField">М.ЗІНЬКІВ</field>
+  </object>
+  <object model="patients.district" pk="303">
+    <field name="state" rel="ManyToOneRel" to="patients.state">16</field>
+    <field name="level1" type="CharField">5300000000</field>
+    <field name="level2" type="CharField">5321600000</field>
+    <field name="name" type="CharField">КАРЛІВСЬКИЙ</field>
+    <field name="capital" type="CharField">М.КАРЛІВКА</field>
+  </object>
+  <object model="patients.district" pk="304">
+    <field name="state" rel="ManyToOneRel" to="patients.state">16</field>
+    <field name="level1" type="CharField">5300000000</field>
+    <field name="level2" type="CharField">5321800000</field>
+    <field name="name" type="CharField">КОБЕЛЯЦЬКИЙ</field>
+    <field name="capital" type="CharField">М.КОБЕЛЯКИ</field>
+  </object>
+  <object model="patients.district" pk="305">
+    <field name="state" rel="ManyToOneRel" to="patients.state">16</field>
+    <field name="level1" type="CharField">5300000000</field>
+    <field name="level2" type="CharField">5322000000</field>
+    <field name="name" type="CharField">КОЗЕЛЬЩИНСЬКИЙ</field>
+    <field name="capital" type="CharField">СМТ КОЗЕЛЬЩИНА</field>
+  </object>
+  <object model="patients.district" pk="306">
+    <field name="state" rel="ManyToOneRel" to="patients.state">16</field>
+    <field name="level1" type="CharField">5300000000</field>
+    <field name="level2" type="CharField">5322200000</field>
+    <field name="name" type="CharField">КОТЕЛЕВСЬКИЙ</field>
+    <field name="capital" type="CharField">СМТ КОТЕЛЬВА</field>
+  </object>
+  <object model="patients.district" pk="307">
+    <field name="state" rel="ManyToOneRel" to="patients.state">16</field>
+    <field name="level1" type="CharField">5300000000</field>
+    <field name="level2" type="CharField">5322400000</field>
+    <field name="name" type="CharField">КРЕМЕНЧУЦЬКИЙ</field>
+    <field name="capital" type="CharField">М.КРЕМЕНЧУК</field>
+  </object>
+  <object model="patients.district" pk="308">
+    <field name="state" rel="ManyToOneRel" to="patients.state">16</field>
+    <field name="level1" type="CharField">5300000000</field>
+    <field name="level2" type="CharField">5322600000</field>
+    <field name="name" type="CharField">ЛОХВИЦЬКИЙ</field>
+    <field name="capital" type="CharField">М.ЛОХВИЦЯ</field>
+  </object>
+  <object model="patients.district" pk="309">
+    <field name="state" rel="ManyToOneRel" to="patients.state">16</field>
+    <field name="level1" type="CharField">5300000000</field>
+    <field name="level2" type="CharField">5322800000</field>
+    <field name="name" type="CharField">ЛУБЕНСЬКИЙ</field>
+    <field name="capital" type="CharField">М.ЛУБНИ</field>
+  </object>
+  <object model="patients.district" pk="310">
+    <field name="state" rel="ManyToOneRel" to="patients.state">16</field>
+    <field name="level1" type="CharField">5300000000</field>
+    <field name="level2" type="CharField">5323000000</field>
+    <field name="name" type="CharField">МАШІВСЬКИЙ</field>
+    <field name="capital" type="CharField">СМТ МАШІВКА</field>
+  </object>
+  <object model="patients.district" pk="311">
+    <field name="state" rel="ManyToOneRel" to="patients.state">16</field>
+    <field name="level1" type="CharField">5300000000</field>
+    <field name="level2" type="CharField">5323200000</field>
+    <field name="name" type="CharField">МИРГОРОДСЬКИЙ</field>
+    <field name="capital" type="CharField">М.МИРГОРОД</field>
+  </object>
+  <object model="patients.district" pk="312">
+    <field name="state" rel="ManyToOneRel" to="patients.state">16</field>
+    <field name="level1" type="CharField">5300000000</field>
+    <field name="level2" type="CharField">5323400000</field>
+    <field name="name" type="CharField">НОВОСАНЖАРСЬКИЙ</field>
+    <field name="capital" type="CharField">СМТ НОВІ САНЖАРИ</field>
+  </object>
+  <object model="patients.district" pk="313">
+    <field name="state" rel="ManyToOneRel" to="patients.state">16</field>
+    <field name="level1" type="CharField">5300000000</field>
+    <field name="level2" type="CharField">5323600000</field>
+    <field name="name" type="CharField">ОРЖИЦЬКИЙ</field>
+    <field name="capital" type="CharField">СМТ ОРЖИЦЯ</field>
+  </object>
+  <object model="patients.district" pk="314">
+    <field name="state" rel="ManyToOneRel" to="patients.state">16</field>
+    <field name="level1" type="CharField">5300000000</field>
+    <field name="level2" type="CharField">5323800000</field>
+    <field name="name" type="CharField">ПИРЯТИНСЬКИЙ</field>
+    <field name="capital" type="CharField">М.ПИРЯТИН</field>
+  </object>
+  <object model="patients.district" pk="315">
+    <field name="state" rel="ManyToOneRel" to="patients.state">16</field>
+    <field name="level1" type="CharField">5300000000</field>
+    <field name="level2" type="CharField">5324000000</field>
+    <field name="name" type="CharField">ПОЛТАВСЬКИЙ</field>
+    <field name="capital" type="CharField">М.ПОЛТАВА</field>
+  </object>
+  <object model="patients.district" pk="316">
+    <field name="state" rel="ManyToOneRel" to="patients.state">16</field>
+    <field name="level1" type="CharField">5300000000</field>
+    <field name="level2" type="CharField">5324200000</field>
+    <field name="name" type="CharField">РЕШЕТИЛІВСЬКИЙ</field>
+    <field name="capital" type="CharField">М РЕШЕТИЛІВКА</field>
+  </object>
+  <object model="patients.district" pk="317">
+    <field name="state" rel="ManyToOneRel" to="patients.state">16</field>
+    <field name="level1" type="CharField">5300000000</field>
+    <field name="level2" type="CharField">5324500000</field>
+    <field name="name" type="CharField">СЕМЕНІВСЬКИЙ</field>
+    <field name="capital" type="CharField">СМТ СЕМЕНІВКА</field>
+  </object>
+  <object model="patients.district" pk="318">
+    <field name="state" rel="ManyToOneRel" to="patients.state">16</field>
+    <field name="level1" type="CharField">5300000000</field>
+    <field name="level2" type="CharField">5324800000</field>
+    <field name="name" type="CharField">ХОРОЛЬСЬКИЙ</field>
+    <field name="capital" type="CharField">М.ХОРОЛ</field>
+  </object>
+  <object model="patients.district" pk="319">
+    <field name="state" rel="ManyToOneRel" to="patients.state">16</field>
+    <field name="level1" type="CharField">5300000000</field>
+    <field name="level2" type="CharField">5325100000</field>
+    <field name="name" type="CharField">ЧОРНУХИНСЬКИЙ</field>
+    <field name="capital" type="CharField">СМТ ЧОРНУХИ</field>
+  </object>
+  <object model="patients.district" pk="320">
+    <field name="state" rel="ManyToOneRel" to="patients.state">16</field>
+    <field name="level1" type="CharField">5300000000</field>
+    <field name="level2" type="CharField">5325400000</field>
+    <field name="name" type="CharField">ЧУТІВСЬКИЙ</field>
+    <field name="capital" type="CharField">СМТ ЧУТОВЕ</field>
+  </object>
+  <object model="patients.district" pk="321">
+    <field name="state" rel="ManyToOneRel" to="patients.state">16</field>
+    <field name="level1" type="CharField">5300000000</field>
+    <field name="level2" type="CharField">5325700000</field>
+    <field name="name" type="CharField">ШИШАЦЬКИЙ</field>
+    <field name="capital" type="CharField">СМТ ШИШАКИ</field>
+  </object>
+  <object model="patients.district" pk="322">
+    <field name="state" rel="ManyToOneRel" to="patients.state">17</field>
+    <field name="level1" type="CharField">5600000000</field>
+    <field name="level2" type="CharField">5620400000</field>
+    <field name="name" type="CharField">БЕРЕЗНІВСЬКИЙ</field>
+    <field name="capital" type="CharField">М.БЕРЕЗНЕ</field>
+  </object>
+  <object model="patients.district" pk="323">
+    <field name="state" rel="ManyToOneRel" to="patients.state">17</field>
+    <field name="level1" type="CharField">5600000000</field>
+    <field name="level2" type="CharField">5620800000</field>
+    <field name="name" type="CharField">ВОЛОДИМИРЕЦЬКИЙ</field>
+    <field name="capital" type="CharField">СМТ ВОЛОДИМИРЕЦЬ</field>
+  </object>
+  <object model="patients.district" pk="324">
+    <field name="state" rel="ManyToOneRel" to="patients.state">17</field>
+    <field name="level1" type="CharField">5600000000</field>
+    <field name="level2" type="CharField">5621200000</field>
+    <field name="name" type="CharField">ГОЩАНСЬКИЙ</field>
+    <field name="capital" type="CharField">СМТ ГОЩА</field>
+  </object>
+  <object model="patients.district" pk="325">
+    <field name="state" rel="ManyToOneRel" to="patients.state">17</field>
+    <field name="level1" type="CharField">5600000000</field>
+    <field name="level2" type="CharField">5621400000</field>
+    <field name="name" type="CharField">ДЕМИДІВСЬКИЙ</field>
+    <field name="capital" type="CharField">СМТ ДЕМИДІВКА</field>
+  </object>
+  <object model="patients.district" pk="326">
+    <field name="state" rel="ManyToOneRel" to="patients.state">17</field>
+    <field name="level1" type="CharField">5600000000</field>
+    <field name="level2" type="CharField">5621600000</field>
+    <field name="name" type="CharField">ДУБЕНСЬКИЙ</field>
+    <field name="capital" type="CharField">М.ДУБНО</field>
+  </object>
+  <object model="patients.district" pk="327">
+    <field name="state" rel="ManyToOneRel" to="patients.state">17</field>
+    <field name="level1" type="CharField">5600000000</field>
+    <field name="level2" type="CharField">5621800000</field>
+    <field name="name" type="CharField">ДУБРОВИЦЬКИЙ</field>
+    <field name="capital" type="CharField">М.ДУБРОВИЦЯ</field>
+  </object>
+  <object model="patients.district" pk="328">
+    <field name="state" rel="ManyToOneRel" to="patients.state">17</field>
+    <field name="level1" type="CharField">5600000000</field>
+    <field name="level2" type="CharField">5622200000</field>
+    <field name="name" type="CharField">ЗАРІЧНЕНСЬКИЙ</field>
+    <field name="capital" type="CharField">СМТ ЗАРІЧНЕ</field>
+  </object>
+  <object model="patients.district" pk="329">
+    <field name="state" rel="ManyToOneRel" to="patients.state">17</field>
+    <field name="level1" type="CharField">5600000000</field>
+    <field name="level2" type="CharField">5622600000</field>
+    <field name="name" type="CharField">ЗДОЛБУНІВСЬКИЙ</field>
+    <field name="capital" type="CharField">М.ЗДОЛБУНІВ</field>
+  </object>
+  <object model="patients.district" pk="330">
+    <field name="state" rel="ManyToOneRel" to="patients.state">17</field>
+    <field name="level1" type="CharField">5600000000</field>
+    <field name="level2" type="CharField">5623000000</field>
+    <field name="name" type="CharField">КОРЕЦЬКИЙ</field>
+    <field name="capital" type="CharField">М.КОРЕЦЬ</field>
+  </object>
+  <object model="patients.district" pk="331">
+    <field name="state" rel="ManyToOneRel" to="patients.state">17</field>
+    <field name="level1" type="CharField">5600000000</field>
+    <field name="level2" type="CharField">5623400000</field>
+    <field name="name" type="CharField">КОСТОПІЛЬСЬКИЙ</field>
+    <field name="capital" type="CharField">М.КОСТОПІЛЬ</field>
+  </object>
+  <object model="patients.district" pk="332">
+    <field name="state" rel="ManyToOneRel" to="patients.state">17</field>
+    <field name="level1" type="CharField">5600000000</field>
+    <field name="level2" type="CharField">5623800000</field>
+    <field name="name" type="CharField">МЛИНІВСЬКИЙ</field>
+    <field name="capital" type="CharField">СМТ МЛИНІВ</field>
+  </object>
+  <object model="patients.district" pk="333">
+    <field name="state" rel="ManyToOneRel" to="patients.state">17</field>
+    <field name="level1" type="CharField">5600000000</field>
+    <field name="level2" type="CharField">5624200000</field>
+    <field name="name" type="CharField">ОСТРОЗЬКИЙ</field>
+    <field name="capital" type="CharField">М.ОСТРОГ</field>
+  </object>
+  <object model="patients.district" pk="334">
+    <field name="state" rel="ManyToOneRel" to="patients.state">17</field>
+    <field name="level1" type="CharField">5600000000</field>
+    <field name="level2" type="CharField">5624600000</field>
+    <field name="name" type="CharField">РІВНЕНСЬКИЙ</field>
+    <field name="capital" type="CharField">М.РІВНЕ</field>
+  </object>
+  <object model="patients.district" pk="335">
+    <field name="state" rel="ManyToOneRel" to="patients.state">17</field>
+    <field name="level1" type="CharField">5600000000</field>
+    <field name="level2" type="CharField">5625000000</field>
+    <field name="name" type="CharField">РОКИТНІВСЬКИЙ</field>
+    <field name="capital" type="CharField">СМТ РОКИТНЕ</field>
+  </object>
+  <object model="patients.district" pk="336">
+    <field name="state" rel="ManyToOneRel" to="patients.state">17</field>
+    <field name="level1" type="CharField">5600000000</field>
+    <field name="level2" type="CharField">5625400000</field>
+    <field name="name" type="CharField">САРНЕНСЬКИЙ</field>
+    <field name="capital" type="CharField">М.САРНИ</field>
+  </object>
+  <object model="patients.district" pk="337">
+    <field name="state" rel="ManyToOneRel" to="patients.state">17</field>
+    <field name="level1" type="CharField">5600000000</field>
+    <field name="level2" type="CharField">5625800000</field>
+    <field name="name" type="CharField">РАДИВИЛІВСЬКИЙ</field>
+    <field name="capital" type="CharField">М.РАДИВИЛІВ</field>
+  </object>
+  <object model="patients.district" pk="338">
+    <field name="state" rel="ManyToOneRel" to="patients.state">18</field>
+    <field name="level1" type="CharField">5900000000</field>
+    <field name="level2" type="CharField">5920300000</field>
+    <field name="name" type="CharField">ОХТИРСЬКИЙ</field>
+    <field name="capital" type="CharField">М.ОХТИРКА</field>
+  </object>
+  <object model="patients.district" pk="339">
+    <field name="state" rel="ManyToOneRel" to="patients.state">18</field>
+    <field name="level1" type="CharField">5900000000</field>
+    <field name="level2" type="CharField">5920600000</field>
+    <field name="name" type="CharField">БІЛОПІЛЬСЬКИЙ</field>
+    <field name="capital" type="CharField">М.БІЛОПІЛЛЯ</field>
+  </object>
+  <object model="patients.district" pk="340">
+    <field name="state" rel="ManyToOneRel" to="patients.state">18</field>
+    <field name="level1" type="CharField">5900000000</field>
+    <field name="level2" type="CharField">5920900000</field>
+    <field name="name" type="CharField">БУРИНСЬКИЙ</field>
+    <field name="capital" type="CharField">М.БУРИНЬ</field>
+  </object>
+  <object model="patients.district" pk="341">
+    <field name="state" rel="ManyToOneRel" to="patients.state">18</field>
+    <field name="level1" type="CharField">5900000000</field>
+    <field name="level2" type="CharField">5921200000</field>
+    <field name="name" type="CharField">ВЕЛИКОПИСАРІВСЬКИЙ</field>
+    <field name="capital" type="CharField">СМТ ВЕЛИКА ПИСАРІВКА</field>
+  </object>
+  <object model="patients.district" pk="342">
+    <field name="state" rel="ManyToOneRel" to="patients.state">18</field>
+    <field name="level1" type="CharField">5900000000</field>
+    <field name="level2" type="CharField">5921500000</field>
+    <field name="name" type="CharField">ГЛУХІВСЬКИЙ</field>
+    <field name="capital" type="CharField">М.ГЛУХІВ</field>
+  </object>
+  <object model="patients.district" pk="343">
+    <field name="state" rel="ManyToOneRel" to="patients.state">18</field>
+    <field name="level1" type="CharField">5900000000</field>
+    <field name="level2" type="CharField">5922000000</field>
+    <field name="name" type="CharField">КОНОТОПСЬКИЙ</field>
+    <field name="capital" type="CharField">М.КОНОТОП</field>
+  </object>
+  <object model="patients.district" pk="344">
+    <field name="state" rel="ManyToOneRel" to="patients.state">18</field>
+    <field name="level1" type="CharField">5900000000</field>
+    <field name="level2" type="CharField">5922300000</field>
+    <field name="name" type="CharField">КРАСНОПІЛЬСЬКИЙ</field>
+    <field name="capital" type="CharField">СМТ КРАСНОПІЛЛЯ</field>
+  </object>
+  <object model="patients.district" pk="345">
+    <field name="state" rel="ManyToOneRel" to="patients.state">18</field>
+    <field name="level1" type="CharField">5900000000</field>
+    <field name="level2" type="CharField">5922600000</field>
+    <field name="name" type="CharField">КРОЛЕВЕЦЬКИЙ</field>
+    <field name="capital" type="CharField">М.КРОЛЕВЕЦЬ</field>
+  </object>
+  <object model="patients.district" pk="346">
+    <field name="state" rel="ManyToOneRel" to="patients.state">18</field>
+    <field name="level1" type="CharField">5900000000</field>
+    <field name="level2" type="CharField">5922900000</field>
+    <field name="name" type="CharField">ЛЕБЕДИНСЬКИЙ</field>
+    <field name="capital" type="CharField">М.ЛЕБЕДИН</field>
+  </object>
+  <object model="patients.district" pk="347">
+    <field name="state" rel="ManyToOneRel" to="patients.state">18</field>
+    <field name="level1" type="CharField">5900000000</field>
+    <field name="level2" type="CharField">5923200000</field>
+    <field name="name" type="CharField">ЛИПОВОДОЛИНСЬКИЙ</field>
+    <field name="capital" type="CharField">СМТ ЛИПОВА ДОЛИНА</field>
+  </object>
+  <object model="patients.district" pk="348">
+    <field name="state" rel="ManyToOneRel" to="patients.state">18</field>
+    <field name="level1" type="CharField">5900000000</field>
+    <field name="level2" type="CharField">5923500000</field>
+    <field name="name" type="CharField">НЕДРИГАЙЛІВСЬКИЙ</field>
+    <field name="capital" type="CharField">СМТ НЕДРИГАЙЛІВ</field>
+  </object>
+  <object model="patients.district" pk="349">
+    <field name="state" rel="ManyToOneRel" to="patients.state">18</field>
+    <field name="level1" type="CharField">5900000000</field>
+    <field name="level2" type="CharField">5923800000</field>
+    <field name="name" type="CharField">ПУТИВЛЬСЬКИЙ</field>
+    <field name="capital" type="CharField">М.ПУТИВЛЬ</field>
+  </object>
+  <object model="patients.district" pk="350">
+    <field name="state" rel="ManyToOneRel" to="patients.state">18</field>
+    <field name="level1" type="CharField">5900000000</field>
+    <field name="level2" type="CharField">5924100000</field>
+    <field name="name" type="CharField">РОМЕНСЬКИЙ</field>
+    <field name="capital" type="CharField">М.РОМНИ</field>
+  </object>
+  <object model="patients.district" pk="351">
+    <field name="state" rel="ManyToOneRel" to="patients.state">18</field>
+    <field name="level1" type="CharField">5900000000</field>
+    <field name="level2" type="CharField">5924400000</field>
+    <field name="name" type="CharField">СЕРЕДИНО-БУДСЬКИЙ</field>
+    <field name="capital" type="CharField">М.СЕРЕДИНО-БУДА</field>
+  </object>
+  <object model="patients.district" pk="352">
+    <field name="state" rel="ManyToOneRel" to="patients.state">18</field>
+    <field name="level1" type="CharField">5900000000</field>
+    <field name="level2" type="CharField">5924700000</field>
+    <field name="name" type="CharField">СУМСЬКИЙ</field>
+    <field name="capital" type="CharField">М.СУМИ</field>
+  </object>
+  <object model="patients.district" pk="353">
+    <field name="state" rel="ManyToOneRel" to="patients.state">18</field>
+    <field name="level1" type="CharField">5900000000</field>
+    <field name="level2" type="CharField">5925000000</field>
+    <field name="name" type="CharField">ТРОСТЯНЕЦЬКИЙ</field>
+    <field name="capital" type="CharField">М.ТРОСТЯНЕЦЬ</field>
+  </object>
+  <object model="patients.district" pk="354">
+    <field name="state" rel="ManyToOneRel" to="patients.state">18</field>
+    <field name="level1" type="CharField">5900000000</field>
+    <field name="level2" type="CharField">5925300000</field>
+    <field name="name" type="CharField">ШОСТКИНСЬКИЙ</field>
+    <field name="capital" type="CharField">М.ШОСТКА</field>
+  </object>
+  <object model="patients.district" pk="355">
+    <field name="state" rel="ManyToOneRel" to="patients.state">18</field>
+    <field name="level1" type="CharField">5900000000</field>
+    <field name="level2" type="CharField">5925600000</field>
+    <field name="name" type="CharField">ЯМПІЛЬСЬКИЙ</field>
+    <field name="capital" type="CharField">СМТ ЯМПІЛЬ</field>
+  </object>
+  <object model="patients.district" pk="356">
+    <field name="state" rel="ManyToOneRel" to="patients.state">19</field>
+    <field name="level1" type="CharField">6100000000</field>
+    <field name="level2" type="CharField">6120400000</field>
+    <field name="name" type="CharField">БЕРЕЖАНСЬКИЙ</field>
+    <field name="capital" type="CharField">М.БЕРЕЖАНИ</field>
+  </object>
+  <object model="patients.district" pk="357">
+    <field name="state" rel="ManyToOneRel" to="patients.state">19</field>
+    <field name="level1" type="CharField">6100000000</field>
+    <field name="level2" type="CharField">6120800000</field>
+    <field name="name" type="CharField">БОРЩІВСЬКИЙ</field>
+    <field name="capital" type="CharField">М.БОРЩІВ</field>
+  </object>
+  <object model="patients.district" pk="358">
+    <field name="state" rel="ManyToOneRel" to="patients.state">19</field>
+    <field name="level1" type="CharField">6100000000</field>
+    <field name="level2" type="CharField">6121200000</field>
+    <field name="name" type="CharField">БУЧАЦЬКИЙ</field>
+    <field name="capital" type="CharField">М.БУЧАЧ</field>
+  </object>
+  <object model="patients.district" pk="359">
+    <field name="state" rel="ManyToOneRel" to="patients.state">19</field>
+    <field name="level1" type="CharField">6100000000</field>
+    <field name="level2" type="CharField">6121600000</field>
+    <field name="name" type="CharField">ГУСЯТИНСЬКИЙ</field>
+    <field name="capital" type="CharField">СМТ ГУСЯТИН</field>
+  </object>
+  <object model="patients.district" pk="360">
+    <field name="state" rel="ManyToOneRel" to="patients.state">19</field>
+    <field name="level1" type="CharField">6100000000</field>
+    <field name="level2" type="CharField">6122000000</field>
+    <field name="name" type="CharField">ЗАЛІЩИЦЬКИЙ</field>
+    <field name="capital" type="CharField">М.ЗАЛІЩИКИ</field>
+  </object>
+  <object model="patients.district" pk="361">
+    <field name="state" rel="ManyToOneRel" to="patients.state">19</field>
+    <field name="level1" type="CharField">6100000000</field>
+    <field name="level2" type="CharField">6122400000</field>
+    <field name="name" type="CharField">ЗБАРАЗЬКИЙ</field>
+    <field name="capital" type="CharField">М.ЗБАРАЖ</field>
+  </object>
+  <object model="patients.district" pk="362">
+    <field name="state" rel="ManyToOneRel" to="patients.state">19</field>
+    <field name="level1" type="CharField">6100000000</field>
+    <field name="level2" type="CharField">6122600000</field>
+    <field name="name" type="CharField">ЗБОРІВСЬКИЙ</field>
+    <field name="capital" type="CharField">М.ЗБОРІВ</field>
+  </object>
+  <object model="patients.district" pk="363">
+    <field name="state" rel="ManyToOneRel" to="patients.state">19</field>
+    <field name="level1" type="CharField">6100000000</field>
+    <field name="level2" type="CharField">6123000000</field>
+    <field name="name" type="CharField">КОЗІВСЬКИЙ</field>
+    <field name="capital" type="CharField">СМТ КОЗОВА</field>
+  </object>
+  <object model="patients.district" pk="364">
+    <field name="state" rel="ManyToOneRel" to="patients.state">19</field>
+    <field name="level1" type="CharField">6100000000</field>
+    <field name="level2" type="CharField">6123400000</field>
+    <field name="name" type="CharField">КРЕМЕНЕЦЬКИЙ</field>
+    <field name="capital" type="CharField">М.КРЕМЕНЕЦЬ</field>
+  </object>
+  <object model="patients.district" pk="365">
+    <field name="state" rel="ManyToOneRel" to="patients.state">19</field>
+    <field name="level1" type="CharField">6100000000</field>
+    <field name="level2" type="CharField">6123800000</field>
+    <field name="name" type="CharField">ЛАНОВЕЦЬКИЙ</field>
+    <field name="capital" type="CharField">М.ЛАНІВЦІ</field>
+  </object>
+  <object model="patients.district" pk="366">
+    <field name="state" rel="ManyToOneRel" to="patients.state">19</field>
+    <field name="level1" type="CharField">6100000000</field>
+    <field name="level2" type="CharField">6124200000</field>
+    <field name="name" type="CharField">МОНАСТИРИСЬКИЙ</field>
+    <field name="capital" type="CharField">М.МОНАСТИРИСЬКА</field>
+  </object>
+  <object model="patients.district" pk="367">
+    <field name="state" rel="ManyToOneRel" to="patients.state">19</field>
+    <field name="level1" type="CharField">6100000000</field>
+    <field name="level2" type="CharField">6124600000</field>
+    <field name="name" type="CharField">ПІДВОЛОЧИСЬКИЙ</field>
+    <field name="capital" type="CharField">СМТ ПІДВОЛОЧИСЬК</field>
+  </object>
+  <object model="patients.district" pk="368">
+    <field name="state" rel="ManyToOneRel" to="patients.state">19</field>
+    <field name="level1" type="CharField">6100000000</field>
+    <field name="level2" type="CharField">6124800000</field>
+    <field name="name" type="CharField">ПІДГАЄЦЬКИЙ</field>
+    <field name="capital" type="CharField">М.ПІДГАЙЦІ</field>
+  </object>
+  <object model="patients.district" pk="369">
+    <field name="state" rel="ManyToOneRel" to="patients.state">19</field>
+    <field name="level1" type="CharField">6100000000</field>
+    <field name="level2" type="CharField">6125000000</field>
+    <field name="name" type="CharField">ТЕРЕБОВЛЯНСЬКИЙ</field>
+    <field name="capital" type="CharField">М.ТЕРЕБОВЛЯ</field>
+  </object>
+  <object model="patients.district" pk="370">
+    <field name="state" rel="ManyToOneRel" to="patients.state">19</field>
+    <field name="level1" type="CharField">6100000000</field>
+    <field name="level2" type="CharField">6125200000</field>
+    <field name="name" type="CharField">ТЕРНОПІЛЬСЬКИЙ</field>
+    <field name="capital" type="CharField">М.ТЕРНОПІЛЬ</field>
+  </object>
+  <object model="patients.district" pk="371">
+    <field name="state" rel="ManyToOneRel" to="patients.state">19</field>
+    <field name="level1" type="CharField">6100000000</field>
+    <field name="level2" type="CharField">6125500000</field>
+    <field name="name" type="CharField">ЧОРТКІВСЬКИЙ</field>
+    <field name="capital" type="CharField">М.ЧОРТКІВ</field>
+  </object>
+  <object model="patients.district" pk="372">
+    <field name="state" rel="ManyToOneRel" to="patients.state">19</field>
+    <field name="level1" type="CharField">6100000000</field>
+    <field name="level2" type="CharField">6125800000</field>
+    <field name="name" type="CharField">ШУМСЬКИЙ</field>
+    <field name="capital" type="CharField">М.ШУМСЬК</field>
+  </object>
+  <object model="patients.district" pk="373">
+    <field name="state" rel="ManyToOneRel" to="patients.state">20</field>
+    <field name="level1" type="CharField">6300000000</field>
+    <field name="level2" type="CharField">6320200000</field>
+    <field name="name" type="CharField">БАЛАКЛІЙСЬКИЙ</field>
+    <field name="capital" type="CharField">М.БАЛАКЛІЯ</field>
+  </object>
+  <object model="patients.district" pk="374">
+    <field name="state" rel="ManyToOneRel" to="patients.state">20</field>
+    <field name="level1" type="CharField">6300000000</field>
+    <field name="level2" type="CharField">6320400000</field>
+    <field name="name" type="CharField">БАРВІНКІВСЬКИЙ</field>
+    <field name="capital" type="CharField">М.БАРВІНКОВЕ</field>
+  </object>
+  <object model="patients.district" pk="375">
+    <field name="state" rel="ManyToOneRel" to="patients.state">20</field>
+    <field name="level1" type="CharField">6300000000</field>
+    <field name="level2" type="CharField">6320600000</field>
+    <field name="name" type="CharField">БЛИЗНЮКІВСЬКИЙ</field>
+    <field name="capital" type="CharField">СМТ БЛИЗНЮКИ</field>
+  </object>
+  <object model="patients.district" pk="376">
+    <field name="state" rel="ManyToOneRel" to="patients.state">20</field>
+    <field name="level1" type="CharField">6300000000</field>
+    <field name="level2" type="CharField">6320800000</field>
+    <field name="name" type="CharField">БОГОДУХІВСЬКИЙ</field>
+    <field name="capital" type="CharField">М.БОГОДУХІВ</field>
+  </object>
+  <object model="patients.district" pk="377">
+    <field name="state" rel="ManyToOneRel" to="patients.state">20</field>
+    <field name="level1" type="CharField">6300000000</field>
+    <field name="level2" type="CharField">6321000000</field>
+    <field name="name" type="CharField">БОРІВСЬКИЙ</field>
+    <field name="capital" type="CharField">СМТ БОРОВА</field>
+  </object>
+  <object model="patients.district" pk="378">
+    <field name="state" rel="ManyToOneRel" to="patients.state">20</field>
+    <field name="level1" type="CharField">6300000000</field>
+    <field name="level2" type="CharField">6321200000</field>
+    <field name="name" type="CharField">ВАЛКІВСЬКИЙ</field>
+    <field name="capital" type="CharField">М.ВАЛКИ</field>
+  </object>
+  <object model="patients.district" pk="379">
+    <field name="state" rel="ManyToOneRel" to="patients.state">20</field>
+    <field name="level1" type="CharField">6300000000</field>
+    <field name="level2" type="CharField">6321400000</field>
+    <field name="name" type="CharField">ВЕЛИКОБУРЛУЦЬКИЙ</field>
+    <field name="capital" type="CharField">СМТ ВЕЛИКИЙ БУРЛУК</field>
+  </object>
+  <object model="patients.district" pk="380">
+    <field name="state" rel="ManyToOneRel" to="patients.state">20</field>
+    <field name="level1" type="CharField">6300000000</field>
+    <field name="level2" type="CharField">6321600000</field>
+    <field name="name" type="CharField">ВОВЧАНСЬКИЙ</field>
+    <field name="capital" type="CharField">М.ВОВЧАНСЬК</field>
+  </object>
+  <object model="patients.district" pk="381">
+    <field name="state" rel="ManyToOneRel" to="patients.state">20</field>
+    <field name="level1" type="CharField">6300000000</field>
+    <field name="level2" type="CharField">6321700000</field>
+    <field name="name" type="CharField">ЗМІЇВСЬКИЙ</field>
+    <field name="capital" type="CharField">М.ЗМІЇВ</field>
+  </object>
+  <object model="patients.district" pk="382">
+    <field name="state" rel="ManyToOneRel" to="patients.state">20</field>
+    <field name="level1" type="CharField">6300000000</field>
+    <field name="level2" type="CharField">6321800000</field>
+    <field name="name" type="CharField">ДВОРІЧАНСЬКИЙ</field>
+    <field name="capital" type="CharField">СМТ ДВОРІЧНА</field>
+  </object>
+  <object model="patients.district" pk="383">
+    <field name="state" rel="ManyToOneRel" to="patients.state">20</field>
+    <field name="level1" type="CharField">6300000000</field>
+    <field name="level2" type="CharField">6322000000</field>
+    <field name="name" type="CharField">ДЕРГАЧІВСЬКИЙ</field>
+    <field name="capital" type="CharField">М.ДЕРГАЧІ</field>
+  </object>
+  <object model="patients.district" pk="384">
+    <field name="state" rel="ManyToOneRel" to="patients.state">20</field>
+    <field name="level1" type="CharField">6300000000</field>
+    <field name="level2" type="CharField">6322200000</field>
+    <field name="name" type="CharField">ЗАЧЕПИЛІВСЬКИЙ</field>
+    <field name="capital" type="CharField">СМТ ЗАЧЕПИЛІВКА</field>
+  </object>
+  <object model="patients.district" pk="385">
+    <field name="state" rel="ManyToOneRel" to="patients.state">20</field>
+    <field name="level1" type="CharField">6300000000</field>
+    <field name="level2" type="CharField">6322600000</field>
+    <field name="name" type="CharField">ЗОЛОЧІВСЬКИЙ</field>
+    <field name="capital" type="CharField">СМТ ЗОЛОЧІВ</field>
+  </object>
+  <object model="patients.district" pk="386">
+    <field name="state" rel="ManyToOneRel" to="patients.state">20</field>
+    <field name="level1" type="CharField">6300000000</field>
+    <field name="level2" type="CharField">6322800000</field>
+    <field name="name" type="CharField">ІЗЮМСЬКИЙ</field>
+    <field name="capital" type="CharField">М.ІЗЮМ</field>
+  </object>
+  <object model="patients.district" pk="387">
+    <field name="state" rel="ManyToOneRel" to="patients.state">20</field>
+    <field name="level1" type="CharField">6300000000</field>
+    <field name="level2" type="CharField">6323100000</field>
+    <field name="name" type="CharField">КЕГИЧІВСЬКИЙ</field>
+    <field name="capital" type="CharField">СМТ КЕГИЧІВКА</field>
+  </object>
+  <object model="patients.district" pk="388">
+    <field name="state" rel="ManyToOneRel" to="patients.state">20</field>
+    <field name="level1" type="CharField">6300000000</field>
+    <field name="level2" type="CharField">6323200000</field>
+    <field name="name" type="CharField">КОЛОМАЦЬКИЙ</field>
+    <field name="capital" type="CharField">СМТ КОЛОМАК</field>
+  </object>
+  <object model="patients.district" pk="389">
+    <field name="state" rel="ManyToOneRel" to="patients.state">20</field>
+    <field name="level1" type="CharField">6300000000</field>
+    <field name="level2" type="CharField">6323300000</field>
+    <field name="name" type="CharField">КРАСНОГРАДСЬКИЙ</field>
+    <field name="capital" type="CharField">М.КРАСНОГРАД</field>
+  </object>
+  <object model="patients.district" pk="390">
+    <field name="state" rel="ManyToOneRel" to="patients.state">20</field>
+    <field name="level1" type="CharField">6300000000</field>
+    <field name="level2" type="CharField">6323500000</field>
+    <field name="name" type="CharField">КРАСНОКУТСЬКИЙ</field>
+    <field name="capital" type="CharField">СМТ КРАСНОКУТСЬК</field>
+  </object>
+  <object model="patients.district" pk="391">
+    <field name="state" rel="ManyToOneRel" to="patients.state">20</field>
+    <field name="level1" type="CharField">6300000000</field>
+    <field name="level2" type="CharField">6323700000</field>
+    <field name="name" type="CharField">КУП'ЯНСЬКИЙ</field>
+    <field name="capital" type="CharField">М.КУП'ЯНСЬК</field>
+  </object>
+  <object model="patients.district" pk="392">
+    <field name="state" rel="ManyToOneRel" to="patients.state">20</field>
+    <field name="level1" type="CharField">6300000000</field>
+    <field name="level2" type="CharField">6323900000</field>
+    <field name="name" type="CharField">ЛОЗІВСЬКИЙ</field>
+    <field name="capital" type="CharField">СМТ КРАСНОПАВЛІВКА</field>
+  </object>
+  <object model="patients.district" pk="393">
+    <field name="state" rel="ManyToOneRel" to="patients.state">20</field>
+    <field name="level1" type="CharField">6300000000</field>
+    <field name="level2" type="CharField">6324200000</field>
+    <field name="name" type="CharField">НОВОВОДОЛАЗЬКИЙ</field>
+    <field name="capital" type="CharField">СМТ НОВА ВОДОЛАГА</field>
+  </object>
+  <object model="patients.district" pk="394">
+    <field name="state" rel="ManyToOneRel" to="patients.state">20</field>
+    <field name="level1" type="CharField">6300000000</field>
+    <field name="level2" type="CharField">6324500000</field>
+    <field name="name" type="CharField">ПЕРВОМАЙСЬКИЙ</field>
+    <field name="capital" type="CharField">М.ПЕРВОМАЙСЬКИЙ</field>
+  </object>
+  <object model="patients.district" pk="395">
+    <field name="state" rel="ManyToOneRel" to="patients.state">20</field>
+    <field name="level1" type="CharField">6300000000</field>
+    <field name="level2" type="CharField">6324600000</field>
+    <field name="name" type="CharField">ПЕЧЕНІЗЬКИЙ</field>
+    <field name="capital" type="CharField">СМТ ПЕЧЕНІГИ</field>
+  </object>
+  <object model="patients.district" pk="396">
+    <field name="state" rel="ManyToOneRel" to="patients.state">20</field>
+    <field name="level1" type="CharField">6300000000</field>
+    <field name="level2" type="CharField">6324800000</field>
+    <field name="name" type="CharField">САХНОВЩИНСЬКИЙ</field>
+    <field name="capital" type="CharField">СМТ САХНОВЩИНА</field>
+  </object>
+  <object model="patients.district" pk="397">
+    <field name="state" rel="ManyToOneRel" to="patients.state">20</field>
+    <field name="level1" type="CharField">6300000000</field>
+    <field name="level2" type="CharField">6325100000</field>
+    <field name="name" type="CharField">ХАРКІВСЬКИЙ</field>
+    <field name="capital" type="CharField">М.ХАРКІВ</field>
+  </object>
+  <object model="patients.district" pk="398">
+    <field name="state" rel="ManyToOneRel" to="patients.state">20</field>
+    <field name="level1" type="CharField">6300000000</field>
+    <field name="level2" type="CharField">6325400000</field>
+    <field name="name" type="CharField">ЧУГУЇВСЬКИЙ</field>
+    <field name="capital" type="CharField">М.ЧУГУЇВ</field>
+  </object>
+  <object model="patients.district" pk="399">
+    <field name="state" rel="ManyToOneRel" to="patients.state">20</field>
+    <field name="level1" type="CharField">6300000000</field>
+    <field name="level2" type="CharField">6325700000</field>
+    <field name="name" type="CharField">ШЕВЧЕНКІВСЬКИЙ</field>
+    <field name="capital" type="CharField">СМТ ШЕВЧЕНКОВЕ</field>
+  </object>
+  <object model="patients.district" pk="400">
+    <field name="state" rel="ManyToOneRel" to="patients.state">21</field>
+    <field name="level1" type="CharField">6500000000</field>
+    <field name="level2" type="CharField">6520300000</field>
+    <field name="name" type="CharField">БІЛОЗЕРСЬКИЙ</field>
+    <field name="capital" type="CharField">СМТ БІЛОЗЕРКА</field>
+  </object>
+  <object model="patients.district" pk="401">
+    <field name="state" rel="ManyToOneRel" to="patients.state">21</field>
+    <field name="level1" type="CharField">6500000000</field>
+    <field name="level2" type="CharField">6520600000</field>
+    <field name="name" type="CharField">БЕРИСЛАВСЬКИЙ</field>
+    <field name="capital" type="CharField">М.БЕРИСЛАВ</field>
+  </object>
+  <object model="patients.district" pk="402">
+    <field name="state" rel="ManyToOneRel" to="patients.state">21</field>
+    <field name="level1" type="CharField">6500000000</field>
+    <field name="level2" type="CharField">6520900000</field>
+    <field name="name" type="CharField">ВЕЛИКООЛЕКСАНДРІВСЬКИЙ</field>
+    <field name="capital" type="CharField">СМТ ВЕЛИКА ОЛЕКСАНДРІВКА</field>
+  </object>
+  <object model="patients.district" pk="403">
+    <field name="state" rel="ManyToOneRel" to="patients.state">21</field>
+    <field name="level1" type="CharField">6500000000</field>
+    <field name="level2" type="CharField">6521200000</field>
+    <field name="name" type="CharField">ВЕЛИКОЛЕПЕТИСЬКИЙ</field>
+    <field name="capital" type="CharField">СМТ ВЕЛИКА ЛЕПЕТИХА</field>
+  </object>
+  <object model="patients.district" pk="404">
+    <field name="state" rel="ManyToOneRel" to="patients.state">21</field>
+    <field name="level1" type="CharField">6500000000</field>
+    <field name="level2" type="CharField">6521500000</field>
+    <field name="name" type="CharField">ВЕРХНЬОРОГАЧИЦЬКИЙ</field>
+    <field name="capital" type="CharField">СМТ ВЕРХНІЙ РОГАЧИК</field>
+  </object>
+  <object model="patients.district" pk="405">
+    <field name="state" rel="ManyToOneRel" to="patients.state">21</field>
+    <field name="level1" type="CharField">6500000000</field>
+    <field name="level2" type="CharField">6521800000</field>
+    <field name="name" type="CharField">ВИСОКОПІЛЬСЬКИЙ</field>
+    <field name="capital" type="CharField">СМТ ВИСОКОПІЛЛЯ</field>
+  </object>
+  <object model="patients.district" pk="406">
+    <field name="state" rel="ManyToOneRel" to="patients.state">21</field>
+    <field name="level1" type="CharField">6500000000</field>
+    <field name="level2" type="CharField">6522100000</field>
+    <field name="name" type="CharField">ГЕНІЧЕСЬКИЙ</field>
+    <field name="capital" type="CharField">М.ГЕНІЧЕСЬК</field>
+  </object>
+  <object model="patients.district" pk="407">
+    <field name="state" rel="ManyToOneRel" to="patients.state">21</field>
+    <field name="level1" type="CharField">6500000000</field>
+    <field name="level2" type="CharField">6522300000</field>
+    <field name="name" type="CharField">ГОЛОПРИСТАНСЬКИЙ</field>
+    <field name="capital" type="CharField">М.ГОЛА ПРИСТАНЬ</field>
+  </object>
+  <object model="patients.district" pk="408">
+    <field name="state" rel="ManyToOneRel" to="patients.state">21</field>
+    <field name="level1" type="CharField">6500000000</field>
+    <field name="level2" type="CharField">6522600000</field>
+    <field name="name" type="CharField">ГОРНОСТАЇВСЬКИЙ</field>
+    <field name="capital" type="CharField">СМТ ГОРНОСТАЇВКА</field>
+  </object>
+  <object model="patients.district" pk="409">
+    <field name="state" rel="ManyToOneRel" to="patients.state">21</field>
+    <field name="level1" type="CharField">6500000000</field>
+    <field name="level2" type="CharField">6522900000</field>
+    <field name="name" type="CharField">ІВАНІВСЬКИЙ</field>
+    <field name="capital" type="CharField">СМТ ІВАНІВКА</field>
+  </object>
+  <object model="patients.district" pk="410">
+    <field name="state" rel="ManyToOneRel" to="patients.state">21</field>
+    <field name="level1" type="CharField">6500000000</field>
+    <field name="level2" type="CharField">6523200000</field>
+    <field name="name" type="CharField">КАЛАНЧАЦЬКИЙ</field>
+    <field name="capital" type="CharField">СМТ КАЛАНЧАК</field>
+  </object>
+  <object model="patients.district" pk="411">
+    <field name="state" rel="ManyToOneRel" to="patients.state">21</field>
+    <field name="level1" type="CharField">6500000000</field>
+    <field name="level2" type="CharField">6523500000</field>
+    <field name="name" type="CharField">КАХОВСЬКИЙ</field>
+    <field name="capital" type="CharField">М.КАХОВКА</field>
+  </object>
+  <object model="patients.district" pk="412">
+    <field name="state" rel="ManyToOneRel" to="patients.state">21</field>
+    <field name="level1" type="CharField">6500000000</field>
+    <field name="level2" type="CharField">6523800000</field>
+    <field name="name" type="CharField">НИЖНЬОСІРОГОЗЬКИЙ</field>
+    <field name="capital" type="CharField">СМТ НИЖНІ СІРОГОЗИ</field>
+  </object>
+  <object model="patients.district" pk="413">
+    <field name="state" rel="ManyToOneRel" to="patients.state">21</field>
+    <field name="level1" type="CharField">6500000000</field>
+    <field name="level2" type="CharField">6524100000</field>
+    <field name="name" type="CharField">НОВОВОРОНЦОВСЬКИЙ</field>
+    <field name="capital" type="CharField">СМТ НОВОВОРОНЦОВКА</field>
+  </object>
+  <object model="patients.district" pk="414">
+    <field name="state" rel="ManyToOneRel" to="patients.state">21</field>
+    <field name="level1" type="CharField">6500000000</field>
+    <field name="level2" type="CharField">6524400000</field>
+    <field name="name" type="CharField">НОВОТРОЇЦЬКИЙ</field>
+    <field name="capital" type="CharField">СМТ НОВОТРОЇЦЬКЕ</field>
+  </object>
+  <object model="patients.district" pk="415">
+    <field name="state" rel="ManyToOneRel" to="patients.state">21</field>
+    <field name="level1" type="CharField">6500000000</field>
+    <field name="level2" type="CharField">6524700000</field>
+    <field name="name" type="CharField">СКАДОВСЬКИЙ</field>
+    <field name="capital" type="CharField">М.СКАДОВСЬК</field>
+  </object>
+  <object model="patients.district" pk="416">
+    <field name="state" rel="ManyToOneRel" to="patients.state">21</field>
+    <field name="level1" type="CharField">6500000000</field>
+    <field name="level2" type="CharField">6525000000</field>
+    <field name="name" type="CharField">ОЛЕШКІВСЬКИЙ</field>
+    <field name="capital" type="CharField">М.ОЛЕШКИ</field>
+  </object>
+  <object model="patients.district" pk="417">
+    <field name="state" rel="ManyToOneRel" to="patients.state">21</field>
+    <field name="level1" type="CharField">6500000000</field>
+    <field name="level2" type="CharField">6525400000</field>
+    <field name="name" type="CharField">ЧАПЛИНСЬКИЙ</field>
+    <field name="capital" type="CharField">СМТ ЧАПЛИНКА</field>
+  </object>
+  <object model="patients.district" pk="418">
+    <field name="state" rel="ManyToOneRel" to="patients.state">22</field>
+    <field name="level1" type="CharField">6800000000</field>
+    <field name="level2" type="CharField">6820300000</field>
+    <field name="name" type="CharField">БІЛОГІРСЬКИЙ</field>
+    <field name="capital" type="CharField">СМТ БІЛОГІР'Я</field>
+  </object>
+  <object model="patients.district" pk="419">
+    <field name="state" rel="ManyToOneRel" to="patients.state">22</field>
+    <field name="level1" type="CharField">6800000000</field>
+    <field name="level2" type="CharField">6820600000</field>
+    <field name="name" type="CharField">ВІНЬКОВЕЦЬКИЙ</field>
+    <field name="capital" type="CharField">СМТ ВІНЬКІВЦІ</field>
+  </object>
+  <object model="patients.district" pk="420">
+    <field name="state" rel="ManyToOneRel" to="patients.state">22</field>
+    <field name="level1" type="CharField">6800000000</field>
+    <field name="level2" type="CharField">6820900000</field>
+    <field name="name" type="CharField">ВОЛОЧИСЬКИЙ</field>
+    <field name="capital" type="CharField">М.ВОЛОЧИСЬК</field>
+  </object>
+  <object model="patients.district" pk="421">
+    <field name="state" rel="ManyToOneRel" to="patients.state">22</field>
+    <field name="level1" type="CharField">6800000000</field>
+    <field name="level2" type="CharField">6821200000</field>
+    <field name="name" type="CharField">ГОРОДОЦЬКИЙ</field>
+    <field name="capital" type="CharField">М.ГОРОДОК</field>
+  </object>
+  <object model="patients.district" pk="422">
+    <field name="state" rel="ManyToOneRel" to="patients.state">22</field>
+    <field name="level1" type="CharField">6800000000</field>
+    <field name="level2" type="CharField">6821500000</field>
+    <field name="name" type="CharField">ДЕРАЖНЯНСЬКИЙ</field>
+    <field name="capital" type="CharField">М.ДЕРАЖНЯ</field>
+  </object>
+  <object model="patients.district" pk="423">
+    <field name="state" rel="ManyToOneRel" to="patients.state">22</field>
+    <field name="level1" type="CharField">6800000000</field>
+    <field name="level2" type="CharField">6821800000</field>
+    <field name="name" type="CharField">ДУНАЄВЕЦЬКИЙ</field>
+    <field name="capital" type="CharField">М.ДУНАЇВЦІ</field>
+  </object>
+  <object model="patients.district" pk="424">
+    <field name="state" rel="ManyToOneRel" to="patients.state">22</field>
+    <field name="level1" type="CharField">6800000000</field>
+    <field name="level2" type="CharField">6822100000</field>
+    <field name="name" type="CharField">ІЗЯСЛАВСЬКИЙ</field>
+    <field name="capital" type="CharField">М.ІЗЯСЛАВ</field>
+  </object>
+  <object model="patients.district" pk="425">
+    <field name="state" rel="ManyToOneRel" to="patients.state">22</field>
+    <field name="level1" type="CharField">6800000000</field>
+    <field name="level2" type="CharField">6822400000</field>
+    <field name="name" type="CharField">КАМ'ЯНЕЦЬ-ПОДІЛЬСЬКИЙ</field>
+    <field name="capital" type="CharField">М.КАМ'ЯНЕЦЬ-ПОДІЛЬСЬКИЙ</field>
+  </object>
+  <object model="patients.district" pk="426">
+    <field name="state" rel="ManyToOneRel" to="patients.state">22</field>
+    <field name="level1" type="CharField">6800000000</field>
+    <field name="level2" type="CharField">6822700000</field>
+    <field name="name" type="CharField">КРАСИЛІВСЬКИЙ</field>
+    <field name="capital" type="CharField">М.КРАСИЛІВ</field>
+  </object>
+  <object model="patients.district" pk="427">
+    <field name="state" rel="ManyToOneRel" to="patients.state">22</field>
+    <field name="level1" type="CharField">6800000000</field>
+    <field name="level2" type="CharField">6823000000</field>
+    <field name="name" type="CharField">ЛЕТИЧІВСЬКИЙ</field>
+    <field name="capital" type="CharField">СМТ ЛЕТИЧІВ</field>
+  </object>
+  <object model="patients.district" pk="428">
+    <field name="state" rel="ManyToOneRel" to="patients.state">22</field>
+    <field name="level1" type="CharField">6800000000</field>
+    <field name="level2" type="CharField">6823300000</field>
+    <field name="name" type="CharField">НОВОУШИЦЬКИЙ</field>
+    <field name="capital" type="CharField">СМТ НОВА УШИЦЯ</field>
+  </object>
+  <object model="patients.district" pk="429">
+    <field name="state" rel="ManyToOneRel" to="patients.state">22</field>
+    <field name="level1" type="CharField">6800000000</field>
+    <field name="level2" type="CharField">6823600000</field>
+    <field name="name" type="CharField">ПОЛОНСЬКИЙ</field>
+    <field name="capital" type="CharField">М.ПОЛОННЕ</field>
+  </object>
+  <object model="patients.district" pk="430">
+    <field name="state" rel="ManyToOneRel" to="patients.state">22</field>
+    <field name="level1" type="CharField">6800000000</field>
+    <field name="level2" type="CharField">6823900000</field>
+    <field name="name" type="CharField">СЛАВУТСЬКИЙ</field>
+    <field name="capital" type="CharField">М.СЛАВУТА</field>
+  </object>
+  <object model="patients.district" pk="431">
+    <field name="state" rel="ManyToOneRel" to="patients.state">22</field>
+    <field name="level1" type="CharField">6800000000</field>
+    <field name="level2" type="CharField">6824200000</field>
+    <field name="name" type="CharField">СТАРОКОСТЯНТИНІВСЬКИЙ</field>
+    <field name="capital" type="CharField">М.СТАРОКОСТЯНТИНІВ</field>
+  </object>
+  <object model="patients.district" pk="432">
+    <field name="state" rel="ManyToOneRel" to="patients.state">22</field>
+    <field name="level1" type="CharField">6800000000</field>
+    <field name="level2" type="CharField">6824400000</field>
+    <field name="name" type="CharField">СТАРОСИНЯВСЬКИЙ</field>
+    <field name="capital" type="CharField">СМТ СТАРА СИНЯВА</field>
+  </object>
+  <object model="patients.district" pk="433">
+    <field name="state" rel="ManyToOneRel" to="patients.state">22</field>
+    <field name="level1" type="CharField">6800000000</field>
+    <field name="level2" type="CharField">6824700000</field>
+    <field name="name" type="CharField">ТЕОФІПОЛЬСЬКИЙ</field>
+    <field name="capital" type="CharField">СМТ ТЕОФІПОЛЬ</field>
+  </object>
+  <object model="patients.district" pk="434">
+    <field name="state" rel="ManyToOneRel" to="patients.state">22</field>
+    <field name="level1" type="CharField">6800000000</field>
+    <field name="level2" type="CharField">6825000000</field>
+    <field name="name" type="CharField">ХМЕЛЬНИЦЬКИЙ</field>
+    <field name="capital" type="CharField">М.ХМЕЛЬНИЦЬКИЙ</field>
+  </object>
+  <object model="patients.district" pk="435">
+    <field name="state" rel="ManyToOneRel" to="patients.state">22</field>
+    <field name="level1" type="CharField">6800000000</field>
+    <field name="level2" type="CharField">6825200000</field>
+    <field name="name" type="CharField">ЧЕМЕРОВЕЦЬКИЙ</field>
+    <field name="capital" type="CharField">СМТ ЧЕМЕРІВЦІ</field>
+  </object>
+  <object model="patients.district" pk="436">
+    <field name="state" rel="ManyToOneRel" to="patients.state">22</field>
+    <field name="level1" type="CharField">6800000000</field>
+    <field name="level2" type="CharField">6825500000</field>
+    <field name="name" type="CharField">ШЕПЕТІВСЬКИЙ</field>
+    <field name="capital" type="CharField">М.ШЕПЕТІВКА</field>
+  </object>
+  <object model="patients.district" pk="437">
+    <field name="state" rel="ManyToOneRel" to="patients.state">22</field>
+    <field name="level1" type="CharField">6800000000</field>
+    <field name="level2" type="CharField">6825800000</field>
+    <field name="name" type="CharField">ЯРМОЛИНЕЦЬКИЙ</field>
+    <field name="capital" type="CharField">СМТ ЯРМОЛИНЦІ</field>
+  </object>
+  <object model="patients.district" pk="438">
+    <field name="state" rel="ManyToOneRel" to="patients.state">23</field>
+    <field name="level1" type="CharField">7100000000</field>
+    <field name="level2" type="CharField">7120300000</field>
+    <field name="name" type="CharField">ГОРОДИЩЕНСЬКИЙ</field>
+    <field name="capital" type="CharField">М.ГОРОДИЩЕ</field>
+  </object>
+  <object model="patients.district" pk="439">
+    <field name="state" rel="ManyToOneRel" to="patients.state">23</field>
+    <field name="level1" type="CharField">7100000000</field>
+    <field name="level2" type="CharField">7120600000</field>
+    <field name="name" type="CharField">ДРАБІВСЬКИЙ</field>
+    <field name="capital" type="CharField">СМТ ДРАБІВ</field>
+  </object>
+  <object model="patients.district" pk="440">
+    <field name="state" rel="ManyToOneRel" to="patients.state">23</field>
+    <field name="level1" type="CharField">7100000000</field>
+    <field name="level2" type="CharField">7120900000</field>
+    <field name="name" type="CharField">ЖАШКІВСЬКИЙ</field>
+    <field name="capital" type="CharField">М.ЖАШКІВ</field>
+  </object>
+  <object model="patients.district" pk="441">
+    <field name="state" rel="ManyToOneRel" to="patients.state">23</field>
+    <field name="level1" type="CharField">7100000000</field>
+    <field name="level2" type="CharField">7121200000</field>
+    <field name="name" type="CharField">ЗВЕНИГОРОДСЬКИЙ</field>
+    <field name="capital" type="CharField">М.ЗВЕНИГОРОДКА</field>
+  </object>
+  <object model="patients.district" pk="442">
+    <field name="state" rel="ManyToOneRel" to="patients.state">23</field>
+    <field name="level1" type="CharField">7100000000</field>
+    <field name="level2" type="CharField">7121500000</field>
+    <field name="name" type="CharField">ЗОЛОТОНІСЬКИЙ</field>
+    <field name="capital" type="CharField">М.ЗОЛОТОНОША</field>
+  </object>
+  <object model="patients.district" pk="443">
+    <field name="state" rel="ManyToOneRel" to="patients.state">23</field>
+    <field name="level1" type="CharField">7100000000</field>
+    <field name="level2" type="CharField">7121800000</field>
+    <field name="name" type="CharField">КАМ'ЯНСЬКИЙ</field>
+    <field name="capital" type="CharField">М.КАМ'ЯНКА</field>
+  </object>
+  <object model="patients.district" pk="444">
+    <field name="state" rel="ManyToOneRel" to="patients.state">23</field>
+    <field name="level1" type="CharField">7100000000</field>
+    <field name="level2" type="CharField">7122000000</field>
+    <field name="name" type="CharField">КАНІВСЬКИЙ</field>
+    <field name="capital" type="CharField">М.КАНІВ</field>
+  </object>
+  <object model="patients.district" pk="445">
+    <field name="state" rel="ManyToOneRel" to="patients.state">23</field>
+    <field name="level1" type="CharField">7100000000</field>
+    <field name="level2" type="CharField">7122200000</field>
+    <field name="name" type="CharField">КАТЕРИНОПІЛЬСЬКИЙ</field>
+    <field name="capital" type="CharField">СМТ КАТЕРИНОПІЛЬ</field>
+  </object>
+  <object model="patients.district" pk="446">
+    <field name="state" rel="ManyToOneRel" to="patients.state">23</field>
+    <field name="level1" type="CharField">7100000000</field>
+    <field name="level2" type="CharField">7122500000</field>
+    <field name="name" type="CharField">КОРСУНЬ-ШЕВЧЕНКІВСЬКИЙ</field>
+    <field name="capital" type="CharField">М.КОРСУНЬ-ШЕВЧЕНКІВСЬКИЙ</field>
+  </object>
+  <object model="patients.district" pk="447">
+    <field name="state" rel="ManyToOneRel" to="patients.state">23</field>
+    <field name="level1" type="CharField">7100000000</field>
+    <field name="level2" type="CharField">7122800000</field>
+    <field name="name" type="CharField">ЛИСЯНСЬКИЙ</field>
+    <field name="capital" type="CharField">СМТ ЛИСЯНКА</field>
+  </object>
+  <object model="patients.district" pk="448">
+    <field name="state" rel="ManyToOneRel" to="patients.state">23</field>
+    <field name="level1" type="CharField">7100000000</field>
+    <field name="level2" type="CharField">7123100000</field>
+    <field name="name" type="CharField">МАНЬКІВСЬКИЙ</field>
+    <field name="capital" type="CharField">СМТ МАНЬКІВКА</field>
+  </object>
+  <object model="patients.district" pk="449">
+    <field name="state" rel="ManyToOneRel" to="patients.state">23</field>
+    <field name="level1" type="CharField">7100000000</field>
+    <field name="level2" type="CharField">7123400000</field>
+    <field name="name" type="CharField">МОНАСТИРИЩЕНСЬКИЙ</field>
+    <field name="capital" type="CharField">М.МОНАСТИРИЩЕ</field>
+  </object>
+  <object model="patients.district" pk="450">
+    <field name="state" rel="ManyToOneRel" to="patients.state">23</field>
+    <field name="level1" type="CharField">7100000000</field>
+    <field name="level2" type="CharField">7123700000</field>
+    <field name="name" type="CharField">СМІЛЯНСЬКИЙ</field>
+    <field name="capital" type="CharField">М.СМІЛА</field>
+  </object>
+  <object model="patients.district" pk="451">
+    <field name="state" rel="ManyToOneRel" to="patients.state">23</field>
+    <field name="level1" type="CharField">7100000000</field>
+    <field name="level2" type="CharField">7124000000</field>
+    <field name="name" type="CharField">ТАЛЬНІВСЬКИЙ</field>
+    <field name="capital" type="CharField">М.ТАЛЬНЕ</field>
+  </object>
+  <object model="patients.district" pk="452">
+    <field name="state" rel="ManyToOneRel" to="patients.state">23</field>
+    <field name="level1" type="CharField">7100000000</field>
+    <field name="level2" type="CharField">7124300000</field>
+    <field name="name" type="CharField">УМАНСЬКИЙ</field>
+    <field name="capital" type="CharField">М.УМАНЬ</field>
+  </object>
+  <object model="patients.district" pk="453">
+    <field name="state" rel="ManyToOneRel" to="patients.state">23</field>
+    <field name="level1" type="CharField">7100000000</field>
+    <field name="level2" type="CharField">7124600000</field>
+    <field name="name" type="CharField">ХРИСТИНІВСЬКИЙ</field>
+    <field name="capital" type="CharField">М.ХРИСТИНІВКА</field>
+  </object>
+  <object model="patients.district" pk="454">
+    <field name="state" rel="ManyToOneRel" to="patients.state">23</field>
+    <field name="level1" type="CharField">7100000000</field>
+    <field name="level2" type="CharField">7124900000</field>
+    <field name="name" type="CharField">ЧЕРКАСЬКИЙ</field>
+    <field name="capital" type="CharField">М.ЧЕРКАСИ</field>
+  </object>
+  <object model="patients.district" pk="455">
+    <field name="state" rel="ManyToOneRel" to="patients.state">23</field>
+    <field name="level1" type="CharField">7100000000</field>
+    <field name="level2" type="CharField">7125100000</field>
+    <field name="name" type="CharField">ЧОРНОБАЇВСЬКИЙ</field>
+    <field name="capital" type="CharField">СМТ ЧОРНОБАЙ</field>
+  </object>
+  <object model="patients.district" pk="456">
+    <field name="state" rel="ManyToOneRel" to="patients.state">23</field>
+    <field name="level1" type="CharField">7100000000</field>
+    <field name="level2" type="CharField">7125400000</field>
+    <field name="name" type="CharField">ЧИГИРИНСЬКИЙ</field>
+    <field name="capital" type="CharField">М.ЧИГИРИН</field>
+  </object>
+  <object model="patients.district" pk="457">
+    <field name="state" rel="ManyToOneRel" to="patients.state">23</field>
+    <field name="level1" type="CharField">7100000000</field>
+    <field name="level2" type="CharField">7125700000</field>
+    <field name="name" type="CharField">ШПОЛЯНСЬКИЙ</field>
+    <field name="capital" type="CharField">М.ШПОЛА</field>
+  </object>
+  <object model="patients.district" pk="458">
+    <field name="state" rel="ManyToOneRel" to="patients.state">24</field>
+    <field name="level1" type="CharField">7300000000</field>
+    <field name="level2" type="CharField">7320500000</field>
+    <field name="name" type="CharField">ВИЖНИЦЬКИЙ</field>
+    <field name="capital" type="CharField">М.ВИЖНИЦЯ</field>
+  </object>
+  <object model="patients.district" pk="459">
+    <field name="state" rel="ManyToOneRel" to="patients.state">24</field>
+    <field name="level1" type="CharField">7300000000</field>
+    <field name="level2" type="CharField">7320700000</field>
+    <field name="name" type="CharField">ГЕРЦАЇВСЬКИЙ</field>
+    <field name="capital" type="CharField">М.ГЕРЦА</field>
+  </object>
+  <object model="patients.district" pk="460">
+    <field name="state" rel="ManyToOneRel" to="patients.state">24</field>
+    <field name="level1" type="CharField">7300000000</field>
+    <field name="level2" type="CharField">7321000000</field>
+    <field name="name" type="CharField">ГЛИБОЦЬКИЙ</field>
+    <field name="capital" type="CharField">СМТ ГЛИБОКА</field>
+  </object>
+  <object model="patients.district" pk="461">
+    <field name="state" rel="ManyToOneRel" to="patients.state">24</field>
+    <field name="level1" type="CharField">7300000000</field>
+    <field name="level2" type="CharField">7321500000</field>
+    <field name="name" type="CharField">ЗАСТАВНІВСЬКИЙ</field>
+    <field name="capital" type="CharField">М.ЗАСТАВНА</field>
+  </object>
+  <object model="patients.district" pk="462">
+    <field name="state" rel="ManyToOneRel" to="patients.state">24</field>
+    <field name="level1" type="CharField">7300000000</field>
+    <field name="level2" type="CharField">7322000000</field>
+    <field name="name" type="CharField">КЕЛЬМЕНЕЦЬКИЙ</field>
+    <field name="capital" type="CharField">СМТ КЕЛЬМЕНЦІ</field>
+  </object>
+  <object model="patients.district" pk="463">
+    <field name="state" rel="ManyToOneRel" to="patients.state">24</field>
+    <field name="level1" type="CharField">7300000000</field>
+    <field name="level2" type="CharField">7322500000</field>
+    <field name="name" type="CharField">КІЦМАНСЬКИЙ</field>
+    <field name="capital" type="CharField">М.КІЦМАНЬ</field>
+  </object>
+  <object model="patients.district" pk="464">
+    <field name="state" rel="ManyToOneRel" to="patients.state">24</field>
+    <field name="level1" type="CharField">7300000000</field>
+    <field name="level2" type="CharField">7323000000</field>
+    <field name="name" type="CharField">НОВОСЕЛИЦЬКИЙ</field>
+    <field name="capital" type="CharField">М.НОВОСЕЛИЦЯ</field>
+  </object>
+  <object model="patients.district" pk="465">
+    <field name="state" rel="ManyToOneRel" to="patients.state">24</field>
+    <field name="level1" type="CharField">7300000000</field>
+    <field name="level2" type="CharField">7323500000</field>
+    <field name="name" type="CharField">ПУТИЛЬСЬКИЙ</field>
+    <field name="capital" type="CharField">СМТ ПУТИЛА</field>
+  </object>
+  <object model="patients.district" pk="466">
+    <field name="state" rel="ManyToOneRel" to="patients.state">24</field>
+    <field name="level1" type="CharField">7300000000</field>
+    <field name="level2" type="CharField">7324000000</field>
+    <field name="name" type="CharField">СОКИРЯНСЬКИЙ</field>
+    <field name="capital" type="CharField">М.СОКИРЯНИ</field>
+  </object>
+  <object model="patients.district" pk="467">
+    <field name="state" rel="ManyToOneRel" to="patients.state">24</field>
+    <field name="level1" type="CharField">7300000000</field>
+    <field name="level2" type="CharField">7324500000</field>
+    <field name="name" type="CharField">СТОРОЖИНЕЦЬКИЙ</field>
+    <field name="capital" type="CharField">М.СТОРОЖИНЕЦЬ</field>
+  </object>
+  <object model="patients.district" pk="468">
+    <field name="state" rel="ManyToOneRel" to="patients.state">24</field>
+    <field name="level1" type="CharField">7300000000</field>
+    <field name="level2" type="CharField">7325000000</field>
+    <field name="name" type="CharField">ХОТИНСЬКИЙ</field>
+    <field name="capital" type="CharField">М.ХОТИН</field>
+  </object>
+  <object model="patients.district" pk="469">
+    <field name="state" rel="ManyToOneRel" to="patients.state">25</field>
+    <field name="level1" type="CharField">7400000000</field>
+    <field name="level2" type="CharField">7420300000</field>
+    <field name="name" type="CharField">БАХМАЦЬКИЙ</field>
+    <field name="capital" type="CharField">М.БАХМАЧ</field>
+  </object>
+  <object model="patients.district" pk="470">
+    <field name="state" rel="ManyToOneRel" to="patients.state">25</field>
+    <field name="level1" type="CharField">7400000000</field>
+    <field name="level2" type="CharField">7420600000</field>
+    <field name="name" type="CharField">БОБРОВИЦЬКИЙ</field>
+    <field name="capital" type="CharField">М.БОБРОВИЦЯ</field>
+  </object>
+  <object model="patients.district" pk="471">
+    <field name="state" rel="ManyToOneRel" to="patients.state">25</field>
+    <field name="level1" type="CharField">7400000000</field>
+    <field name="level2" type="CharField">7420800000</field>
+    <field name="name" type="CharField">БОРЗНЯНСЬКИЙ</field>
+    <field name="capital" type="CharField">М.БОРЗНА</field>
+  </object>
+  <object model="patients.district" pk="472">
+    <field name="state" rel="ManyToOneRel" to="patients.state">25</field>
+    <field name="level1" type="CharField">7400000000</field>
+    <field name="level2" type="CharField">7421100000</field>
+    <field name="name" type="CharField">ВАРВИНСЬКИЙ</field>
+    <field name="capital" type="CharField">СМТ ВАРВА</field>
+  </object>
+  <object model="patients.district" pk="473">
+    <field name="state" rel="ManyToOneRel" to="patients.state">25</field>
+    <field name="level1" type="CharField">7400000000</field>
+    <field name="level2" type="CharField">7421400000</field>
+    <field name="name" type="CharField">ГОРОДНЯНСЬКИЙ</field>
+    <field name="capital" type="CharField">М.ГОРОДНЯ</field>
+  </object>
+  <object model="patients.district" pk="474">
+    <field name="state" rel="ManyToOneRel" to="patients.state">25</field>
+    <field name="level1" type="CharField">7400000000</field>
+    <field name="level2" type="CharField">7421700000</field>
+    <field name="name" type="CharField">ІЧНЯНСЬКИЙ</field>
+    <field name="capital" type="CharField">М.ІЧНЯ</field>
+  </object>
+  <object model="patients.district" pk="475">
+    <field name="state" rel="ManyToOneRel" to="patients.state">25</field>
+    <field name="level1" type="CharField">7400000000</field>
+    <field name="level2" type="CharField">7422000000</field>
+    <field name="name" type="CharField">КОЗЕЛЕЦЬКИЙ</field>
+    <field name="capital" type="CharField">М.ОСТЕР</field>
+  </object>
+  <object model="patients.district" pk="476">
+    <field name="state" rel="ManyToOneRel" to="patients.state">25</field>
+    <field name="level1" type="CharField">7400000000</field>
+    <field name="level2" type="CharField">7422200000</field>
+    <field name="name" type="CharField">КОРОПСЬКИЙ</field>
+    <field name="capital" type="CharField">СМТ КОРОП</field>
+  </object>
+  <object model="patients.district" pk="477">
+    <field name="state" rel="ManyToOneRel" to="patients.state">25</field>
+    <field name="level1" type="CharField">7400000000</field>
+    <field name="level2" type="CharField">7422400000</field>
+    <field name="name" type="CharField">КОРЮКІВСЬКИЙ</field>
+    <field name="capital" type="CharField">М.КОРЮКІВКА</field>
+  </object>
+  <object model="patients.district" pk="478">
+    <field name="state" rel="ManyToOneRel" to="patients.state">25</field>
+    <field name="level1" type="CharField">7400000000</field>
+    <field name="level2" type="CharField">7422700000</field>
+    <field name="name" type="CharField">КУЛИКІВСЬКИЙ</field>
+    <field name="capital" type="CharField">СМТ КУЛИКІВКА</field>
+  </object>
+  <object model="patients.district" pk="479">
+    <field name="state" rel="ManyToOneRel" to="patients.state">25</field>
+    <field name="level1" type="CharField">7400000000</field>
+    <field name="level2" type="CharField">7423000000</field>
+    <field name="name" type="CharField">МЕНСЬКИЙ</field>
+    <field name="capital" type="CharField">М.МЕНА</field>
+  </object>
+  <object model="patients.district" pk="480">
+    <field name="state" rel="ManyToOneRel" to="patients.state">25</field>
+    <field name="level1" type="CharField">7400000000</field>
+    <field name="level2" type="CharField">7423300000</field>
+    <field name="name" type="CharField">НІЖИНСЬКИЙ</field>
+    <field name="capital" type="CharField">М.НІЖИН</field>
+  </object>
+  <object model="patients.district" pk="481">
+    <field name="state" rel="ManyToOneRel" to="patients.state">25</field>
+    <field name="level1" type="CharField">7400000000</field>
+    <field name="level2" type="CharField">7423600000</field>
+    <field name="name" type="CharField">НОВГОРОД-СІВЕРСЬКИЙ</field>
+    <field name="capital" type="CharField">М.НОВГОРОД-СІВЕРСЬКИЙ</field>
+  </object>
+  <object model="patients.district" pk="482">
+    <field name="state" rel="ManyToOneRel" to="patients.state">25</field>
+    <field name="level1" type="CharField">7400000000</field>
+    <field name="level2" type="CharField">7423800000</field>
+    <field name="name" type="CharField">НОСІВСЬКИЙ</field>
+    <field name="capital" type="CharField">М.НОСІВКА</field>
+  </object>
+  <object model="patients.district" pk="483">
+    <field name="state" rel="ManyToOneRel" to="patients.state">25</field>
+    <field name="level1" type="CharField">7400000000</field>
+    <field name="level2" type="CharField">7424100000</field>
+    <field name="name" type="CharField">ПРИЛУЦЬКИЙ</field>
+    <field name="capital" type="CharField">СМТ ЛАДАН</field>
+  </object>
+  <object model="patients.district" pk="484">
+    <field name="state" rel="ManyToOneRel" to="patients.state">25</field>
+    <field name="level1" type="CharField">7400000000</field>
+    <field name="level2" type="CharField">7424400000</field>
+    <field name="name" type="CharField">РІПКИНСЬКИЙ</field>
+    <field name="capital" type="CharField">СМТ РІПКИ</field>
+  </object>
+  <object model="patients.district" pk="485">
+    <field name="state" rel="ManyToOneRel" to="patients.state">25</field>
+    <field name="level1" type="CharField">7400000000</field>
+    <field name="level2" type="CharField">7424700000</field>
+    <field name="name" type="CharField">СЕМЕНІВСЬКИЙ</field>
+    <field name="capital" type="CharField">М.СЕМЕНІВКА</field>
+  </object>
+  <object model="patients.district" pk="486">
+    <field name="state" rel="ManyToOneRel" to="patients.state">25</field>
+    <field name="level1" type="CharField">7400000000</field>
+    <field name="level2" type="CharField">7424900000</field>
+    <field name="name" type="CharField">СОСНИЦЬКИЙ</field>
+    <field name="capital" type="CharField">СМТ СОСНИЦЯ</field>
+  </object>
+  <object model="patients.district" pk="487">
+    <field name="state" rel="ManyToOneRel" to="patients.state">25</field>
+    <field name="level1" type="CharField">7400000000</field>
+    <field name="level2" type="CharField">7425100000</field>
+    <field name="name" type="CharField">СРІБНЯНСЬКИЙ</field>
+    <field name="capital" type="CharField">СМТ СРІБНЕ</field>
+  </object>
+  <object model="patients.district" pk="488">
+    <field name="state" rel="ManyToOneRel" to="patients.state">25</field>
+    <field name="level1" type="CharField">7400000000</field>
+    <field name="level2" type="CharField">7425300000</field>
+    <field name="name" type="CharField">ТАЛАЛАЇВСЬКИЙ</field>
+    <field name="capital" type="CharField">СМТ ТАЛАЛАЇВКА</field>
+  </object>
+  <object model="patients.district" pk="489">
+    <field name="state" rel="ManyToOneRel" to="patients.state">25</field>
+    <field name="level1" type="CharField">7400000000</field>
+    <field name="level2" type="CharField">7425500000</field>
+    <field name="name" type="CharField">ЧЕРНІГІВСЬКИЙ</field>
+    <field name="capital" type="CharField">М.ЧЕРНІГІВ</field>
+  </object>
+  <object model="patients.district" pk="490">
+    <field name="state" rel="ManyToOneRel" to="patients.state">25</field>
+    <field name="level1" type="CharField">7400000000</field>
+    <field name="level2" type="CharField">7425800000</field>
+    <field name="name" type="CharField">СНОВСЬКИЙ</field>
+    <field name="capital" type="CharField">М.СНОВСЬК</field>
+  </object>
+  <object model="patients.district" pk="491">
+    <field name="state" rel="ManyToOneRel" to="patients.state">26</field>
+    <field name="level1" type="CharField">8000000000</field>
+    <field name="level2" type="CharField">8036100000</field>
+    <field name="name" type="CharField">ГОЛОСІЇВСЬКИЙ</field>
+    <field name="capital" type="CharField">М.КИЇВ</field>
+  </object>
+  <object model="patients.district" pk="492">
+    <field name="state" rel="ManyToOneRel" to="patients.state">26</field>
+    <field name="level1" type="CharField">8000000000</field>
+    <field name="level2" type="CharField">8036300000</field>
+    <field name="name" type="CharField">ДАРНИЦЬКИЙ</field>
+    <field name="capital" type="CharField">М.КИЇВ</field>
+  </object>
+  <object model="patients.district" pk="493">
+    <field name="state" rel="ManyToOneRel" to="patients.state">26</field>
+    <field name="level1" type="CharField">8000000000</field>
+    <field name="level2" type="CharField">8036400000</field>
+    <field name="name" type="CharField">ДЕСНЯНСЬКИЙ</field>
+    <field name="capital" type="CharField">М.КИЇВ</field>
+  </object>
+  <object model="patients.district" pk="494">
+    <field name="state" rel="ManyToOneRel" to="patients.state">26</field>
+    <field name="level1" type="CharField">8000000000</field>
+    <field name="level2" type="CharField">8036600000</field>
+    <field name="name" type="CharField">ДНІПРОВСЬКИЙ</field>
+    <field name="capital" type="CharField">М.КИЇВ</field>
+  </object>
+  <object model="patients.district" pk="495">
+    <field name="state" rel="ManyToOneRel" to="patients.state">26</field>
+    <field name="level1" type="CharField">8000000000</field>
+    <field name="level2" type="CharField">8038000000</field>
+    <field name="name" type="CharField">ОБОЛОНСЬКИЙ</field>
+    <field name="capital" type="CharField">М.КИЇВ</field>
+  </object>
+  <object model="patients.district" pk="496">
+    <field name="state" rel="ManyToOneRel" to="patients.state">26</field>
+    <field name="level1" type="CharField">8000000000</field>
+    <field name="level2" type="CharField">8038200000</field>
+    <field name="name" type="CharField">ПЕЧЕРСЬКИЙ</field>
+    <field name="capital" type="CharField">М.КИЇВ</field>
+  </object>
+  <object model="patients.district" pk="497">
+    <field name="state" rel="ManyToOneRel" to="patients.state">26</field>
+    <field name="level1" type="CharField">8000000000</field>
+    <field name="level2" type="CharField">8038500000</field>
+    <field name="name" type="CharField">ПОДІЛЬСЬКИЙ</field>
+    <field name="capital" type="CharField">М.КИЇВ</field>
+  </object>
+  <object model="patients.district" pk="498">
+    <field name="state" rel="ManyToOneRel" to="patients.state">26</field>
+    <field name="level1" type="CharField">8000000000</field>
+    <field name="level2" type="CharField">8038600000</field>
+    <field name="name" type="CharField">СВЯТОШИНСЬКИЙ</field>
+    <field name="capital" type="CharField">М.КИЇВ</field>
+  </object>
+  <object model="patients.district" pk="499">
+    <field name="state" rel="ManyToOneRel" to="patients.state">26</field>
+    <field name="level1" type="CharField">8000000000</field>
+    <field name="level2" type="CharField">8038900000</field>
+    <field name="name" type="CharField">СОЛОМ'ЯНСЬКИЙ</field>
+    <field name="capital" type="CharField">М.КИЇВ</field>
+  </object>
+  <object model="patients.district" pk="500">
+    <field name="state" rel="ManyToOneRel" to="patients.state">26</field>
+    <field name="level1" type="CharField">8000000000</field>
+    <field name="level2" type="CharField">8039100000</field>
+    <field name="name" type="CharField">ШЕВЧЕНКІВСЬКИЙ</field>
+    <field name="capital" type="CharField">М.КИЇВ</field>
+  </object>
+  <object model="patients.district" pk="501">
+    <field name="state" rel="ManyToOneRel" to="patients.state">27</field>
+    <field name="level1" type="CharField">8500000000</field>
+    <field name="level2" type="CharField">8536300000</field>
+    <field name="name" type="CharField">БАЛАКЛАВСЬКИЙ</field>
+    <field name="capital" type="CharField">М.СЕВАСТОПОЛЬ</field>
+  </object>
+  <object model="patients.district" pk="502">
+    <field name="state" rel="ManyToOneRel" to="patients.state">27</field>
+    <field name="level1" type="CharField">8500000000</field>
+    <field name="level2" type="CharField">8536400000</field>
+    <field name="name" type="CharField">ГАГАРІНСЬКИЙ</field>
+    <field name="capital" type="CharField">М.СЕВАСТОПОЛЬ</field>
+  </object>
+  <object model="patients.district" pk="503">
+    <field name="state" rel="ManyToOneRel" to="patients.state">27</field>
+    <field name="level1" type="CharField">8500000000</field>
+    <field name="level2" type="CharField">8536600000</field>
+    <field name="name" type="CharField">ЛЕНІНСЬКИЙ</field>
+    <field name="capital" type="CharField">М.СЕВАСТОПОЛЬ</field>
+  </object>
+  <object model="patients.district" pk="504">
+    <field name="state" rel="ManyToOneRel" to="patients.state">27</field>
+    <field name="level1" type="CharField">8500000000</field>
+    <field name="level2" type="CharField">8536900000</field>
+    <field name="name" type="CharField">НАХІМОВСЬКИЙ</field>
+    <field name="capital" type="CharField">М.СЕВАСТОПОЛЬ</field>
+  </object>
+</django-objects>

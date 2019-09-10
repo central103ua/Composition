@@ -1,0 +1,387 @@
+<?xml version="1.0" encoding="utf-8"?>
+<django-objects version="1.0">
+  <object model="mis.mis" pk="1">
+    <field name="mis_user" rel="OneToOneRel" to="accounts.user">2</field>
+    <field name="mis_type" rel="ManyToOneRel" to="mis.mistype">1</field>
+    <field name="mis_name" type="CharField">м.Київ</field>
+    <field name="mis_facility" type="IntegerField">1</field>
+    <field name="mis_comment" type="CharField">Працюємо</field>
+    <field name="is_active" type="BooleanField">True</field>
+    <field name="accept_intercall" type="BooleanField">True</field>
+    <field name="mis_heartbeat" type="DateTimeField"><None></None></field>
+    <field name="date_modified" type="DateTimeField">2019-01-21T17:04:00.401931</field>
+    <field name="timestamp" type="DateTimeField">2019-01-21T17:04:00.367623</field>
+  </object>
+  <object model="mis.mis" pk="2">
+    <field name="mis_user" rel="OneToOneRel" to="accounts.user">3</field>
+    <field name="mis_type" rel="ManyToOneRel" to="mis.mistype">1</field>
+    <field name="mis_name" type="CharField">Харківська</field>
+    <field name="mis_facility" type="IntegerField">2</field>
+    <field name="mis_comment" type="CharField">Працюємо</field>
+    <field name="is_active" type="BooleanField">True</field>
+    <field name="accept_intercall" type="BooleanField">True</field>
+    <field name="mis_heartbeat" type="DateTimeField"><None></None></field>
+    <field name="date_modified" type="DateTimeField">2019-01-21T17:04:00.827840</field>
+    <field name="timestamp" type="DateTimeField">2019-01-21T17:04:00.800247</field>
+  </object>
+  <object model="mis.mis" pk="3">
+    <field name="mis_user" rel="OneToOneRel" to="accounts.user">4</field>
+    <field name="mis_type" rel="ManyToOneRel" to="mis.mistype">1</field>
+    <field name="mis_name" type="CharField">Запорізька</field>
+    <field name="mis_facility" type="IntegerField">3</field>
+    <field name="mis_comment" type="CharField">Працюємо</field>
+    <field name="is_active" type="BooleanField">True</field>
+    <field name="accept_intercall" type="BooleanField">True</field>
+    <field name="mis_heartbeat" type="DateTimeField"><None></None></field>
+    <field name="date_modified" type="DateTimeField">2019-01-21T17:04:01.252777</field>
+    <field name="timestamp" type="DateTimeField">2019-01-21T17:04:01.222773</field>
+  </object>
+  <object model="mis.mis" pk="4">
+    <field name="mis_user" rel="OneToOneRel" to="accounts.user">5</field>
+    <field name="mis_type" rel="ManyToOneRel" to="mis.mistype">1</field>
+    <field name="mis_name" type="CharField">Вінницька</field>
+    <field name="mis_facility" type="IntegerField">4</field>
+    <field name="mis_comment" type="CharField">Працюємо</field>
+    <field name="is_active" type="BooleanField">True</field>
+    <field name="accept_intercall" type="BooleanField">True</field>
+    <field name="mis_heartbeat" type="DateTimeField"><None></None></field>
+    <field name="date_modified" type="DateTimeField">2019-01-21T17:04:01.680004</field>
+    <field name="timestamp" type="DateTimeField">2019-01-21T17:04:01.646152</field>
+  </object>
+  <object model="mis.mis" pk="5">
+    <field name="mis_user" rel="OneToOneRel" to="accounts.user">6</field>
+    <field name="mis_type" rel="ManyToOneRel" to="mis.mistype">1</field>
+    <field name="mis_name" type="CharField">Одеська</field>
+    <field name="mis_facility" type="IntegerField">5</field>
+    <field name="mis_comment" type="CharField">Працюємо</field>
+    <field name="is_active" type="BooleanField">True</field>
+    <field name="accept_intercall" type="BooleanField">True</field>
+    <field name="mis_heartbeat" type="DateTimeField"><None></None></field>
+    <field name="date_modified" type="DateTimeField">2019-01-21T17:04:02.105417</field>
+    <field name="timestamp" type="DateTimeField">2019-01-21T17:04:02.074833</field>
+  </object>
+  <object model="mis.mis" pk="6">
+    <field name="mis_user" rel="OneToOneRel" to="accounts.user">7</field>
+    <field name="mis_type" rel="ManyToOneRel" to="mis.mistype">1</field>
+    <field name="mis_name" type="CharField">Херсонська</field>
+    <field name="mis_facility" type="IntegerField">6</field>
+    <field name="mis_comment" type="CharField">Працюємо</field>
+    <field name="is_active" type="BooleanField">True</field>
+    <field name="accept_intercall" type="BooleanField">True</field>
+    <field name="mis_heartbeat" type="DateTimeField"><None></None></field>
+    <field name="date_modified" type="DateTimeField">2019-01-21T17:04:02.532224</field>
+    <field name="timestamp" type="DateTimeField">2019-01-21T17:04:02.505751</field>
+  </object>
+  <object model="mis.mis" pk="7">
+    <field name="mis_user" rel="OneToOneRel" to="accounts.user">8</field>
+    <field name="mis_type" rel="ManyToOneRel" to="mis.mistype">1</field>
+    <field name="mis_name" type="CharField">Полтавська</field>
+    <field name="mis_facility" type="IntegerField">7</field>
+    <field name="mis_comment" type="CharField">Працюємо</field>
+    <field name="is_active" type="BooleanField">True</field>
+    <field name="accept_intercall" type="BooleanField">True</field>
+    <field name="mis_heartbeat" type="DateTimeField"><None></None></field>
+    <field name="date_modified" type="DateTimeField">2019-01-21T17:04:03.030978</field>
+    <field name="timestamp" type="DateTimeField">2019-01-21T17:04:02.964126</field>
+  </object>
+  <object model="mis.mis" pk="8">
+    <field name="mis_user" rel="OneToOneRel" to="accounts.user">9</field>
+    <field name="mis_type" rel="ManyToOneRel" to="mis.mistype">1</field>
+    <field name="mis_name" type="CharField">Тернопільcька</field>
+    <field name="mis_facility" type="IntegerField">8</field>
+    <field name="mis_comment" type="CharField">Працюємо</field>
+    <field name="is_active" type="BooleanField">True</field>
+    <field name="accept_intercall" type="BooleanField">True</field>
+    <field name="mis_heartbeat" type="DateTimeField"><None></None></field>
+    <field name="date_modified" type="DateTimeField">2019-01-21T17:04:03.462317</field>
+    <field name="timestamp" type="DateTimeField">2019-01-21T17:04:03.436430</field>
+  </object>
+  <object model="mis.mis" pk="9">
+    <field name="mis_user" rel="OneToOneRel" to="accounts.user">10</field>
+    <field name="mis_type" rel="ManyToOneRel" to="mis.mistype">1</field>
+    <field name="mis_name" type="CharField">Донецька</field>
+    <field name="mis_facility" type="IntegerField">9</field>
+    <field name="mis_comment" type="CharField">Працюємо</field>
+    <field name="is_active" type="BooleanField">True</field>
+    <field name="accept_intercall" type="BooleanField">True</field>
+    <field name="mis_heartbeat" type="DateTimeField"><None></None></field>
+    <field name="date_modified" type="DateTimeField">2019-01-21T17:04:03.898805</field>
+    <field name="timestamp" type="DateTimeField">2019-01-21T17:04:03.872794</field>
+  </object>
+  <object model="mis.mis" pk="10">
+    <field name="mis_user" rel="OneToOneRel" to="accounts.user">11</field>
+    <field name="mis_type" rel="ManyToOneRel" to="mis.mistype">1</field>
+    <field name="mis_name" type="CharField">Дніпровська</field>
+    <field name="mis_facility" type="IntegerField">10</field>
+    <field name="mis_comment" type="CharField">Працюємо</field>
+    <field name="is_active" type="BooleanField">True</field>
+    <field name="accept_intercall" type="BooleanField">True</field>
+    <field name="mis_heartbeat" type="DateTimeField"><None></None></field>
+    <field name="date_modified" type="DateTimeField">2019-01-21T17:04:04.312938</field>
+    <field name="timestamp" type="DateTimeField">2019-01-21T17:04:04.312938</field>
+  </object>
+  <object model="mis.mis" pk="11">
+    <field name="mis_user" rel="OneToOneRel" to="accounts.user">12</field>
+    <field name="mis_type" rel="ManyToOneRel" to="mis.mistype">1</field>
+    <field name="mis_name" type="CharField">Київська</field>
+    <field name="mis_facility" type="IntegerField">11</field>
+    <field name="mis_comment" type="CharField">Київська область</field>
+    <field name="is_active" type="BooleanField">False</field>
+    <field name="accept_intercall" type="BooleanField">True</field>
+    <field name="mis_heartbeat" type="DateTimeField"><None></None></field>
+    <field name="date_modified" type="DateTimeField">2019-01-31T21:19:52.858188</field>
+    <field name="timestamp" type="DateTimeField">2019-01-21T17:04:04.733418</field>
+  </object>
+  <object model="mis.mis" pk="12">
+    <field name="mis_user" rel="OneToOneRel" to="accounts.user">13</field>
+    <field name="mis_type" rel="ManyToOneRel" to="mis.mistype">1</field>
+    <field name="mis_name" type="CharField">Миколаївська</field>
+    <field name="mis_facility" type="IntegerField">12</field>
+    <field name="mis_comment" type="CharField">Миколаївська область</field>
+    <field name="is_active" type="BooleanField">False</field>
+    <field name="accept_intercall" type="BooleanField">True</field>
+    <field name="mis_heartbeat" type="DateTimeField"><None></None></field>
+    <field name="date_modified" type="DateTimeField">2019-01-31T21:19:45.758880</field>
+    <field name="timestamp" type="DateTimeField">2019-01-21T17:04:05.135590</field>
+  </object>
+  <object model="mis.mis" pk="13">
+    <field name="mis_user" rel="OneToOneRel" to="accounts.user">14</field>
+    <field name="mis_type" rel="ManyToOneRel" to="mis.mistype">1</field>
+    <field name="mis_name" type="CharField">Чернігівська</field>
+    <field name="mis_facility" type="IntegerField">13</field>
+    <field name="mis_comment" type="CharField">Чернігівська область</field>
+    <field name="is_active" type="BooleanField">False</field>
+    <field name="accept_intercall" type="BooleanField">True</field>
+    <field name="mis_heartbeat" type="DateTimeField"><None></None></field>
+    <field name="date_modified" type="DateTimeField">2019-01-31T21:19:10.748424</field>
+    <field name="timestamp" type="DateTimeField">2019-01-21T17:04:05.530927</field>
+  </object>
+  <object model="mis.mis" pk="14">
+    <field name="mis_user" rel="OneToOneRel" to="accounts.user">37</field>
+    <field name="mis_type" rel="ManyToOneRel" to="mis.mistype">4</field>
+    <field name="mis_name" type="CharField">Львівська</field>
+    <field name="mis_facility" type="IntegerField">19</field>
+    <field name="mis_comment" type="CharField">Львівська область</field>
+    <field name="is_active" type="BooleanField">False</field>
+    <field name="accept_intercall" type="BooleanField">True</field>
+    <field name="mis_heartbeat" type="DateTimeField"><None></None></field>
+    <field name="date_modified" type="DateTimeField">2019-01-31T21:19:40.559072</field>
+    <field name="timestamp" type="DateTimeField">2019-01-31T19:42:40.922159</field>
+  </object>
+  <object model="mis.mis" pk="15">
+    <field name="mis_user" rel="OneToOneRel" to="accounts.user">40</field>
+    <field name="mis_type" rel="ManyToOneRel" to="mis.mistype">4</field>
+    <field name="mis_name" type="CharField">Сумська</field>
+    <field name="mis_facility" type="IntegerField">20</field>
+    <field name="mis_comment" type="CharField">Сумська область</field>
+    <field name="is_active" type="BooleanField">False</field>
+    <field name="accept_intercall" type="BooleanField">True</field>
+    <field name="mis_heartbeat" type="DateTimeField"><None></None></field>
+    <field name="date_modified" type="DateTimeField">2019-01-31T21:19:03.176976</field>
+    <field name="timestamp" type="DateTimeField">2019-01-31T20:47:24.601698</field>
+  </object>
+  <object model="mis.mis" pk="16">
+    <field name="mis_user" rel="OneToOneRel" to="accounts.user">41</field>
+    <field name="mis_type" rel="ManyToOneRel" to="mis.mistype">4</field>
+    <field name="mis_name" type="CharField">Волинська</field>
+    <field name="mis_facility" type="IntegerField">21</field>
+    <field name="mis_comment" type="CharField">Волинська область</field>
+    <field name="is_active" type="BooleanField">False</field>
+    <field name="accept_intercall" type="BooleanField">True</field>
+    <field name="mis_heartbeat" type="DateTimeField"><None></None></field>
+    <field name="date_modified" type="DateTimeField">2019-01-31T21:18:57.437869</field>
+    <field name="timestamp" type="DateTimeField">2019-01-31T20:47:25.039030</field>
+  </object>
+  <object model="mis.mis" pk="17">
+    <field name="mis_user" rel="OneToOneRel" to="accounts.user">42</field>
+    <field name="mis_type" rel="ManyToOneRel" to="mis.mistype">4</field>
+    <field name="mis_name" type="CharField">Закарпатська</field>
+    <field name="mis_facility" type="IntegerField">22</field>
+    <field name="mis_comment" type="CharField">Закарпатська область</field>
+    <field name="is_active" type="BooleanField">False</field>
+    <field name="accept_intercall" type="BooleanField">True</field>
+    <field name="mis_heartbeat" type="DateTimeField"><None></None></field>
+    <field name="date_modified" type="DateTimeField">2019-01-31T21:18:50.622723</field>
+    <field name="timestamp" type="DateTimeField">2019-01-31T20:47:25.490405</field>
+  </object>
+  <object model="mis.mis" pk="18">
+    <field name="mis_user" rel="OneToOneRel" to="accounts.user">43</field>
+    <field name="mis_type" rel="ManyToOneRel" to="mis.mistype">4</field>
+    <field name="mis_name" type="CharField">Житомирська</field>
+    <field name="mis_facility" type="IntegerField">23</field>
+    <field name="mis_comment" type="CharField">Житомирська область</field>
+    <field name="is_active" type="BooleanField">False</field>
+    <field name="accept_intercall" type="BooleanField">True</field>
+    <field name="mis_heartbeat" type="DateTimeField"><None></None></field>
+    <field name="date_modified" type="DateTimeField">2019-01-31T21:18:39.583399</field>
+    <field name="timestamp" type="DateTimeField">2019-01-31T20:47:25.974752</field>
+  </object>
+  <object model="mis.mis" pk="19">
+    <field name="mis_user" rel="OneToOneRel" to="accounts.user">44</field>
+    <field name="mis_type" rel="ManyToOneRel" to="mis.mistype">4</field>
+    <field name="mis_name" type="CharField">Франківськ</field>
+    <field name="mis_facility" type="IntegerField">24</field>
+    <field name="mis_comment" type="CharField">Івано-Франківська область</field>
+    <field name="is_active" type="BooleanField">False</field>
+    <field name="accept_intercall" type="BooleanField">True</field>
+    <field name="mis_heartbeat" type="DateTimeField"><None></None></field>
+    <field name="date_modified" type="DateTimeField">2019-01-31T21:18:33.839336</field>
+    <field name="timestamp" type="DateTimeField">2019-01-31T20:47:26.423559</field>
+  </object>
+  <object model="mis.mis" pk="20">
+    <field name="mis_user" rel="OneToOneRel" to="accounts.user">45</field>
+    <field name="mis_type" rel="ManyToOneRel" to="mis.mistype">4</field>
+    <field name="mis_name" type="CharField">Кіровоградська</field>
+    <field name="mis_facility" type="IntegerField">25</field>
+    <field name="mis_comment" type="CharField">Кіровоградська область</field>
+    <field name="is_active" type="BooleanField">False</field>
+    <field name="accept_intercall" type="BooleanField">True</field>
+    <field name="mis_heartbeat" type="DateTimeField"><None></None></field>
+    <field name="date_modified" type="DateTimeField">2019-01-31T21:18:18.971309</field>
+    <field name="timestamp" type="DateTimeField">2019-01-31T20:47:26.855434</field>
+  </object>
+  <object model="mis.mis" pk="21">
+    <field name="mis_user" rel="OneToOneRel" to="accounts.user">46</field>
+    <field name="mis_type" rel="ManyToOneRel" to="mis.mistype">4</field>
+    <field name="mis_name" type="CharField">Рівенська</field>
+    <field name="mis_facility" type="IntegerField">26</field>
+    <field name="mis_comment" type="CharField">Рівенська область</field>
+    <field name="is_active" type="BooleanField">False</field>
+    <field name="accept_intercall" type="BooleanField">True</field>
+    <field name="mis_heartbeat" type="DateTimeField"><None></None></field>
+    <field name="date_modified" type="DateTimeField">2019-01-31T21:18:14.295481</field>
+    <field name="timestamp" type="DateTimeField">2019-01-31T20:52:54.740204</field>
+  </object>
+  <object model="mis.mis" pk="22">
+    <field name="mis_user" rel="OneToOneRel" to="accounts.user">47</field>
+    <field name="mis_type" rel="ManyToOneRel" to="mis.mistype">4</field>
+    <field name="mis_name" type="CharField">Хмельницька</field>
+    <field name="mis_facility" type="IntegerField">27</field>
+    <field name="mis_comment" type="CharField">Хмельницька область</field>
+    <field name="is_active" type="BooleanField">False</field>
+    <field name="accept_intercall" type="BooleanField">True</field>
+    <field name="mis_heartbeat" type="DateTimeField"><None></None></field>
+    <field name="date_modified" type="DateTimeField">2019-01-31T21:18:09.628625</field>
+    <field name="timestamp" type="DateTimeField">2019-01-31T20:52:55.188405</field>
+  </object>
+  <object model="mis.mis" pk="23">
+    <field name="mis_user" rel="OneToOneRel" to="accounts.user">48</field>
+    <field name="mis_type" rel="ManyToOneRel" to="mis.mistype">4</field>
+    <field name="mis_name" type="CharField">Черкаська</field>
+    <field name="mis_facility" type="IntegerField">28</field>
+    <field name="mis_comment" type="CharField">Черкаська область</field>
+    <field name="is_active" type="BooleanField">False</field>
+    <field name="accept_intercall" type="BooleanField">True</field>
+    <field name="mis_heartbeat" type="DateTimeField"><None></None></field>
+    <field name="date_modified" type="DateTimeField">2019-01-31T21:18:05.103959</field>
+    <field name="timestamp" type="DateTimeField">2019-01-31T20:52:55.627810</field>
+  </object>
+  <object model="mis.mis" pk="24">
+    <field name="mis_user" rel="OneToOneRel" to="accounts.user">49</field>
+    <field name="mis_type" rel="ManyToOneRel" to="mis.mistype">4</field>
+    <field name="mis_name" type="CharField">Чернівецька</field>
+    <field name="mis_facility" type="IntegerField">29</field>
+    <field name="mis_comment" type="CharField">Чернівецька область</field>
+    <field name="is_active" type="BooleanField">False</field>
+    <field name="accept_intercall" type="BooleanField">True</field>
+    <field name="mis_heartbeat" type="DateTimeField"><None></None></field>
+    <field name="date_modified" type="DateTimeField">2019-01-31T21:18:01.054271</field>
+    <field name="timestamp" type="DateTimeField">2019-01-31T20:52:56.054086</field>
+  </object>
+  <object model="mis.mis" pk="25">
+    <field name="mis_user" rel="OneToOneRel" to="accounts.user">50</field>
+    <field name="mis_type" rel="ManyToOneRel" to="mis.mistype">4</field>
+    <field name="mis_name" type="CharField">Луганська</field>
+    <field name="mis_facility" type="IntegerField">30</field>
+    <field name="mis_comment" type="CharField">Луганська область</field>
+    <field name="is_active" type="BooleanField">False</field>
+    <field name="accept_intercall" type="BooleanField">True</field>
+    <field name="mis_heartbeat" type="DateTimeField"><None></None></field>
+    <field name="date_modified" type="DateTimeField">2019-01-31T21:17:56.958960</field>
+    <field name="timestamp" type="DateTimeField">2019-01-31T20:52:56.513727</field>
+  </object>
+  <object model="mis.mis" pk="26">
+    <field name="mis_user" rel="OneToOneRel" to="accounts.user">51</field>
+    <field name="mis_type" rel="ManyToOneRel" to="mis.mistype">4</field>
+    <field name="mis_name" type="CharField">АР Крим</field>
+    <field name="mis_facility" type="IntegerField">31</field>
+    <field name="mis_comment" type="CharField">АР Крим</field>
+    <field name="is_active" type="BooleanField">False</field>
+    <field name="accept_intercall" type="BooleanField">True</field>
+    <field name="mis_heartbeat" type="DateTimeField"><None></None></field>
+    <field name="date_modified" type="DateTimeField">2019-01-31T21:17:51.748851</field>
+    <field name="timestamp" type="DateTimeField">2019-01-31T20:52:56.997166</field>
+  </object>
+  <object model="mis.mis" pk="27">
+    <field name="mis_user" rel="OneToOneRel" to="accounts.user">52</field>
+    <field name="mis_type" rel="ManyToOneRel" to="mis.mistype">4</field>
+    <field name="mis_name" type="CharField">Тест1</field>
+    <field name="mis_facility" type="IntegerField">32</field>
+    <field name="mis_comment" type="CharField">Про всяк випадок1</field>
+    <field name="is_active" type="BooleanField">False</field>
+    <field name="accept_intercall" type="BooleanField">True</field>
+    <field name="mis_heartbeat" type="DateTimeField"><None></None></field>
+    <field name="date_modified" type="DateTimeField">2019-01-31T21:17:21.872539</field>
+    <field name="timestamp" type="DateTimeField">2019-01-31T20:52:57.477714</field>
+  </object>
+  <object model="mis.mis" pk="28">
+    <field name="mis_user" rel="OneToOneRel" to="accounts.user">53</field>
+    <field name="mis_type" rel="ManyToOneRel" to="mis.mistype">4</field>
+    <field name="mis_name" type="CharField">Тест2</field>
+    <field name="mis_facility" type="IntegerField">33</field>
+    <field name="mis_comment" type="CharField">Про всяк випадок2</field>
+    <field name="is_active" type="BooleanField">False</field>
+    <field name="accept_intercall" type="BooleanField">True</field>
+    <field name="mis_heartbeat" type="DateTimeField"><None></None></field>
+    <field name="date_modified" type="DateTimeField">2019-01-31T21:17:46.405810</field>
+    <field name="timestamp" type="DateTimeField">2019-01-31T20:52:57.923604</field>
+  </object>
+  <object model="mis.mis" pk="29">
+    <field name="mis_user" rel="OneToOneRel" to="accounts.user">54</field>
+    <field name="mis_type" rel="ManyToOneRel" to="mis.mistype">4</field>
+    <field name="mis_name" type="CharField">Тест3</field>
+    <field name="mis_facility" type="IntegerField">34</field>
+    <field name="mis_comment" type="CharField">Про всяк випадок3</field>
+    <field name="is_active" type="BooleanField">False</field>
+    <field name="accept_intercall" type="BooleanField">True</field>
+    <field name="mis_heartbeat" type="DateTimeField"><None></None></field>
+    <field name="date_modified" type="DateTimeField">2019-01-31T21:17:33.479842</field>
+    <field name="timestamp" type="DateTimeField">2019-01-31T20:52:58.373229</field>
+  </object>
+  <object model="mis.mis" pk="30">
+    <field name="mis_user" rel="OneToOneRel" to="accounts.user">55</field>
+    <field name="mis_type" rel="ManyToOneRel" to="mis.mistype">3</field>
+    <field name="mis_name" type="CharField">Тустова МІС</field>
+    <field name="mis_facility" type="IntegerField">0</field>
+    <field name="mis_comment" type="CharField">Тут можна тестувати</field>
+    <field name="is_active" type="BooleanField">True</field>
+    <field name="accept_intercall" type="BooleanField">True</field>
+    <field name="mis_heartbeat" type="DateTimeField">2019-05-30T15:37:28.422471</field>
+    <field name="date_modified" type="DateTimeField">2019-05-30T15:37:30.623133</field>
+    <field name="timestamp" type="DateTimeField">2019-01-31T20:52:58.807782</field>
+  </object>
+  <object model="mis.mis" pk="31">
+    <field name="mis_user" rel="OneToOneRel" to="accounts.user">56</field>
+    <field name="mis_type" rel="ManyToOneRel" to="mis.mistype">2</field>
+    <field name="mis_name" type="CharField">Центр NG103</field>
+    <field name="mis_facility" type="IntegerField">36</field>
+    <field name="mis_comment" type="CharField">Центру все можно</field>
+    <field name="is_active" type="BooleanField">True</field>
+    <field name="accept_intercall" type="BooleanField">True</field>
+    <field name="mis_heartbeat" type="DateTimeField">2019-04-04T18:22:50.268124</field>
+    <field name="date_modified" type="DateTimeField">2019-04-04T18:22:50.294932</field>
+    <field name="timestamp" type="DateTimeField">2019-01-31T21:01:44.167946</field>
+  </object>
+  <object model="mis.mis" pk="32">
+    <field name="mis_user" rel="OneToOneRel" to="accounts.user">57</field>
+    <field name="mis_type" rel="ManyToOneRel" to="mis.mistype">2</field>
+    <field name="mis_name" type="CharField">Центр TDL</field>
+    <field name="mis_facility" type="IntegerField">68</field>
+    <field name="mis_comment" type="CharField">Технології для людей</field>
+    <field name="is_active" type="BooleanField">True</field>
+    <field name="accept_intercall" type="BooleanField">True</field>
+    <field name="mis_heartbeat" type="DateTimeField"><None></None></field>
+    <field name="date_modified" type="DateTimeField">2019-03-28T10:35:14.500519</field>
+    <field name="timestamp" type="DateTimeField">2019-03-28T10:35:14.447915</field>
+  </object>
+</django-objects>

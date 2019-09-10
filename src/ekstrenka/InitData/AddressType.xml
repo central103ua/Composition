@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<django-objects version="1.0">
+  <object model="mis.addresstype" pk="1">
+    <field name="addresstype_name" type="CharField">квартира</field>
+    <field name="addresstype_short" type="CharField">кв.</field>
+  </object>
+  <object model="mis.addresstype" pk="2">
+    <field name="addresstype_name" type="CharField">офіс</field>
+    <field name="addresstype_short" type="CharField">оф.</field>
+  </object>
+  <object model="mis.addresstype" pk="3">
+    <field name="addresstype_name" type="CharField">будинок</field>
+    <field name="addresstype_short" type="CharField">буд.</field>
+  </object>
+  <object model="mis.addresstype" pk="4">
+    <field name="addresstype_name" type="CharField">завод</field>
+    <field name="addresstype_short" type="CharField">завод</field>
+  </object>
+  <object model="mis.addresstype" pk="5">
+    <field name="addresstype_name" type="CharField">публічне місце</field>
+    <field name="addresstype_short" type="CharField">площа</field>
+  </object>
+  <object model="mis.addresstype" pk="6">
+    <field name="addresstype_name" type="CharField">вулиця</field>
+    <field name="addresstype_short" type="CharField">вулиця</field>
+  </object>
+</django-objects>

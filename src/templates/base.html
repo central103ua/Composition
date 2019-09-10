@@ -1,0 +1,24 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    {% include 'snippets/css.html' %}
+    <link rel="stylesheet" href='{% static "css/styles103.css" %}' /> 
+    <link rel="icon" type="image/png" href='{% static "img/favicon-32x32.png" %}' sizes="32x32" />
+    <link rel="icon" type="image/png" href='{% static "img/favicon-16x16.png" %}' sizes="16x16" />
+    {% if refresh %}<meta http-equiv="refresh" content="5"/>{% endif %}
+    <title>{% block head_title %}Централь103{% endblock head_title %}</title>
+</head>
+<body class='body-tiffany'>
+    {% include 'navbar.html' %}
+{% block breadcrumbs %}{% endblock breadcrumbs %}
+{% block content %}{% endblock content %}
+<div style="margin-bottom: 5rem;">
+</div>
+
+{% include 'snippets/js.html' %}
+</body>
+</html>

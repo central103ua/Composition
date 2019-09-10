@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<django-objects version="1.0">
+  <object model="patients.conscstate" pk="1">
+    <field name="code" type="CharField">0c</field>
+    <field name="name" type="CharField">Немає свідомості</field>
+  </object>
+  <object model="patients.conscstate" pk="2">
+    <field name="code" type="CharField">1c</field>
+    <field name="name" type="CharField">Неможливо встановити</field>
+  </object>
+  <object model="patients.conscstate" pk="3">
+    <field name="code" type="CharField">2c</field>
+    <field name="name" type="CharField">Свідомість порушена</field>
+  </object>
+  <object model="patients.conscstate" pk="4">
+    <field name="code" type="CharField">3c</field>
+    <field name="name" type="CharField">Є свідомість</field>
+  </object>
+</django-objects>

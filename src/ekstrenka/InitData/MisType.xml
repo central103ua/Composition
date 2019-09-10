@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<django-objects version="1.0">
+  <object model="mis.mistype" pk="1">
+    <field name="mistype_name" type="CharField">MIS</field>
+    <field name="mistype_comment" type="CharField">Real MIS</field>
+  </object>
+  <object model="mis.mistype" pk="2">
+    <field name="mistype_name" type="CharField">Extension</field>
+    <field name="mistype_comment" type="CharField">MIS Extension</field>
+  </object>
+  <object model="mis.mistype" pk="3">
+    <field name="mistype_name" type="CharField">Test</field>
+    <field name="mistype_comment" type="CharField">For Test purpose</field>
+  </object>
+  <object model="mis.mistype" pk="4">
+    <field name="mistype_name" type="CharField">Waiting</field>
+    <field name="mistype_comment" type="CharField">Not Connected</field>
+  </object>  
+</django-objects>

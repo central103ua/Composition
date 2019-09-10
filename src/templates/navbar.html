@@ -1,0 +1,21 @@
+{% url 'logout' as logout_url %}
+    <nav class="navbar navbar-expand-lg navbar-light" style="background-color: #d3e2fd; height: 40px;">
+        <div class='container'>
+            <!--  bg-dark  bg-light bg-primary -->
+            <a class="navbar-brand" href="/sys/">
+                <img src="/static/img/central.svg" width="40" height="40" alt="Central103">
+                Централь103
+            </a>
+            <div class="collapse navbar-collapse navbar-nav">
+              {% if is_mis_admin == "True" %}
+              <a class="nav-item nav-link text-primary" href="{{ info_link }}facility/">Локації</a>
+              <a class="nav-item nav-link text-primary" href="{{ info_link }}staff/">Персонал</a>
+              <a class="nav-item nav-link text-primary" href="{{ info_link }}cars/">Авто</a>
+              {% endif %}
+              {% if not user.is_anonymous %}
+              <a class="nav-item nav-link ml-auto" href="{{ logout_url }}"><u>Log out:</u> {{ user }}</a>
+              <span class="navbar-text text-dark">[{{ timezone_now|time }}]</span>
+              {% endif %}
+            </div>
+        </div>
+    </nav>

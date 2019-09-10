@@ -1,0 +1,1935 @@
+<?xml version="1.0" encoding="utf-8"?>
+<django-objects version="1.0">
+  <object model="patients.patientstate" pk="1">
+    <field name="chief_complain" rel="ManyToOneRel" to="patients.chiefcomplain">1</field>
+    <field name="sub_code" type="IntegerField">1</field>
+    <field name="code" type="CharField">1.1</field>
+    <field name="name" type="CharField">Проведена/розпочато СЛЗ, (в т.ч. з використанням АВД)</field>
+  </object>
+  <object model="patients.patientstate" pk="2">
+    <field name="chief_complain" rel="ManyToOneRel" to="patients.chiefcomplain">1</field>
+    <field name="sub_code" type="IntegerField">2</field>
+    <field name="code" type="CharField">1.2</field>
+    <field name="name" type="CharField">Проведена серцево-легеневої реанімації, в тому числі з використанням автоматичного зовнішнього дефібрилятора</field>
+  </object>
+  <object model="patients.patientstate" pk="3">
+    <field name="chief_complain" rel="ManyToOneRel" to="patients.chiefcomplain">1</field>
+    <field name="sub_code" type="IntegerField">3</field>
+    <field name="code" type="CharField">1.3</field>
+    <field name="name" type="CharField">Виражена задишка у спокої/під час розмови</field>
+  </object>
+  <object model="patients.patientstate" pk="4">
+    <field name="chief_complain" rel="ManyToOneRel" to="patients.chiefcomplain">1</field>
+    <field name="sub_code" type="IntegerField">4</field>
+    <field name="code" type="CharField">1.4</field>
+    <field name="name" type="CharField">Ціаноз, блідість, пітливість</field>
+  </object>
+  <object model="patients.patientstate" pk="5">
+    <field name="chief_complain" rel="ManyToOneRel" to="patients.chiefcomplain">1</field>
+    <field name="sub_code" type="IntegerField">5</field>
+    <field name="code" type="CharField">1.5</field>
+    <field name="name" type="CharField">Гострий інфаркт міокарду</field>
+  </object>
+  <object model="patients.patientstate" pk="6">
+    <field name="chief_complain" rel="ManyToOneRel" to="patients.chiefcomplain">1</field>
+    <field name="sub_code" type="IntegerField">6</field>
+    <field name="code" type="CharField">1.6</field>
+    <field name="name" type="CharField">Знижений артеріальний тиск на фоні серцевого болю</field>
+  </object>
+  <object model="patients.patientstate" pk="7">
+    <field name="chief_complain" rel="ManyToOneRel" to="patients.chiefcomplain">1</field>
+    <field name="sub_code" type="IntegerField">7</field>
+    <field name="code" type="CharField">1.7</field>
+    <field name="name" type="CharField">Біль у грудній клітці, що виник раптово</field>
+  </object>
+  <object model="patients.patientstate" pk="8">
+    <field name="chief_complain" rel="ManyToOneRel" to="patients.chiefcomplain">1</field>
+    <field name="sub_code" type="IntegerField">8</field>
+    <field name="code" type="CharField">1.8</field>
+    <field name="name" type="CharField">Порушення ритму</field>
+  </object>
+  <object model="patients.patientstate" pk="9">
+    <field name="chief_complain" rel="ManyToOneRel" to="patients.chiefcomplain">1</field>
+    <field name="sub_code" type="IntegerField">9</field>
+    <field name="code" type="CharField">1.9</field>
+    <field name="name" type="CharField">Біль у грудній клітці, в анамнезі перенесений інфаркт міокарду чи інші хвороби серця</field>
+  </object>
+  <object model="patients.patientstate" pk="10">
+    <field name="chief_complain" rel="ManyToOneRel" to="patients.chiefcomplain">1</field>
+    <field name="sub_code" type="IntegerField">10</field>
+    <field name="code" type="CharField">1.10</field>
+    <field name="name" type="CharField">Різький біль, різьке погіршення стану</field>
+  </object>
+  <object model="patients.patientstate" pk="11">
+    <field name="chief_complain" rel="ManyToOneRel" to="patients.chiefcomplain">1</field>
+    <field name="sub_code" type="IntegerField">11</field>
+    <field name="code" type="CharField">1.11</field>
+    <field name="name" type="CharField">Біль (ізольований) у грудній клітці, без наявності ознак погіршення загального стану</field>
+  </object>
+  <object model="patients.patientstate" pk="12">
+    <field name="chief_complain" rel="ManyToOneRel" to="patients.chiefcomplain">2</field>
+    <field name="sub_code" type="IntegerField">1</field>
+    <field name="code" type="CharField">2.1</field>
+    <field name="name" type="CharField">Не дихає або дихання неможливо встановити</field>
+  </object>
+  <object model="patients.patientstate" pk="13">
+    <field name="chief_complain" rel="ManyToOneRel" to="patients.chiefcomplain">2</field>
+    <field name="sub_code" type="IntegerField">2</field>
+    <field name="code" type="CharField">2.2</field>
+    <field name="name" type="CharField">Без свідомості або неможливо встановити</field>
+  </object>
+  <object model="patients.patientstate" pk="14">
+    <field name="chief_complain" rel="ManyToOneRel" to="patients.chiefcomplain">2</field>
+    <field name="sub_code" type="IntegerField">3</field>
+    <field name="code" type="CharField">2.3</field>
+    <field name="name" type="CharField">Струм не вимкнений або присутня небезпека</field>
+  </object>
+  <object model="patients.patientstate" pk="15">
+    <field name="chief_complain" rel="ManyToOneRel" to="patients.chiefcomplain">2</field>
+    <field name="sub_code" type="IntegerField">4</field>
+    <field name="code" type="CharField">2.4</field>
+    <field name="name" type="CharField">Задишка/аномальне дихання</field>
+  </object>
+  <object model="patients.patientstate" pk="16">
+    <field name="chief_complain" rel="ManyToOneRel" to="patients.chiefcomplain">2</field>
+    <field name="sub_code" type="IntegerField">5</field>
+    <field name="code" type="CharField">2.5</field>
+    <field name="name" type="CharField">Значні за площею/глибиною опікові рани</field>
+  </object>
+  <object model="patients.patientstate" pk="17">
+    <field name="chief_complain" rel="ManyToOneRel" to="patients.chiefcomplain">2</field>
+    <field name="sub_code" type="IntegerField">6</field>
+    <field name="code" type="CharField">2.6</field>
+    <field name="name" type="CharField">Падіння з висоти більше 1,5 м</field>
+  </object>
+  <object model="patients.patientstate" pk="18">
+    <field name="chief_complain" rel="ManyToOneRel" to="patients.chiefcomplain">2</field>
+    <field name="sub_code" type="IntegerField">7</field>
+    <field name="code" type="CharField">2.7</field>
+    <field name="name" type="CharField">Реагує та дихає нормально, було падіння з висоти (зросту)</field>
+  </object>
+  <object model="patients.patientstate" pk="19">
+    <field name="chief_complain" rel="ManyToOneRel" to="patients.chiefcomplain">2</field>
+    <field name="sub_code" type="IntegerField">8</field>
+    <field name="code" type="CharField">2.8</field>
+    <field name="name" type="CharField">Ураження блискавкою</field>
+  </object>
+  <object model="patients.patientstate" pk="20">
+    <field name="chief_complain" rel="ManyToOneRel" to="patients.chiefcomplain">2</field>
+    <field name="sub_code" type="IntegerField">9</field>
+    <field name="code" type="CharField">2.9</field>
+    <field name="name" type="CharField">Невідомий стан</field>
+  </object>
+  <object model="patients.patientstate" pk="21">
+    <field name="chief_complain" rel="ManyToOneRel" to="patients.chiefcomplain">2</field>
+    <field name="sub_code" type="IntegerField">10</field>
+    <field name="code" type="CharField">2.10</field>
+    <field name="name" type="CharField">Реагує та дихає нормально, не було падіння з висоти</field>
+  </object>
+  <object model="patients.patientstate" pk="22">
+    <field name="chief_complain" rel="ManyToOneRel" to="patients.chiefcomplain">2</field>
+    <field name="sub_code" type="IntegerField">11</field>
+    <field name="code" type="CharField">2.11</field>
+    <field name="name" type="CharField">Незначні за площею/глибиною опікові рани</field>
+  </object>
+  <object model="patients.patientstate" pk="23">
+    <field name="chief_complain" rel="ManyToOneRel" to="patients.chiefcomplain">3</field>
+    <field name="sub_code" type="IntegerField">1</field>
+    <field name="code" type="CharField">3.1</field>
+    <field name="name" type="CharField">Термінальний стан</field>
+  </object>
+  <object model="patients.patientstate" pk="24">
+    <field name="chief_complain" rel="ManyToOneRel" to="patients.chiefcomplain">3</field>
+    <field name="sub_code" type="IntegerField">2</field>
+    <field name="code" type="CharField">3.2</field>
+    <field name="name" type="CharField">Дихання невизначене/агональне</field>
+  </object>
+  <object model="patients.patientstate" pk="25">
+    <field name="chief_complain" rel="ManyToOneRel" to="patients.chiefcomplain">3</field>
+    <field name="sub_code" type="IntegerField">3</field>
+    <field name="code" type="CharField">3.3</field>
+    <field name="name" type="CharField">Аспірація </field>
+  </object>
+  <object model="patients.patientstate" pk="26">
+    <field name="chief_complain" rel="ManyToOneRel" to="patients.chiefcomplain">3</field>
+    <field name="sub_code" type="IntegerField">4</field>
+    <field name="code" type="CharField">3.4</field>
+    <field name="name" type="CharField">Ускладнене дихання</field>
+  </object>
+  <object model="patients.patientstate" pk="27">
+    <field name="chief_complain" rel="ManyToOneRel" to="patients.chiefcomplain">3</field>
+    <field name="sub_code" type="IntegerField">5</field>
+    <field name="code" type="CharField">3.5</field>
+    <field name="name" type="CharField">Бронхіальна астма</field>
+  </object>
+  <object model="patients.patientstate" pk="28">
+    <field name="chief_complain" rel="ManyToOneRel" to="patients.chiefcomplain">3</field>
+    <field name="sub_code" type="IntegerField">6</field>
+    <field name="code" type="CharField">3.6</field>
+    <field name="name" type="CharField">Наслідки опіку верхніх дихальних шляхів</field>
+  </object>
+  <object model="patients.patientstate" pk="29">
+    <field name="chief_complain" rel="ManyToOneRel" to="patients.chiefcomplain">3</field>
+    <field name="sub_code" type="IntegerField">7</field>
+    <field name="code" type="CharField">3.7</field>
+    <field name="name" type="CharField">Задихається під час розмови</field>
+  </object>
+  <object model="patients.patientstate" pk="30">
+    <field name="chief_complain" rel="ManyToOneRel" to="patients.chiefcomplain">3</field>
+    <field name="sub_code" type="IntegerField">8</field>
+    <field name="code" type="CharField">3.8</field>
+    <field name="name" type="CharField">Стан  пов’язаний з хронічними захворюваннями</field>
+  </object>
+  <object model="patients.patientstate" pk="31">
+    <field name="chief_complain" rel="ManyToOneRel" to="patients.chiefcomplain">4</field>
+    <field name="sub_code" type="IntegerField">1</field>
+    <field name="code" type="CharField">4.1</field>
+    <field name="name" type="CharField">Термінальний стан</field>
+  </object>
+  <object model="patients.patientstate" pk="32">
+    <field name="chief_complain" rel="ManyToOneRel" to="patients.chiefcomplain">4</field>
+    <field name="sub_code" type="IntegerField">2</field>
+    <field name="code" type="CharField">4.2</field>
+    <field name="name" type="CharField">Дихає, але без свідомості або не реагує</field>
+  </object>
+  <object model="patients.patientstate" pk="33">
+    <field name="chief_complain" rel="ManyToOneRel" to="patients.chiefcomplain">4</field>
+    <field name="sub_code" type="IntegerField">3</field>
+    <field name="code" type="CharField">4.3</field>
+    <field name="name" type="CharField">Реагує, дихає нормально, наявна супутня травма (травма пірнальника, тощо)</field>
+  </object>
+  <object model="patients.patientstate" pk="34">
+    <field name="chief_complain" rel="ManyToOneRel" to="patients.chiefcomplain">4</field>
+    <field name="sub_code" type="IntegerField">4</field>
+    <field name="code" type="CharField">4.4</field>
+    <field name="name" type="CharField">Відсутні зовнішні ознаки можливої травми</field>
+  </object>
+  <object model="patients.patientstate" pk="35">
+    <field name="chief_complain" rel="ManyToOneRel" to="patients.chiefcomplain">4</field>
+    <field name="sub_code" type="IntegerField">5</field>
+    <field name="code" type="CharField">4.5</field>
+    <field name="name" type="CharField">Стан різко погіршився у короткий час після утоплення</field>
+  </object>
+  <object model="patients.patientstate" pk="36">
+    <field name="chief_complain" rel="ManyToOneRel" to="patients.chiefcomplain">5</field>
+    <field name="sub_code" type="IntegerField">1</field>
+    <field name="code" type="CharField">5.1</field>
+    <field name="name" type="CharField">Термінальний стан</field>
+  </object>
+  <object model="patients.patientstate" pk="37">
+    <field name="chief_complain" rel="ManyToOneRel" to="patients.chiefcomplain">5</field>
+    <field name="sub_code" type="IntegerField">2</field>
+    <field name="code" type="CharField">5.2</field>
+    <field name="name" type="CharField">Травми грудини або шиї (задишка/проблеми з диханням)</field>
+  </object>
+  <object model="patients.patientstate" pk="38">
+    <field name="chief_complain" rel="ManyToOneRel" to="patients.chiefcomplain">5</field>
+    <field name="sub_code" type="IntegerField">3</field>
+    <field name="code" type="CharField">5.3</field>
+    <field name="name" type="CharField">Пацієнт без свідомості, не реагує, не відповідає</field>
+  </object>
+  <object model="patients.patientstate" pk="39">
+    <field name="chief_complain" rel="ManyToOneRel" to="patients.chiefcomplain">5</field>
+    <field name="sub_code" type="IntegerField">4</field>
+    <field name="code" type="CharField">5.4</field>
+    <field name="name" type="CharField">Травма під впливом високої швидкості / обширна травма</field>
+  </object>
+  <object model="patients.patientstate" pk="40">
+    <field name="chief_complain" rel="ManyToOneRel" to="patients.chiefcomplain">5</field>
+    <field name="sub_code" type="IntegerField">5</field>
+    <field name="code" type="CharField">5.5</field>
+    <field name="name" type="CharField">Небезпечна частина тіла (черепно-мозкова травма, шия, грудна клітина, хребет)</field>
+  </object>
+  <object model="patients.patientstate" pk="41">
+    <field name="chief_complain" rel="ManyToOneRel" to="patients.chiefcomplain">5</field>
+    <field name="sub_code" type="IntegerField">6</field>
+    <field name="code" type="CharField">5.6</field>
+    <field name="name" type="CharField">Значна кровотеча</field>
+  </object>
+  <object model="patients.patientstate" pk="42">
+    <field name="chief_complain" rel="ManyToOneRel" to="patients.chiefcomplain">5</field>
+    <field name="sub_code" type="IntegerField">7</field>
+    <field name="code" type="CharField">5.7</field>
+    <field name="name" type="CharField">Неможливо встановити уражену зону (пацієнт знаходиться далеко)</field>
+  </object>
+  <object model="patients.patientstate" pk="43">
+    <field name="chief_complain" rel="ManyToOneRel" to="patients.chiefcomplain">5</field>
+    <field name="sub_code" type="IntegerField">8</field>
+    <field name="code" type="CharField">5.8</field>
+    <field name="name" type="CharField">Застарілі травми (&gt; 6 годин)</field>
+  </object>
+  <object model="patients.patientstate" pk="44">
+    <field name="chief_complain" rel="ManyToOneRel" to="patients.chiefcomplain">5</field>
+    <field name="sub_code" type="IntegerField">9</field>
+    <field name="code" type="CharField">5.9</field>
+    <field name="name" type="CharField">Політравма</field>
+  </object>
+  <object model="patients.patientstate" pk="45">
+    <field name="chief_complain" rel="ManyToOneRel" to="patients.chiefcomplain">5</field>
+    <field name="sub_code" type="IntegerField">10</field>
+    <field name="code" type="CharField">5.10</field>
+    <field name="name" type="CharField">Масова травма (декілька постраждалих)</field>
+  </object>
+  <object model="patients.patientstate" pk="46">
+    <field name="chief_complain" rel="ManyToOneRel" to="patients.chiefcomplain">6</field>
+    <field name="sub_code" type="IntegerField">1</field>
+    <field name="code" type="CharField">6.1</field>
+    <field name="name" type="CharField">Важка травма ока</field>
+  </object>
+  <object model="patients.patientstate" pk="47">
+    <field name="chief_complain" rel="ManyToOneRel" to="patients.chiefcomplain">6</field>
+    <field name="sub_code" type="IntegerField">2</field>
+    <field name="code" type="CharField">6.2</field>
+    <field name="name" type="CharField">Травма ока у дітей</field>
+  </object>
+  <object model="patients.patientstate" pk="48">
+    <field name="chief_complain" rel="ManyToOneRel" to="patients.chiefcomplain">6</field>
+    <field name="sub_code" type="IntegerField">3</field>
+    <field name="code" type="CharField">6.3</field>
+    <field name="name" type="CharField">Легка травма ока</field>
+  </object>
+  <object model="patients.patientstate" pk="49">
+    <field name="chief_complain" rel="ManyToOneRel" to="patients.chiefcomplain">6</field>
+    <field name="sub_code" type="IntegerField">4</field>
+    <field name="code" type="CharField">6.4</field>
+    <field name="name" type="CharField">Попадання опікових або подразнюючих речовин у очі</field>
+  </object>
+  <object model="patients.patientstate" pk="50">
+    <field name="chief_complain" rel="ManyToOneRel" to="patients.chiefcomplain">6</field>
+    <field name="sub_code" type="IntegerField">5</field>
+    <field name="code" type="CharField">6.5</field>
+    <field name="name" type="CharField">Проблеми з очима, що пов’язані з хронічними захворюваннями.</field>
+  </object>
+  <object model="patients.patientstate" pk="51">
+    <field name="chief_complain" rel="ManyToOneRel" to="patients.chiefcomplain">7</field>
+    <field name="sub_code" type="IntegerField">1</field>
+    <field name="code" type="CharField">7.1</field>
+    <field name="name" type="CharField">Термінальний стан</field>
+  </object>
+  <object model="patients.patientstate" pk="52">
+    <field name="chief_complain" rel="ManyToOneRel" to="patients.chiefcomplain">7</field>
+    <field name="sub_code" type="IntegerField">2</field>
+    <field name="code" type="CharField">7.2</field>
+    <field name="name" type="CharField">Без свідомості/не відповідає (не реагує)</field>
+  </object>
+  <object model="patients.patientstate" pk="53">
+    <field name="chief_complain" rel="ManyToOneRel" to="patients.chiefcomplain">7</field>
+    <field name="sub_code" type="IntegerField">3</field>
+    <field name="code" type="CharField">7.3</field>
+    <field name="name" type="CharField">Центральні рани (рани тулубу)</field>
+  </object>
+  <object model="patients.patientstate" pk="54">
+    <field name="chief_complain" rel="ManyToOneRel" to="patients.chiefcomplain">7</field>
+    <field name="sub_code" type="IntegerField">4</field>
+    <field name="code" type="CharField">7.4</field>
+    <field name="name" type="CharField">Рани голови</field>
+  </object>
+  <object model="patients.patientstate" pk="55">
+    <field name="chief_complain" rel="ManyToOneRel" to="patients.chiefcomplain">7</field>
+    <field name="sub_code" type="IntegerField">5</field>
+    <field name="code" type="CharField">7.5</field>
+    <field name="name" type="CharField">Рани кінцівок</field>
+  </object>
+  <object model="patients.patientstate" pk="56">
+    <field name="chief_complain" rel="ManyToOneRel" to="patients.chiefcomplain">7</field>
+    <field name="sub_code" type="IntegerField">6</field>
+    <field name="code" type="CharField">7.6</field>
+    <field name="name" type="CharField">Рани черевної порожнини з випадінням та пошкодженням внутрішніх органів</field>
+  </object>
+  <object model="patients.patientstate" pk="57">
+    <field name="chief_complain" rel="ManyToOneRel" to="patients.chiefcomplain">7</field>
+    <field name="sub_code" type="IntegerField">7</field>
+    <field name="code" type="CharField">7.7</field>
+    <field name="name" type="CharField">Кілька ран з сильною крововтратою/вираженим відчуттям болю</field>
+  </object>
+  <object model="patients.patientstate" pk="58">
+    <field name="chief_complain" rel="ManyToOneRel" to="patients.chiefcomplain">7</field>
+    <field name="sub_code" type="IntegerField">8</field>
+    <field name="code" type="CharField">7.8</field>
+    <field name="name" type="CharField">Локалізація рани безпечна, капілярна або помірна кровотеча з поверхневих ран </field>
+  </object>
+  <object model="patients.patientstate" pk="59">
+    <field name="chief_complain" rel="ManyToOneRel" to="patients.chiefcomplain">7</field>
+    <field name="sub_code" type="IntegerField">9</field>
+    <field name="code" type="CharField">7.9</field>
+    <field name="name" type="CharField">Застарілі (&gt; 6 годин) рани без погіршення загального стану</field>
+  </object>
+  <object model="patients.patientstate" pk="60">
+    <field name="chief_complain" rel="ManyToOneRel" to="patients.chiefcomplain">8</field>
+    <field name="sub_code" type="IntegerField">1</field>
+    <field name="code" type="CharField">8.1</field>
+    <field name="name" type="CharField">Термінальний стан</field>
+  </object>
+  <object model="patients.patientstate" pk="61">
+    <field name="chief_complain" rel="ManyToOneRel" to="patients.chiefcomplain">8</field>
+    <field name="sub_code" type="IntegerField">2</field>
+    <field name="code" type="CharField">8.2</field>
+    <field name="name" type="CharField">Дихає, але без свідомості або не реагує</field>
+  </object>
+  <object model="patients.patientstate" pk="62">
+    <field name="chief_complain" rel="ManyToOneRel" to="patients.chiefcomplain">8</field>
+    <field name="sub_code" type="IntegerField">3</field>
+    <field name="code" type="CharField">8.3</field>
+    <field name="name" type="CharField">Травма в області грудної клітки, шиї (задишка/проблеми з диханням)</field>
+  </object>
+  <object model="patients.patientstate" pk="63">
+    <field name="chief_complain" rel="ManyToOneRel" to="patients.chiefcomplain">8</field>
+    <field name="sub_code" type="IntegerField">4</field>
+    <field name="code" type="CharField">8.4</field>
+    <field name="name" type="CharField">Травма в області грудної клітки, шиї, іншої небезпечної ділянки тіла (без задишки/проблем з диханням)</field>
+  </object>
+  <object model="patients.patientstate" pk="64">
+    <field name="chief_complain" rel="ManyToOneRel" to="patients.chiefcomplain">8</field>
+    <field name="sub_code" type="IntegerField">5</field>
+    <field name="code" type="CharField">8.5</field>
+    <field name="name" type="CharField">Напад тварини продовжується на момент виклику</field>
+  </object>
+  <object model="patients.patientstate" pk="65">
+    <field name="chief_complain" rel="ManyToOneRel" to="patients.chiefcomplain">8</field>
+    <field name="sub_code" type="IntegerField">6</field>
+    <field name="code" type="CharField">8.6</field>
+    <field name="name" type="CharField">Нанесені плазунами / комахами / екзотичною твариною</field>
+  </object>
+  <object model="patients.patientstate" pk="66">
+    <field name="chief_complain" rel="ManyToOneRel" to="patients.chiefcomplain">8</field>
+    <field name="sub_code" type="IntegerField">7</field>
+    <field name="code" type="CharField">8.7</field>
+    <field name="name" type="CharField">Травма, що супроводжується великою крововтратою</field>
+  </object>
+  <object model="patients.patientstate" pk="67">
+    <field name="chief_complain" rel="ManyToOneRel" to="patients.chiefcomplain">8</field>
+    <field name="sub_code" type="IntegerField">8</field>
+    <field name="code" type="CharField">8.8</field>
+    <field name="name" type="CharField">Тривале здавлення</field>
+  </object>
+  <object model="patients.patientstate" pk="68">
+    <field name="chief_complain" rel="ManyToOneRel" to="patients.chiefcomplain">8</field>
+    <field name="sub_code" type="IntegerField">9</field>
+    <field name="code" type="CharField">8.9</field>
+    <field name="name" type="CharField">Невідомий статус (викликає третя сторона)</field>
+  </object>
+  <object model="patients.patientstate" pk="69">
+    <field name="chief_complain" rel="ManyToOneRel" to="patients.chiefcomplain">8</field>
+    <field name="sub_code" type="IntegerField">10</field>
+    <field name="code" type="CharField">8.10</field>
+    <field name="name" type="CharField">Легка травма, що супроводжується незначною крововтратою</field>
+  </object>
+  <object model="patients.patientstate" pk="70">
+    <field name="chief_complain" rel="ManyToOneRel" to="patients.chiefcomplain">8</field>
+    <field name="sub_code" type="IntegerField">11</field>
+    <field name="code" type="CharField">8.11</field>
+    <field name="name" type="CharField">Застарілі (&gt; 6 годин) травми без погіршення загального стану</field>
+  </object>
+  <object model="patients.patientstate" pk="71">
+    <field name="chief_complain" rel="ManyToOneRel" to="patients.chiefcomplain">8</field>
+    <field name="sub_code" type="IntegerField">12</field>
+    <field name="code" type="CharField">8.12</field>
+    <field name="name" type="CharField">Поверхневі укуси, що не супроводжуються кровотечою</field>
+  </object>
+  <object model="patients.patientstate" pk="72">
+    <field name="chief_complain" rel="ManyToOneRel" to="patients.chiefcomplain">9</field>
+    <field name="sub_code" type="IntegerField">1</field>
+    <field name="code" type="CharField">9.1</field>
+    <field name="name" type="CharField">Термінальний стан</field>
+  </object>
+  <object model="patients.patientstate" pk="73">
+    <field name="chief_complain" rel="ManyToOneRel" to="patients.chiefcomplain">9</field>
+    <field name="sub_code" type="IntegerField">2</field>
+    <field name="code" type="CharField">9.2</field>
+    <field name="name" type="CharField">Значна кровотеча незалежно від локалізаціїї</field>
+  </object>
+  <object model="patients.patientstate" pk="74">
+    <field name="chief_complain" rel="ManyToOneRel" to="patients.chiefcomplain">9</field>
+    <field name="sub_code" type="IntegerField">3</field>
+    <field name="code" type="CharField">9.3</field>
+    <field name="name" type="CharField">Значна кровотеча, що супроводжується ускладненим диханням, кровохарканням</field>
+  </object>
+  <object model="patients.patientstate" pk="75">
+    <field name="chief_complain" rel="ManyToOneRel" to="patients.chiefcomplain">9</field>
+    <field name="sub_code" type="IntegerField">4</field>
+    <field name="code" type="CharField">9.4</field>
+    <field name="name" type="CharField">Кровотеча з статевих шляхів (вагітність)</field>
+  </object>
+  <object model="patients.patientstate" pk="76">
+    <field name="chief_complain" rel="ManyToOneRel" to="patients.chiefcomplain">9</field>
+    <field name="sub_code" type="IntegerField">5</field>
+    <field name="code" type="CharField">9.5</field>
+    <field name="name" type="CharField">Кровотеча з статевих шляхів (вагітність відсутня)</field>
+  </object>
+  <object model="patients.patientstate" pk="77">
+    <field name="chief_complain" rel="ManyToOneRel" to="patients.chiefcomplain">9</field>
+    <field name="sub_code" type="IntegerField">6</field>
+    <field name="code" type="CharField">9.6</field>
+    <field name="name" type="CharField">Кровотеча з діалізної фістули</field>
+  </object>
+  <object model="patients.patientstate" pk="78">
+    <field name="chief_complain" rel="ManyToOneRel" to="patients.chiefcomplain">9</field>
+    <field name="sub_code" type="IntegerField">7</field>
+    <field name="code" type="CharField">9.7</field>
+    <field name="name" type="CharField">Кровотеча/захворювання крові (порушення згортання крові, тощо)</field>
+  </object>
+  <object model="patients.patientstate" pk="79">
+    <field name="chief_complain" rel="ManyToOneRel" to="patients.chiefcomplain">9</field>
+    <field name="sub_code" type="IntegerField">8</field>
+    <field name="code" type="CharField">9.8</field>
+    <field name="name" type="CharField">Кровотеча на фоні прийому антікоагулянтів</field>
+  </object>
+  <object model="patients.patientstate" pk="80">
+    <field name="chief_complain" rel="ManyToOneRel" to="patients.chiefcomplain">9</field>
+    <field name="sub_code" type="IntegerField">9</field>
+    <field name="code" type="CharField">9.9</field>
+    <field name="name" type="CharField">Локалізація рани безпечна, незначна кровотеча з поверхневих ран (в побуті)</field>
+  </object>
+  <object model="patients.patientstate" pk="81">
+    <field name="chief_complain" rel="ManyToOneRel" to="patients.chiefcomplain">9</field>
+    <field name="sub_code" type="IntegerField">10</field>
+    <field name="code" type="CharField">9.10</field>
+    <field name="name" type="CharField">Кровотеча після екстракції зуба</field>
+  </object>
+  <object model="patients.patientstate" pk="82">
+    <field name="chief_complain" rel="ManyToOneRel" to="patients.chiefcomplain">9</field>
+    <field name="sub_code" type="IntegerField">11</field>
+    <field name="code" type="CharField">9.11</field>
+    <field name="name" type="CharField">Блювання кров'ю, чорний кал</field>
+  </object>
+  <object model="patients.patientstate" pk="83">
+    <field name="chief_complain" rel="ManyToOneRel" to="patients.chiefcomplain">9</field>
+    <field name="sub_code" type="IntegerField">12</field>
+    <field name="code" type="CharField">9.12</field>
+    <field name="name" type="CharField">Кровотеча з варикозних вен нижніх кінцівок</field>
+  </object>
+  <object model="patients.patientstate" pk="84">
+    <field name="chief_complain" rel="ManyToOneRel" to="patients.chiefcomplain">10</field>
+    <field name="sub_code" type="IntegerField">1</field>
+    <field name="code" type="CharField">10.1</field>
+    <field name="name" type="CharField">Термінальний стан</field>
+  </object>
+  <object model="patients.patientstate" pk="85">
+    <field name="chief_complain" rel="ManyToOneRel" to="patients.chiefcomplain">10</field>
+    <field name="sub_code" type="IntegerField">2</field>
+    <field name="code" type="CharField">10.2</field>
+    <field name="name" type="CharField">Задихається під час розмови</field>
+  </object>
+  <object model="patients.patientstate" pk="86">
+    <field name="chief_complain" rel="ManyToOneRel" to="patients.chiefcomplain">10</field>
+    <field name="sub_code" type="IntegerField">3</field>
+    <field name="code" type="CharField">10.3</field>
+    <field name="name" type="CharField">Задишка</field>
+  </object>
+  <object model="patients.patientstate" pk="87">
+    <field name="chief_complain" rel="ManyToOneRel" to="patients.chiefcomplain">10</field>
+    <field name="sub_code" type="IntegerField">4</field>
+    <field name="code" type="CharField">10.4</field>
+    <field name="name" type="CharField">Опіки значної повехні тіла (більше 20% площі тіла)</field>
+  </object>
+  <object model="patients.patientstate" pk="88">
+    <field name="chief_complain" rel="ManyToOneRel" to="patients.chiefcomplain">10</field>
+    <field name="sub_code" type="IntegerField">5</field>
+    <field name="code" type="CharField">10.5</field>
+    <field name="name" type="CharField">Опіки обличчя</field>
+  </object>
+  <object model="patients.patientstate" pk="89">
+    <field name="chief_complain" rel="ManyToOneRel" to="patients.chiefcomplain">10</field>
+    <field name="sub_code" type="IntegerField">6</field>
+    <field name="code" type="CharField">10.6</field>
+    <field name="name" type="CharField">Опіки окінцівок</field>
+  </object>
+  <object model="patients.patientstate" pk="90">
+    <field name="chief_complain" rel="ManyToOneRel" to="patients.chiefcomplain">10</field>
+    <field name="sub_code" type="IntegerField">7</field>
+    <field name="code" type="CharField">10.7</field>
+    <field name="name" type="CharField">Опіки верхніх дихальних шляхів</field>
+  </object>
+  <object model="patients.patientstate" pk="91">
+    <field name="chief_complain" rel="ManyToOneRel" to="patients.chiefcomplain">10</field>
+    <field name="sub_code" type="IntegerField">8</field>
+    <field name="code" type="CharField">10.8</field>
+    <field name="name" type="CharField">Травми від вибуху (без пріоритетних симптомів)</field>
+  </object>
+  <object model="patients.patientstate" pk="92">
+    <field name="chief_complain" rel="ManyToOneRel" to="patients.chiefcomplain">10</field>
+    <field name="sub_code" type="IntegerField">9</field>
+    <field name="code" type="CharField">10.9</field>
+    <field name="name" type="CharField">Невідомий стан</field>
+  </object>
+  <object model="patients.patientstate" pk="93">
+    <field name="chief_complain" rel="ManyToOneRel" to="patients.chiefcomplain">10</field>
+    <field name="sub_code" type="IntegerField">10</field>
+    <field name="code" type="CharField">10.10</field>
+    <field name="name" type="CharField">Засмага або незначні опіки (менше розміру долоні)</field>
+  </object>
+  <object model="patients.patientstate" pk="94">
+    <field name="chief_complain" rel="ManyToOneRel" to="patients.chiefcomplain">11</field>
+    <field name="sub_code" type="IntegerField">1</field>
+    <field name="code" type="CharField">11.1</field>
+    <field name="name" type="CharField">Термінальний стан</field>
+  </object>
+  <object model="patients.patientstate" pk="95">
+    <field name="chief_complain" rel="ManyToOneRel" to="patients.chiefcomplain">11</field>
+    <field name="sub_code" type="IntegerField">2</field>
+    <field name="code" type="CharField">11.2</field>
+    <field name="name" type="CharField">Дихає, але без свідомості або не реагує</field>
+  </object>
+  <object model="patients.patientstate" pk="96">
+    <field name="chief_complain" rel="ManyToOneRel" to="patients.chiefcomplain">11</field>
+    <field name="sub_code" type="IntegerField">3</field>
+    <field name="code" type="CharField">11.3</field>
+    <field name="name" type="CharField">Реагує, але ненормальне дихання</field>
+  </object>
+  <object model="patients.patientstate" pk="97">
+    <field name="chief_complain" rel="ManyToOneRel" to="patients.chiefcomplain">11</field>
+    <field name="sub_code" type="IntegerField">4</field>
+    <field name="code" type="CharField">11.4</field>
+    <field name="name" type="CharField">Не реагує, пульс, дихання задовільні</field>
+  </object>
+  <object model="patients.patientstate" pk="98">
+    <field name="chief_complain" rel="ManyToOneRel" to="patients.chiefcomplain">11</field>
+    <field name="sub_code" type="IntegerField">5</field>
+    <field name="code" type="CharField">11.5</field>
+    <field name="name" type="CharField">Температура тіла вища 39°С або нижча 34°С</field>
+  </object>
+  <object model="patients.patientstate" pk="99">
+    <field name="chief_complain" rel="ManyToOneRel" to="patients.chiefcomplain">11</field>
+    <field name="sub_code" type="IntegerField">6</field>
+    <field name="code" type="CharField">11.6</field>
+    <field name="name" type="CharField">М’язові судоми, марення, галюцинації</field>
+  </object>
+  <object model="patients.patientstate" pk="100">
+    <field name="chief_complain" rel="ManyToOneRel" to="patients.chiefcomplain">11</field>
+    <field name="sub_code" type="IntegerField">7</field>
+    <field name="code" type="CharField">11.7</field>
+    <field name="name" type="CharField">Брадикардія або тахікардія</field>
+  </object>
+  <object model="patients.patientstate" pk="101">
+    <field name="chief_complain" rel="ManyToOneRel" to="patients.chiefcomplain">11</field>
+    <field name="sub_code" type="IntegerField">8</field>
+    <field name="code" type="CharField">11.8</field>
+    <field name="name" type="CharField">Іммерсійне переохолодження</field>
+  </object>
+  <object model="patients.patientstate" pk="102">
+    <field name="chief_complain" rel="ManyToOneRel" to="patients.chiefcomplain">11</field>
+    <field name="sub_code" type="IntegerField">9</field>
+    <field name="code" type="CharField">11.9</field>
+    <field name="name" type="CharField">Зміна кольору шкіри</field>
+  </object>
+  <object model="patients.patientstate" pk="103">
+    <field name="chief_complain" rel="ManyToOneRel" to="patients.chiefcomplain">11</field>
+    <field name="sub_code" type="IntegerField">10</field>
+    <field name="code" type="CharField">11.10</field>
+    <field name="name" type="CharField">Тривожність</field>
+  </object>
+  <object model="patients.patientstate" pk="104">
+    <field name="chief_complain" rel="ManyToOneRel" to="patients.chiefcomplain">11</field>
+    <field name="sub_code" type="IntegerField">11</field>
+    <field name="code" type="CharField">11.11</field>
+    <field name="name" type="CharField">Невідомий стан</field>
+  </object>
+  <object model="patients.patientstate" pk="105">
+    <field name="chief_complain" rel="ManyToOneRel" to="patients.chiefcomplain">11</field>
+    <field name="sub_code" type="IntegerField">12</field>
+    <field name="code" type="CharField">11.12</field>
+    <field name="name" type="CharField">Стан задовільний</field>
+  </object>
+  <object model="patients.patientstate" pk="106">
+    <field name="chief_complain" rel="ManyToOneRel" to="patients.chiefcomplain">11</field>
+    <field name="sub_code" type="IntegerField">13</field>
+    <field name="code" type="CharField">11.13</field>
+    <field name="name" type="CharField">Потовиділення, збільшена частота дихання</field>
+  </object>
+  <object model="patients.patientstate" pk="107">
+    <field name="chief_complain" rel="ManyToOneRel" to="patients.chiefcomplain">12</field>
+    <field name="sub_code" type="IntegerField">1</field>
+    <field name="code" type="CharField">12.1</field>
+    <field name="name" type="CharField">Термінальний стан</field>
+  </object>
+  <object model="patients.patientstate" pk="108">
+    <field name="chief_complain" rel="ManyToOneRel" to="patients.chiefcomplain">12</field>
+    <field name="sub_code" type="IntegerField">2</field>
+    <field name="code" type="CharField">12.2</field>
+    <field name="name" type="CharField">Дихання невизначене/агональне</field>
+  </object>
+  <object model="patients.patientstate" pk="109">
+    <field name="chief_complain" rel="ManyToOneRel" to="patients.chiefcomplain">12</field>
+    <field name="sub_code" type="IntegerField">3</field>
+    <field name="code" type="CharField">12.3</field>
+    <field name="name" type="CharField">Дихає, але без свідомості або не реагує</field>
+  </object>
+  <object model="patients.patientstate" pk="110">
+    <field name="chief_complain" rel="ManyToOneRel" to="patients.chiefcomplain">12</field>
+    <field name="sub_code" type="IntegerField">4</field>
+    <field name="code" type="CharField">12.4</field>
+    <field name="name" type="CharField">Значна задишка</field>
+  </object>
+  <object model="patients.patientstate" pk="111">
+    <field name="chief_complain" rel="ManyToOneRel" to="patients.chiefcomplain">12</field>
+    <field name="sub_code" type="IntegerField">5</field>
+    <field name="code" type="CharField">12.5</field>
+    <field name="name" type="CharField">Судоми</field>
+  </object>
+  <object model="patients.patientstate" pk="112">
+    <field name="chief_complain" rel="ManyToOneRel" to="patients.chiefcomplain">12</field>
+    <field name="sub_code" type="IntegerField">6</field>
+    <field name="code" type="CharField">12.6</field>
+    <field name="name" type="CharField">Різке падіння артеріального тиску, розвиток аритмій</field>
+  </object>
+  <object model="patients.patientstate" pk="113">
+    <field name="chief_complain" rel="ManyToOneRel" to="patients.chiefcomplain">12</field>
+    <field name="sub_code" type="IntegerField">7</field>
+    <field name="code" type="CharField">12.7</field>
+    <field name="name" type="CharField">Отруєння опіковою речовиною, яке супроводжується розладами дихання або блювотою з кров’ю</field>
+  </object>
+  <object model="patients.patientstate" pk="114">
+    <field name="chief_complain" rel="ManyToOneRel" to="patients.chiefcomplain">12</field>
+    <field name="sub_code" type="IntegerField">8</field>
+    <field name="code" type="CharField">12.8</field>
+    <field name="name" type="CharField">Психомоторне збудження, коли існує загроза життю пацієнта та оточуючих</field>
+  </object>
+  <object model="patients.patientstate" pk="115">
+    <field name="chief_complain" rel="ManyToOneRel" to="patients.chiefcomplain">12</field>
+    <field name="sub_code" type="IntegerField">9</field>
+    <field name="code" type="CharField">12.9</field>
+    <field name="name" type="CharField">Укуси плазунів та комах (павуки, бджоли або оси) вище ключиць</field>
+  </object>
+  <object model="patients.patientstate" pk="116">
+    <field name="chief_complain" rel="ManyToOneRel" to="patients.chiefcomplain">12</field>
+    <field name="sub_code" type="IntegerField">10</field>
+    <field name="code" type="CharField">12.10</field>
+    <field name="name" type="CharField">Отруєння грибами/рослинами</field>
+  </object>
+  <object model="patients.patientstate" pk="117">
+    <field name="chief_complain" rel="ManyToOneRel" to="patients.chiefcomplain">12</field>
+    <field name="sub_code" type="IntegerField">11</field>
+    <field name="code" type="CharField">12.11</field>
+    <field name="name" type="CharField">Гостре харчове отруєння</field>
+  </object>
+  <object model="patients.patientstate" pk="118">
+    <field name="chief_complain" rel="ManyToOneRel" to="patients.chiefcomplain">12</field>
+    <field name="sub_code" type="IntegerField">12</field>
+    <field name="code" type="CharField">12.12</field>
+    <field name="name" type="CharField">Отруєння опіковою речовиною без ознак порушення дихання</field>
+  </object>
+  <object model="patients.patientstate" pk="119">
+    <field name="chief_complain" rel="ManyToOneRel" to="patients.chiefcomplain">12</field>
+    <field name="sub_code" type="IntegerField">13</field>
+    <field name="code" type="CharField">12.13</field>
+    <field name="name" type="CharField">Отруєння потенційно малотоксичними речовинами та лікарськими засобами, турбує загальна кволість, нудота, блювота</field>
+  </object>
+  <object model="patients.patientstate" pk="120">
+    <field name="chief_complain" rel="ManyToOneRel" to="patients.chiefcomplain">12</field>
+    <field name="sub_code" type="IntegerField">14</field>
+    <field name="code" type="CharField">12.14</field>
+    <field name="name" type="CharField">Отруєння психотропними лікарськими засобами, з моменту прийому яких пройшло 2-4 години, турбує незначна кволість</field>
+  </object>
+  <object model="patients.patientstate" pk="121">
+    <field name="chief_complain" rel="ManyToOneRel" to="patients.chiefcomplain">12</field>
+    <field name="sub_code" type="IntegerField">15</field>
+    <field name="code" type="CharField">12.15</field>
+    <field name="name" type="CharField">Попадання отрути на шкіру</field>
+  </object>
+  <object model="patients.patientstate" pk="122">
+    <field name="chief_complain" rel="ManyToOneRel" to="patients.chiefcomplain">12</field>
+    <field name="sub_code" type="IntegerField">16</field>
+    <field name="code" type="CharField">12.16</field>
+    <field name="name" type="CharField">Масове отруєння</field>
+  </object>
+  <object model="patients.patientstate" pk="123">
+    <field name="chief_complain" rel="ManyToOneRel" to="patients.chiefcomplain">13</field>
+    <field name="sub_code" type="IntegerField">1</field>
+    <field name="code" type="CharField">13.1</field>
+    <field name="name" type="CharField">Термінальний стан</field>
+  </object>
+  <object model="patients.patientstate" pk="124">
+    <field name="chief_complain" rel="ManyToOneRel" to="patients.chiefcomplain">13</field>
+    <field name="sub_code" type="IntegerField">2</field>
+    <field name="code" type="CharField">13.2</field>
+    <field name="name" type="CharField">Не відповідає, не реагує</field>
+  </object>
+  <object model="patients.patientstate" pk="125">
+    <field name="chief_complain" rel="ManyToOneRel" to="patients.chiefcomplain">13</field>
+    <field name="sub_code" type="IntegerField">3</field>
+    <field name="code" type="CharField">13.3</field>
+    <field name="name" type="CharField">Травма грудей або шиї (утруднене дихання)</field>
+  </object>
+  <object model="patients.patientstate" pk="126">
+    <field name="chief_complain" rel="ManyToOneRel" to="patients.chiefcomplain">13</field>
+    <field name="sub_code" type="IntegerField">4</field>
+    <field name="code" type="CharField">13.4</field>
+    <field name="name" type="CharField">Сильна крововтрата</field>
+  </object>
+  <object model="patients.patientstate" pk="127">
+    <field name="chief_complain" rel="ManyToOneRel" to="patients.chiefcomplain">13</field>
+    <field name="sub_code" type="IntegerField">5</field>
+    <field name="code" type="CharField">13.5</field>
+    <field name="name" type="CharField">Кілька жертв</field>
+  </object>
+  <object model="patients.patientstate" pk="128">
+    <field name="chief_complain" rel="ManyToOneRel" to="patients.chiefcomplain">13</field>
+    <field name="sub_code" type="IntegerField">6</field>
+    <field name="code" type="CharField">13.6</field>
+    <field name="name" type="CharField">Несвідомий стан</field>
+  </object>
+  <object model="patients.patientstate" pk="129">
+    <field name="chief_complain" rel="ManyToOneRel" to="patients.chiefcomplain">13</field>
+    <field name="sub_code" type="IntegerField">7</field>
+    <field name="code" type="CharField">13.7</field>
+    <field name="name" type="CharField">Безпечна зона тіла</field>
+  </object>
+  <object model="patients.patientstate" pk="130">
+    <field name="chief_complain" rel="ManyToOneRel" to="patients.chiefcomplain">13</field>
+    <field name="sub_code" type="IntegerField">8</field>
+    <field name="code" type="CharField">13.8</field>
+    <field name="name" type="CharField">Застарілі (&gt; 6 годин) травми без погіршення загального стану</field>
+  </object>
+  <object model="patients.patientstate" pk="131">
+    <field name="chief_complain" rel="ManyToOneRel" to="patients.chiefcomplain">14</field>
+    <field name="sub_code" type="IntegerField">1</field>
+    <field name="code" type="CharField">14.1</field>
+    <field name="name" type="CharField">Термінальний стан</field>
+  </object>
+  <object model="patients.patientstate" pk="132">
+    <field name="chief_complain" rel="ManyToOneRel" to="patients.chiefcomplain">14</field>
+    <field name="sub_code" type="IntegerField">2</field>
+    <field name="code" type="CharField">14.2</field>
+    <field name="name" type="CharField">Дихає, але без свідомості або не реагує</field>
+  </object>
+  <object model="patients.patientstate" pk="133">
+    <field name="chief_complain" rel="ManyToOneRel" to="patients.chiefcomplain">14</field>
+    <field name="sub_code" type="IntegerField">3</field>
+    <field name="code" type="CharField">14.3</field>
+    <field name="name" type="CharField">Травми грудини або шиї (ускладнене дихання)</field>
+  </object>
+  <object model="patients.patientstate" pk="134">
+    <field name="chief_complain" rel="ManyToOneRel" to="patients.chiefcomplain">14</field>
+    <field name="sub_code" type="IntegerField">4</field>
+    <field name="code" type="CharField">14.4</field>
+    <field name="name" type="CharField">Значна кровотеча</field>
+  </object>
+  <object model="patients.patientstate" pk="135">
+    <field name="chief_complain" rel="ManyToOneRel" to="patients.chiefcomplain">14</field>
+    <field name="sub_code" type="IntegerField">5</field>
+    <field name="code" type="CharField">14.5</field>
+    <field name="name" type="CharField">Невідомий стан</field>
+  </object>
+  <object model="patients.patientstate" pk="136">
+    <field name="chief_complain" rel="ManyToOneRel" to="patients.chiefcomplain">14</field>
+    <field name="sub_code" type="IntegerField">6</field>
+    <field name="code" type="CharField">14.6</field>
+    <field name="name" type="CharField">Травми внутрішні, з внутр. кровотечею</field>
+  </object>
+  <object model="patients.patientstate" pk="137">
+    <field name="chief_complain" rel="ManyToOneRel" to="patients.chiefcomplain">14</field>
+    <field name="sub_code" type="IntegerField">7</field>
+    <field name="code" type="CharField">14.7</field>
+    <field name="name" type="CharField">Біль у животі після кататравми</field>
+  </object>
+  <object model="patients.patientstate" pk="138">
+    <field name="chief_complain" rel="ManyToOneRel" to="patients.chiefcomplain">14</field>
+    <field name="sub_code" type="IntegerField">8</field>
+    <field name="code" type="CharField">14.8</field>
+    <field name="name" type="CharField">Безпечна зона тіла</field>
+  </object>
+  <object model="patients.patientstate" pk="139">
+    <field name="chief_complain" rel="ManyToOneRel" to="patients.chiefcomplain">14</field>
+    <field name="sub_code" type="IntegerField">9</field>
+    <field name="code" type="CharField">14.9</field>
+    <field name="name" type="CharField">Застарілі поранення без пріоритетних симптомів</field>
+  </object>
+  <object model="patients.patientstate" pk="140">
+    <field name="chief_complain" rel="ManyToOneRel" to="patients.chiefcomplain">15</field>
+    <field name="sub_code" type="IntegerField">1</field>
+    <field name="code" type="CharField">15.1</field>
+    <field name="name" type="CharField">Термінальний стан</field>
+  </object>
+  <object model="patients.patientstate" pk="141">
+    <field name="chief_complain" rel="ManyToOneRel" to="patients.chiefcomplain">15</field>
+    <field name="sub_code" type="IntegerField">2</field>
+    <field name="code" type="CharField">15.2</field>
+    <field name="name" type="CharField">Проведення серцево-легеневої реанімації, у тому числі з використанням автоматичного зовнішнього дефібрилятора</field>
+  </object>
+  <object model="patients.patientstate" pk="142">
+    <field name="chief_complain" rel="ManyToOneRel" to="patients.chiefcomplain">15</field>
+    <field name="sub_code" type="IntegerField">3</field>
+    <field name="code" type="CharField">15.3</field>
+    <field name="name" type="CharField">Травма у пацієнта в механічній пастці/пастці, обумовлена механізмом </field>
+  </object>
+  <object model="patients.patientstate" pk="143">
+    <field name="chief_complain" rel="ManyToOneRel" to="patients.chiefcomplain">15</field>
+    <field name="sub_code" type="IntegerField">4</field>
+    <field name="code" type="CharField">15.4</field>
+    <field name="name" type="CharField">Серйозна кровотеча/ампутація</field>
+  </object>
+  <object model="patients.patientstate" pk="144">
+    <field name="chief_complain" rel="ManyToOneRel" to="patients.chiefcomplain">15</field>
+    <field name="sub_code" type="IntegerField">5</field>
+    <field name="code" type="CharField">15.5</field>
+    <field name="name" type="CharField">Ушкодження грудей чи шиї</field>
+  </object>
+  <object model="patients.patientstate" pk="145">
+    <field name="chief_complain" rel="ManyToOneRel" to="patients.chiefcomplain">15</field>
+    <field name="sub_code" type="IntegerField">6</field>
+    <field name="code" type="CharField">15.6</field>
+    <field name="name" type="CharField">Травма у небезпечній ділянці тіла</field>
+  </object>
+  <object model="patients.patientstate" pk="146">
+    <field name="chief_complain" rel="ManyToOneRel" to="patients.chiefcomplain">15</field>
+    <field name="sub_code" type="IntegerField">7</field>
+    <field name="code" type="CharField">15.7</field>
+    <field name="name" type="CharField">Ампутація кінцівки</field>
+  </object>
+  <object model="patients.patientstate" pk="147">
+    <field name="chief_complain" rel="ManyToOneRel" to="patients.chiefcomplain">15</field>
+    <field name="sub_code" type="IntegerField">8</field>
+    <field name="code" type="CharField">15.8</field>
+    <field name="name" type="CharField">Стан невідомий</field>
+  </object>
+  <object model="patients.patientstate" pk="148">
+    <field name="chief_complain" rel="ManyToOneRel" to="patients.chiefcomplain">15</field>
+    <field name="sub_code" type="IntegerField">9</field>
+    <field name="code" type="CharField">15.9</field>
+    <field name="name" type="CharField">Травма безпечної ділянки тіла</field>
+  </object>
+  <object model="patients.patientstate" pk="149">
+    <field name="chief_complain" rel="ManyToOneRel" to="patients.chiefcomplain">15</field>
+    <field name="sub_code" type="IntegerField">10</field>
+    <field name="code" type="CharField">15.10</field>
+    <field name="name" type="CharField">Стан задовільний</field>
+  </object>
+  <object model="patients.patientstate" pk="150">
+    <field name="chief_complain" rel="ManyToOneRel" to="patients.chiefcomplain">15</field>
+    <field name="sub_code" type="IntegerField">11</field>
+    <field name="code" type="CharField">15.11</field>
+    <field name="name" type="CharField">Застарілі (&gt; 6 годин) травми без погіршення загального стану</field>
+  </object>
+  <object model="patients.patientstate" pk="151">
+    <field name="chief_complain" rel="ManyToOneRel" to="patients.chiefcomplain">16</field>
+    <field name="sub_code" type="IntegerField">1</field>
+    <field name="code" type="CharField">16.1</field>
+    <field name="name" type="CharField">Термінальний стан</field>
+  </object>
+  <object model="patients.patientstate" pk="152">
+    <field name="chief_complain" rel="ManyToOneRel" to="patients.chiefcomplain">16</field>
+    <field name="sub_code" type="IntegerField">2</field>
+    <field name="code" type="CharField">16.2</field>
+    <field name="name" type="CharField">Пацієнт без свідомості, не реагує, не відповідає</field>
+  </object>
+  <object model="patients.patientstate" pk="153">
+    <field name="chief_complain" rel="ManyToOneRel" to="patients.chiefcomplain">16</field>
+    <field name="sub_code" type="IntegerField">3</field>
+    <field name="code" type="CharField">16.3</field>
+    <field name="name" type="CharField">Невідомий стан, невідома кількість пацієнтів</field>
+  </object>
+  <object model="patients.patientstate" pk="154">
+    <field name="chief_complain" rel="ManyToOneRel" to="patients.chiefcomplain">16</field>
+    <field name="sub_code" type="IntegerField">4</field>
+    <field name="code" type="CharField">16.4</field>
+    <field name="name" type="CharField">Політравма</field>
+  </object>
+  <object model="patients.patientstate" pk="155">
+    <field name="chief_complain" rel="ManyToOneRel" to="patients.chiefcomplain">16</field>
+    <field name="sub_code" type="IntegerField">5</field>
+    <field name="code" type="CharField">16.5</field>
+    <field name="name" type="CharField">Значна кровотеча</field>
+  </object>
+  <object model="patients.patientstate" pk="156">
+    <field name="chief_complain" rel="ManyToOneRel" to="patients.chiefcomplain">16</field>
+    <field name="sub_code" type="IntegerField">6</field>
+    <field name="code" type="CharField">16.6</field>
+    <field name="name" type="CharField">Один пацієнт з пошкодженням безпечної зони тіла</field>
+  </object>
+  <object model="patients.patientstate" pk="157">
+    <field name="chief_complain" rel="ManyToOneRel" to="patients.chiefcomplain">16</field>
+    <field name="sub_code" type="IntegerField">7</field>
+    <field name="code" type="CharField">16.7</field>
+    <field name="name" type="CharField">Травми (підозра) внутрішніх органів</field>
+  </object>
+  <object model="patients.patientstate" pk="158">
+    <field name="chief_complain" rel="ManyToOneRel" to="patients.chiefcomplain">17</field>
+    <field name="sub_code" type="IntegerField">1</field>
+    <field name="code" type="CharField">17.1</field>
+    <field name="name" type="CharField">Термінальний стан</field>
+  </object>
+  <object model="patients.patientstate" pk="159">
+    <field name="chief_complain" rel="ManyToOneRel" to="patients.chiefcomplain">17</field>
+    <field name="sub_code" type="IntegerField">2</field>
+    <field name="code" type="CharField">17.2</field>
+    <field name="name" type="CharField">Термінальний стан дитини</field>
+  </object>
+  <object model="patients.patientstate" pk="160">
+    <field name="chief_complain" rel="ManyToOneRel" to="patients.chiefcomplain">17</field>
+    <field name="sub_code" type="IntegerField">3</field>
+    <field name="code" type="CharField">17.3</field>
+    <field name="name" type="CharField">Обвиття пуповиною (проблеми з пуповиною)</field>
+  </object>
+  <object model="patients.patientstate" pk="161">
+    <field name="chief_complain" rel="ManyToOneRel" to="patients.chiefcomplain">17</field>
+    <field name="sub_code" type="IntegerField">4</field>
+    <field name="code" type="CharField">17.4</field>
+    <field name="name" type="CharField">Головку видно</field>
+  </object>
+  <object model="patients.patientstate" pk="162">
+    <field name="chief_complain" rel="ManyToOneRel" to="patients.chiefcomplain">17</field>
+    <field name="sub_code" type="IntegerField">5</field>
+    <field name="code" type="CharField">17.5</field>
+    <field name="name" type="CharField">Передчасні пологи (&gt; 6 місяців/20 тижнів)</field>
+  </object>
+  <object model="patients.patientstate" pk="163">
+    <field name="chief_complain" rel="ManyToOneRel" to="patients.chiefcomplain">17</field>
+    <field name="sub_code" type="IntegerField">6</field>
+    <field name="code" type="CharField">17.6</field>
+    <field name="name" type="CharField">1-й триместр, маткова кровотеча або викидень</field>
+  </object>
+  <object model="patients.patientstate" pk="164">
+    <field name="chief_complain" rel="ManyToOneRel" to="patients.chiefcomplain">17</field>
+    <field name="sub_code" type="IntegerField">7</field>
+    <field name="code" type="CharField">17.7</field>
+    <field name="name" type="CharField">2-й триместр, маткова кровотеча або викидень</field>
+  </object>
+  <object model="patients.patientstate" pk="165">
+    <field name="chief_complain" rel="ManyToOneRel" to="patients.chiefcomplain">17</field>
+    <field name="sub_code" type="IntegerField">8</field>
+    <field name="code" type="CharField">17.8</field>
+    <field name="name" type="CharField">3-й триместр, маткова кровотеча або викидень</field>
+  </object>
+  <object model="patients.patientstate" pk="166">
+    <field name="chief_complain" rel="ManyToOneRel" to="patients.chiefcomplain">17</field>
+    <field name="sub_code" type="IntegerField">9</field>
+    <field name="code" type="CharField">17.9</field>
+    <field name="name" type="CharField">Наявність судомного синдрому у вагітної/породіллі</field>
+  </object>
+  <object model="patients.patientstate" pk="167">
+    <field name="chief_complain" rel="ManyToOneRel" to="patients.chiefcomplain">17</field>
+    <field name="sub_code" type="IntegerField">10</field>
+    <field name="code" type="CharField">17.10</field>
+    <field name="name" type="CharField">Дитина народилася (ускладнення з матір'ю)</field>
+  </object>
+  <object model="patients.patientstate" pk="168">
+    <field name="chief_complain" rel="ManyToOneRel" to="patients.chiefcomplain">17</field>
+    <field name="sub_code" type="IntegerField">11</field>
+    <field name="code" type="CharField">17.11</field>
+    <field name="name" type="CharField">Дитина народилася (ускладнення з дитиною)</field>
+  </object>
+  <object model="patients.patientstate" pk="169">
+    <field name="chief_complain" rel="ManyToOneRel" to="patients.chiefcomplain">17</field>
+    <field name="sub_code" type="IntegerField">12</field>
+    <field name="code" type="CharField">17.12</field>
+    <field name="name" type="CharField">Дитина народилася (без ускладнень)</field>
+  </object>
+  <object model="patients.patientstate" pk="170">
+    <field name="chief_complain" rel="ManyToOneRel" to="patients.chiefcomplain">17</field>
+    <field name="sub_code" type="IntegerField">13</field>
+    <field name="code" type="CharField">17.13</field>
+    <field name="name" type="CharField">Невідомий стан</field>
+  </object>
+  <object model="patients.patientstate" pk="171">
+    <field name="chief_complain" rel="ManyToOneRel" to="patients.chiefcomplain">17</field>
+    <field name="sub_code" type="IntegerField">14</field>
+    <field name="code" type="CharField">17.14</field>
+    <field name="name" type="CharField">Відхід вод (немає скорочень)</field>
+  </object>
+  <object model="patients.patientstate" pk="172">
+    <field name="chief_complain" rel="ManyToOneRel" to="patients.chiefcomplain">17</field>
+    <field name="sub_code" type="IntegerField">15</field>
+    <field name="code" type="CharField">17.15</field>
+    <field name="name" type="CharField">Напад раптового головного болю у вагітної</field>
+  </object>
+  <object model="patients.patientstate" pk="173">
+    <field name="chief_complain" rel="ManyToOneRel" to="patients.chiefcomplain">17</field>
+    <field name="sub_code" type="IntegerField">16</field>
+    <field name="code" type="CharField">17.16</field>
+    <field name="name" type="CharField">Нормальні пологи</field>
+  </object>
+  <object model="patients.patientstate" pk="174">
+    <field name="chief_complain" rel="ManyToOneRel" to="patients.chiefcomplain">18</field>
+    <field name="sub_code" type="IntegerField">1</field>
+    <field name="code" type="CharField">18.1</field>
+    <field name="name" type="CharField">Термінальний стан</field>
+  </object>
+  <object model="patients.patientstate" pk="175">
+    <field name="chief_complain" rel="ManyToOneRel" to="patients.chiefcomplain">18</field>
+    <field name="sub_code" type="IntegerField">2</field>
+    <field name="code" type="CharField">18.2</field>
+    <field name="name" type="CharField">Дихає, але без свідомості або не реагує</field>
+  </object>
+  <object model="patients.patientstate" pk="176">
+    <field name="chief_complain" rel="ManyToOneRel" to="patients.chiefcomplain">18</field>
+    <field name="sub_code" type="IntegerField">3</field>
+    <field name="code" type="CharField">18.3</field>
+    <field name="name" type="CharField">Виражений набряк гортані</field>
+  </object>
+  <object model="patients.patientstate" pk="177">
+    <field name="chief_complain" rel="ManyToOneRel" to="patients.chiefcomplain">18</field>
+    <field name="sub_code" type="IntegerField">4</field>
+    <field name="code" type="CharField">18.4</field>
+    <field name="name" type="CharField">Важко говорити між вдихами/задишка</field>
+  </object>
+  <object model="patients.patientstate" pk="178">
+    <field name="chief_complain" rel="ManyToOneRel" to="patients.chiefcomplain">18</field>
+    <field name="sub_code" type="IntegerField">5</field>
+    <field name="code" type="CharField">18.5</field>
+    <field name="name" type="CharField">Алергічна реакція після укусу комах</field>
+  </object>
+  <object model="patients.patientstate" pk="179">
+    <field name="chief_complain" rel="ManyToOneRel" to="patients.chiefcomplain">18</field>
+    <field name="sub_code" type="IntegerField">6</field>
+    <field name="code" type="CharField">18.6</field>
+    <field name="name" type="CharField">Ускладнене дихання або ковтання</field>
+  </object>
+  <object model="patients.patientstate" pk="180">
+    <field name="chief_complain" rel="ManyToOneRel" to="patients.chiefcomplain">18</field>
+    <field name="sub_code" type="IntegerField">7</field>
+    <field name="code" type="CharField">18.7</field>
+    <field name="name" type="CharField">В анамнезі гострі алергічні реакції</field>
+  </object>
+  <object model="patients.patientstate" pk="181">
+    <field name="chief_complain" rel="ManyToOneRel" to="patients.chiefcomplain">18</field>
+    <field name="sub_code" type="IntegerField">8</field>
+    <field name="code" type="CharField">18.8</field>
+    <field name="name" type="CharField">Невідомий статус (викликає третя сторона)</field>
+  </object>
+  <object model="patients.patientstate" pk="182">
+    <field name="chief_complain" rel="ManyToOneRel" to="patients.chiefcomplain">18</field>
+    <field name="sub_code" type="IntegerField">9</field>
+    <field name="code" type="CharField">18.9</field>
+    <field name="name" type="CharField">Наявність висипки</field>
+  </object>
+  <object model="patients.patientstate" pk="183">
+    <field name="chief_complain" rel="ManyToOneRel" to="patients.chiefcomplain">18</field>
+    <field name="sub_code" type="IntegerField">10</field>
+    <field name="code" type="CharField">18.10</field>
+    <field name="name" type="CharField">Немає проблем з диханням чи ковтання</field>
+  </object>
+  <object model="patients.patientstate" pk="184">
+    <field name="chief_complain" rel="ManyToOneRel" to="patients.chiefcomplain">19</field>
+    <field name="sub_code" type="IntegerField">1</field>
+    <field name="code" type="CharField">19.1</field>
+    <field name="name" type="CharField">Термінальний стан</field>
+  </object>
+  <object model="patients.patientstate" pk="185">
+    <field name="chief_complain" rel="ManyToOneRel" to="patients.chiefcomplain">19</field>
+    <field name="sub_code" type="IntegerField">2</field>
+    <field name="code" type="CharField">19.2</field>
+    <field name="name" type="CharField">Раптова втрата свідомості</field>
+  </object>
+  <object model="patients.patientstate" pk="186">
+    <field name="chief_complain" rel="ManyToOneRel" to="patients.chiefcomplain">19</field>
+    <field name="sub_code" type="IntegerField">3</field>
+    <field name="code" type="CharField">19.3</field>
+    <field name="name" type="CharField">Розвиток на фоні головного болю порушень мови, паралічів, оніміння, судом</field>
+  </object>
+  <object model="patients.patientstate" pk="187">
+    <field name="chief_complain" rel="ManyToOneRel" to="patients.chiefcomplain">19</field>
+    <field name="sub_code" type="IntegerField">4</field>
+    <field name="code" type="CharField">19.4</field>
+    <field name="name" type="CharField">Різкий розвиток головного болю</field>
+  </object>
+  <object model="patients.patientstate" pk="188">
+    <field name="chief_complain" rel="ManyToOneRel" to="patients.chiefcomplain">19</field>
+    <field name="sub_code" type="IntegerField">5</field>
+    <field name="code" type="CharField">19.5</field>
+    <field name="name" type="CharField">Напад головного болю, який не проходить після прийому знеболюючих/протизапальних засобів</field>
+  </object>
+  <object model="patients.patientstate" pk="189">
+    <field name="chief_complain" rel="ManyToOneRel" to="patients.chiefcomplain">19</field>
+    <field name="sub_code" type="IntegerField">6</field>
+    <field name="code" type="CharField">19.6</field>
+    <field name="name" type="CharField">Стан пацієнта стабільний або покращується після прийому знеболюючих/протизапальних засобів</field>
+  </object>
+  <object model="patients.patientstate" pk="190">
+    <field name="chief_complain" rel="ManyToOneRel" to="patients.chiefcomplain">20</field>
+    <field name="sub_code" type="IntegerField">1</field>
+    <field name="code" type="CharField">20.1</field>
+    <field name="name" type="CharField">Термінальний стан</field>
+  </object>
+  <object model="patients.patientstate" pk="191">
+    <field name="chief_complain" rel="ManyToOneRel" to="patients.chiefcomplain">20</field>
+    <field name="sub_code" type="IntegerField">2</field>
+    <field name="code" type="CharField">20.2</field>
+    <field name="name" type="CharField">Проведення серцево-легеневої реанімації, в тому числі з використанням автоматичного зовнішнього дефібрилятора.</field>
+  </object>
+  <object model="patients.patientstate" pk="192">
+    <field name="chief_complain" rel="ManyToOneRel" to="patients.chiefcomplain">20</field>
+    <field name="sub_code" type="IntegerField">3</field>
+    <field name="code" type="CharField">20.3</field>
+    <field name="name" type="CharField">Ціаноз, блідість, пітливість</field>
+  </object>
+  <object model="patients.patientstate" pk="193">
+    <field name="chief_complain" rel="ManyToOneRel" to="patients.chiefcomplain">20</field>
+    <field name="sub_code" type="IntegerField">4</field>
+    <field name="code" type="CharField">20.4</field>
+    <field name="name" type="CharField">Біль у грудях, що виникла раптово</field>
+  </object>
+  <object model="patients.patientstate" pk="194">
+    <field name="chief_complain" rel="ManyToOneRel" to="patients.chiefcomplain">20</field>
+    <field name="sub_code" type="IntegerField">5</field>
+    <field name="code" type="CharField">20.5</field>
+    <field name="name" type="CharField">Біль у грудях, в анамнезі перенесений інфаркт міокарду чи інші хвороби серця.</field>
+  </object>
+  <object model="patients.patientstate" pk="195">
+    <field name="chief_complain" rel="ManyToOneRel" to="patients.chiefcomplain">20</field>
+    <field name="sub_code" type="IntegerField">6</field>
+    <field name="code" type="CharField">20.6</field>
+    <field name="name" type="CharField">Біль у грудях, в анамнезі перенесені гострі захворювання легень (пневмоторакс) чи інші хвороби легень.</field>
+  </object>
+  <object model="patients.patientstate" pk="196">
+    <field name="chief_complain" rel="ManyToOneRel" to="patients.chiefcomplain">20</field>
+    <field name="sub_code" type="IntegerField">7</field>
+    <field name="code" type="CharField">20.7</field>
+    <field name="name" type="CharField">Біль в грудях після приймання наркотичних засобів.</field>
+  </object>
+  <object model="patients.patientstate" pk="197">
+    <field name="chief_complain" rel="ManyToOneRel" to="patients.chiefcomplain">20</field>
+    <field name="sub_code" type="IntegerField">8</field>
+    <field name="code" type="CharField">20.8</field>
+    <field name="name" type="CharField">Біль, що виник раптово,  стан  різко погіршився за короткий час</field>
+  </object>
+  <object model="patients.patientstate" pk="198">
+    <field name="chief_complain" rel="ManyToOneRel" to="patients.chiefcomplain">20</field>
+    <field name="sub_code" type="IntegerField">9</field>
+    <field name="code" type="CharField">20.9</field>
+    <field name="name" type="CharField">Біль в грудях, наявна травма (захворювання) грудної клітки, живота або грудного відділу хребта.</field>
+  </object>
+  <object model="patients.patientstate" pk="199">
+    <field name="chief_complain" rel="ManyToOneRel" to="patients.chiefcomplain">20</field>
+    <field name="sub_code" type="IntegerField">10</field>
+    <field name="code" type="CharField">20.10</field>
+    <field name="name" type="CharField">Біль в грудях, укус невідомої комахи</field>
+  </object>
+  <object model="patients.patientstate" pk="200">
+    <field name="chief_complain" rel="ManyToOneRel" to="patients.chiefcomplain">20</field>
+    <field name="sub_code" type="IntegerField">11</field>
+    <field name="code" type="CharField">20.11</field>
+    <field name="name" type="CharField">Біль в грудях, без пріоритетного опису окремого симптому чи прояву та погіршення загального стану.</field>
+  </object>
+  <object model="patients.patientstate" pk="201">
+    <field name="chief_complain" rel="ManyToOneRel" to="patients.chiefcomplain">21</field>
+    <field name="sub_code" type="IntegerField">1</field>
+    <field name="code" type="CharField">21.1</field>
+    <field name="name" type="CharField">Термінальний стан</field>
+  </object>
+  <object model="patients.patientstate" pk="202">
+    <field name="chief_complain" rel="ManyToOneRel" to="patients.chiefcomplain">21</field>
+    <field name="sub_code" type="IntegerField">2</field>
+    <field name="code" type="CharField">21.2</field>
+    <field name="name" type="CharField">Не відповідає, не реагує</field>
+  </object>
+  <object model="patients.patientstate" pk="203">
+    <field name="chief_complain" rel="ManyToOneRel" to="patients.chiefcomplain">21</field>
+    <field name="sub_code" type="IntegerField">3</field>
+    <field name="code" type="CharField">21.3</field>
+    <field name="name" type="CharField">Біль у животі з блювотою, кров’ю, непритомність</field>
+  </object>
+  <object model="patients.patientstate" pk="204">
+    <field name="chief_complain" rel="ManyToOneRel" to="patients.chiefcomplain">21</field>
+    <field name="sub_code" type="IntegerField">4</field>
+    <field name="code" type="CharField">21.4</field>
+    <field name="name" type="CharField">Біль у животі у дітей з меленою</field>
+  </object>
+  <object model="patients.patientstate" pk="205">
+    <field name="chief_complain" rel="ManyToOneRel" to="patients.chiefcomplain">21</field>
+    <field name="sub_code" type="IntegerField">5</field>
+    <field name="code" type="CharField">21.5</field>
+    <field name="name" type="CharField">Біль у животі після побиття</field>
+  </object>
+  <object model="patients.patientstate" pk="206">
+    <field name="chief_complain" rel="ManyToOneRel" to="patients.chiefcomplain">21</field>
+    <field name="sub_code" type="IntegerField">6</field>
+    <field name="code" type="CharField">21.6</field>
+    <field name="name" type="CharField">Біль з наступною втратою свідомості </field>
+  </object>
+  <object model="patients.patientstate" pk="207">
+    <field name="chief_complain" rel="ManyToOneRel" to="patients.chiefcomplain">21</field>
+    <field name="sub_code" type="IntegerField">7</field>
+    <field name="code" type="CharField">21.7</field>
+    <field name="name" type="CharField">Чоловіки з ранами/біллю вище пупка</field>
+  </object>
+  <object model="patients.patientstate" pk="208">
+    <field name="chief_complain" rel="ManyToOneRel" to="patients.chiefcomplain">21</field>
+    <field name="sub_code" type="IntegerField">8</field>
+    <field name="code" type="CharField">21.8</field>
+    <field name="name" type="CharField">Жінки з ранами/біллю вище пупка</field>
+  </object>
+  <object model="patients.patientstate" pk="209">
+    <field name="chief_complain" rel="ManyToOneRel" to="patients.chiefcomplain">21</field>
+    <field name="sub_code" type="IntegerField">9</field>
+    <field name="code" type="CharField">21.9</field>
+    <field name="name" type="CharField">У вагітної</field>
+  </object>
+  <object model="patients.patientstate" pk="210">
+    <field name="chief_complain" rel="ManyToOneRel" to="patients.chiefcomplain">21</field>
+    <field name="sub_code" type="IntegerField">10</field>
+    <field name="code" type="CharField">21.10</field>
+    <field name="name" type="CharField">У животі при менструації</field>
+  </object>
+  <object model="patients.patientstate" pk="211">
+    <field name="chief_complain" rel="ManyToOneRel" to="patients.chiefcomplain">21</field>
+    <field name="sub_code" type="IntegerField">11</field>
+    <field name="code" type="CharField">21.11</field>
+    <field name="name" type="CharField">Перманентний біль на протязі доби з високою температурою</field>
+  </object>
+  <object model="patients.patientstate" pk="212">
+    <field name="chief_complain" rel="ManyToOneRel" to="patients.chiefcomplain">21</field>
+    <field name="sub_code" type="IntegerField">12</field>
+    <field name="code" type="CharField">21.12</field>
+    <field name="name" type="CharField">Біль у животі на фоні діареї</field>
+  </object>
+  <object model="patients.patientstate" pk="213">
+    <field name="chief_complain" rel="ManyToOneRel" to="patients.chiefcomplain">21</field>
+    <field name="sub_code" type="IntegerField">13</field>
+    <field name="code" type="CharField">21.13</field>
+    <field name="name" type="CharField">Біль у животі з виразковим анамнезом</field>
+  </object>
+  <object model="patients.patientstate" pk="214">
+    <field name="chief_complain" rel="ManyToOneRel" to="patients.chiefcomplain">22</field>
+    <field name="sub_code" type="IntegerField">1</field>
+    <field name="code" type="CharField">22.1</field>
+    <field name="name" type="CharField">Термінальний стан</field>
+  </object>
+  <object model="patients.patientstate" pk="215">
+    <field name="chief_complain" rel="ManyToOneRel" to="patients.chiefcomplain">22</field>
+    <field name="sub_code" type="IntegerField">2</field>
+    <field name="code" type="CharField">22.2</field>
+    <field name="name" type="CharField">Дихає, але без свідомості або не реагує</field>
+  </object>
+  <object model="patients.patientstate" pk="216">
+    <field name="chief_complain" rel="ManyToOneRel" to="patients.chiefcomplain">22</field>
+    <field name="sub_code" type="IntegerField">3</field>
+    <field name="code" type="CharField">22.3</field>
+    <field name="name" type="CharField">Стан близький до непритомності</field>
+  </object>
+  <object model="patients.patientstate" pk="217">
+    <field name="chief_complain" rel="ManyToOneRel" to="patients.chiefcomplain">22</field>
+    <field name="sub_code" type="IntegerField">4</field>
+    <field name="code" type="CharField">22.4</field>
+    <field name="name" type="CharField">Нетравматичні болі в спині без загального погіршення стану</field>
+  </object>
+  <object model="patients.patientstate" pk="218">
+    <field name="chief_complain" rel="ManyToOneRel" to="patients.chiefcomplain">22</field>
+    <field name="sub_code" type="IntegerField">5</field>
+    <field name="code" type="CharField">22.5</field>
+    <field name="name" type="CharField">Біль у нирках</field>
+  </object>
+  <object model="patients.patientstate" pk="219">
+    <field name="chief_complain" rel="ManyToOneRel" to="patients.chiefcomplain">22</field>
+    <field name="sub_code" type="IntegerField">6</field>
+    <field name="code" type="CharField">22.6</field>
+    <field name="name" type="CharField">Застарілі травматичні болі в спині (&gt; 6 годин) травми (без пріоритетних симптомів)</field>
+  </object>
+  <object model="patients.patientstate" pk="220">
+    <field name="chief_complain" rel="ManyToOneRel" to="patients.chiefcomplain">23</field>
+    <field name="sub_code" type="IntegerField">1</field>
+    <field name="code" type="CharField">23.1</field>
+    <field name="name" type="CharField">Термінальний стан</field>
+  </object>
+  <object model="patients.patientstate" pk="221">
+    <field name="chief_complain" rel="ManyToOneRel" to="patients.chiefcomplain">23</field>
+    <field name="sub_code" type="IntegerField">2</field>
+    <field name="code" type="CharField">23.2</field>
+    <field name="name" type="CharField">Ускладнене дихання з симптомами грипу</field>
+  </object>
+  <object model="patients.patientstate" pk="222">
+    <field name="chief_complain" rel="ManyToOneRel" to="patients.chiefcomplain">23</field>
+    <field name="sub_code" type="IntegerField">3</field>
+    <field name="code" type="CharField">23.3</field>
+    <field name="name" type="CharField">Зміна кольору (блідність, синюшність) шкіри з симптомами грипу</field>
+  </object>
+  <object model="patients.patientstate" pk="223">
+    <field name="chief_complain" rel="ManyToOneRel" to="patients.chiefcomplain">23</field>
+    <field name="sub_code" type="IntegerField">4</field>
+    <field name="code" type="CharField">23.4</field>
+    <field name="name" type="CharField">Гіпертермія з судомами</field>
+  </object>
+  <object model="patients.patientstate" pk="224">
+    <field name="chief_complain" rel="ManyToOneRel" to="patients.chiefcomplain">23</field>
+    <field name="sub_code" type="IntegerField">5</field>
+    <field name="code" type="CharField">23.5</field>
+    <field name="name" type="CharField">Гіпертермія з блювотою/проносами</field>
+  </object>
+  <object model="patients.patientstate" pk="225">
+    <field name="chief_complain" rel="ManyToOneRel" to="patients.chiefcomplain">23</field>
+    <field name="sub_code" type="IntegerField">6</field>
+    <field name="code" type="CharField">23.6</field>
+    <field name="name" type="CharField">Реакція на лікарські засоби при лікуванні інфекційних хворих</field>
+  </object>
+  <object model="patients.patientstate" pk="226">
+    <field name="chief_complain" rel="ManyToOneRel" to="patients.chiefcomplain">23</field>
+    <field name="sub_code" type="IntegerField">7</field>
+    <field name="code" type="CharField">23.7</field>
+    <field name="name" type="CharField">Перманентна гіпертермія на протязі доби</field>
+  </object>
+  <object model="patients.patientstate" pk="227">
+    <field name="chief_complain" rel="ManyToOneRel" to="patients.chiefcomplain">23</field>
+    <field name="sub_code" type="IntegerField">8</field>
+    <field name="code" type="CharField">23.8</field>
+    <field name="name" type="CharField">Ознаки інфекційного захворювання в епідосередку</field>
+  </object>
+  <object model="patients.patientstate" pk="228">
+    <field name="chief_complain" rel="ManyToOneRel" to="patients.chiefcomplain">23</field>
+    <field name="sub_code" type="IntegerField">9</field>
+    <field name="code" type="CharField">23.9</field>
+    <field name="name" type="CharField">Гіпертермія у прибулого із епіднебезпечної території</field>
+  </object>
+  <object model="patients.patientstate" pk="229">
+    <field name="chief_complain" rel="ManyToOneRel" to="patients.chiefcomplain">23</field>
+    <field name="sub_code" type="IntegerField">10</field>
+    <field name="code" type="CharField">23.10</field>
+    <field name="name" type="CharField">Інші ознаки грипу (кашель, лихоманка, озноб, піт, біль у горлі, блювота, діарея, болі в тілі тощо)</field>
+  </object>
+  <object model="patients.patientstate" pk="230">
+    <field name="chief_complain" rel="ManyToOneRel" to="patients.chiefcomplain">23</field>
+    <field name="sub_code" type="IntegerField">11</field>
+    <field name="code" type="CharField">23.11</field>
+    <field name="name" type="CharField">Невідомий стан</field>
+  </object>
+  <object model="patients.patientstate" pk="231">
+    <field name="chief_complain" rel="ManyToOneRel" to="patients.chiefcomplain">24</field>
+    <field name="sub_code" type="IntegerField">1</field>
+    <field name="code" type="CharField">24.1</field>
+    <field name="name" type="CharField">Термінальний стан</field>
+  </object>
+  <object model="patients.patientstate" pk="232">
+    <field name="chief_complain" rel="ManyToOneRel" to="patients.chiefcomplain">24</field>
+    <field name="sub_code" type="IntegerField">2</field>
+    <field name="code" type="CharField">24.2</field>
+    <field name="name" type="CharField">Дихає, але без свідомості або не реагує</field>
+  </object>
+  <object model="patients.patientstate" pk="233">
+    <field name="chief_complain" rel="ManyToOneRel" to="patients.chiefcomplain">24</field>
+    <field name="sub_code" type="IntegerField">3</field>
+    <field name="code" type="CharField">24.3</field>
+    <field name="name" type="CharField">Проблеми з мовою, мовленням, ковтанням</field>
+  </object>
+  <object model="patients.patientstate" pk="234">
+    <field name="chief_complain" rel="ManyToOneRel" to="patients.chiefcomplain">24</field>
+    <field name="sub_code" type="IntegerField">4</field>
+    <field name="code" type="CharField">24.4</field>
+    <field name="name" type="CharField">Оніміння, параліч або проблеми з рухом</field>
+  </object>
+  <object model="patients.patientstate" pk="235">
+    <field name="chief_complain" rel="ManyToOneRel" to="patients.chiefcomplain">24</field>
+    <field name="sub_code" type="IntegerField">5</field>
+    <field name="code" type="CharField">24.5</field>
+    <field name="name" type="CharField">Раптові проблеми із зором</field>
+  </object>
+  <object model="patients.patientstate" pk="236">
+    <field name="chief_complain" rel="ManyToOneRel" to="patients.chiefcomplain">24</field>
+    <field name="sub_code" type="IntegerField">6</field>
+    <field name="code" type="CharField">24.6</field>
+    <field name="name" type="CharField">Раптовий початок сильного головного болю</field>
+  </object>
+  <object model="patients.patientstate" pk="237">
+    <field name="chief_complain" rel="ManyToOneRel" to="patients.chiefcomplain">24</field>
+    <field name="sub_code" type="IntegerField">7</field>
+    <field name="code" type="CharField">24.7</field>
+    <field name="name" type="CharField">Порушення координації рухів</field>
+  </object>
+  <object model="patients.patientstate" pk="238">
+    <field name="chief_complain" rel="ManyToOneRel" to="patients.chiefcomplain">25</field>
+    <field name="sub_code" type="IntegerField">1</field>
+    <field name="code" type="CharField">25.1</field>
+    <field name="name" type="CharField">Термінальний стан</field>
+  </object>
+  <object model="patients.patientstate" pk="239">
+    <field name="chief_complain" rel="ManyToOneRel" to="patients.chiefcomplain">25</field>
+    <field name="sub_code" type="IntegerField">2</field>
+    <field name="code" type="CharField">25.2</field>
+    <field name="name" type="CharField">Проведення серцево-легеневої реанімації, у тому числі з використанням автоматичного зовнішнього дефібрилятора.</field>
+  </object>
+  <object model="patients.patientstate" pk="240">
+    <field name="chief_complain" rel="ManyToOneRel" to="patients.chiefcomplain">25</field>
+    <field name="sub_code" type="IntegerField">3</field>
+    <field name="code" type="CharField">25.3</field>
+    <field name="name" type="CharField">Реагує, але ненормальне дихання</field>
+  </object>
+  <object model="patients.patientstate" pk="241">
+    <field name="chief_complain" rel="ManyToOneRel" to="patients.chiefcomplain">25</field>
+    <field name="sub_code" type="IntegerField">4</field>
+    <field name="code" type="CharField">25.4</field>
+    <field name="name" type="CharField">Непритомні напади та реагує (серцево-судинна історія)</field>
+  </object>
+  <object model="patients.patientstate" pk="242">
+    <field name="chief_complain" rel="ManyToOneRel" to="patients.chiefcomplain">26</field>
+    <field name="sub_code" type="IntegerField">1</field>
+    <field name="code" type="CharField">26.1</field>
+    <field name="name" type="CharField">Термінальний стан після судом</field>
+  </object>
+  <object model="patients.patientstate" pk="243">
+    <field name="chief_complain" rel="ManyToOneRel" to="patients.chiefcomplain">26</field>
+    <field name="sub_code" type="IntegerField">2</field>
+    <field name="code" type="CharField">26.2</field>
+    <field name="name" type="CharField">Проведення серцево-легеневої реанімації, у тому числі з використанням автоматичного зовнішнього дефібрилятора</field>
+  </object>
+  <object model="patients.patientstate" pk="244">
+    <field name="chief_complain" rel="ManyToOneRel" to="patients.chiefcomplain">26</field>
+    <field name="sub_code" type="IntegerField">3</field>
+    <field name="code" type="CharField">26.3</field>
+    <field name="name" type="CharField">Без свідомості, є дихання</field>
+  </object>
+  <object model="patients.patientstate" pk="245">
+    <field name="chief_complain" rel="ManyToOneRel" to="patients.chiefcomplain">26</field>
+    <field name="sub_code" type="IntegerField">4</field>
+    <field name="code" type="CharField">26.4</field>
+    <field name="name" type="CharField">Тривалі чи численні судоми</field>
+  </object>
+  <object model="patients.patientstate" pk="246">
+    <field name="chief_complain" rel="ManyToOneRel" to="patients.chiefcomplain">26</field>
+    <field name="sub_code" type="IntegerField">5</field>
+    <field name="code" type="CharField">26.5</field>
+    <field name="name" type="CharField">Вагітність</field>
+  </object>
+  <object model="patients.patientstate" pk="247">
+    <field name="chief_complain" rel="ManyToOneRel" to="patients.chiefcomplain">26</field>
+    <field name="sub_code" type="IntegerField">6</field>
+    <field name="code" type="CharField">26.6</field>
+    <field name="name" type="CharField">Діабет</field>
+  </object>
+  <object model="patients.patientstate" pk="248">
+    <field name="chief_complain" rel="ManyToOneRel" to="patients.chiefcomplain">26</field>
+    <field name="sub_code" type="IntegerField">7</field>
+    <field name="code" type="CharField">26.7</field>
+    <field name="name" type="CharField">Епілепсія</field>
+  </object>
+  <object model="patients.patientstate" pk="249">
+    <field name="chief_complain" rel="ManyToOneRel" to="patients.chiefcomplain">26</field>
+    <field name="sub_code" type="IntegerField">8</field>
+    <field name="code" type="CharField">26.8</field>
+    <field name="name" type="CharField">Передозування/отруєння</field>
+  </object>
+  <object model="patients.patientstate" pk="250">
+    <field name="chief_complain" rel="ManyToOneRel" to="patients.chiefcomplain">26</field>
+    <field name="sub_code" type="IntegerField">9</field>
+    <field name="code" type="CharField">26.9</field>
+    <field name="name" type="CharField">Локальні судоми</field>
+  </object>
+  <object model="patients.patientstate" pk="251">
+    <field name="chief_complain" rel="ManyToOneRel" to="patients.chiefcomplain">26</field>
+    <field name="sub_code" type="IntegerField">10</field>
+    <field name="code" type="CharField">26.10</field>
+    <field name="name" type="CharField">Стан після конвульсій (наслідок судом невідомий)</field>
+  </object>
+  <object model="patients.patientstate" pk="252">
+    <field name="chief_complain" rel="ManyToOneRel" to="patients.chiefcomplain">26</field>
+    <field name="sub_code" type="IntegerField">11</field>
+    <field name="code" type="CharField">26.11</field>
+    <field name="name" type="CharField">Стан після конвульсій (відсутність порушень внаслідок судом)</field>
+  </object>
+  <object model="patients.patientstate" pk="253">
+    <field name="chief_complain" rel="ManyToOneRel" to="patients.chiefcomplain">27</field>
+    <field name="sub_code" type="IntegerField">1</field>
+    <field name="code" type="CharField">27.1</field>
+    <field name="name" type="CharField">Термінальний стан після прояву симптомів психотичного розладу</field>
+  </object>
+  <object model="patients.patientstate" pk="254">
+    <field name="chief_complain" rel="ManyToOneRel" to="patients.chiefcomplain">27</field>
+    <field name="sub_code" type="IntegerField">2</field>
+    <field name="code" type="CharField">27.2</field>
+    <field name="name" type="CharField">Дихає, але без свідомості або не реагує після прояву симптомів психотичного розладу</field>
+  </object>
+  <object model="patients.patientstate" pk="255">
+    <field name="chief_complain" rel="ManyToOneRel" to="patients.chiefcomplain">27</field>
+    <field name="sub_code" type="IntegerField">3</field>
+    <field name="code" type="CharField">27.3</field>
+    <field name="name" type="CharField">Ажитація, сильне сенсомоторне збудження, небезпечний для оточуючих</field>
+  </object>
+  <object model="patients.patientstate" pk="256">
+    <field name="chief_complain" rel="ManyToOneRel" to="patients.chiefcomplain">27</field>
+    <field name="sub_code" type="IntegerField">4</field>
+    <field name="code" type="CharField">27.4</field>
+    <field name="name" type="CharField">Стан, близький до вчинення насильства чи повішення</field>
+  </object>
+  <object model="patients.patientstate" pk="257">
+    <field name="chief_complain" rel="ManyToOneRel" to="patients.chiefcomplain">27</field>
+    <field name="sub_code" type="IntegerField">5</field>
+    <field name="code" type="CharField">27.5</field>
+    <field name="name" type="CharField">Дихає, але без свідомості або не реагує (підозра на травму шиї після повішення)</field>
+  </object>
+  <object model="patients.patientstate" pk="258">
+    <field name="chief_complain" rel="ManyToOneRel" to="patients.chiefcomplain">27</field>
+    <field name="sub_code" type="IntegerField">6</field>
+    <field name="code" type="CharField">27.6</field>
+    <field name="name" type="CharField">Реагує, погрози самогубством</field>
+  </object>
+  <object model="patients.patientstate" pk="259">
+    <field name="chief_complain" rel="ManyToOneRel" to="patients.chiefcomplain">27</field>
+    <field name="sub_code" type="IntegerField">7</field>
+    <field name="code" type="CharField">27.7</field>
+    <field name="name" type="CharField">Відсутні зовнішні ознаки можливої травми, отруєння, пацієнт адекватний</field>
+  </object>
+  <object model="patients.patientstate" pk="260">
+    <field name="chief_complain" rel="ManyToOneRel" to="patients.chiefcomplain">27</field>
+    <field name="sub_code" type="IntegerField">8</field>
+    <field name="code" type="CharField">27.8</field>
+    <field name="name" type="CharField">Стан після психічної реакції, пацієнт адекватний (спокійний)</field>
+  </object>
+  <object model="patients.patientstate" pk="261">
+    <field name="chief_complain" rel="ManyToOneRel" to="patients.chiefcomplain">28</field>
+    <field name="sub_code" type="IntegerField">1</field>
+    <field name="code" type="CharField">28.1</field>
+    <field name="name" type="CharField">Термінальний стан</field>
+  </object>
+  <object model="patients.patientstate" pk="262">
+    <field name="chief_complain" rel="ManyToOneRel" to="patients.chiefcomplain">28</field>
+    <field name="sub_code" type="IntegerField">2</field>
+    <field name="code" type="CharField">28.2</field>
+    <field name="name" type="CharField">Ускладнення внаслідок діабетичних проблем (інсульт, порушення мовлення, рухів)</field>
+  </object>
+  <object model="patients.patientstate" pk="263">
+    <field name="chief_complain" rel="ManyToOneRel" to="patients.chiefcomplain">28</field>
+    <field name="sub_code" type="IntegerField">3</field>
+    <field name="code" type="CharField">28.3</field>
+    <field name="name" type="CharField">Ускладнення внаслідок діабетичних проблем (кровотеа з діабетичної виразки)</field>
+  </object>
+  <object model="patients.patientstate" pk="264">
+    <field name="chief_complain" rel="ManyToOneRel" to="patients.chiefcomplain">28</field>
+    <field name="sub_code" type="IntegerField">4</field>
+    <field name="code" type="CharField">28.4</field>
+    <field name="name" type="CharField">Аномальне (порушене) дихання</field>
+  </object>
+  <object model="patients.patientstate" pk="265">
+    <field name="chief_complain" rel="ManyToOneRel" to="patients.chiefcomplain">28</field>
+    <field name="sub_code" type="IntegerField">5</field>
+    <field name="code" type="CharField">28.5</field>
+    <field name="name" type="CharField">Аномальна поведінка</field>
+  </object>
+  <object model="patients.patientstate" pk="266">
+    <field name="chief_complain" rel="ManyToOneRel" to="patients.chiefcomplain">28</field>
+    <field name="sub_code" type="IntegerField">6</field>
+    <field name="code" type="CharField">28.6</field>
+    <field name="name" type="CharField">Реагує та нормально себе поводить</field>
+  </object>
+  <object model="patients.patientstate" pk="267">
+    <field name="chief_complain" rel="ManyToOneRel" to="patients.chiefcomplain">29</field>
+    <field name="sub_code" type="IntegerField">1</field>
+    <field name="code" type="CharField">29.1</field>
+    <field name="name" type="CharField">Порушення дихання (гострий напад)</field>
+  </object>
+  <object model="patients.patientstate" pk="268">
+    <field name="chief_complain" rel="ManyToOneRel" to="patients.chiefcomplain">29</field>
+    <field name="sub_code" type="IntegerField">2</field>
+    <field name="code" type="CharField">29.2</field>
+    <field name="name" type="CharField">Значна кровотеча або шок</field>
+  </object>
+  <object model="patients.patientstate" pk="269">
+    <field name="chief_complain" rel="ManyToOneRel" to="patients.chiefcomplain">29</field>
+    <field name="sub_code" type="IntegerField">3</field>
+    <field name="code" type="CharField">29.3</field>
+    <field name="name" type="CharField">Можливі гострі проблеми з серцем або ІМ (інфаркт міокарду)</field>
+  </object>
+  <object model="patients.patientstate" pk="270">
+    <field name="chief_complain" rel="ManyToOneRel" to="patients.chiefcomplain">29</field>
+    <field name="sub_code" type="IntegerField">4</field>
+    <field name="code" type="CharField">29.4</field>
+    <field name="name" type="CharField">Транспортування в ЗОЗ для екстреного лікування</field>
+  </object>
+  <object model="patients.patientstate" pk="271">
+    <field name="chief_complain" rel="ManyToOneRel" to="patients.chiefcomplain">29</field>
+    <field name="sub_code" type="IntegerField">5</field>
+    <field name="code" type="CharField">29.5</field>
+    <field name="name" type="CharField">Транспортування в ЗОЗ для планового лікування</field>
+  </object>
+  <object model="patients.patientstate" pk="272">
+    <field name="chief_complain" rel="ManyToOneRel" to="patients.chiefcomplain">29</field>
+    <field name="sub_code" type="IntegerField">6</field>
+    <field name="code" type="CharField">29.6</field>
+    <field name="name" type="CharField">Транспортування в ЗОЗ для реабілітації</field>
+  </object>
+  <object model="patients.patientstate" pk="273">
+    <field name="chief_complain" rel="ManyToOneRel" to="patients.chiefcomplain">30</field>
+    <field name="sub_code" type="IntegerField">1</field>
+    <field name="code" type="CharField">30.1</field>
+    <field name="name" type="CharField">Аномальний тиск крові (безсимптомний)</field>
+  </object>
+  <object model="patients.patientstate" pk="274">
+    <field name="chief_complain" rel="ManyToOneRel" to="patients.chiefcomplain">30</field>
+    <field name="sub_code" type="IntegerField">2</field>
+    <field name="code" type="CharField">30.2</field>
+    <field name="name" type="CharField">Запаморочення/«у голові мариться»</field>
+  </object>
+  <object model="patients.patientstate" pk="275">
+    <field name="chief_complain" rel="ManyToOneRel" to="patients.chiefcomplain">30</field>
+    <field name="sub_code" type="IntegerField">3</field>
+    <field name="code" type="CharField">30.3</field>
+    <field name="name" type="CharField">Лихоманка/людина труситься від відчуття холоду</field>
+  </object>
+  <object model="patients.patientstate" pk="276">
+    <field name="chief_complain" rel="ManyToOneRel" to="patients.chiefcomplain">30</field>
+    <field name="sub_code" type="IntegerField">4</field>
+    <field name="code" type="CharField">30.4</field>
+    <field name="name" type="CharField">Загальна слабість</field>
+  </object>
+  <object model="patients.patientstate" pk="277">
+    <field name="chief_complain" rel="ManyToOneRel" to="patients.chiefcomplain">30</field>
+    <field name="sub_code" type="IntegerField">5</field>
+    <field name="code" type="CharField">30.5</field>
+    <field name="name" type="CharField">Пацієнта нудить</field>
+  </object>
+  <object model="patients.patientstate" pk="278">
+    <field name="chief_complain" rel="ManyToOneRel" to="patients.chiefcomplain">30</field>
+    <field name="sub_code" type="IntegerField">6</field>
+    <field name="code" type="CharField">30.6</field>
+    <field name="name" type="CharField">Інші болі</field>
+  </object>
+  <object model="patients.patientstate" pk="279">
+    <field name="chief_complain" rel="ManyToOneRel" to="patients.chiefcomplain">30</field>
+    <field name="sub_code" type="IntegerField">7</field>
+    <field name="code" type="CharField">30.7</field>
+    <field name="name" type="CharField">Людину можна лише переносити (перевозити)</field>
+  </object>
+  <object model="patients.patientstate" pk="280">
+    <field name="chief_complain" rel="ManyToOneRel" to="patients.chiefcomplain">30</field>
+    <field name="sub_code" type="IntegerField">8</field>
+    <field name="code" type="CharField">30.8</field>
+    <field name="name" type="CharField">Недобре самопочуття/недуга</field>
+  </object>
+  <object model="patients.patientstate" pk="281">
+    <field name="chief_complain" rel="ManyToOneRel" to="patients.chiefcomplain">30</field>
+    <field name="sub_code" type="IntegerField">9</field>
+    <field name="code" type="CharField">30.9</field>
+    <field name="name" type="CharField">Блювання</field>
+  </object>
+  <object model="patients.patientstate" pk="282">
+    <field name="chief_complain" rel="ManyToOneRel" to="patients.chiefcomplain">30</field>
+    <field name="sub_code" type="IntegerField">10</field>
+    <field name="code" type="CharField">30.10</field>
+    <field name="name" type="CharField">Фурункули</field>
+  </object>
+  <object model="patients.patientstate" pk="283">
+    <field name="chief_complain" rel="ManyToOneRel" to="patients.chiefcomplain">30</field>
+    <field name="sub_code" type="IntegerField">11</field>
+    <field name="code" type="CharField">30.11</field>
+    <field name="name" type="CharField">Ґулі (не травматичні, не запальні)</field>
+  </object>
+  <object model="patients.patientstate" pk="284">
+    <field name="chief_complain" rel="ManyToOneRel" to="patients.chiefcomplain">30</field>
+    <field name="sub_code" type="IntegerField">12</field>
+    <field name="code" type="CharField">30.12</field>
+    <field name="name" type="CharField">Не може заснути</field>
+  </object>
+  <object model="patients.patientstate" pk="285">
+    <field name="chief_complain" rel="ManyToOneRel" to="patients.chiefcomplain">30</field>
+    <field name="sub_code" type="IntegerField">13</field>
+    <field name="code" type="CharField">30.13</field>
+    <field name="name" type="CharField">Не може помочитися (без болів у животі)</field>
+  </object>
+  <object model="patients.patientstate" pk="286">
+    <field name="chief_complain" rel="ManyToOneRel" to="patients.chiefcomplain">30</field>
+    <field name="sub_code" type="IntegerField">14</field>
+    <field name="code" type="CharField">30.14</field>
+    <field name="name" type="CharField">Катетер (вставляють/видаляють без кровотеч)</field>
+  </object>
+  <object model="patients.patientstate" pk="287">
+    <field name="chief_complain" rel="ManyToOneRel" to="patients.chiefcomplain">30</field>
+    <field name="sub_code" type="IntegerField">15</field>
+    <field name="code" type="CharField">30.15</field>
+    <field name="name" type="CharField">Закрепи</field>
+  </object>
+  <object model="patients.patientstate" pk="288">
+    <field name="chief_complain" rel="ManyToOneRel" to="patients.chiefcomplain">30</field>
+    <field name="sub_code" type="IntegerField">16</field>
+    <field name="code" type="CharField">30.16</field>
+    <field name="name" type="CharField">Судоми/спазми/біль у суглобах (у кінцівках і не травматичний біль)</field>
+  </object>
+  <object model="patients.patientstate" pk="289">
+    <field name="chief_complain" rel="ManyToOneRel" to="patients.chiefcomplain">30</field>
+    <field name="sub_code" type="IntegerField">17</field>
+    <field name="code" type="CharField">30.17</field>
+    <field name="name" type="CharField">Глухота</field>
+  </object>
+  <object model="patients.patientstate" pk="290">
+    <field name="chief_complain" rel="ManyToOneRel" to="patients.chiefcomplain">30</field>
+    <field name="sub_code" type="IntegerField">18</field>
+    <field name="code" type="CharField">30.18</field>
+    <field name="name" type="CharField">Дефекація/діарея</field>
+  </object>
+  <object model="patients.patientstate" pk="291">
+    <field name="chief_complain" rel="ManyToOneRel" to="patients.chiefcomplain">30</field>
+    <field name="sub_code" type="IntegerField">19</field>
+    <field name="code" type="CharField">30.19</field>
+    <field name="name" type="CharField">Біль у вусі</field>
+  </object>
+  <object model="patients.patientstate" pk="292">
+    <field name="chief_complain" rel="ManyToOneRel" to="patients.chiefcomplain">30</field>
+    <field name="sub_code" type="IntegerField">20</field>
+    <field name="code" type="CharField">30.20</field>
+    <field name="name" type="CharField">Клізма</field>
+  </object>
+  <object model="patients.patientstate" pk="293">
+    <field name="chief_complain" rel="ManyToOneRel" to="patients.chiefcomplain">30</field>
+    <field name="sub_code" type="IntegerField">21</field>
+    <field name="code" type="CharField">30.21</field>
+    <field name="name" type="CharField">Подагра</field>
+  </object>
+  <object model="patients.patientstate" pk="294">
+    <field name="chief_complain" rel="ManyToOneRel" to="patients.chiefcomplain">30</field>
+    <field name="sub_code" type="IntegerField">22</field>
+    <field name="code" type="CharField">30.22</field>
+    <field name="name" type="CharField">Гемороїдальні вузли</field>
+  </object>
+  <object model="patients.patientstate" pk="295">
+    <field name="chief_complain" rel="ManyToOneRel" to="patients.chiefcomplain">30</field>
+    <field name="sub_code" type="IntegerField">23</field>
+    <field name="code" type="CharField">30.23</field>
+    <field name="name" type="CharField">Гикавка</field>
+  </object>
+  <object model="patients.patientstate" pk="296">
+    <field name="chief_complain" rel="ManyToOneRel" to="patients.chiefcomplain">30</field>
+    <field name="sub_code" type="IntegerField">24</field>
+    <field name="code" type="CharField">30.24</field>
+    <field name="name" type="CharField">Гепатит</field>
+  </object>
+  <object model="patients.patientstate" pk="297">
+    <field name="chief_complain" rel="ManyToOneRel" to="patients.chiefcomplain">30</field>
+    <field name="sub_code" type="IntegerField">25</field>
+    <field name="code" type="CharField">30.25</field>
+    <field name="name" type="CharField">Свербіж</field>
+  </object>
+  <object model="patients.patientstate" pk="298">
+    <field name="chief_complain" rel="ManyToOneRel" to="patients.chiefcomplain">30</field>
+    <field name="sub_code" type="IntegerField">26</field>
+    <field name="code" type="CharField">30.26</field>
+    <field name="name" type="CharField">Пацієнт збуджений</field>
+  </object>
+  <object model="patients.patientstate" pk="299">
+    <field name="chief_complain" rel="ManyToOneRel" to="patients.chiefcomplain">30</field>
+    <field name="sub_code" type="IntegerField">27</field>
+    <field name="code" type="CharField">30.27</field>
+    <field name="name" type="CharField">Коліки у якомусь органі</field>
+  </object>
+  <object model="patients.patientstate" pk="300">
+    <field name="chief_complain" rel="ManyToOneRel" to="patients.chiefcomplain">30</field>
+    <field name="sub_code" type="IntegerField">28</field>
+    <field name="code" type="CharField">30.28</field>
+    <field name="name" type="CharField">Завади при ковтанні (без асфіксії чи утрудненого дихання, може розмовляти)</field>
+  </object>
+  <object model="patients.patientstate" pk="301">
+    <field name="chief_complain" rel="ManyToOneRel" to="patients.chiefcomplain">30</field>
+    <field name="sub_code" type="IntegerField">29</field>
+    <field name="code" type="CharField">30.29</field>
+    <field name="name" type="CharField">Болі при сечовипусканні</field>
+  </object>
+  <object model="patients.patientstate" pk="302">
+    <field name="chief_complain" rel="ManyToOneRel" to="patients.chiefcomplain">30</field>
+    <field name="sub_code" type="IntegerField">30</field>
+    <field name="code" type="CharField">30.30</field>
+    <field name="name" type="CharField">Негаразд із прутнем/болі</field>
+  </object>
+  <object model="patients.patientstate" pk="303">
+    <field name="chief_complain" rel="ManyToOneRel" to="patients.chiefcomplain">30</field>
+    <field name="sub_code" type="IntegerField">31</field>
+    <field name="code" type="CharField">30.31</field>
+    <field name="name" type="CharField">Висипання/негаразди зі шкірою (без утрудненого дихання чи ковтання)</field>
+  </object>
+  <object model="patients.patientstate" pk="304">
+    <field name="chief_complain" rel="ManyToOneRel" to="patients.chiefcomplain">30</field>
+    <field name="sub_code" type="IntegerField">32</field>
+    <field name="code" type="CharField">30.32</field>
+    <field name="name" type="CharField">Хвороба, що передається статевим шляхом</field>
+  </object>
+  <object model="patients.patientstate" pk="305">
+    <field name="chief_complain" rel="ManyToOneRel" to="patients.chiefcomplain">30</field>
+    <field name="sub_code" type="IntegerField">33</field>
+    <field name="code" type="CharField">30.33</field>
+    <field name="name" type="CharField">Фарингіт чи ангіна (без утрудненого дихання чи ковтання)</field>
+  </object>
+  <object model="patients.patientstate" pk="306">
+    <field name="chief_complain" rel="ManyToOneRel" to="patients.chiefcomplain">30</field>
+    <field name="sub_code" type="IntegerField">34</field>
+    <field name="code" type="CharField">30.34</field>
+    <field name="name" type="CharField">Зубний біль (без болю у щелепі)</field>
+  </object>
+  <object model="patients.patientstate" pk="307">
+    <field name="chief_complain" rel="ManyToOneRel" to="patients.chiefcomplain">30</field>
+    <field name="sub_code" type="IntegerField">35</field>
+    <field name="code" type="CharField">30.35</field>
+    <field name="name" type="CharField">Постін'єкційний абсцес</field>
+  </object>
+  <object model="patients.patientstate" pk="308">
+    <field name="chief_complain" rel="ManyToOneRel" to="patients.chiefcomplain">30</field>
+    <field name="sub_code" type="IntegerField">36</field>
+    <field name="code" type="CharField">30.36</field>
+    <field name="name" type="CharField">Інфікована рана (осередкова чи поверхнева)</field>
+  </object>
+  <object model="patients.patientstate" pk="309">
+    <field name="chief_complain" rel="ManyToOneRel" to="patients.chiefcomplain">31</field>
+    <field name="sub_code" type="IntegerField">1</field>
+    <field name="code" type="CharField">31.1</field>
+    <field name="name" type="CharField">Термінальний стан</field>
+  </object>
+  <object model="patients.patientstate" pk="310">
+    <field name="chief_complain" rel="ManyToOneRel" to="patients.chiefcomplain">31</field>
+    <field name="sub_code" type="IntegerField">2</field>
+    <field name="code" type="CharField">31.2</field>
+    <field name="name" type="CharField">Дихає, але без свідомості або не реагує</field>
+  </object>
+  <object model="patients.patientstate" pk="311">
+    <field name="chief_complain" rel="ManyToOneRel" to="patients.chiefcomplain">31</field>
+    <field name="sub_code" type="IntegerField">3</field>
+    <field name="code" type="CharField">31.3</field>
+    <field name="name" type="CharField">Важко говорити між вдихами/задишка</field>
+  </object>
+  <object model="patients.patientstate" pk="312">
+    <field name="chief_complain" rel="ManyToOneRel" to="patients.chiefcomplain">31</field>
+    <field name="sub_code" type="IntegerField">4</field>
+    <field name="code" type="CharField">31.4</field>
+    <field name="name" type="CharField">Декілька постраждалих</field>
+  </object>
+  <object model="patients.patientstate" pk="313">
+    <field name="chief_complain" rel="ManyToOneRel" to="patients.chiefcomplain">31</field>
+    <field name="sub_code" type="IntegerField">5</field>
+    <field name="code" type="CharField">31.5</field>
+    <field name="name" type="CharField">Невідомий статсус (викликає третя сторона)</field>
+  </object>
+  <object model="patients.patientstate" pk="314">
+    <field name="chief_complain" rel="ManyToOneRel" to="patients.chiefcomplain">32</field>
+    <field name="sub_code" type="IntegerField">1</field>
+    <field name="code" type="CharField">32.1</field>
+    <field name="name" type="CharField">Термінальний стан/повна обструкція</field>
+  </object>
+  <object model="patients.patientstate" pk="315">
+    <field name="chief_complain" rel="ManyToOneRel" to="patients.chiefcomplain">32</field>
+    <field name="sub_code" type="IntegerField">2</field>
+    <field name="code" type="CharField">32.2</field>
+    <field name="name" type="CharField">Дихання порушене (неповна обструкція/стеноз гортані)</field>
+  </object>
+  <object model="patients.patientstate" pk="316">
+    <field name="chief_complain" rel="ManyToOneRel" to="patients.chiefcomplain">32</field>
+    <field name="sub_code" type="IntegerField">3</field>
+    <field name="code" type="CharField">32.3</field>
+    <field name="name" type="CharField">Виконано прийом Геймліха</field>
+  </object>
+  <object model="patients.patientstate" pk="317">
+    <field name="chief_complain" rel="ManyToOneRel" to="patients.chiefcomplain">32</field>
+    <field name="sub_code" type="IntegerField">4</field>
+    <field name="code" type="CharField">32.4</field>
+    <field name="name" type="CharField">Не задихається зараз, але без свідомості або не реагує</field>
+  </object>
+  <object model="patients.patientstate" pk="318">
+    <field name="chief_complain" rel="ManyToOneRel" to="patients.chiefcomplain">32</field>
+    <field name="sub_code" type="IntegerField">5</field>
+    <field name="code" type="CharField">32.5</field>
+    <field name="name" type="CharField">Не задихається зараз ( говорить чи плаче, але у свідомомсті та нормально дихає)</field>
+  </object>
+  <object model="patients.patientstate" pk="319">
+    <field name="chief_complain" rel="ManyToOneRel" to="patients.chiefcomplain">33</field>
+    <field name="sub_code" type="IntegerField">1</field>
+    <field name="code" type="CharField">33.1</field>
+    <field name="name" type="CharField">Невизначений життєвий статус</field>
+  </object>
+  <object model="patients.patientstate" pk="320">
+    <field name="chief_complain" rel="ManyToOneRel" to="patients.chiefcomplain">33</field>
+    <field name="sub_code" type="IntegerField">2</field>
+    <field name="code" type="CharField">33.2</field>
+    <field name="name" type="CharField">Невизначений стан пацієнта (телефонує третя сторона)</field>
+  </object>
+  <object model="patients.patientstate" pk="321">
+    <field name="chief_complain" rel="ManyToOneRel" to="patients.chiefcomplain">33</field>
+    <field name="sub_code" type="IntegerField">3</field>
+    <field name="code" type="CharField">33.3</field>
+    <field name="name" type="CharField">Лежить людина у невідомому стані</field>
+  </object>
+  <object model="patients.patientstate" pk="322">
+    <field name="chief_complain" rel="ManyToOneRel" to="patients.chiefcomplain">33</field>
+    <field name="sub_code" type="IntegerField">4</field>
+    <field name="code" type="CharField">33.4</field>
+    <field name="name" type="CharField">Виклик невідомою мовою (відсутній перекладач)</field>
+  </object>
+</django-objects>

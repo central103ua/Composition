@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<django-objects version="1.0">
+  <object model="callcard.callresult" pk="1">
+    <field name="result_name" type="CharField">Помилковий виклик</field>
+    <field name="result_comment" type="CharField">Городские сумашедшие</field>
+  </object>
+  <object model="callcard.callresult" pk="2">
+    <field name="result_name" type="CharField">Консультація</field>
+    <field name="result_comment" type="CharField"><None></None></field>
+  </object>
+  <object model="callcard.callresult" pk="3">
+    <field name="result_name" type="CharField">Виклик бригади</field>
+    <field name="result_comment" type="CharField"><None></None></field>
+  </object>
+  <object model="callcard.callresult" pk="4">
+    <field name="result_name" type="CharField">Виклик невідкладної</field>
+    <field name="result_comment" type="CharField">Передача на первинку</field>
+  </object>
+  <object model="callcard.callresult" pk="5">
+    <field name="result_name" type="CharField">Уточнення</field>
+    <field name="result_comment" type="CharField"><None></None></field>
+  </object>
+  <object model="callcard.callresult" pk="6">
+    <field name="result_name" type="CharField">Відмова у виклику</field>
+    <field name="result_comment" type="CharField">Так положено</field>
+  </object>
+  <object model="callcard.callresult" pk="7">
+    <field name="result_name" type="CharField">Переадресація</field>
+    <field name="result_comment" type="CharField">Дзвінок бригади, тощо</field>
+  </object>
+  <object model="callcard.callresult" pk="8">
+    <field name="result_name" type="CharField">Без відповіді</field>
+    <field name="result_comment" type="CharField">Не підняли слухалку</field>
+  </object>  
+  <object model="callcard.callresult" pk="9">
+    <field name="result_name" type="CharField">Невизначений</field>
+    <field name="result_comment" type="CharField">Результату ще нема</field>
+  </object>
+</django-objects>

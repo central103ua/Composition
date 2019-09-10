@@ -1,0 +1,59 @@
+{% extends "base.html" %}
+{% load humanize %}
+{% load mis_extras %}
+
+{% block content %}
+<div class='container'>
+<h1>ОДС, що під'єднані до <i><u>"Централь103"</u></i></h1>
+
+<table style="width:600px" border="1px solid black" border-spacing="5px">
+  <tr>
+    <th rowspan="2">#</th>
+    <th rowspan="2">ОДС</th> 
+    <th rowspan="2">Останні дані отримано</th>
+    <th colspan="2">Прийнято викликів</th>
+  </tr>
+  <tr align="center">
+    <th>вчора</th>
+    <th>сьогодні</th>
+  </tr>
+ <tr>
+{% for mis_item in mis_list %}
+    <td>{{ mis_item.id }}</td>
+    <td><a href="/mis/{{ mis_item.id }}/">{{ mis_item.mis_name }}</a></td> 
+    <td bgcolor="{{ mis_item.status }}">
+    {% if mis_item.mis_heartbeat %}
+      {{ mis_item.mis_heartbeat|timesince }} ago
+    {% else %}
+      Даних не отримувалось
+    {% endif %}
+    </td>
+    <td align="right">{{ mis_item.yesterday|intspace }}</td>
+    <td align="right">{{ mis_item.today|intspace }}</td>
+  </tr>  
+ {% endfor %}
+</table> 
+<table style="width:500px">
+  <tr style="height:20px">
+    <td>Київський час: </td>
+    <td>{{ timezone_now }}</td> 
+  </tr>
+</table>
+
+<table style="width:600px" border="1px solid black" border-spacing="5px">
+  <tr>
+    <td bgcolor="EBCCDC" style="width:100px"></td>
+    <td style="font-style:italic">Останні дані отримані більше 4 хвилин тому</td>
+  </tr>
+  <tr>
+    <td bgcolor="FCE6AD" style="width:100px"></td>
+    <td style="font-style:italic">Останні дані отримані більше 1 хвилин тому</td>
+  </tr>
+  <tr>
+    <td bgcolor="C4E5D4" style="width:100px"></td>
+    <td style="font-style:italic">Дані отримуються своєчасно</td>
+  </tr>  
+</table>
+  <a href="/logout/">Вийти: {{ user }}</a>
+</div>
+{% endblock content %}

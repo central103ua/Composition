@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<django-objects version="1.0">
+  <object model="callcard.callpriority" pk="1">
+    <field name="priority_name" type="CharField">Екстрений</field>
+    <field name="priority_comment" type="CharField">Екстрений виклик</field>
+  </object>
+  <object model="callcard.callpriority" pk="2">
+    <field name="priority_name" type="CharField">Неекстрений</field>
+    <field name="priority_comment" type="CharField">Не екстрений, консультація</field>
+  </object>
+  <object model="callcard.callpriority" pk="3">
+    <field name="priority_name" type="CharField">Перевезення</field>
+    <field name="priority_comment" type="CharField">Перевезення хворого</field>
+  </object>
+  <object model="callcard.callpriority" pk="4">
+    <field name="priority_name" type="CharField">Технічний</field>
+    <field name="priority_comment" type="CharField">Заправка, тощо</field>
+  </object>
+  <object model="callcard.callpriority" pk="5">
+    <field name="priority_name" type="CharField">Масовий</field>
+    <field name="priority_comment" type="CharField">Масова травма</field>
+  </object>
+  <object model="callcard.callpriority" pk="6">
+    <field name="priority_name" type="CharField">Не визначено</field>
+    <field name="priority_comment" type="CharField">Невизначено</field>
+  </object>  
+</django-objects>

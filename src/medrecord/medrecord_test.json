@@ -1,0 +1,88 @@
+{
+ "MedRecord": {
+    "call_card_id": "ER-2019-06-19-000970",
+    "operator_id": "30S6",
+    "mis_medrecord_id": "MREC-2019-04-23-5594",
+
+    "start_datetime": "2019-04-24T07:01:22.224754",
+    "time_crew": "2019-04-24T07:01:22.224754",
+    "time_depart": "2019-04-24T07:01:22.224754",
+    "time_patient": "2019-04-24T07:01:22.224754",
+    "time_transport": "2019-04-24T07:01:22.224754",
+    "time_hospital": "2019-04-24T07:01:22.224754",
+    "end_datetime": "2019-04-24T07:01:22.224754",
+
+    "patient": {
+        "name": "Иная Светлая Галина",
+        "first_name": "Иная Светлая Галина-Катрина",
+        "family_name": "Иная Галушко-Цапліна",
+        "middle_name": "Иная Нікітічна-Петрівна",
+        "age": "21р",
+        "sex": "Ж",
+        "phone": "+38 033 222 1515"
+    },  
+    "call_address": {
+        "city": "м.Київ",
+        "street": "вул.Жовтневої революциї",
+        "building": "13/4",
+        "apartment": "4",
+        "location_type": "місто",
+        "address_type": 1,
+        "longitude": "10,21339",
+        "latitude": "80,738734"
+    },   
+    "patient_address": {
+        "index": "23453",
+        "city": "м.Житомір",
+        "street": "бул.Верховного Совета",
+        "building": "1",
+        "location_type": "місто",
+        "address_type": "будинок",
+        "longitude": "13,27139",
+        "latitude": "67,73734"
+    },
+    "patient_address_src": "з документа",
+    "patient_document": "паспорт: РК 867493",
+
+    "noresult": "результативний",
+    "mr_result": {
+        "the_result": "Покращення",
+        "result_action": "Доставлений самостійно",
+        "is_hospital": true
+    },
+    "diagnosis": [
+        {
+            "mkx": "A00.9",
+            "d_text": "Болеет",
+            "is_crew": true
+        },
+        {
+            "mkx": "A02.9",
+            "d_text": "Сильно болеет",
+            "is_crew": false,
+            "doctor_name": "Доктор Ливси"
+        },
+        {
+            "mkx": "A03.9",
+            "d_text": "Не долго мучался",
+            "is_crew": false,
+            "doctor_name": "Черная Метка"
+        }
+    ],
+    "hospital": [
+      {
+        "the_place": "БСП",
+        "the_doctor": "Доктор Мориарти",
+        "document": "УК-123/Забыл",
+        "event_datetime": "2019-04-24T07:00:59.479526"
+      },
+      {
+        "the_place": "Фрунзе103",
+        "the_doctor": "Кацман",
+        "document": "Беру/себе-3",
+        "event_datetime": "2019-04-24T07:00:59.479526"
+      }      
+    ],
+   "mr_comment": "Це тестова Форма 110 30/04/2019"
+  }
+}

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<django-objects version="1.0">
+  <object model="mis.facilitytype" pk="1">
+    <field name="facilitytype_name" type="CharField">центр</field>
+  </object>
+  <object model="mis.facilitytype" pk="2">
+    <field name="facilitytype_name" type="CharField">станція</field>
+  </object>
+  <object model="mis.facilitytype" pk="3">
+    <field name="facilitytype_name" type="CharField">підстанція</field>
+  </object>
+  <object model="mis.facilitytype" pk="4">
+    <field name="facilitytype_name" type="CharField">ПБ</field>
+  </object>
+  <object model="mis.facilitytype" pk="5">
+    <field name="facilitytype_name" type="CharField">резерв</field>
+  </object>
+</django-objects>

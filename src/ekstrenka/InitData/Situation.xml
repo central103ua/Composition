@@ -1,0 +1,199 @@
+<?xml version="1.0" encoding="utf-8"?>
+<django-objects version="1.0">
+  <object model="patients.situation" pk="1">
+    <field name="code_dsns" type="IntegerField">10211</field>
+    <field name="name" type="CharField">Пожежа (вибух) на виробництві</field>
+  </object>
+  <object model="patients.situation" pk="2">
+    <field name="code_dsns" type="IntegerField">10270</field>
+    <field name="name" type="CharField">Вибух вибухового пристрою</field>
+  </object>
+  <object model="patients.situation" pk="3">
+    <field name="code_dsns" type="IntegerField">10270</field>
+    <field name="name" type="CharField">Вибух піротехнічного засобу</field>
+  </object>
+  <object model="patients.situation" pk="4">
+    <field name="code_dsns" type="IntegerField">10230</field>
+    <field name="name" type="CharField">Пожежа (вибух) у громадському транспорті</field>
+  </object>
+  <object model="patients.situation" pk="5">
+    <field name="code_dsns" type="IntegerField">10230</field>
+    <field name="name" type="CharField">Пожежа (вибух) автомобільна</field>
+  </object>
+  <object model="patients.situation" pk="6">
+    <field name="code_dsns" type="IntegerField">10212</field>
+    <field name="name" type="CharField">Пожежа (вибух) у нежитлових будівлях та спорудах</field>
+  </object>
+  <object model="patients.situation" pk="7">
+    <field name="code_dsns" type="IntegerField">10213</field>
+    <field name="name" type="CharField">Пожежа (вибух) у житлових будівлях та спорудах</field>
+  </object>
+  <object model="patients.situation" pk="8">
+    <field name="code_dsns" type="IntegerField">10212</field>
+    <field name="name" type="CharField">Пожежа (вибух) у лікувальному закладі</field>
+  </object>
+  <object model="patients.situation" pk="9">
+    <field name="code_dsns" type="IntegerField">10212</field>
+    <field name="name" type="CharField">Пожежа (вибух) у навчальному закладі</field>
+  </object>
+  <object model="patients.situation" pk="10">
+    <field name="code_dsns" type="IntegerField">10630</field>
+    <field name="name" type="CharField">Руйнування нежитловоїх будівлі або спорудиї</field>
+  </object>
+  <object model="patients.situation" pk="11">
+    <field name="code_dsns" type="IntegerField">10640</field>
+    <field name="name" type="CharField">Руйнування житлової будівлі або споруди</field>
+  </object>
+  <object model="patients.situation" pk="12">
+    <field name="code_dsns" type="IntegerField">10130</field>
+    <field name="name" type="CharField">Аварія на залізничному транспорті</field>
+  </object>
+  <object model="patients.situation" pk="13">
+    <field name="code_dsns" type="IntegerField">10150</field>
+    <field name="name" type="CharField">Авіаційна аварія (катастофа)</field>
+  </object>
+  <object model="patients.situation" pk="14">
+    <field name="code_dsns" type="IntegerField">10180</field>
+    <field name="name" type="CharField">Аварії на міському транспорті</field>
+  </object>
+  <object model="patients.situation" pk="15">
+    <field name="code_dsns" type="IntegerField">10160</field>
+    <field name="name" type="CharField">Аварія на автомобільному транспорті</field>
+  </object>
+  <object model="patients.situation" pk="16">
+    <field name="code_dsns" type="IntegerField">10140</field>
+    <field name="name" type="CharField">Аварія на водному транспорті</field>
+  </object>
+  <object model="patients.situation" pk="17">
+    <field name="code_dsns" type="IntegerField">20711</field>
+    <field name="name" type="CharField">Особливо небезпечна інфекція міжнародного значення</field>
+  </object>
+  <object model="patients.situation" pk="18">
+    <field name="code_dsns" type="IntegerField">20712</field>
+    <field name="name" type="CharField">Небезпечна інфекція</field>
+  </object>
+  <object model="patients.situation" pk="19">
+    <field name="code_dsns" type="IntegerField">20110</field>
+    <field name="name" type="CharField">Землетруси</field>
+  </object>
+  <object model="patients.situation" pk="20">
+    <field name="code_dsns" type="IntegerField">20330</field>
+    <field name="name" type="CharField">Падіння бурульок</field>
+  </object>
+  <object model="patients.situation" pk="21">
+    <field name="code_dsns" type="IntegerField">20310</field>
+    <field name="name" type="CharField">Повінь, зсуви грунту</field>
+  </object>
+  <object model="patients.situation" pk="22">
+    <field name="code_dsns" type="IntegerField">20610</field>
+    <field name="name" type="CharField">Пожежа лісова</field>
+  </object>
+  <object model="patients.situation" pk="23">
+    <field name="code_dsns" type="IntegerField">20723</field>
+    <field name="name" type="CharField">Отруєння хімічними та токсичними речовинами</field>
+  </object>
+  <object model="patients.situation" pk="24">
+    <field name="code_dsns" type="IntegerField">20330</field>
+    <field name="name" type="CharField">Враження блискавкою</field>
+  </object>
+  <object model="patients.situation" pk="25">
+    <field name="code_dsns" type="IntegerField">20110</field>
+    <field name="name" type="CharField">Землетруси</field>
+  </object>
+  <object model="patients.situation" pk="26">
+    <field name="code_dsns" type="IntegerField">20330</field>
+    <field name="name" type="CharField">Падіння бурульок</field>
+  </object>
+  <object model="patients.situation" pk="27">
+    <field name="code_dsns" type="IntegerField">20310</field>
+    <field name="name" type="CharField">Повінь, зсуви грунту</field>
+  </object>
+  <object model="patients.situation" pk="28">
+    <field name="code_dsns" type="IntegerField">20321</field>
+    <field name="name" type="CharField">Обмороження</field>
+  </object>
+  <object model="patients.situation" pk="29">
+    <field name="code_dsns" type="IntegerField">20322</field>
+    <field name="name" type="CharField">Перегрів чи тепловий удар</field>
+  </object>
+  <object model="patients.situation" pk="30">
+    <field name="code_dsns" type="IntegerField">20714</field>
+    <field name="name" type="CharField">Сесонні вірусні захворювання</field>
+  </object>
+  <object model="patients.situation" pk="31">
+    <field name="code_dsns" type="IntegerField">50001</field>
+    <field name="name" type="CharField">Суїцидальна спроба - за допомогою вогнепальної зброї </field>
+  </object>
+  <object model="patients.situation" pk="32">
+    <field name="code_dsns" type="IntegerField">50002</field>
+    <field name="name" type="CharField">Суїцидальна спроба - за допомогою пневматичної зброї </field>
+  </object>
+  <object model="patients.situation" pk="33">
+    <field name="code_dsns" type="IntegerField">50003</field>
+    <field name="name" type="CharField">Суїцидальна спроба - за допомогою холодної зброї </field>
+  </object>
+  <object model="patients.situation" pk="34">
+    <field name="code_dsns" type="IntegerField">50004</field>
+    <field name="name" type="CharField">Суїцидальна спроба - залізнична</field>
+  </object>
+  <object model="patients.situation" pk="35">
+    <field name="code_dsns" type="IntegerField">50005</field>
+    <field name="name" type="CharField">Суїцидальна спроба - медикаментозне отруєння</field>
+  </object>
+  <object model="patients.situation" pk="36">
+    <field name="code_dsns" type="IntegerField">50006</field>
+    <field name="name" type="CharField">Суїцидальна спроба - отруєння невідомою речовиною</field>
+  </object>
+  <object model="patients.situation" pk="37">
+    <field name="code_dsns" type="IntegerField">50007</field>
+    <field name="name" type="CharField">Суїцидальна спроба - падіння з висоти</field>
+  </object>
+  <object model="patients.situation" pk="38">
+    <field name="code_dsns" type="IntegerField">50008</field>
+    <field name="name" type="CharField">Суїцидальна спроба - повішання</field>
+  </object>
+  <object model="patients.situation" pk="39">
+    <field name="code_dsns" type="IntegerField">50009</field>
+    <field name="name" type="CharField">Суїцидальна спроба - порізи вен</field>
+  </object>
+  <object model="patients.situation" pk="40">
+    <field name="code_dsns" type="IntegerField">50010</field>
+    <field name="name" type="CharField">Суїцидальна спроба - самоспалення</field>
+  </object>
+  <object model="patients.situation" pk="41">
+    <field name="code_dsns" type="IntegerField">50011</field>
+    <field name="name" type="CharField">Суїцидальна спроба - транспортна</field>
+  </object>
+  <object model="patients.situation" pk="42">
+    <field name="code_dsns" type="IntegerField">50012</field>
+    <field name="name" type="CharField">Побиття</field>
+  </object>
+  <object model="patients.situation" pk="43">
+    <field name="code_dsns" type="IntegerField">50013</field>
+    <field name="name" type="CharField">Отруєння алкоголем та його сурогатами</field>
+  </object>
+  <object model="patients.situation" pk="44">
+    <field name="code_dsns" type="IntegerField">50014</field>
+    <field name="name" type="CharField">Застосування вогнепальної зброї</field>
+  </object>
+  <object model="patients.situation" pk="45">
+    <field name="code_dsns" type="IntegerField">50015</field>
+    <field name="name" type="CharField">Застосування електрошокеру</field>
+  </object>
+  <object model="patients.situation" pk="46">
+    <field name="code_dsns" type="IntegerField">50016</field>
+    <field name="name" type="CharField">Застосування пневматичної зброї</field>
+  </object>
+  <object model="patients.situation" pk="47">
+    <field name="code_dsns" type="IntegerField">50017</field>
+    <field name="name" type="CharField">Застосування холодної зброї</field>
+  </object>
+  <object model="patients.situation" pk="48">
+    <field name="code_dsns" type="IntegerField">50018</field>
+    <field name="name" type="CharField">Масові заходи</field>
+  </object>
+  <object model="patients.situation" pk="49">
+    <field name="code_dsns" type="IntegerField">50019</field>
+    <field name="name" type="CharField">Укуси тварин з підозрою на сказ</field>
+  </object>
+</django-objects>

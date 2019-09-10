@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<django-objects version="1.0">
+  <object model="mis.stafftitle" pk="1">
+    <field name="title_name" type="CharField">Лікар</field>
+  </object>
+  <object model="mis.stafftitle" pk="2">
+    <field name="title_name" type="CharField">Фельдшер</field>
+  </object>
+  <object model="mis.stafftitle" pk="3">
+    <field name="title_name" type="CharField">Санітар</field>
+  </object>
+  <object model="mis.stafftitle" pk="4">
+    <field name="title_name" type="CharField">Водій</field>
+  </object>
+  <object model="mis.stafftitle" pk="5">
+    <field name="title_name" type="CharField">Стажер</field>
+  </object>
+  <object model="mis.stafftitle" pk="6">
+    <field name="title_name" type="CharField">Парамедик</field>
+  </object>
+  <object model="mis.stafftitle" pk="7">
+    <field name="title_name" type="CharField">ЕМТ</field>
+  </object>
+  <object model="mis.stafftitle" pk="8">
+    <field name="title_name" type="CharField">Адміністратор</field>
+  </object>
+  <object model="mis.stafftitle" pk="9">
+    <field name="title_name" type="CharField">Медична сестра</field>
+  </object>
+  <object model="mis.stafftitle" pk="10">
+    <field name="title_name" type="CharField">Акушерка</field>
+  </object>
+  <object model="mis.stafftitle" pk="11">
+    <field name="title_name" type="CharField">SYSTEM</field>
+  </object>
+  <object model="mis.stafftitle" pk="12">
+    <field name="title_name" type="CharField">Фахівець</field>
+  </object>
+  <object model="mis.stafftitle" pk="13">
+    <field name="title_name" type="CharField">Робітник</field>
+  </object>
+  <object model="mis.stafftitle" pk="14">
+    <field name="title_name" type="CharField">Інтерн</field>
+  </object>
+  <object model="mis.stafftitle" pk="15">
+    <field name="title_name" type="CharField">Фармацевт</field>
+  </object>
+  <object model="mis.stafftitle" pk="16">
+    <field name="title_name" type="CharField">Провізор</field>
+  </object>
+  <object model="mis.stafftitle" pk="17">
+    <field name="title_name" type="CharField">Диспетчер</field>
+  </object>
+  <object model="mis.stafftitle" pk="18">
+    <field name="title_name" type="CharField">Оператор</field>
+  </object>  
+</django-objects>

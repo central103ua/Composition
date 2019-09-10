@@ -1,0 +1,80 @@
+{% extends "base.html" %}
+{% load humanize %}
+{% load mis_extras %}
+{% block breadcrumbs %}
+  <div class="container-fluid" style="background-color: #e3f2fd;">
+    <div class="container">
+      <ul class="breadcrumb103">
+        <li><a href="/sys/">Home-></a></li>
+        <li><a href="/sys/mis/{{ mis.id }}/">Mis#{{ mis.id }}-></a></li>
+        <li><a href="/sys/mis/{{ mis.id }}/cars">Авто-></a></li>
+        <li class="active">{{ car.mis_car_id }}</li>
+      </ul> 
+    </div>
+  </div>
+{% endblock breadcrumbs %}
+{% block content %}
+<div class="container">
+<h3>MIS #{{ mis.id }}: [{{ mis.mis_name }}]: <i><u>Авто</u></i>: {{ car.mis_car_id }}</h3>
+<u>Інформація про Машину:</u>
+<table style="width:400px;font-size:12px" border="1px solid black" border-spacing="5px">
+  <tr>
+    <td style="width:150px">id</td>
+    <td>{{ car.id }}</td>
+  </tr>
+  <tr>
+    <td>MIS Car ID</td>
+    <td>{{ car.mis_car_id }}</td>
+  </tr>  
+  <tr>
+    <td>Facility ID</td>
+    <td><a href="/sys/facility/{{ car.facility_id.id }}/">{{ car.mis_facility_id }}</a></td>
+  </tr>
+  <tr>
+    <td>Тип</td>
+    <td>{{ car.car_type.cartype_name }}</td>
+  </tr>  
+  <tr>
+    <td>Модель</td>
+    <td>{{ car.car_model }}</td>
+  </tr>
+  <tr>
+    <td>Рік випуску</td>
+    <td>{{ car.year_made }}</td>
+  </tr>
+  <tr>
+    <td>Початок експлуатації</td>
+    <td>{{ car.year_start }}</td>
+  </tr>
+  <tr>
+    <td>Державний номер</td>
+    <td>{{ car.gov_number }}</td>
+  </tr>
+  <tr>
+    <td>Статус</td>
+    <td>{{ car.car_status.carstatus_name }}</td>
+  </tr>
+  <tr>
+    <td>Власність</td>
+    <td>{{ car.car_owner.carowner_name }}</td>
+  </tr>
+  <tr>
+    <td>Бортовий номер</td>
+    <td>{{ car.car_field_number }}</td>
+  </tr>
+  <tr>
+    <td>is_active</td>
+    <td>{{ car.is_active }}</td>
+  </tr>  
+  <tr>
+    <td>date_modified</td>
+    <td>{{ car.date_modified }}</td>
+  </tr>
+  <tr>
+    <td>timestamp</td>
+    <td>{{ car.timestamp }}</td>
+  </tr>   
+</table>
+({{ hostname }})
+</div>
+{% endblock content %}

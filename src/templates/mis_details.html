@@ -1,0 +1,89 @@
+{% extends "base.html" %}
+{% load humanize %}
+{% load mis_extras %}
+{% block content %}
+<div class="container">
+<h1><a href="/">#</a>{{ mis.id }}: <i><u>{{ mis.mis_name }}</u></i></h1>
+
+<table style="width:900px" border="1px solid black" border-spacing="5px">
+  <tr>
+    <th>#</th>
+{% for title_item in title %}
+    <th>{{ title_item }}</th>
+{% endfor %}
+  </tr>
+  <tr>
+    <th>HeartBeat</th>
+{% for heartbeat_item in heartbeat %}
+    <td align="right">{{ heartbeat_item|intspace }}</td>
+{% endfor %}
+  </tr>
+  <tr>
+    <th>Звернень</th>
+{% for call_item in calls %}
+    <td align="right">{{ call_item|intspace }}</td>
+{% endfor %}
+  </tr>
+  <tr>
+    <th> -Без відповіді</th>
+{% for noanswer_item in noanswer %}
+    <td align="right">{{ noanswer_item|intspace }}</td>
+{% endfor %}
+  </tr>   
+  <tr>
+    <th> -Помилкових</th>
+{% for fake_item in fake %}
+    <td align="right">{{ fake_item|intspace }}</td>
+{% endfor %}
+  </tr>
+  <tr>
+    <th> -Консультації</th>
+{% for advise_item in advise %}
+    <td align="right">{{ advise_item|intspace }}</td>
+{% endfor %}
+  </tr>
+  <tr>
+    <th> -Відмова у виклику</th>
+{% for refuse_item in refuse %}
+    <td align="right">{{ refuse_item|intspace }}</td>
+{% endfor %}
+  </tr>  
+  <tr>
+    <th> -Виїзд бригади</th>
+{% for crew_call_item in crew_call %}
+    <td align="right">{{ crew_call_item|intspace}}</td>
+{% endfor %}
+  </tr>
+  <tr>
+    <th> --Госпіталізовано</th>
+{% for ed_call_item in ed_call %}
+    <td align="right">{{ ed_call_item|intspace }}</td>
+{% endfor %}
+  </tr>
+</table> 
+<table class='table-time'>
+  <tr>
+    <td>Київський час: </td>
+    <td>{{ timezone_now }}</td> 
+  </tr>
+</table>
+
+<table style="width:600px" border="1px solid black" border-spacing="5px">
+  <tr>
+    <td bgcolor="EBCCDC" style="width:100px"></td>
+    <td style="font-style:italic">Останні дані отримані більше 4 хвилин тому</td>
+  </tr>
+  <tr>
+    <td bgcolor="FCE6AD" style="width:100px"></td>
+    <td style="font-style:italic">Останні дані отримані більше 1 хвилин тому</td>
+  </tr>
+  <tr>
+    <td bgcolor="C4E5D4" style="width:100px"></td>
+    <td style="font-style:italic">Дані отримуються своєчасно</td>
+  </tr>  
+</table>
+<a href="/logout/">Вийти: {{ user }}</a>
+</br>
+({{ hostname }})
+</div>
+{% endblock content %}

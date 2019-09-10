@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<django-objects version="1.0">
+  <object model="pushapi.filterlogic" pk="1">
+    <field name="name" type="CharField">Ignore</field>
+  </object>
+  <object model="pushapi.filterlogic" pk="2">
+    <field name="name" type="CharField">Equal</field>
+  </object>
+  <object model="pushapi.filterlogic" pk="3">
+    <field name="name" type="CharField">Contain</field>
+  </object>
+</django-objects>

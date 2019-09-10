@@ -1,0 +1,119 @@
+{% extends "base.html" %}
+{% load humanize %}
+{% load mis_extras %}
+{% block breadcrumbs %}
+  <div class="container-fluid" style="background-color: #e3f2fd;">
+    <div class="container">
+      <ul class="breadcrumb103">
+        <li><a href="/sys/">Home-></a></li>
+        <li><a href="/sys/mis/{{ mis.id }}/">Mis#{{ mis.id }}-></a></li>
+        <li><a href="/sys/mis/{{ mis.id }}/facility">Локації-></a></li>
+        <li class="active">{{ facility.mis_facility_id }}</li>
+      </ul> 
+    </div>
+  </div>
+{% endblock breadcrumbs %}
+{% block content %}
+<div class="container">
+<h3>MIS #{{ mis.id }}: [{{ mis.mis_name }}]: <i><u>Локації</u></i>: {{ facility.mis_facility_id }}</h3>
+<u>Інформація про Локацію:</u>
+<table style="width:400px;font-size:12px" border="1px solid black" border-spacing="5px">
+  <tr>
+    <td>id</td>
+    <td>{{ facility.id }}</td>
+  </tr>
+  <tr>
+    <td>МІС ID</td>
+    <td>{{ facility.mis_facility_id }}</td>
+  </tr>
+  <tr>
+    <td>Тип</td>
+    <td>{{ facility.facility_type.facilitytype_name }}</td>
+  </tr>  
+  <tr>
+    <td>Назва</td>
+    <td>{{ facility.name }}</td>
+  </tr>
+  <tr>
+    <td>Коротка назва</td>
+    <td>{{ facility.short_name }}</td>
+  </tr>
+  <tr>
+    <td>Відповідальна особа</td>
+    <td>{{ facility.facility_contact }}</td>
+  </tr>
+  <tr>
+    <td>Контактний телефон</td>
+    <td>{{ facility.facility_phone }}</td>
+  </tr>
+  <tr>
+    <td>Коментар</td>
+    <td>{{ facility.facility_comment }}</td>
+  </tr>
+  <tr>
+    <td>Parent</td>
+    <td>{{ facility.facility_parent }}</td>
+  </tr>
+  <tr>
+    <td>is_active</td>
+    <td>{{ facility.is_active }}</td>
+  </tr>  
+  <tr>
+    <td>date_modified</td>
+    <td>{{ facility.date_modified }}</td>
+  </tr>
+  <tr>
+    <td>timestamp</td>
+    <td>{{ facility.timestamp }}</td>
+  </tr>   
+</table>
+<u>Адреса:</u>
+<table style="width:400px;font-size:12px" border="1px solid black" border-spacing="5px">
+  <tr>
+    <td>id</td>
+    <td>{{ facility.address.id }}</td>
+  </tr>
+  <tr>
+    <td>Індекс</td>
+    <td>{{ facility.address.index }}</td>
+  </tr>
+  <tr>
+    <td>Район</td>
+    <td>{{ facility.address.district }}</td>
+  </tr>
+  <tr>
+    <td>місто/село</td>
+    <td>{{ facility.address.location_type.locationtype_name }}</td>
+  </tr>  
+  <tr>
+    <td>Тип</td>
+    <td>{{ facility.address.address_type.addresstype_name }}</td>
+  </tr>   
+  <tr>
+    <td>Місто</td>
+    <td>{{ facility.address.city }}</td>
+  </tr>
+  <tr>
+    <td>Вулиця</td>
+    <td>{{ facility.address.street }}</td>
+  </tr>
+  <tr>
+    <td>Будівля</td>
+    <td>{{ facility.address.building }}</td>
+  </tr>
+  <tr>
+    <td>Квартира</td>
+    <td>{{ facility.address.apartment }}</td>
+  </tr>
+  <tr>
+    <td>Широта</td>
+    <td>{{ facility.address.longitude }}</td>
+  </tr>
+  <tr>
+    <td>Довгота</td>
+    <td>{{ facility.address.latitude }}</td>
+  </tr>
+</table> 
+({{ hostname }})
+</div>
+{% endblock content %}

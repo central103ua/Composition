@@ -1,0 +1,121 @@
+{% extends "base.html" %}
+{% load humanize %}
+{% load mis_extras %}
+{% block breadcrumbs %}
+  <div class="container-fluid" style="background-color: #e3f2fd;">
+    <div class="container">
+      <ul class="breadcrumb103">
+        <li><a href="/sys/">Home-></a></li>
+        <li><a href="/sys/mis/{{ mis.id }}/">Mis#{{ mis.id }}-></a></li>
+        <li>Бригади-></li>
+        <li class="active">{{ crew.crew_id }}</li>
+      </ul> 
+    </div>
+  </div>
+{% endblock breadcrumbs %}
+{% block content %}
+<div class="container-fluid">
+<div class="container">
+  <h3>MIS #{{ mis.id }}: [{{ mis.mis_name }}]: <i><u>Бригада</u></i>: {{ crew.crew_id }}</h3>
+</div>
+<table style="width:1020px">
+  <tr>
+    <td style="vertical-align: top;">
+      <u>Інформація про Бригаду:</u>
+      <table style="width:400px;font-size:12px" border="1px solid black" border-spacing="5px">
+        <tr>
+          <td style="width:110px">id</td>
+          <td>{{ crew.id }}</td>
+        </tr>
+        <tr>
+          <td>Централь103 ID</td>
+          <td>{{ crew.crew_id }}</td>
+        </tr>
+        <tr>
+          <td>МІС ID</td>
+          <td>{{ crew.mis_crew_id }}</td>
+        </tr>
+        <tr>
+          <td>Підстанція/ППБ</td>
+          <td><a href="/sys/facility/{{ crew.facility_id.id }}/">{{ crew.facility_id.mis_facility_id }}: {{ crew.facility_id.name }}</a></td>
+        </tr>
+        <tr>
+          <td>Машина</td>
+          <td><a href="/sys/car/{{ crew.car_id.id }}/">{{ crew.car_id }}: {{ crew.car_id.car_model }}. Тип:{{ crew.car_id.car_type.cartype_name }}</a></td>
+        </tr>
+        <tr>
+          <td>Статус</td>
+          <td>{{ crew.crew_status }}</td>
+        </tr>
+        <tr>
+          <td>Активна</td>
+          <td>{{ crew.is_active }}</td>
+        </tr>
+        <tr>
+          <td>Початок зміни</td>
+          <td>{{ crew.shift_start|date:'Y-m-d H:i:s' }}</td>
+        </tr>
+        <tr>
+          <td>Кінець зміни</td>
+          <td>{{ crew.shift_end|date:'Y-m-d H:i:s' }}</td>
+        </tr>
+        <tr>
+          <td>date_modified</td>
+          <td>{{ crew.date_modified|date:'Y-m-d H:i:s.u' }}</td>
+        </tr>
+        <tr>
+          <td>timestamp</td>
+          <td>{{ crew.timestamp|date:'Y-m-d H:i:s.u' }}</td>
+        </tr>
+      </table>
+      <u>Персонал:</u>
+      <table style="width:400px;font-size:12px" border="1px solid black" border-spacing="5px">
+      {% for crew_member in crew_team %}    
+        <tr>
+          <td>{{ crew_member.crew_team_seq }}</td>
+          <td><a href="/sys/staff/{{ crew_member.crew_staff.id }}/">{{ crew_member.crew_staff.mis_staff_id  }}</a></td>
+          <td>{{ crew_member.crew_staff.first_name }}</td>
+          <td>{{ crew_member.crew_staff.title.title_name }}</td>
+        </tr>
+      {% endfor %}  
+      </table> 
+    </td>
+    <td style="width:20px;font-size:10px"></td>
+    <td style="vertical-align: top;">
+      <u>Щоденник бригади:</u>
+      <table style="width:800px;font-size:12px" border="1px solid black" border-spacing="5px">
+        <tr>
+          <td>№</td>
+          <td>Активна</td>
+          <td>Статус</td>
+          <td style="width:145px"># Виклику</td>
+          <td style="width:145px">Статус виклику</td>
+          <td style="width:140px">Timestamp</td>
+        </tr>
+      {% for crew_point in crew_dairy %}
+      {% if crew_point.is_active == False %}
+        <tr bgcolor="EBCCDC">
+      {% elif crew_point.crew_status.crewstatus_name == "Вільна" %}
+        <tr bgcolor="C4E5D4">
+      {% else %}
+        <tr bgcolor="C0C0C0">
+      {% endif %}
+          <td>{{ crew_point.crew_dairy_seq }}</td>
+          <td>{{ crew_point.is_active }}</td>
+          <td>{{ crew_point.crew_status }}</td>
+          {% if crew_point.call_card_id %}
+          <td><a href="/sys/callcard/{{ crew_point.call_card_id }}/">{{ crew_point.call_card_id }}</a></td>
+          {% else %}
+          <td></td>
+          {% endif %}
+          <td>{{ crew_point.call_station }}</td>
+          <td>{{ crew_point.timestamp|date:'Y-m-d H:i:s' }}</td>
+        </tr>
+      {% endfor %}
+      </table>
+    </td>
+  </tr>
+</table>
+({{ hostname }})
+</div>
+{% endblock content %}

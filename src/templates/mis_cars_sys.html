@@ -1,0 +1,50 @@
+{% extends "base.html" %}
+{% load humanize %}
+{% load mis_extras %}
+{% block breadcrumbs %}
+  <div class="container-fluid" style="background-color: #e3f2fd;">
+    <div class="container">
+      <ul class="breadcrumb103">
+        <li><a href="/sys/">Home-></a></li>
+        <li><a href="/sys/mis/{{ mis.id }}/">Mis#{{ mis.id }}-></a></li>
+        <li class="active">Авто</li>
+      </ul> 
+    </div>
+  </div>
+{% endblock breadcrumbs %}
+{% block content %}
+<div class="container-fluid">
+<div class="container">
+<h3>MIS #{{ mis.id }}: [{{ mis.mis_name }}]: <i><u>Авто</u></i> [{{ car_list_num }}]</h3>
+</div>
+<table style="width:1100px;font-size:12px" border="1px solid black" border-spacing="5px">
+  <tr>
+    <th>#</th>
+    <th>id</th>
+    <th>Car ID</th> 
+    <th>Fs ID</th>
+    <th>Модель</th>
+    <th>Тип</th>
+    <th>Статус</th>
+    <th>Власник</th>
+    <th>Активна</th>
+    <th style="width:130px;">Created</th>    
+  </tr>
+{% for car in car_list %}
+ <tr bgcolor="{% cycle '#D0D0DF' '#F0F0FF' %}">
+    <td>{{ forloop.counter }}</td>
+    <td>{{ car.id }}</td>
+    <td><a href="/sys/car/{{ car.id }}">{{ car.mis_car_id }}</a></td>
+    <td>{{ car.mis_facility_id }}</td>
+    <td><a href="/sys/car/{{ car.id }}">{{ car.car_model }}</a></td>
+    <td>{{ car.car_type }}</td>
+    <td>{{ car.car_status }}</td>
+    <td>{{ car.car_owner }}</td>
+    <td>{{ car.is_active }}</td>
+    <td>{{ car.timestamp }}</td>   
+  </tr>
+ {% endfor %}
+</table> 
+({{ hostname }})
+</div>
+{% endblock content %}

@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="utf-8"?>
+<django-objects version="1.0">
+  <object model="patients.state" pk="1">
+    <field name="level1" type="CharField">0100000000</field>
+    <field name="name" type="CharField">АВТОНОМНА РЕСПУБЛІКА КРИМ</field>
+    <field name="capital" type="CharField">М.СІМФЕРОПОЛЬ</field>
+  </object>
+  <object model="patients.state" pk="2">
+    <field name="level1" type="CharField">0500000000</field>
+    <field name="name" type="CharField">ВІННИЦЬКА</field>
+    <field name="capital" type="CharField">М.ВІННИЦЯ</field>
+  </object>
+  <object model="patients.state" pk="3">
+    <field name="level1" type="CharField">0700000000</field>
+    <field name="name" type="CharField">ВОЛИНСЬКА</field>
+    <field name="capital" type="CharField">М.ЛУЦЬК</field>
+  </object>
+  <object model="patients.state" pk="4">
+    <field name="level1" type="CharField">1200000000</field>
+    <field name="name" type="CharField">ДНІПРОПЕТРОВСЬКА</field>
+    <field name="capital" type="CharField">М.ДНІПРО</field>
+  </object>
+  <object model="patients.state" pk="5">
+    <field name="level1" type="CharField">1400000000</field>
+    <field name="name" type="CharField">ДОНЕЦЬКА</field>
+    <field name="capital" type="CharField">М.ДОНЕЦЬК</field>
+  </object>
+  <object model="patients.state" pk="6">
+    <field name="level1" type="CharField">1800000000</field>
+    <field name="name" type="CharField">ЖИТОМИРСЬКА</field>
+    <field name="capital" type="CharField">М.ЖИТОМИР</field>
+  </object>
+  <object model="patients.state" pk="7">
+    <field name="level1" type="CharField">2100000000</field>
+    <field name="name" type="CharField">ЗАКАРПАТСЬКА</field>
+    <field name="capital" type="CharField">М.УЖГОРОД</field>
+  </object>
+  <object model="patients.state" pk="8">
+    <field name="level1" type="CharField">2300000000</field>
+    <field name="name" type="CharField">ЗАПОРІЗЬКА</field>
+    <field name="capital" type="CharField">М.ЗАПОРІЖЖЯ</field>
+  </object>
+  <object model="patients.state" pk="9">
+    <field name="level1" type="CharField">2600000000</field>
+    <field name="name" type="CharField">ІВАНО-ФРАНКІВСЬКА</field>
+    <field name="capital" type="CharField">М.ІВАНО-ФРАНКІВСЬК</field>
+  </object>
+  <object model="patients.state" pk="10">
+    <field name="level1" type="CharField">3200000000</field>
+    <field name="name" type="CharField">КИЇВСЬКА</field>
+    <field name="capital" type="CharField">М.КИЇВ</field>
+  </object>
+  <object model="patients.state" pk="11">
+    <field name="level1" type="CharField">3500000000</field>
+    <field name="name" type="CharField">КІРОВОГРАДСЬКА</field>
+    <field name="capital" type="CharField">М.КРОПИВНИЦЬКИЙ</field>
+  </object>
+  <object model="patients.state" pk="12">
+    <field name="level1" type="CharField">4400000000</field>
+    <field name="name" type="CharField">ЛУГАНСЬКА</field>
+    <field name="capital" type="CharField">М.ЛУГАНСЬК</field>
+  </object>
+  <object model="patients.state" pk="13">
+    <field name="level1" type="CharField">4600000000</field>
+    <field name="name" type="CharField">ЛЬВІВСЬКА</field>
+    <field name="capital" type="CharField">М.ЛЬВІВ</field>
+  </object>
+  <object model="patients.state" pk="14">
+    <field name="level1" type="CharField">4800000000</field>
+    <field name="name" type="CharField">МИКОЛАЇВСЬКА</field>
+    <field name="capital" type="CharField">М.МИКОЛАЇВ</field>
+  </object>
+  <object model="patients.state" pk="15">
+    <field name="level1" type="CharField">5100000000</field>
+    <field name="name" type="CharField">ОДЕСЬКА</field>
+    <field name="capital" type="CharField">М.ОДЕСА</field>
+  </object>
+  <object model="patients.state" pk="16">
+    <field name="level1" type="CharField">5300000000</field>
+    <field name="name" type="CharField">ПОЛТАВСЬКА</field>
+    <field name="capital" type="CharField">М.ПОЛТАВА</field>
+  </object>
+  <object model="patients.state" pk="17">
+    <field name="level1" type="CharField">5600000000</field>
+    <field name="name" type="CharField">РІВНЕНСЬКА</field>
+    <field name="capital" type="CharField">М.РІВНЕ</field>
+  </object>
+  <object model="patients.state" pk="18">
+    <field name="level1" type="CharField">5900000000</field>
+    <field name="name" type="CharField">СУМСЬКА</field>
+    <field name="capital" type="CharField">М.СУМИ</field>
+  </object>
+  <object model="patients.state" pk="19">
+    <field name="level1" type="CharField">6100000000</field>
+    <field name="name" type="CharField">ТЕРНОПІЛЬСЬКА</field>
+    <field name="capital" type="CharField">М.ТЕРНОПІЛЬ</field>
+  </object>
+  <object model="patients.state" pk="20">
+    <field name="level1" type="CharField">6300000000</field>
+    <field name="name" type="CharField">ХАРКІВСЬКА</field>
+    <field name="capital" type="CharField">М.ХАРКІВ</field>
+  </object>
+  <object model="patients.state" pk="21">
+    <field name="level1" type="CharField">6500000000</field>
+    <field name="name" type="CharField">ХЕРСОНСЬКА</field>
+    <field name="capital" type="CharField">М.ХЕРСОН</field>
+  </object>
+  <object model="patients.state" pk="22">
+    <field name="level1" type="CharField">6800000000</field>
+    <field name="name" type="CharField">ХМЕЛЬНИЦЬКА</field>
+    <field name="capital" type="CharField">М.ХМЕЛЬНИЦЬКИЙ</field>
+  </object>
+  <object model="patients.state" pk="23">
+    <field name="level1" type="CharField">7100000000</field>
+    <field name="name" type="CharField">ЧЕРКАСЬКА</field>
+    <field name="capital" type="CharField">М.ЧЕРКАСИ</field>
+  </object>
+  <object model="patients.state" pk="24">
+    <field name="level1" type="CharField">7300000000</field>
+    <field name="name" type="CharField">ЧЕРНІВЕЦЬКА</field>
+    <field name="capital" type="CharField">М.ЧЕРНІВЦІ</field>
+  </object>
+  <object model="patients.state" pk="25">
+    <field name="level1" type="CharField">7400000000</field>
+    <field name="name" type="CharField">ЧЕРНІГІВСЬКА</field>
+    <field name="capital" type="CharField">М.ЧЕРНІГІВ</field>
+  </object>
+  <object model="patients.state" pk="26">
+    <field name="level1" type="CharField">8000000000</field>
+    <field name="name" type="CharField">М.КИЇВ</field>
+    <field name="capital" type="CharField">М.КИЇВ</field>
+  </object>
+  <object model="patients.state" pk="27">
+    <field name="level1" type="CharField">8500000000</field>
+    <field name="name" type="CharField">М.СЕВАСТОПОЛЬ</field>
+    <field name="capital" type="CharField">М.СЕВАСТОПОЛЬ</field>
+  </object>
+</django-objects>

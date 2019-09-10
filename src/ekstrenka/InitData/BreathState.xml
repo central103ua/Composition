@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<django-objects version="1.0">
+  <object model="patients.breathstate" pk="1">
+    <field name="code" type="CharField">0b</field>
+    <field name="name" type="CharField">Немає дихання</field>
+  </object>
+  <object model="patients.breathstate" pk="2">
+    <field name="code" type="CharField">1b</field>
+    <field name="name" type="CharField">Неможливо встановити</field>
+  </object>
+  <object model="patients.breathstate" pk="3">
+    <field name="code" type="CharField">2b</field>
+    <field name="name" type="CharField">Дихання порушене</field>
+  </object>
+  <object model="patients.breathstate" pk="4">
+    <field name="code" type="CharField">3b</field>
+    <field name="name" type="CharField">Є дихання</field>
+  </object>
+</django-objects>

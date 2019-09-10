@@ -1,0 +1,26 @@
+{% extends "base.html" %}
+{% load humanize %}
+{% load mis_extras %}
+{% block breadcrumbs %}
+  <div class="container-fluid" style="background-color: #e3f2fd;">
+    <div class="container">
+      <ul class="breadcrumb103">
+        <li><a href="/sys/">Home-></a></li>
+        <li><a href="/sys/mis/{{ mis.id }}/">Mis#{{ mis.id }}-></a></li>
+        <li><a href="/sys/mis/{{ mis.id }}/{{ mdate }}">{{ date_s }}-></a></li>
+        <li class="active">{{ mtime|date:'H:i' }}</li>
+      </ul> 
+    </div>
+  </div>
+{% endblock breadcrumbs %}
+{% block content %}
+<div class="container-fluid">
+    <div class="container">
+<h3>MIS #{{ mis.id }}: [{{ mis.mis_name }}]: Звернення за годину <i><u>{{ mdatetime_s }}: </u></i>[{{ count }}]</h3>
+</div>
+<table style="width:1300px;font-size:12px" border="1px solid black" border-spacing="5px">
+{% include 'call_card_list.html' %}
+</table> 
+({{ hostname }})
+</div>
+{% endblock content %}
